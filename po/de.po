@@ -17,10 +17,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2018-03-10 14:50+0000\n"
-"PO-Revision-Date: 2018-03-10 22:34+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2018-08-09 17:03+0000\n"
+"PO-Revision-Date: 2018-08-10 14:25+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -28,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1\n"
 
 #. ex:ts=8:noet:
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
@@ -765,21 +764,29 @@ msgstr ""
 "Legt fest, ob die Ausgabe der Übersetzung in das Dokumentenfenster eingefügt "
 "wird, ansonsten in das Ausgabefenster der Übersetzung."
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:3
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
+msgid "'eng|spa'"
+msgstr "'eng|deu'"
+
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
 msgstr "Sprachpaar"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:4
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:9
 msgid "Language pair used to translate from one language to another"
 msgstr ""
 "Das für die Übersetzung von einer Sprache in eine andere Sprache verwendete "
 "Sprachpaar"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:5
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:10
 msgid "API key for remote web service"
 msgstr "API-Schlüssel für entfernten Webdienst"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:6
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:11
 msgid "Remote web service to use"
 msgstr "Zu verwendender entfernter Webdienst"
 
