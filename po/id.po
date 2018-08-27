@@ -10,11 +10,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2018-03-11 08:53+0000\n"
-"PO-Revision-Date: 2018-03-11 20:47+0700\n"
-"Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2018-08-09 17:03+0000\n"
+"PO-Revision-Date: 2018-08-27 14:06+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -747,21 +746,29 @@ msgstr ""
 "Jika true, keluaran terjemahan dimasukkan ke dalam jendela dokumen jika "
 "tidak pada Jendela Hasil Terjemahan."
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:3
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
+msgid "'eng|spa'"
+msgstr "'id|ms'"
+
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
 msgstr "Pasangan bahasa yang digunakan"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:4
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:9
 msgid "Language pair used to translate from one language to another"
 msgstr ""
 "Pasangan bahasa digunakan untuk menerjemahkan dari satu bahasa ke bahasa "
 "lainnya"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:5
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:10
 msgid "API key for remote web service"
 msgstr "Kunci API untuk layanan web jarak jauh"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:6
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:11
 msgid "Remote web service to use"
 msgstr "Layanan web jarak jauh untuk digunakan"
 
