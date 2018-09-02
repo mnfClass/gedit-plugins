@@ -192,7 +192,7 @@ msgid ""
 msgstr ""
 "Lai ieslēgtu spraudni, izvēlieties <guiseq><gui style=\"menu\">gedit</gui> <"
 "gui "
-"style=\"menuitem\">Iestatījumi</gui><gui>Spraudņi</gui> <gui>Iekavu noslēgšana<"
+"style=\"menuitem\">Iestatījumi</gui> <gui>Spraudņi</gui> <gui>Iekavu noslēgšana<"
 "/gui></guiseq>."
 
 #. (itstool) path: note/p
@@ -690,8 +690,8 @@ msgstr ""
 "<app>Datņu paneļa</app> spraudnis nodrošina ātru piekļuvi nesen un visbiežāk "
 "lietotajām datnēm. Lai ieslēgtu <app>Datņu paneļa</app> spraudni, "
 "izvēlieties <guiseq><gui style=\"menu\">gedit</gui><gui style="
-"\"menuitem\">Iestatījumi</key> <key>Spraudņi</key><key>Datņu panelis</key><"
-"/keyseq>, un pārstartējiet <app>gedit</app>, lai aktivētu <app>Datņu paneļa<"
+"\"menuitem\">Iestatījumi</gui> <gui>Spraudņi</gui><gui>Datņu panelis</gui><"
+"/guiseq>, un pārstartējiet <app>gedit</app>, lai aktivētu <app>Datņu paneļa<"
 "/app> spraudni."
 
 #. (itstool) path: page/p
