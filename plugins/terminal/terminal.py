@@ -70,7 +70,8 @@ class GeditTerminal(Vte.Terminal):
 
     def do_drag_data_received(self, drag_context, x, y, data, info, time):
         if info == self.TARGET_URI_LIST:
-            self.feed_child(' '.join(["'" + Gio.file_new_for_uri(item).get_path() + "'" for item in Gedit.utils_drop_get_uris(data)]), -1)
+            self.feed_child(' '.join(["'" + Gio.file_new_for_uri(item).get_path() + "'" for item in Gedit.utils_drop_get_uris(data)]).encode('utf-8'))
+            print ("ok")
             Gtk.drag_finish(drag_context, True, False, time);
         else:
             Vte.Terminal.do_drag_data_received(self, drag_context, x, y, data, info, time)
@@ -296,7 +297,7 @@ class GeditTerminalPanel(Gtk.Box):
 
     def change_directory(self, path):
         path = path.replace('\\', '\\\\').replace('"', '\\"')
-        self._vte.feed_child('cd "%s"\n' % path, -1)
+        self._vte.feed_child(('cd "%s"\n' % path).encode('utf-8'))
         self._vte.grab_focus()
 
 class TerminalPlugin(GObject.Object, Gedit.WindowActivatable):
