@@ -19,10 +19,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2018-03-10 14:50+0000\n"
-"PO-Revision-Date: 2018-03-10 17:34+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2018-08-09 17:03+0000\n"
+"PO-Revision-Date: 2018-09-09 11:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -752,19 +751,27 @@ msgstr ""
 "Když je zapnuto, je výstup překladu vložen do okna s dokumentem, když není, "
 "tak do okna pro výpis překladů."
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:3
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
+msgid "'eng|spa'"
+msgstr "'ces|rus'"
+
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
 msgstr "Použitý pár jazyků"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:4
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:9
 msgid "Language pair used to translate from one language to another"
 msgstr "Pár jazyků použitých k překladu z jednoho jazyka do druhého"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:5
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:10
 msgid "API key for remote web service"
 msgstr "Klíč API pro vzdálenou webovou službu"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:6
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:11
 msgid "Remote web service to use"
 msgstr "Vzdálená webová služba, která se má použít"
 
