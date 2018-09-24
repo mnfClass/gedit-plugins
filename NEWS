@@ -1,4 +1,11 @@
 ====================
+gedit-plugins 3.30.1
+====================
+
+- Terminal: fix change directory with vte >= 0.52
+- Updated translations
+
+====================
 gedit-plugins 3.30.0
 ====================
 
