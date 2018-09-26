@@ -42,7 +42,7 @@ typedef struct _DrawspacesConfigureWidget DrawspacesConfigureWidget;
 struct _DrawspacesConfigureWidget
 {
 	GSettings *settings;
-	GtkSourceDrawSpacesFlags flags;
+	guint flags;
 
 	GtkWidget *content;
 
@@ -194,7 +194,7 @@ widget_destroyed (GtkWidget *obj, gpointer widget_pointer)
 }
 
 static void
-set_flag (DrawspacesConfigureWidget *widget, GtkSourceDrawSpacesFlags flag, gboolean active)
+set_flag (DrawspacesConfigureWidget *widget, guint flag, gboolean active)
 {
 	widget->flags = active ? widget->flags | flag : widget->flags & ~flag;
 	g_settings_set_flags (widget->settings,
@@ -206,49 +206,49 @@ static void
 on_draw_tabs_toggled (GtkToggleButton           *button,
 		      DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_TAB, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_TAB, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_spaces_toggled (GtkToggleButton           *button,
 			DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_SPACE, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_SPACE, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_newline_toggled (GtkToggleButton           *button,
 			 DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_NEWLINE, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_NEWLINE, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_nbsp_toggled (GtkToggleButton           *button,
 		      DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_NBSP, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_NBSP, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_leading_toggled (GtkToggleButton           *button,
 			 DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_LEADING, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_LEADING, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_text_toggled (GtkToggleButton           *button,
 		      DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_TEXT, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_TEXT, gtk_toggle_button_get_active (button));
 }
 
 static void
 on_draw_trailing_toggled (GtkToggleButton           *button,
 			  DrawspacesConfigureWidget *widget)
 {
-	set_flag (widget, GTK_SOURCE_DRAW_SPACES_TRAILING, gtk_toggle_button_get_active (button));
+	set_flag (widget, GEDIT_DRAW_SPACES_TRAILING, gtk_toggle_button_get_active (button));
 }
 
 static DrawspacesConfigureWidget *
@@ -283,20 +283,20 @@ get_configuration_widget (GeditDrawspacesAppActivatable *activatable)
 	g_object_unref (builder);
 
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_tabs),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_TAB);
+				      widget->flags & GEDIT_DRAW_SPACES_TAB);
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_spaces),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_SPACE);
+				      widget->flags & GEDIT_DRAW_SPACES_SPACE);
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_newline),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_NEWLINE);
+				      widget->flags & GEDIT_DRAW_SPACES_NEWLINE);
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_nbsp),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_NBSP);
+				      widget->flags & GEDIT_DRAW_SPACES_NBSP);
 
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_leading),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_LEADING);
+				      widget->flags & GEDIT_DRAW_SPACES_LEADING);
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_text),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_TEXT);
+				      widget->flags & GEDIT_DRAW_SPACES_TEXT);
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (widget->draw_trailing),
-				      widget->flags & GTK_SOURCE_DRAW_SPACES_TRAILING);
+				      widget->flags & GEDIT_DRAW_SPACES_TRAILING);
 
 	g_signal_connect (widget->draw_tabs,
 			  "toggled",

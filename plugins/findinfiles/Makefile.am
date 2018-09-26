@@ -18,7 +18,7 @@ plugins_findinfiles_libfindinfiles_la_VALAFLAGS =	\
 	--pkg config					\
 	--pkg gedit					\
 	--pkg PeasGtk-1.0				\
-	--pkg GtkSource-3.0				\
+	--pkg GtkSource-4				\
 	--pkg gtk+-3.0					\
 	--pkg gio-2.0					\
 	--pkg posix					\

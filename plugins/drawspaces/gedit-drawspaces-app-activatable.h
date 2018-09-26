@@ -45,6 +45,17 @@ struct _GeditDrawspacesAppActivatableClass
 	GObjectClass parent_class;
 };
 
+enum _GeditDrawSpacesFlags {
+	GEDIT_DRAW_SPACES_SPACE      = 1 << 0,
+	GEDIT_DRAW_SPACES_TAB        = 1 << 1,
+	GEDIT_DRAW_SPACES_NEWLINE    = 1 << 2,
+	GEDIT_DRAW_SPACES_NBSP       = 1 << 3,
+	GEDIT_DRAW_SPACES_LEADING    = 1 << 4,
+	GEDIT_DRAW_SPACES_TEXT       = 1 << 5,
+	GEDIT_DRAW_SPACES_TRAILING   = 1 << 6,
+	GEDIT_DRAW_SPACES_ALL        = 0x7f
+};
+
 GType                   gedit_drawspaces_app_activatable_get_type   (void) G_GNUC_CONST;
 
 G_MODULE_EXPORT void    peas_register_types                         (PeasObjectModule *module);

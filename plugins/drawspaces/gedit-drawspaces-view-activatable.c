@@ -18,6 +18,7 @@
  * along with gedit. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "gedit-drawspaces-app-activatable.h"
 #include "gedit-drawspaces-view-activatable.h"
 
 #include <gedit/gedit-view.h>
@@ -29,7 +30,7 @@ typedef struct _GeditDrawspacesViewActivatablePrivate
 {
 	GeditView *view;
 	GSettings *settings;
-	GtkSourceDrawSpacesFlags flags;
+	guint flags;
 
 	guint enable : 1;
 } GeditDrawspacesViewActivatablePrivate;
@@ -135,13 +136,47 @@ get_config_options (GeditDrawspacesViewActivatable *activatable)
 	                                    SETTINGS_KEY_DRAW_SPACES);
 }
 
+static inline void
+parse_flags (guint                        flags,
+             GtkSourceSpaceTypeFlags     *type,
+             GtkSourceSpaceLocationFlags *location)
+{
+	*type = GTK_SOURCE_SPACE_TYPE_NONE;
+	*location = GTK_SOURCE_SPACE_LOCATION_NONE;
+
+	if (flags & GEDIT_DRAW_SPACES_SPACE)
+		*type |= GTK_SOURCE_SPACE_TYPE_SPACE;
+	if (flags & GEDIT_DRAW_SPACES_TAB)
+		*type |= GTK_SOURCE_SPACE_TYPE_TAB;
+	if (flags & GEDIT_DRAW_SPACES_NEWLINE)
+		*type |= GTK_SOURCE_SPACE_TYPE_NEWLINE;
+	if (flags & GEDIT_DRAW_SPACES_NBSP)
+		*type |= GTK_SOURCE_SPACE_TYPE_NBSP;
+
+	if (flags & GEDIT_DRAW_SPACES_LEADING)
+		*location |= GTK_SOURCE_SPACE_LOCATION_LEADING;
+	if (flags & GEDIT_DRAW_SPACES_TEXT)
+		*location |= GTK_SOURCE_SPACE_LOCATION_INSIDE_TEXT;
+	if (flags & GEDIT_DRAW_SPACES_TRAILING)
+		*location |= GTK_SOURCE_SPACE_LOCATION_TRAILING;
+}
+
 static void
 draw_spaces (GeditDrawspacesViewActivatable *activatable)
 {
 	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
+	GtkSourceSpaceDrawer *drawer;
+	GtkSourceSpaceTypeFlags type;
+	GtkSourceSpaceLocationFlags location;
 
-	gtk_source_view_set_draw_spaces (GTK_SOURCE_VIEW (priv->view),
-	                                 priv->enable ? priv->flags : 0);
+	parse_flags (priv->flags, &type, &location);
+
+	drawer = gtk_source_view_get_space_drawer (GTK_SOURCE_VIEW (priv->view));
+
+	/* Clear all existing spaces in the matrix before setting */
+	gtk_source_space_drawer_set_types_for_locations (drawer, GTK_SOURCE_SPACE_LOCATION_ALL, 0);
+	gtk_source_space_drawer_set_types_for_locations (drawer, location, type);
+	gtk_source_space_drawer_set_enable_matrix (drawer, priv->enable);
 }
 
 static void
