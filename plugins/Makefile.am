@@ -7,7 +7,7 @@ endif
 plugin_LTLIBRARIES =
 plugin_in_files =
 dist_plugin_in_files =
-appstreamdir = $(datadir)/appdata/
+appstreamdir = $(datadir)/metainfo
 appstream_in_files =
 dist_appstream_in_files =
 gsettings_SCHEMAS =
