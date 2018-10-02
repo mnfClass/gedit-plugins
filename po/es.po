@@ -769,7 +769,7 @@ msgstr ""
 #. marks and | as the delimiter.
 #: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
 msgid "'eng|spa'"
-msgstr "«eng|spa»"
+msgstr "'eng|spa'"
 
 #: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
