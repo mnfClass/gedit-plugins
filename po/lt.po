@@ -8,15 +8,14 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006.
 # Vytautas Povilaitis <punktyras@nkm.lt>, 2007.
 # Gintautas Miliauskas <gintas@akl.lt>, 2007, 2008, 2010.
-# Aurimas Černius <aurisc4@gmail.com>, 2010, 2013, 2014, 2015, 2017, 2018.
+# Aurimas Černius <aurisc4@gmail.com>, 2010-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2018-03-11 08:53+0000\n"
-"PO-Revision-Date: 2018-03-19 23:28+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2018-08-09 17:03+0000\n"
+"PO-Revision-Date: 2018-11-25 18:29+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 3.30.1\n"
 
 #. ex:ts=8:noet:
 #: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
@@ -483,14 +482,11 @@ msgid "Smart Spaces"
 msgstr "Išmanieji tarpai"
 
 #: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
-#| msgid ""
-#| "Allow to unindent like if you were using tabs while you're using spaces"
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
 "Leisti įtraukos sumažinimą lyg naudotumės tabuliaciją, nors naudojate tarpus"
 
 #: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
-#| msgid "Forget you're not using tabulations."
 msgid "Forget you’re not using tabulations."
 msgstr "Pamiršti, kad nenaudojate tabuliacijų."
 
@@ -526,9 +522,6 @@ msgid "Whether to silence terminal bell"
 msgstr "Ar nutildyti terminalo skambutį"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:2
-#| msgid ""
-#| "If true, don't make a noise when applications send the escape sequence "
-#| "for the terminal bell."
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -541,10 +534,6 @@ msgid "Number of lines to keep in scrollback"
 msgstr "Eilučių, laikomų atgalinei slinkčiai, skaičius"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:4
-#| msgid ""
-#| "Number of scrollback lines to keep around. You can scroll back in the "
-#| "terminal by this number of lines; lines that don't fit in the scrollback "
-#| "are discarded. If scrollback-unlimited is true, this value is ignored."
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -577,14 +566,10 @@ msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Jei teigiama, klavišas perstumia slinkties juostą į apačią."
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:9
-#| msgid "Whether to scroll to the bottom when there's new output"
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Ar slinkti į apačią, kai yra nauja išvestis"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:10
-#| msgid ""
-#| "If true, whenever there's new output the terminal will scroll to the "
-#| "bottom."
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr "Jei teigiama, slinkti į apačią, kai tik yra nauja išvestis terminale."
@@ -602,9 +587,6 @@ msgid "Default color of text in the terminal"
 msgstr "Numatytoji teksto spalva terminale"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:14
-#| msgid ""
-#| "Default color of text in the terminal, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -618,9 +600,6 @@ msgid "Default color of terminal background"
 msgstr "Numatytoji terminalo fono spalva"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:16
-#| msgid ""
-#| "Default color of terminal background, as a color specification (can be "
-#| "HTML-style hex digits, or a color name such as \"red\")."
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -633,10 +612,6 @@ msgid "Palette for terminal applications"
 msgstr "Paletė terminalo programoms"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:18
-#| msgid ""
-#| "Terminals have a 16-color palette that applications inside the terminal "
-#| "can use. This is that palette, in the form of a colon-separated list of "
-#| "color names. Color names should be in hex format e.g. \"#FF00FF\""
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -663,9 +638,6 @@ msgid "Whether to blink the cursor"
 msgstr "Ar žymiklis mirksi"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:22
-#| msgid ""
-#| "The possible values are \"system\" to use the global cursor blinking "
-#| "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -678,9 +650,6 @@ msgid "The cursor appearance"
 msgstr "Žymiklio išvaizda"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:24
-#| msgid ""
-#| "The possible values are \"block\" to use a block cursor, \"ibeam\" to use "
-#| "a vertical line cursor, or \"underline\" to use an underline cursor."
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -693,9 +662,6 @@ msgid "Whether to use the system font"
 msgstr "Ar naudoti sistemos šriftą"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:26
-#| msgid ""
-#| "If true, the terminal will use the desktop-global standard font if it's "
-#| "monospace (and the most similar font it can come up with otherwise)."
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -708,8 +674,6 @@ msgid "Font"
 msgstr "Šriftas"
 
 #: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.h:28
-#| msgid ""
-#| "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Pango šrifto pavadinimas. Pavyzdžiai yra „Sans 12“ ir „Monospace Bold 14“."
@@ -776,19 +740,27 @@ msgstr ""
 "Jei teigiama, vertimas yra įterpiamas į dokumento langą, priešingu atveju į "
 "vertimų išvesties langą."
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:3
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
+msgid "'eng|spa'"
+msgstr "'eng|spa'"
+
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
 msgstr "Naudojama kalbų pora"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:4
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:9
 msgid "Language pair used to translate from one language to another"
 msgstr "Kalbų pora, naudojama vertimui iš vienos į kitą"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:5
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:10
 msgid "API key for remote web service"
 msgstr "API raktas nutolusiai internetinei tarnybai"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:6
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:11
 msgid "Remote web service to use"
 msgstr "Naudotina internetinė tarnyba"
 
@@ -819,7 +791,6 @@ msgstr ""
 "translate/'>https://tech.yandex.com/translate/</a>"
 
 #: ../plugins/translate/translate/ui/preferences.ui.h:1
-#| msgid "Translation languages"
 msgid "Translation languages:"
 msgstr "Vertimų kalbos:"
 
