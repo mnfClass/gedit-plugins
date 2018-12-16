@@ -10,7 +10,7 @@
   <homepage rdf:resource="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins" />
   <mailing-list rdf:resource="https://mail.gnome.org/mailman/listinfo/gedit-list" />
   <download-page rdf:resource="https://download.gnome.org/sources/gedit-plugins/" />
-  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gedit&amp;component=Plugins" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gedit-plugins/issues/" />
 
   <maintainer>
     <foaf:Person>
