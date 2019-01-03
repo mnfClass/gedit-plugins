@@ -1,32 +1,35 @@
 # Swedish translation for gedit-plugins-help
 # Josef Andersson <josef.andersson@fripost.org>, 2016.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2016-05-08 06:08+0000\n"
-"PO-Revision-Date: 2016-05-08 15:48+0200\n"
-"Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
+"POT-Creation-Date: 2018-03-11 08:53+0000\n"
+"PO-Revision-Date: 2019-01-03 15:17+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009\n"
-"Josef Andersson <josef.andersson@fripost.org>, 2016"
+"Josef Andersson <josef.andersson@fripost.org>, 2016\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019"
 
 #. (itstool) path: credit/name
 #: C/bookmarks.page:12 C/bracket-comp.page:11 C/character-map.page:11
-#: C/code-assistance.page:11 C/code-comment.page:11 C/color-picker.page:11
-#: C/commander.page:11 C/dashboard.page:11 C/draw-spaces.page:11
-#: C/join-split-lines.page:11 C/multi-edit.page:11 C/session-saver.page:11
-#: C/terminal.page:12 C/text-size.page:12 C/word-completion.page:11
+#: C/code-comment.page:11 C/color-picker.page:11 C/commander.page:11
+#: C/dashboard.page:11 C/draw-spaces.page:11 C/join-split-lines.page:11
+#: C/multi-edit.page:11 C/terminal.page:12 C/text-size.page:12
+#: C/word-completion.page:11
 msgid "Jim Campbell"
 msgstr "Jim Campbell"
 
@@ -259,58 +262,6 @@ msgid ""
 msgstr ""
 "Du måste klicka på redigeringsvyn för ditt dokument för att kunna fortsätta "
 "att redigera normalt."
-
-#. (itstool) path: info/desc
-#: C/code-assistance.page:15
-msgid "Real-time error highlighting for supported languages."
-msgstr "Felmarkering i realtid för språk som stöds."
-
-#. (itstool) path: page/title
-#: C/code-assistance.page:18
-msgid "Code Assistance"
-msgstr "Kodassistans"
-
-#. (itstool) path: page/p
-#: C/code-assistance.page:23
-msgid ""
-"The <app>gedit-code-assistance</app> plugin provides real-time error "
-"highlighting for C, C++ and Objective-C. To enable this plugin, select "
-"<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</"
-"gui> <gui>Plugins</gui><gui>Code Assistance</gui></guiseq>."
-msgstr ""
-"Insticksmodulen <app>gedit-code-assistance</app> tillhandahåller "
-"felmarkering i realtid för C, C++ och Objective-C. För att aktivera denna "
-"insticksmodul, välj <guiseq><gui style=\"menu\">gedit</gui><gui style="
-"\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
-"gui><gui>Kodassistans</gui></guiseq>."
-
-#. (itstool) path: section/title
-#: C/code-assistance.page:41
-msgid "How the code assistance plugin works"
-msgstr "Hur insticksmodulen kodassistans fungerar"
-
-#. (itstool) path: section/p
-#: C/code-assistance.page:43
-msgid ""
-"The plugin currently relies on information in the makefile to deduce the "
-"Clang error-highlighting rules. It examines the <_:code-1/> rules and "
-"determines which targets depend on the the file that is being parsed. The "
-"plugin then extracts the compiler flags by simulating an execution of those "
-"targets."
-msgstr ""
-"Insticksmodulen förlitar sig på information i make-filen för att avgöra "
-"felmarkeringsregler för Clang. Den undersöker reglerna <_:code-1/> och "
-"bestämmer vilka mål beroende på filen som tolkas. Insticksmodulen extraherar "
-"kompileringsflaggorna genom att simulera en körning av dessa mål."
-
-#. (itstool) path: section/p
-#: C/code-assistance.page:49
-msgid ""
-"This is not completely fool proof, of course. In the future, the plugin will "
-"allow you to manually specify the compile flags."
-msgstr ""
-"Detta är inte helt felsäkert. I framtiden kommer insticket att låta dig "
-"manuellt specificera kompileringsflaggorna."
 
 #. (itstool) path: info/desc
 #: C/code-comment.page:15
@@ -1076,107 +1027,6 @@ msgstr ""
 "<key>Esc</key> igen kommer att slå av multiredigeringsläget och få "
 "redigeraren att återgå till dess vanliga tillstånd."
 
-#. (itstool) path: info/desc
-#: C/session-saver.page:15
-msgid "Save and restore your working sessions."
-msgstr "Spara och återställ dina arbetssessioner."
-
-#. (itstool) path: page/title
-#: C/session-saver.page:18
-msgid "Session Saver"
-msgstr "Sessionssparare"
-
-#. (itstool) path: page/p
-#: C/session-saver.page:20
-msgid ""
-"The <app>Session Saver</app> plugin saves groups of files together so that "
-"you can open them together at a later time. To enable the plugin, select "
-"<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem\">Preferences</"
-"gui> <gui>Plugins</gui><gui>Session Saver</gui></guiseq>."
-msgstr ""
-"Insticksmodulen <app>Sessionssparare</app> sparar ner grupper av filer "
-"tillsammans så att du kan öppna dem samtidigt vid ett senare tillfälle. För "
-"att aktivera insticket, välj <guiseq><gui style=\"menu\">gedit</gui><gui "
-"style=\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
-"gui><gui>Sessionssparare</gui></guiseq>."
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:26
-msgid "To save a new session:"
-msgstr "Att spara en ny session:"
-
-#. (itstool) path: item/p
-#: C/session-saver.page:28
-msgid ""
-"Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Save current "
-"session</gui></guiseq>."
-msgstr ""
-"Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Spara aktuell "
-"session</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:32
-msgid "Type a session name in the <gui>Save session</gui> dialog box."
-msgstr "Skriv in ett sessionsnamn i dialogrutan <gui>Spara session</gui>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:35
-msgid "Click <gui>Save</gui>."
-msgstr "Klicka på <gui>Spara</gui>."
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:40
-msgid "To open an existing session:"
-msgstr "Att öppna en befintlig session:"
-
-#. (itstool) path: item/p
-#: C/session-saver.page:42
-msgid "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui></guiseq>."
-msgstr "Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:45
-msgid "Click the name of your desired session."
-msgstr "Klicka på namnet för din önskade session."
-
-#. (itstool) path: steps/title
-#: C/session-saver.page:50
-msgid "To delete an existing session:"
-msgstr "Att ta bort en session:"
-
-#. (itstool) path: item/p
-#: C/session-saver.page:52
-msgid ""
-"Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Manage saved "
-"sessions</gui></guiseq>."
-msgstr ""
-"Markera <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Hantera "
-"sparade sessioner</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:56
-msgid "Select the name of the session that you want to delete."
-msgstr "Välj namnet på den session du vill ta bort."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:59
-msgid "Click <gui>Delete</gui>."
-msgstr "Klicka på <gui>Ta bort</gui>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:62
-msgid "Click <gui>Close</gui>."
-msgstr "Klicka på <gui>Stäng</gui>."
-
-#. (itstool) path: item/p
-#: C/session-saver.page:63
-msgid ""
-"The session name will still be listed in your list of sessions until you "
-"close <app>gedit</app>."
-msgstr ""
-"Sessionsnamnet kommer att listas i din sessionslista tills du stänger "
-"<app>gedit</app>."
-
 #. (itstool) path: credit/name
 #: C/terminal.page:16 C/text-size.page:16 C/word-completion.page:19
 msgid "Sindhu S"
@@ -1216,7 +1066,8 @@ msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr "Att aktivera insticksmodulen <app>Inbäddad terminal</app>:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:38 C/text-size.page:37 C/zeitgeist-dataprovider.page:28
+#: C/terminal.page:38 C/text-size.page:37 C/translate.page:30
+#: C/zeitgeist-dataprovider.page:28
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
@@ -1334,6 +1185,88 @@ msgstr ""
 "För att <em>återställa</em> textstorleken till ursprunglig storlek, tryck "
 "ned <keyseq><key>Ctrl</key><key>0</key></keyseq>."
 
+#. (itstool) path: credit/name
+#: C/translate.page:11
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/translate.page:17
+msgid "Translate text into different languages"
+msgstr "Översätt text till olika språk"
+
+#. (itstool) path: page/title
+#: C/translate.page:20
+msgid "Translate"
+msgstr "Översätt"
+
+#. (itstool) path: page/p
+#: C/translate.page:22
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Insticksmodulen <app>Översätt</app> låter dig översätta text från "
+"<app>gedit</app> med översättningsmotorerna Apertium och Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:25
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Aktivera och konfigurera insticksmodulen Översätt"
+
+#. (itstool) path: steps/title
+#: C/translate.page:28
+msgid "To enable the <app>Translate</app> plugin:"
+msgstr "Att aktivera insticksmodulen <app>Översätt</app>:"
+
+#. (itstool) path: item/p
+#: C/translate.page:35
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Översätt</gui> för att aktivera insticksmodulen."
+
+#. (itstool) path: item/p
+#: C/translate.page:40
+msgid ""
+"Select <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Välj <gui style=\"button\">Inställningar</gui> för att konfigurera "
+"översättningsmotorn att använda och ett språkpar."
+
+#. (itstool) path: section/title
+#: C/translate.page:47
+msgid "Using the Translate plugin"
+msgstr "Använda insticksmodulen Översätt"
+
+#. (itstool) path: steps/title
+#: C/translate.page:50
+msgid "To translate a text:"
+msgstr "För att översätta en text:"
+
+#. (itstool) path: item/p
+#: C/translate.page:52
+msgid "Select the part of text that you would like to translate."
+msgstr "Välj delen av texten som du vill översätta."
+
+#. (itstool) path: item/p
+#: C/translate.page:55
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>K</key></keyseq> eller använd "
+"snabbvalsmenyn för att översätta den."
+
+#. (itstool) path: item/p
+#: C/translate.page:56
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Översättningen dyker upp i dokumentet eller i nederpanelen, beroende på din "
+"konfiguration."
+
 #. (itstool) path: info/desc
 #: C/word-completion.page:25
 msgid "Autocomplete words or portions of code as you type."
@@ -1436,3 +1369,111 @@ msgstr "Aktivera Zeitgeist dataleverantör"
 #: C/zeitgeist-dataprovider.page:33
 msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
 msgstr "Välj <gui style=\"menuitem\">Zeitgeist dataleverantör</gui>."
+
+#~ msgid "Real-time error highlighting for supported languages."
+#~ msgstr "Felmarkering i realtid för språk som stöds."
+
+#~ msgid "Code Assistance"
+#~ msgstr "Kodassistans"
+
+#~ msgid ""
+#~ "The <app>gedit-code-assistance</app> plugin provides real-time error "
+#~ "highlighting for C, C++ and Objective-C. To enable this plugin, select "
+#~ "<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Code Assistance</gui></"
+#~ "guiseq>."
+#~ msgstr ""
+#~ "Insticksmodulen <app>gedit-code-assistance</app> tillhandahåller "
+#~ "felmarkering i realtid för C, C++ och Objective-C. För att aktivera denna "
+#~ "insticksmodul, välj <guiseq><gui style=\"menu\">gedit</gui><gui style="
+#~ "\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
+#~ "gui><gui>Kodassistans</gui></guiseq>."
+
+#~ msgid "How the code assistance plugin works"
+#~ msgstr "Hur insticksmodulen kodassistans fungerar"
+
+#~ msgid ""
+#~ "The plugin currently relies on information in the makefile to deduce the "
+#~ "Clang error-highlighting rules. It examines the <_:code-1/> rules and "
+#~ "determines which targets depend on the the file that is being parsed. The "
+#~ "plugin then extracts the compiler flags by simulating an execution of "
+#~ "those targets."
+#~ msgstr ""
+#~ "Insticksmodulen förlitar sig på information i make-filen för att avgöra "
+#~ "felmarkeringsregler för Clang. Den undersöker reglerna <_:code-1/> och "
+#~ "bestämmer vilka mål beroende på filen som tolkas. Insticksmodulen "
+#~ "extraherar kompileringsflaggorna genom att simulera en körning av dessa "
+#~ "mål."
+
+#~ msgid ""
+#~ "This is not completely fool proof, of course. In the future, the plugin "
+#~ "will allow you to manually specify the compile flags."
+#~ msgstr ""
+#~ "Detta är inte helt felsäkert. I framtiden kommer insticket att låta dig "
+#~ "manuellt specificera kompileringsflaggorna."
+
+#~ msgid "Save and restore your working sessions."
+#~ msgstr "Spara och återställ dina arbetssessioner."
+
+#~ msgid "Session Saver"
+#~ msgstr "Sessionssparare"
+
+#~ msgid ""
+#~ "The <app>Session Saver</app> plugin saves groups of files together so "
+#~ "that you can open them together at a later time. To enable the plugin, "
+#~ "select <guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
+#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Session Saver</gui></guiseq>."
+#~ msgstr ""
+#~ "Insticksmodulen <app>Sessionssparare</app> sparar ner grupper av filer "
+#~ "tillsammans så att du kan öppna dem samtidigt vid ett senare tillfälle. "
+#~ "För att aktivera insticket, välj <guiseq><gui style=\"menu\">gedit</"
+#~ "gui><gui style=\"menuitem\">Inställningar</gui> <gui>Insticksmoduler</"
+#~ "gui><gui>Sessionssparare</gui></guiseq>."
+
+#~ msgid "To save a new session:"
+#~ msgstr "Att spara en ny session:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Save current "
+#~ "session</gui></guiseq>."
+#~ msgstr ""
+#~ "Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Spara "
+#~ "aktuell session</gui></guiseq>."
+
+#~ msgid "Type a session name in the <gui>Save session</gui> dialog box."
+#~ msgstr "Skriv in ett sessionsnamn i dialogrutan <gui>Spara session</gui>."
+
+#~ msgid "Click <gui>Save</gui>."
+#~ msgstr "Klicka på <gui>Spara</gui>."
+
+#~ msgid "To open an existing session:"
+#~ msgstr "Att öppna en befintlig session:"
+
+#~ msgid "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui></guiseq>."
+#~ msgstr "Välj <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui></guiseq>."
+
+#~ msgid "Click the name of your desired session."
+#~ msgstr "Klicka på namnet för din önskade session."
+
+#~ msgid "To delete an existing session:"
+#~ msgstr "Att ta bort en session:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Manage saved "
+#~ "sessions</gui></guiseq>."
+#~ msgstr ""
+#~ "Markera <guiseq><gui>Arkiv</gui><gui>Sparade sessioner</gui><gui>Hantera "
+#~ "sparade sessioner</gui></guiseq>."
+
+#~ msgid "Click <gui>Delete</gui>."
+#~ msgstr "Klicka på <gui>Ta bort</gui>."
+
+#~ msgid "Click <gui>Close</gui>."
+#~ msgstr "Klicka på <gui>Stäng</gui>."
+
+#~ msgid ""
+#~ "The session name will still be listed in your list of sessions until you "
+#~ "close <app>gedit</app>."
+#~ msgstr ""
+#~ "Sessionsnamnet kommer att listas i din sessionslista tills du stänger "
+#~ "<app>gedit</app>."
