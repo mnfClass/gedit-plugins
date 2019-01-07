@@ -3,8 +3,8 @@
 <component type="addon">
   <id>gedit-synctex</id>
   <extends>org.gnome.gedit.desktop</extends>
-  <_name>SyncTeX</_name>
-  <_summary>Synchronize between LaTeX and PDF with gedit and evince</_summary>
+  <name>SyncTeX</name>
+  <summary>Synchronize between LaTeX and PDF with gedit and evince</summary>
   <url type="homepage">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</url>
   <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gedit&amp;component=Plugins</url>
   <suggests>

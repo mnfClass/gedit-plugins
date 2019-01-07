@@ -33,15 +33,17 @@ include plugins/translate/Makefile.am
 include plugins/wordcompletion/Makefile.am
 include plugins/zeitgeist/Makefile.am
 
-@INTLTOOL_DESKTOP_RULE@
-@INTLTOOL_XML_RULE@
 @GSETTINGS_RULES@
 
-%.plugin: %.plugin.desktop.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*po) ; $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
+%.plugin: %.plugin.desktop.in $(wildcard $(top_srcdir)/po/*po)
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 GENERATED_PLUGIN_FILES = $(plugin_in_files:.plugin.desktop.in=.plugin)
 
 plugin_DATA = $(GENERATED_PLUGIN_FILES)
+
+$(appstream_DATA): $(appstream_in_files) $(wildcard $(top_srcdir)/po/*po)
+	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
 GENERATED_APPSTREAM_FILES = $(appstream_in_files:.xml.in=.xml)
 

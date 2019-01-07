@@ -3,8 +3,8 @@
 <component type="addon">
   <id>gedit-terminal</id>
   <extends>org.gnome.gedit.desktop</extends>
-  <_name>Terminal</_name>
-  <_summary>A simple terminal widget accessible from the bottom panel</_summary>
+  <name>Terminal</name>
+  <summary>A simple terminal widget accessible from the bottom panel</summary>
   <url type="homepage">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</url>
   <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gedit&amp;component=Plugins</url>
   <metadata_license>CC0-1.0</metadata_license>

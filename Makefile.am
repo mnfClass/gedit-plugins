@@ -5,18 +5,11 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 EXTRA_DIST =			\
 	autogen.sh		\
 	ChangeLog-20090414	\
-	gedit-plugins.doap	\
-	intltool-extract.in 	\
-	intltool-merge.in 	\
-	intltool-update.in
+	gedit-plugins.doap
 
 CLEANFILES =
 BUILT_SOURCES =
-
-DISTCLEANFILES = 		\
-	intltool-extract 	\
-	intltool-merge 		\
-	intltool-update
+DISTCLEANFILES =
 
 MAINTAINERCLEANFILES = 		\
 	$(GITIGNORE_MAINTAINERCLEANFILES_TOPLEVEL) \
@@ -30,7 +23,6 @@ MAINTAINERCLEANFILES = 		\
 	test-driver		\
 	m4/gnome-doc-utils.m4	\
 	m4/gtk-doc.m4		\
-	m4/intltool.m4		\
 	m4/codeset.m4		\
 	m4/fcntl-o.m4		\
 	m4/gettext.m4		\

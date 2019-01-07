@@ -2,8 +2,8 @@
 Loader=python3
 Module=bracketcompletion
 IAge=3
-_Name=Bracket Completion
-_Description=Automatically adds closing brackets.
+Name=Bracket Completion
+Description=Automatically adds closing brackets.
 Authors=Steve Frécinaux <steve@istique.net>
 Copyright=Copyright @ 2006 Steve Frécinaux
 Website=http://www.gedit.org
