@@ -9,7 +9,7 @@ m4_define(gedit_plugins_version, gedit_plugins_major_version.gedit_plugins_minor
 
 AC_INIT([gedit-plugins],
         [gedit_plugins_version],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gedit],
+        [https://gitlab.gnome.org/GNOME/gedit-plugins/issues],
         [gedit-plugins])
 
 AC_CONFIG_HEADERS([config.h])

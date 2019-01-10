@@ -6,7 +6,7 @@
   <name>SyncTeX</name>
   <summary>Synchronize between LaTeX and PDF with gedit and evince</summary>
   <url type="homepage">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</url>
-  <url type="bugtracker">https://bugzilla.gnome.org/enter_bug.cgi?product=gedit&amp;component=Plugins</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/gedit-plugins/issues</url>
   <suggests>
     <id>evince.desktop</id>
   </suggests>
