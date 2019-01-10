@@ -17,7 +17,7 @@ AC_CONFIG_SRCDIR([plugins])
 AC_CONFIG_MACRO_DIR([m4])
 AC_PREFIX_PROGRAM([gedit])
 
-AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip subdir-objects -Wno-portability])
+AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip foreign subdir-objects -Wno-portability])
 AM_MAINTAINER_MODE([enable])
 
 AM_SILENT_RULES([yes])

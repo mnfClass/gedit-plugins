@@ -4,7 +4,6 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 EXTRA_DIST =			\
 	autogen.sh		\
-	ChangeLog-20090414	\
 	gedit-plugins.doap
 
 CLEANFILES =
@@ -68,21 +67,5 @@ GITIGNOREFILES =				\
 	plugins/wordcompletion/.deps
 
 include plugins/Makefile.am
-
-CHANGELOG_START = GEDIT_PLUGINS_2_26_1
-
-dist-hook:
-	@if test -d "$(srcdir)/.git"; \
-	then \
-		echo Creating ChangeLog && \
-		(GIT_DIR=$(top_srcdir)/.git \
-		  ./missing --run git log $(CHANGELOG_START)^^.. --stat -M -C --name-status  --date=short --no-color) | \
-		  fmt --split-only > ChangeLog.tmp \
-		&& mv -f ChangeLog.tmp $(top_distdir)/ChangeLog \
-		|| ( rm -f ChangeLog.tmp ; \
-		  echo Failed to generate ChangeLog >&2 ); \
-	else \
-		echo A git clone is required to generate a ChangeLog >&2; \
-	fi
 
 -include $(top_srcdir)/git.mk
