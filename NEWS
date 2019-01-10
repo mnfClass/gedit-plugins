@@ -3,6 +3,7 @@ gedit-plugins 3.31.4
 ====================
 Development release
 
+- Drop broken Dashboard plugin
 - Switch from GTKSourceView 3 to GTKSourceView 4 (Christian)
 - Stop using intltool (Jeremy)
 - Miscellaneous improvements (Andre, Jeremy, Piotr)
