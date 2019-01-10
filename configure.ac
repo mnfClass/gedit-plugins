@@ -195,25 +195,6 @@ then
 
 	AC_MSG_RESULT($have_vte)
 
-	# Dashboard (Zeitgeist)
-	if test "x$have_zeitgeist" = "xyes"
-	then
-		AC_MSG_CHECKING([for dashboard dependency zeitgeist])
-		if `$PYTHON -c "import gi; gi.require_version('Zeitgeist', '2.0')" 2>/dev/null`;
-		then
-			have_dashboard=yes
-			PLUGINS="$PLUGINS dashboard"
-		else
-			have_dashboard=no
-			disabled_plugins="$disabled_plugins dashboard (Zeitgeist gi not found)"
-		fi
-	else
-		have_dashboard=no
-		disabled_plugins="$disabled_plugins dashboard (Zeitgeist disabled)"
-	fi
-
-	AC_MSG_RESULT($have_dashboard)
-
 	# Charmap (Gucharmap)
 	AC_MSG_CHECKING([for charmap dependency gucharmap])
 	if `$PYTHON -c "import gi; gi.require_version('Gucharmap', '2.90')" 2>/dev/null`;
@@ -243,12 +224,11 @@ then
 		disabled_plugins="$disabled_plugins git"
 	fi
 else
-	disabled_plugins="$disabled_plugins $PY_PLUGINS synctex terminal dashboard charmap git (python not found)"
+	disabled_plugins="$disabled_plugins $PY_PLUGINS synctex terminal charmap git (python not found)"
 fi
 
 AM_CONDITIONAL([ENABLE_SYNCTEX], test "x$have_synctex" = "xyes")
 AM_CONDITIONAL([ENABLE_TERMINAL], test "x$have_vte" = "xyes")
-AM_CONDITIONAL([ENABLE_DASHBOARD], test "x$have_dashboard" = "xyes")
 AM_CONDITIONAL([ENABLE_CHARMAP], test "x$have_gucharmap" = "xyes")
 AM_CONDITIONAL([ENABLE_GIT], test "x$have_git2" = "xyes")
 
@@ -313,7 +293,6 @@ plugins/codecomment/codecomment.plugin.desktop.in
 plugins/colorpicker/colorpicker.plugin.desktop.in
 plugins/colorschemer/colorschemer.plugin.desktop.in
 plugins/commander/commander.plugin.desktop.in
-plugins/dashboard/dashboard.plugin.desktop.in
 plugins/drawspaces/drawspaces.plugin.desktop.in
 plugins/findinfiles/findinfiles.plugin.desktop.in
 plugins/git/git.plugin.desktop.in

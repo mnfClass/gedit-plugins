@@ -21,9 +21,6 @@ plugins/colorschemer/schemer.ui
 plugins/commander/commander/appactivatable.py
 plugins/commander/commander.plugin.desktop.in.in
 plugins/commander/gedit-commander.metainfo.xml.in
-plugins/dashboard/dashboard/dashboard.py
-plugins/dashboard/dashboard.plugin.desktop.in.in
-plugins/dashboard/gedit-dashboard.metainfo.xml.in
 plugins/drawspaces/drawspaces.plugin.desktop.in.in
 plugins/drawspaces/gedit-drawspaces-app-activatable.c
 plugins/drawspaces/gedit-drawspaces-configurable.ui

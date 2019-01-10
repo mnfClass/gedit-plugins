@@ -19,7 +19,6 @@ include plugins/codecomment/Makefile.am
 include plugins/colorpicker/Makefile.am
 include plugins/colorschemer/Makefile.am
 include plugins/commander/Makefile.am
-include plugins/dashboard/Makefile.am
 include plugins/drawspaces/Makefile.am
 include plugins/findinfiles/Makefile.am
 include plugins/git/Makefile.am
