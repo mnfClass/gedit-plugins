@@ -1,4 +1,17 @@
 ====================
+gedit-plugins 3.31.4
+====================
+Development release
+
+- Switch from GTKSourceView 3 to GTKSourceView 4 (Christian)
+- Stop using intltool (Jeremy)
+- Miscellaneous improvements (Andre, Jeremy, Piotr)
+- Updated translations
+
+Contributors:
+ Jeremy Bicha, Piotr Drąg, Christian Hergert, Andre Klapper
+
+====================
 gedit-plugins 3.30.1
 ====================
 
