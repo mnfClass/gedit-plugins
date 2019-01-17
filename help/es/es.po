@@ -6,12 +6,12 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2006, 2007, 2009, 2010, 2011.
 # Milagros Alessandra Infante Montero <maim92@gmail.com>, 2013.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2018.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2018-09-26 20:20+0000\n"
+"POT-Creation-Date: 2019-01-03 14:25+0000\n"
 "PO-Revision-Date: 2018-11-30 10:15+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -1232,13 +1232,11 @@ msgstr "Activar y configurar el complemento Traducir"
 
 #. (itstool) path: steps/title
 #: C/translate.page:28
-#| msgid "To enable the <app>Tag List</app> plugin:"
 msgid "To enable the <app>Translate</app> plugin:"
 msgstr "Para activar el complemento de <app>Traducir</app>:"
 
 #. (itstool) path: item/p
 #: C/translate.page:35
-#| msgid "Select <gui style=\"menuitem\">Tag List</gui> to enable the plugin."
 msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
 msgstr ""
 "Seleccione <gui style=\"menuitem\">Traducir</gui> para activar el "
@@ -1255,7 +1253,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/translate.page:47
-#| msgid "Using Sort Plugin"
 msgid "Using the Translate plugin"
 msgstr "Usar el complemento Traducir"
 
@@ -1266,15 +1263,11 @@ msgstr "Para traducir un texto:"
 
 #. (itstool) path: item/p
 #: C/translate.page:52
-#| msgid "Highlight the portion of text that you want to change."
 msgid "Select the part of text that you would like to translate."
 msgstr "Seleccione la parte del texto que quiere traducir."
 
 #. (itstool) path: item/p
 #: C/translate.page:55
-#| msgid ""
-#| "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
-#| "bookmark."
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
