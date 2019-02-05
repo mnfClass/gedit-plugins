@@ -1,5 +1,5 @@
 # Hungarian translation for gedit-plugins.
-# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018 Free Software Foundation, Inc.
+# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gedit package.
 #
 # Szabolcs Ban <shooby at gnome dot hu>, 2000.
@@ -10,16 +10,15 @@
 # Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2015.
 # Mate Ory <orymate at gmail dot com>, 2006, 2007, 2008.
-# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2017, 2018.
+# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2017, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2018-03-11 08:53+0000\n"
-"PO-Revision-Date: 2018-03-12 07:40+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2019-01-17 11:19+0000\n"
+"PO-Revision-Date: 2019-02-05 21:27+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
-"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -748,19 +747,27 @@ msgstr ""
 "Ha igaz, akkor a fordítás kimenete a dokumentum ablakába lesz beszúrva, ha "
 "nincs a kimenet fordítási ablakban."
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:3
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:7
+msgid "'eng|spa'"
+msgstr "'hun|eng'"
+
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:8
 msgid "Language pair used"
 msgstr "Használt nyelvpár"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:4
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:9
 msgid "Language pair used to translate from one language to another"
 msgstr "A fordításhoz használt nyelvpár az egyik nyelvről a másikra"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:5
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:10
 msgid "API key for remote web service"
 msgstr "API kulcs a távoli webszolgáltatáshoz"
 
-#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:6
+#: ../plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml.h:11
 msgid "Remote web service to use"
 msgstr "Használandó távoli webszolgáltatás"
 
