@@ -80,7 +80,7 @@ msgstr "Seleccioneu caràcters des d'un mapa de caràcters"
 #: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
 #: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
 msgid "Code Comment"
-msgstr "Comentari del codi"
+msgstr "Comenta el codi"
 
 # FIXME: "descomentar" (si no fos que no existeix)
 #: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
