@@ -53,8 +53,6 @@ zeitgeist_req = '>= 0.9.12'
 libpeas_dep = dependency('libpeas-1.0', version: libpeas_req)
 gedit_dep = dependency('gedit', version: gedit_req)
 
-zeitgeist_dep = dependency('zeitgeist-2.0', version: zeitgeist_req, required: false)
-
 appstream_util = find_program('appstream-util', required: false)
 
 # Configurations
@@ -112,6 +110,10 @@ foreach plugin_name, plugin_metadata : all_plugins
     endif
   endif
 endforeach
+
+zeitgeist_needed = 'zeitgeist' in active_plugins
+zeitgeist_dep = dependency('zeitgeist-2.0', version: zeitgeist_req, required: zeitgeist_needed)
+
 
 if 'python' in extra_languages
   python3 = python.find_installation('python3')
