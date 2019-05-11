@@ -41,10 +41,10 @@ GENERATED_PLUGIN_FILES = $(plugin_in_files:.plugin.desktop.in=.plugin)
 
 plugin_DATA = $(GENERATED_PLUGIN_FILES)
 
-$(appstream_DATA): $(appstream_in_files) $(wildcard $(top_srcdir)/po/*po)
+%.metainfo.xml: %.metainfo.xml.in $(wildcard $(top_srcdir)/po/*po)
 	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
-GENERATED_APPSTREAM_FILES = $(appstream_in_files:.xml.in=.xml)
+GENERATED_APPSTREAM_FILES = $(appstream_in_files:metainfo.xml.in=metainfo.xml)
 
 appstream_DATA = $(GENERATED_APPSTREAM_FILES)
 
