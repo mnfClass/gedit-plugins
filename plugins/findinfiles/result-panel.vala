@@ -204,7 +204,7 @@ class ResultPanel : Overlay {
         list.set_search_equal_func (list_search);
 
         list.insert_column_with_data_func (-1,
-                                           "File",
+                                           _("File"),
                                            new CellRendererText (),
                                            column_data_func);
 
