@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-01-13 12:11+0100\n"
+"POT-Creation-Date: 2019-05-11 11:14+0000\n"
+"PO-Revision-Date: 2019-05-12 14:55+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -35,15 +35,15 @@ msgstr "Zakładki"
 msgid "Easy document navigation with bookmarks"
 msgstr "Łatwa nawigacja po dokumencie za pomocą zakładek"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Przełącz zakładkę"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Przejdź do następnej zakładki"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Przejdź do poprzedniej zakładki"
 
@@ -68,11 +68,6 @@ msgstr "Tablica znaków"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Wstawia znaki specjalne po ich kliknięciu."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -325,12 +320,23 @@ msgstr "Wyszukiwanie tekstu we wszystkich plikach w katalogu"
 msgid "Find in Files…"
 msgstr "Znajdź w plikach…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "wynik"
+msgstr[1] "wyniki"
+msgstr[2] "wyników"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Brak wyników"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Plik"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Zatrzymuje wyszukiwanie"
 
@@ -670,11 +676,6 @@ msgstr "Osadzony terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Osadza terminal w dolnym panelu."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
 #: plugins/terminal/terminal.py:337
 msgid "C_hange Directory"
 msgstr "Zmień _katalog"
@@ -761,7 +762,7 @@ msgstr "Tłumaczenia dostarcza: {0}"
 msgid "Translate Console"
 msgstr "Konsola tłumaczenia"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:158
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Przetłumacz zaznaczony tekst ({0})"
