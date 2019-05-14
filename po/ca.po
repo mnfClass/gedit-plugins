@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-11 11:14+0000\n"
-"PO-Revision-Date: 2017-07-18 21:30+0200\n"
+"POT-Creation-Date: 2019-05-14 19:40+0000\n"
+"PO-Revision-Date: 2019-05-14s 21:30+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -137,6 +137,44 @@ msgstr "Editor de l'esquema de color del codi font"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Crea i edita l'esquema de colors utilitzat pel ressaltat de sintaxi"
+
+#: plugins/colorschemer/schemer/schemer.py:263
+#: plugins/colorschemer/schemer/schemer.py:310
+msgid "There was a problem saving the scheme"
+msgstr "Hi hagut un problema desant l'esquema"
+
+#: plugins/colorschemer/schemer/schemer.py:264
+msgid ""
+"You have choosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please be sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Heu escollit crear un esquema nou\n"
+"però el nom o identificador que esteu usant ja està en ús.\n"
+"\n"
+"Assegureu-vos que el nom i l'identificador no estan ja en ús.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:311
+msgid ""
+"You do not have permission to overwrite the scheme you have choosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please be sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"No teniu permís per sobreescriure l'esquema que heu escollit.\n"
+"Es crearà una còpia.\n"
+"\n"
+"Assegureu-vos que el nom i l'identificador no estan ja en ús.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:370
+msgid "There was a problem opening the file"
+msgstr "Hi hagut un problema en obrir el fitxer"
+
+#: plugins/colorschemer/schemer/schemer.py:371
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Sembla que teniu esquemes amb el mateix identificadors en directoris diferents\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
