@@ -260,10 +260,10 @@ class GUI:
       for thisSchemeId in schemeIds:
         if self.entryId.get_text() == thisSchemeId or self.entryName.get_text() == self.schemeManager.get_scheme(thisSchemeId).get_name():
 
-          text = '<span weight="bold" size="larger">There was a problem saving the scheme</span>' \
-            '\n\nYou have choosen to create a new scheme' \
+          text = '<span weight="bold" size="larger">' + _('There was a problem saving the scheme') + '</span>\n\n'
+          text += _('You have choosen to create a new scheme' \
             '\nbut the Name or ID you are using is being used already.' \
-            '\n\nPlease be sure to choose a Name and ID that are not already in use.\n'
+            '\n\nPlease be sure to choose a Name and ID that are not already in use.\n')
           message_dialog(Gtk.MessageType.ERROR, text, parent=self.window,
             buttons=Gtk.ButtonsType.NONE,
             additional_buttons=(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL))
@@ -307,10 +307,10 @@ class GUI:
         for thisSchemeId in schemeIds:
           if self.entryId.get_text() == thisSchemeId or self.entryName.get_text() == self.schemeManager.get_scheme(thisSchemeId).get_name():
 
-            text = '<span weight="bold" size="larger">There was a problem saving the scheme</span>' \
-              '\n\nYou do not have permission to overwrite the scheme you have choosen.' \
+            text = '<span weight="bold" size="larger">' + _('There was a problem saving the scheme') + '</span>\n\n'
+            text += _('You do not have permission to overwrite the scheme you have choosen.' \
               '\nInstead a copy will be created.' \
-              '\n\nPlease be sure to choose a Name and ID that are not already in use.\n'
+              '\n\nPlease be sure to choose a Name and ID that are not already in use.\n')
             message_dialog(Gtk.MessageType.ERROR, text, parent=self.window,
               buttons=Gtk.ButtonsType.NONE,
               additional_buttons=(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL))
@@ -367,8 +367,8 @@ class GUI:
       if testFilename != schemeIdOrFile:
         # there must have been some conflict, since it opened the wrong file
 
-        text = '<span weight="bold" size="larger">There was a problem opening the file</span>' \
-          '\n\nYou appear to have schemes with the same IDs in different directories\n'
+        text = '<span weight="bold" size="larger">' + _('There was a problem opening the file') + '</span>\n\n'
+        text += _('You appear to have schemes with the same IDs in different directories\n')
         message_dialog(Gtk.MessageType.ERROR, text,
           parent=self.window, buttons=Gtk.ButtonsType.NONE,
           additional_buttons=(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL))
