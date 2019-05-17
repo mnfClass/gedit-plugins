@@ -21,7 +21,6 @@
 
 import re, time
 import xml.sax.saxutils
-import sys
 
 from gi.repository import GLib, GObject, Pango, PangoCairo, Gdk, Gtk, Gedit
 
