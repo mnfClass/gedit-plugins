@@ -24,7 +24,6 @@ import commander.commands.completion
 import commander.commands.result
 import commander.commands.exceptions
 
-from functools import reduce
 import re
 
 __commander_module__ = True
