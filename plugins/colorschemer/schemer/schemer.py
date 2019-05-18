@@ -269,9 +269,9 @@ class GUI:
         if self.entryId.get_text() == thisSchemeId or self.entryName.get_text() == self.schemeManager.get_scheme(thisSchemeId).get_name():
 
           text = '<span weight="bold" size="larger">' + _('There was a problem saving the scheme') + '</span>\n\n'
-          text += _('You have choosen to create a new scheme' \
+          text += _('You have chosen to create a new scheme' \
             '\nbut the Name or ID you are using is being used already.' \
-            '\n\nPlease be sure to choose a Name and ID that are not already in use.\n')
+            '\n\nPlease make sure to choose a Name and ID that are not already in use.\n')
           message_dialog(Gtk.MessageType.ERROR, text, parent=self.window,
             buttons=Gtk.ButtonsType.NONE,
             additional_buttons=(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL))
@@ -316,9 +316,9 @@ class GUI:
           if self.entryId.get_text() == thisSchemeId or self.entryName.get_text() == self.schemeManager.get_scheme(thisSchemeId).get_name():
 
             text = '<span weight="bold" size="larger">' + _('There was a problem saving the scheme') + '</span>\n\n'
-            text += _('You do not have permission to overwrite the scheme you have choosen.' \
+            text += _('You do not have permission to overwrite the scheme you have chosen.' \
               '\nInstead a copy will be created.' \
-              '\n\nPlease be sure to choose a Name and ID that are not already in use.\n')
+              '\n\nPlease make sure to choose a Name and ID that are not already in use.\n')
             message_dialog(Gtk.MessageType.ERROR, text, parent=self.window,
               buttons=Gtk.ButtonsType.NONE,
               additional_buttons=(Gtk.STOCK_CANCEL, Gtk.ResponseType.CANCEL))
