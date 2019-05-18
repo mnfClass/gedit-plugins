@@ -19,8 +19,7 @@
 
 import os
 from gi.repository import Gio, Gtk
-import gettext
-from gpdefs import *
+from gpdefs import GETTEXT_PACKAGE
 from .services.services import Services
 from .settings import Settings
 

@@ -1,5 +1,10 @@
 image: ubuntu:devel
 
+stages:
+    - build
+    - static_analysis
+
+
 build:
   stage: build
   before_script:
@@ -15,4 +20,16 @@ build:
   script:
     - meson _build
     - ninja -C _build dist
+
+static_analysis:
+  stage: build
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt-get update -y
+    - apt-get install python3 python3-pip python3-dbus  -y
+    - python3 -m pip install flake8
+
+  script:
+    - cd plugins
+    - flake8 --select=F --ignore=F401,F841
 
