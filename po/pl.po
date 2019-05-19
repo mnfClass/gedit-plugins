@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-11 11:14+0000\n"
-"PO-Revision-Date: 2019-05-12 14:55+0200\n"
+"POT-Creation-Date: 2019-05-18 11:19+0000\n"
+"PO-Revision-Date: 2019-05-19 12:22+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -60,7 +60,7 @@ msgstr "Automatycznie dodaje nawiasy zamykające."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Automatycznie dodaje nawias zamykający po wstawieniu nawiasu"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Tablica znaków"
@@ -86,11 +86,11 @@ msgstr "Komentarze w kodzie"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Pozwala komentować lub odkomentować zaznaczony blok kodu."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Sko_mentuj kod"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Odkome_ntuj kod"
 
@@ -107,11 +107,11 @@ msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
 "Wybiera kolor z okna dialogowego i wstawia jego szesnastkowy odpowiednik."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Wybierz _kolor…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Wybór koloru"
 
@@ -141,6 +141,46 @@ msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr ""
 "Umożliwia tworzenie i modyfikowanie schematu kolorów używanego do "
 "wyróżniania elementów składni"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Wystąpił problem podczas zapisywania schematu"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Wybrano utworzenie nowego schematu,\n"
+"ale nazwa lub identyfikator jest już używany.\n"
+"\n"
+"Proszę się upewnić, że wybrano nazwę i identyfikator, które nie są jeszcze "
+"używane.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Brak uprawnień do zastąpienia wybranego schematu.\n"
+"Zamiast tego zostanie utworzona kopia.\n"
+"\n"
+"Proszę się upewnić, że wybrano nazwę i identyfikator, które nie są jeszcze "
+"używane.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Wystąpił problem podczas otwierania pliku"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Istnieją schematy o tym samym identyfikatorze w różnych katalogach\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -375,11 +415,11 @@ msgstr "Łączenie/dzielenie wierszy"
 msgid "Join several lines or split long ones"
 msgstr "Łączy wiele wierszy lub dzieli dłuższe"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Połącz wiersze"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "P_odziel wiersze"
 
@@ -484,12 +524,12 @@ msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr ""
 "Synchronizuje między plikami LaTeX i PDF za pomocą programów gedit i Evince."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Wyszukiwanie w przód"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -676,7 +716,7 @@ msgstr "Osadzony terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Osadza terminal w dolnym panelu."
 
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Zmień _katalog"
 
@@ -689,15 +729,15 @@ msgstr "Rozmiar tekstu"
 msgid "Easily increase and decrease the text size"
 msgstr "Łatwe powiększanie i pomniejszanie rozmiaru tekstu"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Zwykły rozmiar"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "_Mniejszy tekst"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Większy tekst"
 
@@ -753,21 +793,21 @@ msgstr "Klucz API dla zdalnego serwera"
 msgid "Remote web service to use"
 msgstr "Używany zdalny serwis"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Tłumaczenia dostarcza: {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Konsola tłumaczenia"
 
-#: plugins/translate/translate/__init__.py:158
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Przetłumacz zaznaczony tekst ({0})"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Klucz API"
 
