@@ -50,7 +50,7 @@ class CommanderAppActivatable(GObject.Object, Gedit.AppActivatable):
             os.path.join(self.plugin_info.get_data_dir(), 'modules')
         ])
 
-        self.app.add_accelerator("<Primary>period", "win.commander", None)
+        self.app.add_accelerator("<Primary>comma", "win.commander", None)
 
         self.menu_ext = self.extend_menu("view-section-1")
         item = Gio.MenuItem.new(_('Commander Mode'), "win.commander")
