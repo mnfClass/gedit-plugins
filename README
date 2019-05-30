@@ -7,6 +7,8 @@ for gedit.
 Installation
 ============
 
-For the moment, you have to ./configure with --prefix=same prefix as you
-configured gedit with.
+To install follow these steps:
 
+cd build-aux
+meson
+sudo ninja install
