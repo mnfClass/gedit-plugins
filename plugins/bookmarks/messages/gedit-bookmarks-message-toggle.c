@@ -38,7 +38,7 @@ struct _GeditBookmarksMessageTogglePrivate
 	GtkTextIter *iter;
 };
 
-G_DEFINE_TYPE (GeditBookmarksMessageToggle, gedit_bookmarks_message_toggle, GEDIT_TYPE_MESSAGE)
+G_DEFINE_TYPE_WITH_PRIVATE (GeditBookmarksMessageToggle, gedit_bookmarks_message_toggle, GEDIT_TYPE_MESSAGE)
 
 static void
 gedit_bookmarks_message_toggle_finalize (GObject *obj)
