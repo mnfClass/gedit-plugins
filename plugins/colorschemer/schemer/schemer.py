@@ -65,7 +65,7 @@ class Props:
     self.foreground = gtkStyle.props.foreground
     self.italic = gtkStyle.props.italic
     self.bold = gtkStyle.props.bold
-    self.underline = gtkStyle.props.pango_underline == Pango.Underline.NONE
+    self.underline = gtkStyle.props.pango_underline != Pango.Underline.NONE
     self.strikethrough = gtkStyle.props.strikethrough
     
     # here we make sure every color starts with a hash
