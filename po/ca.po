@@ -96,7 +96,7 @@ msgstr "_Treu el comentari del codi"
 # FIXME: "descomentar" (si no fos que no existeix)
 #: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr "Comenta o treu els comentaris els blocs de codi seleccionats"
+msgstr "Comenta o treu els comentaris de blocs de codi"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
 msgid "Color Picker"
@@ -527,7 +527,7 @@ msgstr "Terminal"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr "Un giny de terminal simple accessible des de la subfinestra inferior"
+msgstr "Un giny de terminal simple accessible des del quadre inferior"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
