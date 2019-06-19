@@ -21,8 +21,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-16 16:00+0000\n"
-"PO-Revision-Date: 2019-05-17 10:19+0200\n"
+"POT-Creation-Date: 2019-05-28 19:43+0000\n"
+"PO-Revision-Date: 2019-06-19 12:34+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -67,7 +67,7 @@ msgstr "Añadir automáticamente cierres de paréntesis."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Añadir automáticamente cierres de paréntesis cuando inserta uno"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Mapa de caracteres"
@@ -93,11 +93,11 @@ msgstr "Comentar código"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Comentar o descomentar un bloque de código seleccionado."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Co_mentar código"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "_Descomentar el código"
 
@@ -113,11 +113,11 @@ msgstr "Selector de color"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Escoger un color del diálogo e inserte su notación hexadecimal."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Escoger _color…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Escoger un color"
 
@@ -150,11 +150,16 @@ msgid "There was a problem saving the scheme"
 msgstr "Hubo un problema al guardar el esquema"
 
 #: plugins/colorschemer/schemer/schemer.py:272
+#| msgid ""
+#| "You have choosen to create a new scheme\n"
+#| "but the Name or ID you are using is being used already.\n"
+#| "\n"
+#| "Please be sure to choose a Name and ID that are not already in use.\n"
 msgid ""
-"You have choosen to create a new scheme\n"
+"You have chosen to create a new scheme\n"
 "but the Name or ID you are using is being used already.\n"
 "\n"
-"Please be sure to choose a Name and ID that are not already in use.\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
 "Ha elegido crear un esquema nuevo\n"
 "pero el Nombre o ID que está usando ya está en uso.\n"
@@ -162,16 +167,21 @@ msgstr ""
 "Asegúrese de elegir un Nombre e ID que no esté en uso.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
+#| msgid ""
+#| "You do not have permission to overwrite the scheme you have choosen.\n"
+#| "Instead a copy will be created.\n"
+#| "\n"
+#| "Please be sure to choose a Name and ID that are not already in use.\n"
 msgid ""
-"You do not have permission to overwrite the scheme you have choosen.\n"
+"You do not have permission to overwrite the scheme you have chosen.\n"
 "Instead a copy will be created.\n"
 "\n"
-"Please be sure to choose a Name and ID that are not already in use.\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
 "No tiene permiso para sobrescribir el esquema que ha elegido.\n"
 "Se creará una copia en su lugar.\n"
 "\n"
-"Asegúrese de elegir un Nombre e ID que no esté en uso.\n"
+"Asegúrese de elegir un Nombre e ID que no estén en uso.\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -412,11 +422,11 @@ msgstr "Unir/Dividir líneas"
 msgid "Join several lines or split long ones"
 msgstr "Unir varias líneas o dividir líneas largas"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Unir líneas"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Dividir líneas"
 
@@ -430,7 +440,7 @@ msgid "Edit document in multiple places at once"
 msgstr "Editar el documento en múltiples ubicaciones a la vez"
 
 #: plugins/multiedit/multiedit/appactivatable.py:44
-#: plugins/multiedit/multiedit/viewactivatable.py:1352
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
 msgid "Multi Edit Mode"
 msgstr "Modo multiedición"
 
@@ -438,59 +448,59 @@ msgstr "Modo multiedición"
 msgid "Multi Edit"
 msgstr "Multiedición"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:318
+#: plugins/multiedit/multiedit/viewactivatable.py:317
 msgid "Added edit point…"
 msgstr "Punto de edición añadido…"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:660
+#: plugins/multiedit/multiedit/viewactivatable.py:659
 msgid "Column Mode…"
 msgstr "Modo columna…"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:778
+#: plugins/multiedit/multiedit/viewactivatable.py:777
 msgid "Removed edit point…"
 msgstr "Punto de edición eliminado…"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:944
+#: plugins/multiedit/multiedit/viewactivatable.py:943
 msgid "Cancelled column mode…"
 msgstr "Modo columna cancelado…"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1307
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
 msgid "Enter column edit mode using selection"
 msgstr "Entrar en el modo de edición de columna usando la selección"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1308
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
 msgid "Enter <b>smart</b> column edit mode using selection"
 msgstr ""
 "Entrar en el modo de edición de columna <b>inteligente</b> usando la "
 "selección"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1309
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
 msgid "<b>Smart</b> column align mode using selection"
 msgstr "Modo de alineación de columna <b>inteligente</b> usando la selección"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1310
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
 msgid "<b>Smart</b> column align mode with additional space using selection"
 msgstr ""
 "Modo de alineación de columna <b>inteligente</b> con espacio adicional "
 "usando la selección"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1312
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
 msgid "Toggle edit point"
 msgstr "Conmutar el modo edición"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1313
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
 msgid "Add edit point at beginning of line/selection"
 msgstr "Punto de edición añadido al principio de la selección de línea"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1314
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
 msgid "Add edit point at end of line/selection"
 msgstr "Punto de edición añadido al final de la selección de línea"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1315
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
 msgid "Align edit points"
 msgstr "Alinear puntos de edición"
 
-#: plugins/multiedit/multiedit/viewactivatable.py:1316
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
 msgid "Align edit points with additional space"
 msgstr "Alinear los puntos de edición con espacio adicional"
 
@@ -509,25 +519,8 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Olvidar que no está usando tabulaciones."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Sincronizar entre LaTeX y PDF con gedit y evince"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincronizar entre LaTeX y PDF con gedit y evince."
-
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Búsqueda hacia adelante"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -720,7 +713,7 @@ msgstr "Terminal empotrado"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Empotre un terminal en el panel inferior."
 
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "_Cambiar de carpeta"
 
@@ -733,15 +726,15 @@ msgstr "Tamaño del texto"
 msgid "Easily increase and decrease the text size"
 msgstr "Aumentar y reducir fácilmente el tamaño del texto"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Tamaño _normal"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Texto más _pequeño"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "Texto más _grande"
 
@@ -797,21 +790,21 @@ msgstr "Clave de la API para el servicio web remoto"
 msgid "Remote web service to use"
 msgstr "Servicio web remoto que usar"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traducciones facilitadas por {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Consola de traducción"
 
-#: plugins/translate/translate/__init__.py:158
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traducir el texto seleccionado {0}"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Clave de la API"
 
@@ -909,6 +902,18 @@ msgstr "Proveedor de datos Zeitgeist"
 msgid "Logs access and leave event for documents used with gedit"
 msgstr ""
 "Registra los accesos y deja los eventos para los documentos usados con gedit"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Sincronizar entre LaTeX y PDF con gedit y evince"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Sincronizar entre LaTeX y PDF con gedit y evince."
+
+#~ msgid "Forward Search"
+#~ msgstr "Búsqueda hacia adelante"
 
 #~| msgid "Accessibility key character"
 #~ msgid "accessories-character-map"
