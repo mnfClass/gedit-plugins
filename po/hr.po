@@ -5,15 +5,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-02-26 12:28+0000\n"
-"PO-Revision-Date: 2019-03-27 14:34+0100\n"
+"POT-Creation-Date: 2019-05-28 19:43+0000\n"
+"PO-Revision-Date: 2019-06-22 19:06+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -25,15 +27,15 @@ msgstr "Zabilješke"
 msgid "Easy document navigation with bookmarks"
 msgstr "Lakša navigacija dokumenata sa zabilješkama"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Zabilježi"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Idi na sljedeću zabilješku"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Idi na prijašnju zabilješku"
 
@@ -50,7 +52,7 @@ msgstr "Automatski zatvara zagrade."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Automatski zatvara zagrade kada umetnete jednu"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Tablica znakova"
@@ -58,11 +60,6 @@ msgstr "Tablica znakova"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Umeće posebne znakove klikom na njih."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -81,11 +78,11 @@ msgstr "Komentar kôda"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Komentirajte ili uklonite komentar sa odabranog bloka kôda."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Ko_mentiraj kôd"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Ukloni _komentar kôda"
 
@@ -101,11 +98,11 @@ msgstr "Odabiratelj boje"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Odaberite boju iz dijaloga i umetnite njen heksadecimalni prikaz."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Odaberi _boju…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Odaberi boju"
 
@@ -131,6 +128,44 @@ msgstr "Uređivač izvornog kôda sheme boje"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Stvorite i uredite shemu boje koja se koristi za isticanje sintakse"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Dogodio se problem pri spremanju sheme"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Odabrali ste stvaranje nove sheme\n"
+"ali Naziv ili ID koji koristite već se koristi.\n"
+"\n"
+"Odaberite Naziv i ID koji se još ne koriste.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Nemate dozvolu za prebrisivanje odabrane sheme.\n"
+"Umjesto kopiranja biti će stvorena nova.\n"
+"\n"
+"Odaberite Naziv i ID koji se još ne koriste.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Dogodio se problem pri otvaranju datoteke"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Izgleda da imate shemu s istim ID-om u drugim direktorijima\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -310,12 +345,25 @@ msgstr "Pretraži tekst u svim datotekama i mapama"
 msgid "Find in Files…"
 msgstr "Pretraži u datotekama…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+#, fuzzy
+#| msgid "Git"
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "Git"
+msgstr[1] "Git"
+msgstr[2] ""
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Nema pronađenih rezultata"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Datoteka"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Zaustavi pretragu"
 
@@ -354,11 +402,11 @@ msgstr "Spoji/Razdvoji redke"
 msgid "Join several lines or split long ones"
 msgstr "Spoji nekoliko redaka ili razdvoji dugačke"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Spoji redke"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Razdvoji redke"
 
@@ -446,25 +494,8 @@ msgstr "Dopusti tabove pri korištenju razmaka"
 msgid "Forget you’re not using tabulations."
 msgstr "Nemojte zaboraviti da koristite tabove."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom."
-
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Brza pretraga"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -641,12 +672,7 @@ msgstr "Ugrađeni Terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Ugradi terminal u donje okno."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "P_romijeni direktorij"
 
@@ -659,15 +685,15 @@ msgstr "Veličina teksta"
 msgid "Easily increase and decrease the text size"
 msgstr "Lagano povećajte ili smanjite veličinu teksta"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Normalna veličina"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "M_anji tekst"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Veći tekst"
 
@@ -723,21 +749,21 @@ msgstr "APi ključ za udaljenu web uslugu"
 msgid "Remote web service to use"
 msgstr "Udaljena web usluga koja se koristi"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Prijevodi pogonjeni {0}om"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Konzola prijevoda"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Prevedi odabrani tekst [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API ključ"
 
@@ -835,6 +861,24 @@ msgstr "Zeitgeist pružatelj podataka"
 #: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
 msgid "Logs access and leave event for documents used with gedit"
 msgstr "Pristup zapisima i događaji napuštanja za dokumente korištene u geditu"
+
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom."
+
+#~ msgid "Forward Search"
+#~ msgstr "Brza pretraga"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
 
 #~ msgid "Empty Document"
 #~ msgstr "Prazan dokument"
