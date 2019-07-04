@@ -20,7 +20,7 @@
 from gi.repository import GObject, Gio, Gedit
 from .dialogs import SaveSessionDialog, SessionManagerDialog
 from .store.xmlsessionstore import XMLSessionStore
-from .appactivable import SessionSaverAppActivatable
+from .appactivatable import SessionSaverAppActivatable
 
 try:
     import gettext
