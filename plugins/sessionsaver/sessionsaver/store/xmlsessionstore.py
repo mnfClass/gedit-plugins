@@ -27,14 +27,14 @@ from .sessionstore import SessionStore
 from .session import Session
 
 class XMLSessionStore(SessionStore):
-    def __init__(self):
+    def __init__(self, filename = None):
         super(XMLSessionStore, self).__init__()
-        self.filename = os.path.join(GLib.get_user_config_dir(), 'gedit/saved-sessions.xml')
-        self.load()
 
-    def __init__(self, filename):
-        super(XMLSessionStore, self).__init__()
-        self.filename = filename
+        if filename is None:
+            self.filename = os.path.join(GLib.get_user_config_dir(), 'gedit/saved-sessions.xml')
+        else:
+            self.filename = filename
+
         self.load()
 
     def _escape(self, string):
