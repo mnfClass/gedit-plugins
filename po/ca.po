@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-14 19:40+0000\n"
-"PO-Revision-Date: 2019-05-14s 21:30+0200\n"
+"POT-Creation-Date: 2019-07-04 21:35+0000\n"
+"PO-Revision-Date: 2019-07-04 23:48+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -55,9 +55,9 @@ msgstr "Afegeix claudàtors de tancada automàticament."
 
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
 msgid "Automatically add a closing bracket when you insert one"
-msgstr "Afegeix claudàtors de tancada quan afegiu un."
+msgstr "Afegeix claudàtors de tancada quan afegiu un"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Mapa de caràcters"
@@ -84,12 +84,12 @@ msgstr "Comenta el codi"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Comenteu o traieu els comentaris del bloc de codi seleccionat."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Co_menta el codi"
 
 # FIXME: "descomentar" (si no fos que no existeix)
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "_Treu el comentari del codi"
 
@@ -107,11 +107,11 @@ msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
 "Seleccioneu un color mitjançant un diàleg i inseriu-ne el codi hexadecimal."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Escolliu un _color..."
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Escolliu un color"
 
@@ -138,29 +138,29 @@ msgstr "Editor de l'esquema de color del codi font"
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Crea i edita l'esquema de colors utilitzat pel ressaltat de sintaxi"
 
-#: plugins/colorschemer/schemer/schemer.py:263
-#: plugins/colorschemer/schemer/schemer.py:310
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
 msgid "There was a problem saving the scheme"
 msgstr "Hi hagut un problema desant l'esquema"
 
-#: plugins/colorschemer/schemer/schemer.py:264
+#: plugins/colorschemer/schemer/schemer.py:272
 msgid ""
-"You have choosen to create a new scheme\n"
+"You have chosen to create a new scheme\n"
 "but the Name or ID you are using is being used already.\n"
 "\n"
-"Please be sure to choose a Name and ID that are not already in use.\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
 "Heu escollit crear un esquema nou\n"
 "però el nom o identificador que esteu usant ja està en ús.\n"
 "\n"
 "Assegureu-vos que el nom i l'identificador no estan ja en ús.\n"
 
-#: plugins/colorschemer/schemer/schemer.py:311
+#: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
-"You do not have permission to overwrite the scheme you have choosen.\n"
+"You do not have permission to overwrite the scheme you have chosen.\n"
 "Instead a copy will be created.\n"
 "\n"
-"Please be sure to choose a Name and ID that are not already in use.\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
 msgstr ""
 "No teniu permís per sobreescriure l'esquema que heu escollit.\n"
 "Es crearà una còpia.\n"
@@ -168,13 +168,15 @@ msgstr ""
 "Assegureu-vos que el nom i l'identificador no estan ja en ús.\n"
 
 #. there must have been some conflict, since it opened the wrong file
-#: plugins/colorschemer/schemer/schemer.py:370
+#: plugins/colorschemer/schemer/schemer.py:378
 msgid "There was a problem opening the file"
 msgstr "Hi hagut un problema en obrir el fitxer"
 
-#: plugins/colorschemer/schemer/schemer.py:371
+#: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
-msgstr "Sembla que teniu esquemes amb el mateix identificadors en directoris diferents\n"
+msgstr ""
+"Sembla que teniu esquemes amb el mateix identificadors en directoris "
+"diferents\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -206,7 +208,7 @@ msgstr "F_ons"
 
 #: plugins/colorschemer/schemer.ui:288
 msgid "_Foreground"
-msgstr "_Primer pla:"
+msgstr "_Primer pla"
 
 #: plugins/colorschemer/schemer.ui:341
 msgid "_Clear "
@@ -353,7 +355,7 @@ msgstr "Cerca text en tots els fitxers d'una carpeta"
 
 #: plugins/findinfiles/plugin.vala:159
 msgid "Find in Files…"
-msgstr "Cerca als fitxers..."
+msgstr "Cerca als fitxers…"
 
 #: plugins/findinfiles/result-panel.vala:127
 msgid "hit"
@@ -407,11 +409,11 @@ msgstr "Uneix/separa les línies"
 msgid "Join several lines or split long ones"
 msgstr "Uneix diverses línies, o separa les llargues"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Uneix línies"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Separa línies"
 
@@ -435,7 +437,7 @@ msgstr "Edició múltiple"
 
 #: plugins/multiedit/multiedit/viewactivatable.py:317
 msgid "Added edit point…"
-msgstr "S'ha afegit el punt d'edició..."
+msgstr "S'ha afegit el punt d'edició…"
 
 #: plugins/multiedit/multiedit/viewactivatable.py:659
 msgid "Column Mode…"
@@ -489,6 +491,43 @@ msgstr "Alinea els punts d'edició"
 msgid "Align edit points with additional space"
 msgstr "Alinea els punts d'edició amb espais addicionals"
 
+#: plugins/sessionsaver/sessionsaver/appactivable.py:55
+msgid "_Manage Saved Sessions..."
+msgstr "_Gestiona la sessions desades..."
+
+#: plugins/sessionsaver/sessionsaver/appactivable.py:58
+msgid "_Save Session..."
+msgstr "_Desa la sessió..."
+
+#: plugins/sessionsaver/sessionsaver/appactivable.py:64
+#, python-brace-format
+msgid "Recover '{0}' Session"
+msgstr "Recupera la sessió «{0}»"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nom de sessió"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Desador de sessions"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Desa i recupera sessions de treball"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Desa la sessió"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nom de la sessió:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sessions desades"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -503,25 +542,8 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Oblideu-vos que no utilitzeu les tabulacions."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
-
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Cerca endavant"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -714,7 +736,7 @@ msgstr "Terminal incrustat"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Incrusta un terminal a la subfinestra inferior."
 
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "_Canvia el directori"
 
@@ -727,15 +749,15 @@ msgstr "Mida del text"
 msgid "Easily increase and decrease the text size"
 msgstr "Augmenta i redueix fàcilment la mida del text"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Mida _normal"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Text més _petit"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "Text més _gran"
 
@@ -791,21 +813,21 @@ msgstr "Clau API pel servei web remot"
 msgid "Remote web service to use"
 msgstr "Servei web remot a utilitzar"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduccions proporcionades per {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Consola de traducció"
 
-#: plugins/translate/translate/__init__.py:158
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Tradueix el text seleccionat [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Clau API"
 
@@ -903,3 +925,15 @@ msgid "Logs access and leave event for documents used with gedit"
 msgstr ""
 "Registra els esdeveniments d'accés i tancament dels documents usats amb el "
 "gedit"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+
+#~ msgid "Forward Search"
+#~ msgstr "Cerca endavant"
