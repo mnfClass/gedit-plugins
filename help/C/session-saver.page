@@ -47,7 +47,7 @@
       <item>
         <p>Select <guiseq><gui style="menu">gedit</gui>
         <gui style="menuitem">Tools</gui>
-        <gui style="tab">Save Session...</gui></guiseq>.</p>
+        <gui style="tab">Save Session…</gui></guiseq></p>
       </item>
     </steps>
   </section>
@@ -75,7 +75,7 @@
         <item>
           <p>Select <guiseq><gui style="menu">gedit</gui>
           <gui style="menuitem">Tools</gui>
-          <gui style="tab">Manage Saved Sessions...</gui></guiseq></p>
+          <gui style="tab">Manage Saved Sessions…</gui></guiseq></p>
         </item>
     </steps>
   </section>
