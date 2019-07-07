@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-18 11:19+0000\n"
-"PO-Revision-Date: 2019-05-19 12:22+0200\n"
+"POT-Creation-Date: 2019-07-05 17:00+0000\n"
+"PO-Revision-Date: 2019-07-07 14:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -496,6 +496,43 @@ msgstr "Dopasuj punkt modyfikowania"
 msgid "Align edit points with additional space"
 msgstr "Dopasuj punkty modyfikowania za pomocą dodatkowego miejsca"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "Zarzą_dzaj zapisanymi sesjami…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Zapisz sesję…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Przywróć sesję „{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nazwa sesji"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Zapisywanie sesji"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Zapisuje i przywraca sesje robocze"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Zapis sesji"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nazwa sesji:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Zapisane sesje"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -508,25 +545,6 @@ msgstr "Pozwala na używanie spacji tak, jakby używane były tabulacje"
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Tabulacja nie jest już potrzebna."
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr ""
-"Synchronizuje między plikami LaTeX i PDF za pomocą programów gedit i Evince"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr ""
-"Synchronizuje między plikami LaTeX i PDF za pomocą programów gedit i Evince."
-
-#: plugins/synctex/synctex/synctex.py:342
-msgid "Forward Search"
-msgstr "Wyszukiwanie w przód"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314

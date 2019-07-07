@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2019-05-30 06:50+0000\n"
-"PO-Revision-Date: 2019-06-02 13:50+0200\n"
+"POT-Creation-Date: 2019-07-05 17:00+0000\n"
+"PO-Revision-Date: 2019-07-07 14:00+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -925,6 +925,135 @@ msgstr ""
 "trybu."
 
 #. (itstool) path: credit/name
+#: C/session-saver.page:11 C/translate.page:11
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/session-saver.page:17
+msgid "Save and restore your working sessions"
+msgstr "Zapisywanie i przywracanie sesji roboczych"
+
+#. (itstool) path: page/title
+#: C/session-saver.page:20
+msgid "Session Saver"
+msgstr "Zapisywanie sesji"
+
+#. (itstool) path: page/p
+#: C/session-saver.page:22
+msgid ""
+"The <app>Session Saver</app> plugin allows you to save your current open "
+"documents and open them again."
+msgstr ""
+"Wtyczka <app>Zapisywanie sesji</app> umożliwia zapisywanie obecnie otwartych "
+"dokumentów i otwieranie ich z powrotem."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:25
+msgid "Enable Session Saver Plugin"
+msgstr "Włączanie wtyczki zapisywania sesji"
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:28
+msgid "To enable Session Saver plugin:"
+msgstr "Aby włączyć wtyczkę zapisywania sesji:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:30 C/terminal.page:38 C/text-size.page:37
+#: C/translate.page:30 C/zeitgeist-dataprovider.page:28
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Preferencje</gui> <gui style=\"tab\">Wtyczki</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:35
+msgid ""
+"Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Zapisywanie sesji</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:43
+msgid "Save a session"
+msgstr "Zapisywanie sesji"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:44
+msgid "Save all your open files to be able to open them later."
+msgstr "Zapisz wszystkie otwarte pliki, aby móc je otworzyć później."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:46
+msgid "To save a session:"
+msgstr "Aby zapisać sesję:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:48
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Tools</gui> <gui style=\"tab\">Save Session…</gui></guiseq>"
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Narzędzia</gui> <gui style=\"tab\">Zapisz sesję…</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:56
+msgid "Open a session"
+msgstr "Otwieranie sesji"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:57
+msgid "Open all the files from an already saved session."
+msgstr "Otwórz wszystkie pliki z poprzednio zapisanej sesji."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:59
+msgid "To open a session:"
+msgstr "Aby otworzyć sesję:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:61
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Tools</gui></guiseq>"
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Narzędzia</gui>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:65
+msgid "Select one of the saved sessions from the menu."
+msgstr "Wybierz jedną z zapisanych sesji z menu."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:71
+msgid "Manage Sessions"
+msgstr "Zarządzanie sesjami"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:72
+msgid "Open and delete your already saved sessions"
+msgstr "Otwieraj i usuwaj poprzednio zapisane sesje."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:74
+msgid "Manage sessions"
+msgstr "Zarządzanie sesjami"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:76
+msgid ""
+"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Tools</gui> <gui style=\"tab\">Manage Saved Sessions…</gui></guiseq>"
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
+"\">Narzędzia</gui> <gui style=\"tab\">Zarządzaj zapisanymi sesjami…</gui></"
+"guiseq>."
+
+#. (itstool) path: credit/name
 #: C/terminal.page:16 C/text-size.page:16 C/word-completion.page:19
 msgid "Sindhu S"
 msgstr "Sindhu S"
@@ -961,16 +1090,6 @@ msgstr "Włączanie osadzonego terminalu"
 #: C/terminal.page:36
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr "Aby włączyć wtyczkę <app>Osadzony terminal</app>:"
-
-#. (itstool) path: item/p
-#: C/terminal.page:38 C/text-size.page:37 C/translate.page:30
-#: C/zeitgeist-dataprovider.page:28
-msgid ""
-"Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-"\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
-msgstr ""
-"Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-"\">Preferencje</gui> <gui style=\"tab\">Wtyczki</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/terminal.page:43
@@ -1074,11 +1193,6 @@ msgid ""
 msgstr ""
 "Nacisnąć klawisze <keyseq><key>Ctrl</key><key>0</key></keyseq>, aby "
 "<em>przywrócić</em> domyślny rozmiar tekstu."
-
-#. (itstool) path: credit/name
-#: C/translate.page:11
-msgid "Jordi Mas i Hernàndez"
-msgstr "Jordi Mas i Hernàndez"
 
 #. (itstool) path: info/desc
 #: C/translate.page:17
