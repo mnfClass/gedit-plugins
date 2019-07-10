@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-07-04 21:35+0000\n"
+"POT-Creation-Date: 2019-07-05 17:00+0000\n"
 "PO-Revision-Date: 2019-07-04 23:48+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -491,17 +491,17 @@ msgstr "Alinea els punts d'edició"
 msgid "Align edit points with additional space"
 msgstr "Alinea els punts d'edició amb espais addicionals"
 
-#: plugins/sessionsaver/sessionsaver/appactivable.py:55
-msgid "_Manage Saved Sessions..."
-msgstr "_Gestiona la sessions desades..."
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Gestiona la sessions desades…"
 
-#: plugins/sessionsaver/sessionsaver/appactivable.py:58
-msgid "_Save Session..."
-msgstr "_Desa la sessió..."
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Desa la sessió…"
 
-#: plugins/sessionsaver/sessionsaver/appactivable.py:64
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
 #, python-brace-format
-msgid "Recover '{0}' Session"
+msgid "Recover “{0}” Session"
 msgstr "Recupera la sessió «{0}»"
 
 #: plugins/sessionsaver/sessionsaver/dialogs.py:153
