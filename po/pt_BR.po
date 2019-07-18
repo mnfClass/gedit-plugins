@@ -28,16 +28,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-01-28 19:23-0200\n"
+"POT-Creation-Date: 2019-07-05 17:00+0000\n"
+"PO-Revision-Date: 2019-07-18 11:08-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.31.0\n"
+"X-Generator: Gtranslator 3.32.0\n"
 "X-Project-Style: gnome\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -50,15 +50,15 @@ msgstr "Marcadores"
 msgid "Easy document navigation with bookmarks"
 msgstr "Navegação fácil de documentos com marcadores"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Alternar marcador"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Ir ao próximo marcador"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Ir ao marcador anterior"
 
@@ -75,7 +75,7 @@ msgstr "Fecha parênteses automaticamente."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Fecha parênteses automaticamente quando você insere um."
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Mapa de caracteres"
@@ -83,11 +83,6 @@ msgstr "Mapa de caracteres"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Insere caracteres especiais apenas clicando neles."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -106,11 +101,11 @@ msgstr "Comentar código"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Comenta ou descomenta um determinado bloco de código."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Co_mentar código"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Descome_ntar código"
 
@@ -126,11 +121,11 @@ msgstr "Seletor de cores"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Insere a representação hexadecimal de uma cor selecionada num diálogo."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Selecionar _cor…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Selecionar cor"
 
@@ -156,6 +151,46 @@ msgstr "Editor de esquemas de cores de código fonte"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Cria e edita o esquema de cores usado para destaque de sintaxe"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Houve um problema ao salvar o esquema"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Você escolheu criar um novo esquema,\n"
+"mas o Nome ou ID que você está usando já está sendo usado.\n"
+"\n"
+"Por favor, certifique-se de escolher um Nome e ID que não já estejam em "
+"uso.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Você não tem permissão para sobrescrever o esquema escolhido.\n"
+"Em vez disso, uma cópia será criada.\n"
+"\n"
+"Por favor, certifique-se de escolher um Nome e ID que não já estejam em "
+"uso.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Houve um problema ao abrir o arquivo"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Você parece ter esquemas com os mesmos IDs em diretórios diferentes\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -335,12 +370,23 @@ msgstr "Localiza texto em todos os arquivos de uma pasta"
 msgid "Find in Files…"
 msgstr "Localizar no Arquivos…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+#| msgid "Git"
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "acerto"
+msgstr[1] "acertos"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Nenhum resultado encontrar"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Arquivo"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Para a pesquisa"
 
@@ -377,11 +423,11 @@ msgstr "Juntar/Dividir linhas"
 msgid "Join several lines or split long ones"
 msgstr "Junta várias linhas ou divide linhas longas"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Juntar linhas"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Dividir linhas"
 
@@ -457,6 +503,43 @@ msgstr "Alinhar pontos de edição"
 msgid "Align edit points with additional space"
 msgstr "Alinha os pontos de edição com espaço adicional"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Gerenciar sessões salvas…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Salvar sessão…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Recuperar sessão “{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nome da sessão"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Salvador da sessão"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Salve ou restaure suas sessões de trabalho"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Salva sessão"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nome da sessão:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sessões salvas"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -471,30 +554,8 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Esqueça que não está usando tabulações."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Sincroniza entre LaTeX e PDF com gedit e evince"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincroniza entre LaTeX e PDF com gedit e evince."
-
-# http://www.w3.org/TR/html4/struct/links.html
-# rel = link-types [CI]
-# This attribute describes the relationship from the current document to the
-# anchor specified by the href attribute. The value of this attribute is a
-# space-separated list of link types.
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Pesquisa seguinte"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -678,12 +739,7 @@ msgstr "Terminal embutido"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Embute um terminal no painel inferior."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Al_ternar diretório"
 
@@ -696,15 +752,15 @@ msgstr "Tamanho do texto"
 msgid "Easily increase and decrease the text size"
 msgstr "Aumente e diminua o facilmente o tamanho do texto"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Tamanho _normal"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Texto m_enor"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "Texto m_aior"
 
@@ -760,21 +816,21 @@ msgstr "Chave de API para o serviço web remoto"
 msgid "Remote web service to use"
 msgstr "Serviço web remoto a ser usado"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduções fornecidas por {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Console de tradução"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduzir o texto selecionado [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Chave de API"
 
@@ -871,6 +927,29 @@ msgstr "Provedor de dados Zeitgeist"
 #: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
 msgid "Logs access and leave event for documents used with gedit"
 msgstr "Registra acesso e deixa evento para documentos usados com o gedit"
+
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Sincroniza entre LaTeX e PDF com gedit e evince"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Sincroniza entre LaTeX e PDF com gedit e evince."
+
+# http://www.w3.org/TR/html4/struct/links.html
+# rel = link-types [CI]
+# This attribute describes the relationship from the current document to the
+# anchor specified by the href attribute. The value of this attribute is a
+# space-separated list of link types.
+#~ msgid "Forward Search"
+#~ msgstr "Pesquisa seguinte"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
 
 #~ msgid "Empty Document"
 #~ msgstr "Documento vazio"
