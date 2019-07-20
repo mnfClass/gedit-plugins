@@ -1021,7 +1021,7 @@ msgid ""
 "\">Tools</gui></guiseq>"
 msgstr ""
 "Wybierz <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-"\">Narzędzia</gui>."
+"\">Narzędzia</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/session-saver.page:65
