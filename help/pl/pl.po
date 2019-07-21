@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2019-07-05 17:00+0000\n"
-"PO-Revision-Date: 2019-07-07 14:00+0200\n"
+"POT-Creation-Date: 2019-07-20 09:47+0000\n"
+"PO-Revision-Date: 2019-07-21 13:32+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1238,23 +1238,34 @@ msgstr ""
 "Kliknij przycisk <gui style=\"button\">Preferencje</gui>, aby skonfigurować "
 "używany serwis tłumaczenia i parę języków."
 
+#. (itstool) path: item/p
+#: C/translate.page:43
+msgid ""
+"In case you use the Yandex translation engine, you need an API key. You can "
+"obtain a free key at <link href=\"https://tech.yandex.com/translate/"
+"\">Yandex web site</link>."
+msgstr ""
+"Do użycia serwisu tłumaczenia Yandex wymagany jest klucz API. Można uzyskać "
+"bezpłatny na stronie <link href=\"https://tech.yandex.com/translate/"
+"\">Yandex</link>."
+
 #. (itstool) path: section/title
-#: C/translate.page:47
+#: C/translate.page:50
 msgid "Using the Translate plugin"
 msgstr "Używanie wtyczki tłumaczenia"
 
 #. (itstool) path: steps/title
-#: C/translate.page:50
+#: C/translate.page:53
 msgid "To translate a text:"
 msgstr "Aby przetłumaczyć tekst:"
 
 #. (itstool) path: item/p
-#: C/translate.page:52
+#: C/translate.page:55
 msgid "Select the part of text that you would like to translate."
 msgstr "Zaznacz część tekstu do przetłumaczenia."
 
 #. (itstool) path: item/p
-#: C/translate.page:55
+#: C/translate.page:58
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1263,7 +1274,7 @@ msgstr ""
 "kontekstowego, aby go przetłumaczyć."
 
 #. (itstool) path: item/p
-#: C/translate.page:56
+#: C/translate.page:59
 msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
