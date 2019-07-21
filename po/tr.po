@@ -7,366 +7,381 @@
 # Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
 # Muhammet Kara <muhammetk@gmail.com>, 2014.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gedit&k"
-"eywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2015-06-11 05:26+0000\n"
-"PO-Revision-Date: 2015-06-21 08:39+0000\n"
-"Last-Translator: Simge Sezgin <simgesezgin88@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2019-07-21 11:32+0000\n"
+"PO-Revision-Date: 2019-07-21 17:41+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.1.1\n"
+"X-Generator: Gtranslator 3.32.1\n"
 "X-POOTLE-MTIME: 1434875960.000000\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
-#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
 msgid "Bookmarks"
-msgstr "Yerimleri"
+msgstr "Yer İmleri"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
-#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Yerimleri aracılığıyla belgelerde kolay gezinme"
+msgstr "Yer imleri aracılığıyla belgelerde kolay gezinme"
 
-#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
-msgstr "Yerimi Değiştir"
+msgstr "Yer İmi Değiştir"
 
-#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
-msgstr "Sonraki Yerimine Git"
+msgstr "Sonraki Yer İmine Git"
 
-#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
-msgstr "Önceki Yerimine Git"
+msgstr "Önceki Yer İmine Git"
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
-#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:1
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
 msgid "Bracket Completion"
 msgstr "Parantez Tamamlama"
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "Parantez kapanışını otomatik ekler."
+msgstr "Parantez kapanışını kendiliğinden ekler."
 
-#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:2
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
 msgid "Automatically add a closing bracket when you insert one"
-msgstr "Parantez açtığınızda kapanışını otomatik ekle"
+msgstr "Parantez açtığınızda kapanışını kendiliğinden ekle"
 
-#. ex:et:ts=4:
-#: ../plugins/charmap/charmap/__init__.py:49
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Karakter Haritası"
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
-msgstr "Sadece üstlerine tıklayarak özel karakterler ekle."
+msgstr "Yalnızca üstlerine tıklayarak özel karakterler ekle."
 
-#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:1
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
 msgstr "Karakter haritası"
 
-#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:2
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
 msgid "Select characters from a character map"
 msgstr "Karakter haritasından karakterler seç"
 
-#. ex:ts=4:et:
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
 msgid "Code Comment"
 msgstr "Kod Açıklaması"
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
 msgstr ""
 "Seçilen bir kod bloğunu açıklama olarak işaretle ya da açıklama işaretini "
 "kaldır."
 
-#: ../plugins/codecomment/codecomment.py:111
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Kodu Aç_ıklama olarak İşaretle"
 
-#: ../plugins/codecomment/codecomment.py:117
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Kodun A_çıklama İşaretini Kaldır"
 
-#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:2
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
 msgid "Comment or uncomment blocks of code"
 msgstr "Kod bloğunu açıklama olarak işaretle ya da açıklama işaretini kaldır"
 
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
 msgid "Color Picker"
 msgstr "Renk Seçici"
 
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr "İletişim penceresinden bir renk seç ve onun onaltılık gösterimini ekle."
+msgstr ""
+"İletişim penceresinden bir renk seç ve onun onaltılık gösterimini ekle."
 
-#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:1
-msgid "Color picker"
-msgstr "Renk seçici"
-
-#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:2
-msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
-msgstr "İletişim penceresinden bir renk seç ve ekle (HTML, CSS, PHP için)"
-
-#: ../plugins/colorpicker/colorpicker.py:129
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "_Renk Seç…"
 
-#: ../plugins/colorpicker/colorpicker.py:169
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Renk Seç"
 
-#. ex:ts=4:et:
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:1
-#: ../plugins/colorschemer/schemer/__init__.py:40
-#: ../plugins/colorschemer/schemer.ui.h:1
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Renk seçici"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "İletişim penceresinden bir renk seç ve ekle (HTML, CSS, PHP için)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
 msgid "Color Scheme Editor"
 msgstr "Renk Şeması Düzenleyici"
 
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
 msgid "Source code color scheme editor"
 msgstr "Kaynak kodu renk şeması düzenleyici"
 
-#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:2
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr ""
 "Sözdizimi vurgulaması için kullanılacak renk şemasını oluştur ve düzenle"
 
-#: ../plugins/colorschemer/schemer.ui.h:2
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Şemayı kaydederken sorun oluştu"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Yeni şema oluşturmayı seçtiniz\n"
+"kullandığınız Ad veya ID zaten kullanılımda.\n"
+"\n"
+"Lütfen kullanılmayan Ad ve ID seçtiğinizden emin olun.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Seçtiğiniz şemanın üstüne yazmaya izniniz yok.\n"
+"Bunun yerine kopyası oluşturulacak.\n"
+"\n"
+"Lütfen kullanılmayan Ad ve ID seçtiğinizden emin olun.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Dosyayı açarken sorun oluştu"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Farklı dizinlerde aynı IDʼli şemalara sahipsiniz gibi görünüyor\n"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
 msgstr "Kalın"
 
-#: ../plugins/colorschemer/schemer.ui.h:3
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
 msgid "Italic"
 msgstr "Eğik"
 
-#: ../plugins/colorschemer/schemer.ui.h:4
-#| msgid "Underlined text style"
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
 msgid "Underline"
 msgstr "Altını çiz"
 
-#: ../plugins/colorschemer/schemer.ui.h:5
-#| msgid "Strike-through text"
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
 msgid "Strikethrough"
 msgstr "Üstü çizili"
 
-#: ../plugins/colorschemer/schemer.ui.h:6
-#| msgid "Background color"
+#: plugins/colorschemer/schemer.ui:243
 msgid "Pick the background color"
 msgstr "Arkaplan rengini seç"
 
-#: ../plugins/colorschemer/schemer.ui.h:7
-#| msgid "Background color"
+#: plugins/colorschemer/schemer.ui:259
 msgid "Pick the foreground color"
 msgstr "Önplan rengini seç"
 
-#: ../plugins/colorschemer/schemer.ui.h:8
+#: plugins/colorschemer/schemer.ui:270
 msgid "_Background"
 msgstr "_Arkaplan"
 
-#: ../plugins/colorschemer/schemer.ui.h:9
+#: plugins/colorschemer/schemer.ui:288
 msgid "_Foreground"
 msgstr "_Önplan"
 
-#: ../plugins/colorschemer/schemer.ui.h:10
+#: plugins/colorschemer/schemer.ui:341
 msgid "_Clear "
 msgstr "_Temizle "
 
-#: ../plugins/colorschemer/schemer.ui.h:11
+#: plugins/colorschemer/schemer.ui:383
 msgid "Name"
 msgstr "İsim"
 
-#: ../plugins/colorschemer/schemer.ui.h:12
+#: plugins/colorschemer/schemer.ui:408
 msgid "ID"
 msgstr "Kimlik (ID)"
 
-#: ../plugins/colorschemer/schemer.ui.h:13
+#: plugins/colorschemer/schemer.ui:433
 msgid "Description"
 msgstr "Açıklama"
 
-#: ../plugins/colorschemer/schemer.ui.h:14
+#: plugins/colorschemer/schemer.ui:459
 msgid "Author"
 msgstr "Yazar"
 
-#: ../plugins/colorschemer/schemer.ui.h:15
+#: plugins/colorschemer/schemer.ui:503
 msgid "Sample"
 msgstr "Örnek"
 
-#: ../plugins/commander/commander/appactivatable.py:47
+#: plugins/commander/commander/appactivatable.py:56
 msgid "Commander Mode"
 msgstr "Commander Kipi"
 
-#. vi:ex:ts=4:et
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:1
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
 msgid "Commander"
 msgstr "Commander"
 
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:2
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
 msgid "Command line interface for advanced editing"
 msgstr "Gelişmiş düzenleme için komut satırı arayüzü"
 
-#: ../plugins/dashboard/dashboard/dashboard.py:117
-msgid "Empty Document"
-msgstr "Boş Belge"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search…"
-msgstr "Aramak için buraya yazın…"
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:1
-msgid "Dashboard"
-msgstr "Kontrol Paneli"
-
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr "Yeni sekmeler için kontrol paneli"
-
-#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:2
-msgid "Displays a grid of recently/most used files upon opening a new tab"
-msgstr "Yeni bir sekme açıldığında son/sık kullanılan dosyaları gösterir"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Boşlukları Çiz"
 
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
 msgstr "Sekmeleri ve boşlukları çiz"
 
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:1
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:1
-msgid "Draw spaces"
-msgstr "Boşlukları çiz"
-
-#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:2
-msgid "Draw Spaces and Tabs"
-msgstr "Boşlukları ve Sekmeleri Çiz"
-
-#: ../plugins/drawspaces/gedit-drawspaces-app-activatable.c:166
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "_Boşluğu Göster"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:2
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Boşlukları çiz"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
 msgid "Draw tabs"
 msgstr "Sekmeleri çiz"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:3
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
 msgid "Draw new lines"
 msgstr "Yeni satırları çiz"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:4
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
 msgid "Draw non-breaking spaces"
 msgstr "Bölünemez boşlukları çiz"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:5
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
 msgid "Draw leading spaces"
 msgstr "Önde gelen boşlukları çiz"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:6
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
 msgid "Draw spaces in text"
 msgstr "Metindeki boşlukları çiz"
 
-#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:7
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
 msgid "Draw trailing spaces"
 msgstr "Sondaki boşlukları çiz"
 
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr "Eğer SEÇİLİYSE çizme etkinleştirilecektir."
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Boşlukları ve Sekmeleri Çiz"
 
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Eğer DOĞRU ise çizme etkinleştirilecektir."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
 msgid "The type of spaces to be drawn."
 msgstr "Çizilecek boşlukların türü."
 
-#. namespace FindInFilesPlugin
-#. namespace Gedit
-#: ../plugins/findinfiles/dialog.vala:53
-#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:1
-#: ../plugins/findinfiles/dialog.ui.h:1
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
 msgid "Find in Files"
 msgstr "Dosyalarda Bul"
 
-#: ../plugins/findinfiles/dialog.vala:58
-#: ../plugins/findinfiles/result-panel.vala:63
-#: ../plugins/findinfiles/dialog.ui.h:2
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
 msgid "_Close"
 msgstr "_Kapat"
 
-#: ../plugins/findinfiles/plugin.vala:159
-msgid "Find in Files…"
-msgstr "Dosyalarda Bul…"
-
-#: ../plugins/findinfiles/result-panel.vala:195
-msgid "No results found"
-msgstr "Sonuç bulunamadı"
-
-#. The stop button is showed in the bottom-left corner of the TreeView
-#: ../plugins/findinfiles/result-panel.vala:217
-msgid "Stop the search"
-msgstr "Aramayı durdur"
-
-#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:2
-msgid "Find text in all files of a folder."
-msgstr "Klasörün bütün dosyalarında metin bul."
-
-#: ../plugins/findinfiles/dialog.ui.h:3
+#: plugins/findinfiles/dialog.ui:39
 msgctxt "label of the find button"
 msgid "_Find"
 msgstr "_Bul"
 
-#: ../plugins/findinfiles/dialog.ui.h:4
+#: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind "
 msgstr "B_ul "
 
-#: ../plugins/findinfiles/dialog.ui.h:5
+#: plugins/findinfiles/dialog.ui:99
 msgid "_In "
 msgstr "_İçinde "
 
-#: ../plugins/findinfiles/dialog.ui.h:6
+#: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
 msgstr "Bir _klasör seç"
 
-#: ../plugins/findinfiles/dialog.ui.h:7
+#: plugins/findinfiles/dialog.ui:130
 msgid "_Match case"
 msgstr "Büyük/küçük harf _eşleştir"
 
-#: ../plugins/findinfiles/dialog.ui.h:8
+#: plugins/findinfiles/dialog.ui:146
 msgid "Match _entire word only"
-msgstr "Sadece _tüm kelimeyi eşleştir"
+msgstr "Yalnızca _tüm sözcüğü eşleştir"
 
-#: ../plugins/findinfiles/dialog.ui.h:9
+#: plugins/findinfiles/dialog.ui:162
 msgid "Re_gular expression"
 msgstr "Dü_zenli ifade"
 
-#: ../plugins/git/git.plugin.desktop.in.in.h:1
-#: ../plugins/git/gedit-git.metainfo.xml.in.h:1
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Klasörün bütün dosyalarında metin bul."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Klasörün bütün dosyalarında metin bul"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "Dosyalarda Bul…"
+
+#: plugins/findinfiles/result-panel.vala:127
+#| msgid "Git"
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "vuruş"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Sonuç bulunamadı"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Dosya"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Aramayı durdur"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
 msgid "Git"
 msgstr "Git"
 
-#: ../plugins/git/git.plugin.desktop.in.in.h:2
-msgid "Highlight lines that have been changed since the last commit"
-msgstr "Son gönderiminizden bu yana değişen satırları vurgula"
-
-#: ../plugins/git/gedit-git.metainfo.xml.in.h:2
+#: plugins/git/gedit-git.metainfo.xml.in:7
 msgid ""
 "Use git information to display which lines and files changed since last "
 "commit"
@@ -374,166 +389,195 @@ msgstr ""
 "Son gönderiminizden bu yana değişen dosya ve satırları göstermek için git "
 "bilgilerini kullan"
 
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "Satırları Birleştir/Böl"
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Son gönderiminizden bu yana değişen satırları vurgula"
 
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "Birkaç satırı birleştir ya da uzun olanları böl"
-
-#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:1
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
 msgid "Join lines/ Split lines"
 msgstr "Satırları birleştir/ Satırları böl"
 
-#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:2
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Ctrl+J ve Ctrl+Shift+J sayesinde birçok satırı birleştir ya da böl"
 
-#: ../plugins/joinlines/joinlines.py:107
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Satırları Birleştir/Böl"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Birkaç satırı birleştir ya da uzun olanları böl"
+
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "Satırları _Birleştir"
 
-#: ../plugins/joinlines/joinlines.py:113
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "Satırları _Böl"
 
-#: ../plugins/multiedit/multiedit/appactivatable.py:36
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1349
-msgid "Multi Edit Mode"
-msgstr "Çoklu Düzenleme Kipi"
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr "Çoklu Düzenleme"
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr "Aynı anda çeşitli yerlerde belge düzenle"
-
-#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:1
-#| msgid "Multiple"
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
 msgid "Multi edit"
 msgstr "Çoklu düzenleme"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:315
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Aynı anda çeşitli yerlerde belge düzenle"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Çoklu Düzenleme Kipi"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Çoklu Düzenleme"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
 msgid "Added edit point…"
 msgstr "Düzenleme noktası eklendi…"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:657
+#: plugins/multiedit/multiedit/viewactivatable.py:659
 msgid "Column Mode…"
 msgstr "Sütun Kipi…"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:775
+#: plugins/multiedit/multiedit/viewactivatable.py:777
 msgid "Removed edit point…"
 msgstr "Düzenleme noktasını kaldır…"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:941
+#: plugins/multiedit/multiedit/viewactivatable.py:943
 msgid "Cancelled column mode…"
 msgstr "Sütun kipi iptal edildi…"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1304
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
 msgid "Enter column edit mode using selection"
 msgstr "Seçim kullanan sütun düzenleme kipine girin"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1305
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
 msgid "Enter <b>smart</b> column edit mode using selection"
 msgstr "Seçim kullanan <b>akıllı</b> sütun düzenleme kipine girin"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1306
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
 msgid "<b>Smart</b> column align mode using selection"
 msgstr "Seçim kullanan <b>akıllı</b> sütun hizalama kipi"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1307
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
 msgid "<b>Smart</b> column align mode with additional space using selection"
 msgstr "Seçim kullanan ek alanlı <b>akıllı</b> sütun hizalama kipi"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1309
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
 msgid "Toggle edit point"
 msgstr "Düzenleme noktası değiştir"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1310
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
 msgid "Add edit point at beginning of line/selection"
 msgstr "Satırın/seçimin başlangıcına düzenleme noktası ekle"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1311
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
 msgid "Add edit point at end of line/selection"
 msgstr "Satırın/seçimin sonuna düzenleme noktası ekle"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1312
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
 msgid "Align edit points"
 msgstr "Düzenleme noktalarını hizala"
 
-#: ../plugins/multiedit/multiedit/viewactivatable.py:1313
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
 msgid "Align edit points with additional space"
 msgstr "Ek alanlar ile düzenleme noktalarını hizala"
 
-#. ex:ts=4:et:
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
-#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:1
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "Kaydedilen Oturumları _Yönets…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "Oturumu _Kaydet…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "“{0}” Oturumunu Kurtar"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Oturum Adı"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Oturum Kaydedici"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Çalışma oturumlarınızı kaydedin ve kurtarın"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Oturumu kaydet"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Oturum adı:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Kaydedilen Oturumlar"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Akıllı Boşluklar"
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
-msgid "Forget you're not using tabulations."
-msgstr "Listeleme kullanmıyorsanız unutun."
-
-#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
-msgid "Allow to unindent like if you were using tabs while you're using spaces"
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr "Boşluk kullanırken sekme kullanırsanız girintilemeye izin verme"
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
-#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:1
-msgid "SyncTeX"
-msgstr "SyncTeX"
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you’re not using tabulations."
+msgstr "Listeleme kullanmıyorsanız unutun."
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Gedit ve evince ile LaTeX ve PDF eşitle."
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:314
+msgid "Terminal"
+msgstr "Uçbirim"
 
-#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Gedit ve evince ile LaTeX ve PDF eşitle"
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Alt panodan erişilebilir basit bir uçbirim parçacığı"
 
-#: ../plugins/synctex/synctex/synctex.py:342
-msgid "Forward Search"
-msgstr "İleri Arama"
-
-#. ex:ts=4:et:
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
 msgstr "Uçbirim zilinin kapatılıp kapatılmaması"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
 "Eğer seçiliyse, uygulamalar çıkış isteği gönderdiğinde uçbirim zili ses "
 "çıkarmaz."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
 msgid "Number of lines to keep in scrollback"
 msgstr "Geri kaydırmak için tutulacak satır sayısı"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
 "discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
-"Etrafında tutulacak geri kaydırma satır sayısı. Bu satır sayısına göre "
+"Etrafta tutulacak geri kaydırma satır sayısı. Bu satır sayısına göre "
 "uçbirimde geri kaydırabilirsiniz; geri kaydırmaya uymayan satırlar atılır. "
 "Eğer sınırsız geri kaydırma seçildiyse, bu değer yoksayılır."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
 "Geri kaydırmada sınırsız satır sayısının tutulmasının gerekip gerekmemesi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -543,76 +587,76 @@ msgstr ""
 "geçici olarak diskte depolanır, bu yüzden eğer uçbirimde çok fazla çıktı "
 "varsa, bu seçenek sistem disk alanının dolmasına neden olabilir."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Bir tuşa basıldığında en alta ilerleyip ilerlenmemesi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Eğer seçiliyse, bir tuşa basmak kaydırma çubuğunu en alta götürür."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Yeni çıktı oluştuğunda alta kaydırılıp kaydırılmaması"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
 msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr "Eğer seçiliyse, yeni bir çıktı oluştuğunda uçbirim en alta kayacak."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
 msgid "Whether to allow bold text"
 msgstr "Kalın metne izin verilip verilmemesi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "Eğer seçiliyse, terminaldeki uygulamaların kalın metin yazmalarını sağlar."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Uçbirimdeki metnin öntanımlı rengi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
 "Uçbirimdeki metnin öntanımlı rengi, bir renk belirtimi olarak (HTML-biçemi "
-"onaltılık sayı ya da \"kırmızı\" gibi renk adı olabilir)."
+"onaltılık sayı ya da “kırmızı“ gibi renk adı olabilir)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
 msgid "Default color of terminal background"
 msgstr "Uçbirim arkaplanının öntanımlı rengi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
 "Uçbirim arkaplanının öntanımlı rengi, bir renk belirtimi olarak (HTML biçemi "
-"onaltılık sayı ya da \"kırmızı\" gibi bir renk olabilir)."
+"onaltılık sayı ya da “kırmızı“ gibi bir renk olabilir)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
 msgid "Palette for terminal applications"
 msgstr "Uçbirim uygulamaları için palet"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
-"names. Color names should be in hex format e.g. \"#FF00FF\""
+"names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
 "Uçbirimlerin, içlerindeki uygulamaların kullanabileceği 16 renkli paleti "
 "vardır. Bu palet, renk adlarının iki nokta ile ayrılmış listesi "
-"biçimindedir. Renk adları onaltılık biçimde yani \"#FF00FF\" şeklinde "
+"biçimindedir. Renk adları onaltılık biçimde yani “#FF00FF“ şeklinde "
 "olmalıdır."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Uçbirim parçacığı için temadan renklerin kullanılıp kullanılmaması"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -620,166 +664,274 @@ msgstr ""
 "Eğer seçiliyse, kullanıcı tarafından sağlanan renklerin yerine metin giriş "
 "kutuları için kullanılan tema renk şeması, uçbirim için kullanılacaktır."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
 msgid "Whether to blink the cursor"
 msgstr "İmlecin yanıp sönmesi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Genel imleç yanıp sönme ayarlarını kullanmak için \"system\" ya da kipi "
-"ayarlamak için \"on\" ya da \"off\" olası değerlerdir."
+"Genel imleç yanıp sönme ayarlarını kullanmak için “system“ ya da kipi "
+"ayarlamak için “on“ ya da “off“ olası değerlerdir."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
 msgid "The cursor appearance"
 msgstr "İmleç görünümü"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Blok imleç kullanmak için \"block\", dikey çizgi şeklinde bir imleç "
-"kullanmak için \"ibeam\" ya da altçizgi şeklinde imleç kullanmak için \""
-"underline\" olası değerlerdir."
+"Blok imleç kullanmak için “block“, dikey çizgi şeklinde bir imleç kullanmak "
+"için “ibeam“ ya da altçizgi şeklinde imleç kullanmak için “underline“ olası "
+"değerlerdir."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
 msgid "Whether to use the system font"
 msgstr "Sistem yazı tipinin kullanıp kullanılmaması"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Eğer seçiliyse, uçbirim eş aralıklıysa genel-masaüstü standart yazı tipini "
+"Eğer seçiliyse, uçbirim eş aralıklıysa genel masaüstü standart yazı tipini "
 "kullanacak (aksi takdirde benzer yazı tipi önerebilir)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
 msgid "Font"
 msgstr "Yazı tipi"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
-msgstr ""
-"Pango yazı tipi adı. Örnek olarak \"Sans 12\" ya da \"Monospace Bold 14\"."
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Pango yazı tipi adı. Örnek olarak “Sans 12” ya da “Monospace Bold 14”."
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
 msgstr "Gömülü Uçbirim"
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
 msgstr "Alt bölmeye bir uçbirim gömüldü."
 
-#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:1
-#: ../plugins/terminal/terminal.py:311
-msgid "Terminal"
-msgstr "Uçbirim"
-
-#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:2
-msgid "A simple terminal widget accessible from the bottom panel"
-msgstr "Alt panodan erişilebilir basit bir uçbirim parçacığı"
-
-#: ../plugins/terminal/terminal.py:332
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Dizini D_eğiştir"
 
-#: ../plugins/textsize/textsize/__init__.py:50
-#| msgid "No resize"
-msgid "_Normal size"
-msgstr "_Normal boyut"
-
-#: ../plugins/textsize/textsize/__init__.py:52
-#| msgid "Small text style"
-msgid "S_maller Text"
-msgstr "D_aha Küçük Metin"
-
-#: ../plugins/textsize/textsize/__init__.py:54
-#| msgid "Large text style"
-msgid "_Larger Text"
-msgstr "_Daha Büyük Metin"
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Text Size"
-msgstr "Metin Boyutu"
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "Metin boyutunu kolayca arttır ya da azalt"
-
-#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:1
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
 msgid "Text size"
 msgstr "Metin boyutu"
 
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "Metin boyutunu kolayca arttır ya da azalt"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "_Olağan boyut"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "D_aha Küçük Metin"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "_Daha Büyük Metin"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Metin Boyutu"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Çevir"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Metni farklı dillere çevir"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Çeviri çıktısının gösterileceği yer"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr ""
+"Doğruysa, çevirinin çıktısı Çevirinin Çıktısı Penceresinde değilse belge "
+"penceresine eklenir."
+
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+msgid "'eng|spa'"
+msgstr "'tr|en'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "Language pair used"
+msgstr "Kullanılan dil çifti"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used to translate from one language to another"
+msgstr "Bir dilden diğerine çeviri yapmak için kullanılacak dil çifti"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+msgid "API key for remote web service"
+msgstr "Uzak web servisi için API anahtarı"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+msgid "Remote web service to use"
+msgstr "Kullanılacak uzak web servisi"
+
+#: plugins/translate/translate/__init__.py:72
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Çeviriler {0} ile desteklenmiştir"
+
+#: plugins/translate/translate/__init__.py:75
+msgid "Translate Console"
+msgstr "Çeviri Konsolu"
+
+#: plugins/translate/translate/__init__.py:157
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Seçilen metni çevir [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API Anahtarı"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/"
+"translate/</a> adresinden ücretsiz bir API anahtarı edinmeniz gerekiyor"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Çeviri dilleri:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Çeviri çıktısı nerede gösterilsin:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Aynı belge penceresi"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Çeviri konsolu (alt pano)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Çeviri servisi:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
 msgid "Interactive completion"
 msgstr "Etkileşimli tamamlama"
 
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
 msgid "Minimum word size:"
-msgstr "Asgari kelime boyutu:"
+msgstr "Asgari sözcük boyutu:"
 
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Sözcük tamamlama"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Belgede zaten var olan sözcükleri kullanarak kendiliğinden tamamlama öner"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
 msgid "Document Words"
-msgstr "Belge Kelimeleri"
+msgstr "Belge Sözcükleri"
 
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
 msgid "Interactive Completion"
 msgstr "Etkileşimli Tamamlama"
 
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
 msgid "Whether to enable interactive completion."
 msgstr "Etkileşimli tamamlamanın etkinleştirilip etkinleştirilmemesi."
 
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
 msgid "Minimum Word Size"
-msgstr "Asgari Kelime Boyutu"
+msgstr "Asgari Sözcük Boyutu"
 
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
-msgstr "Tamamlamak için asgari kelime boyutu."
+msgstr "Tamamlamak için asgari sözcük boyutu."
 
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr "Kelime Tamamlama"
+msgstr "Sözcük Tamamlama"
 
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr "Tamamlama çatısını kullanarak kelime tamamlama"
+msgstr "Tamamlama çatısını kullanarak sözcük tamamlama"
 
-#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:1
-msgid "Word completion"
-msgstr "Kelime tamamlama"
-
-#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:2
-msgid ""
-"Propose automatic completion using words already present in the document"
-msgstr "Belgede zaten mevcut kelimeleri kullanarak otomatik tamamlama öner"
-
-#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist veri sağlayıcısı"
-
-#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "Gedit ile kullanılan belgeler için erişim ve izin olaylarını kaydeder"
-
-#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:1
+#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
 msgid "Zeitgeist Data provider"
 msgstr "Zeitgeist Veri sağlayıcısı"
 
-#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:2
+#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
 msgid ""
 "Records user activity and giving easy access to recently-used and frequently-"
 "used files"
 msgstr ""
 "Son kullanılan ve sık kullanılan dosyalara kolay erişim vererek kullanıcı "
 "etkinliğini kaydeder"
+
+#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
+msgid "Zeitgeist dataprovider"
+msgstr "Zeitgeist veri sağlayıcısı"
+
+#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
+msgid "Logs access and leave event for documents used with gedit"
+msgstr "Gedit ile kullanılan belgeler için erişim ve izin olaylarını kaydeder"
+
+#~ msgid "Forward Search"
+#~ msgstr "İleri Arama"
+
+#~ msgid "Empty Document"
+#~ msgstr "Boş Belge"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Aramak için buraya yazın…"
+
+#~ msgid "Dashboard"
+#~ msgstr "Kontrol Paneli"
+
+#~ msgid "A Dashboard for new tabs"
+#~ msgstr "Yeni sekmeler için kontrol paneli"
+
+#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
+#~ msgstr "Yeni bir sekme açıldığında son/sık kullanılan dosyaları gösterir"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Gedit ve evince ile LaTeX ve PDF eşitle"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Gedit ve evince ile LaTeX ve PDF eşitle."
 
 #, fuzzy
 #~ msgid "Pick _Color..."
@@ -830,14 +982,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Open the saved session manager"
 #~ msgstr "Gedit kılavuzunu aç"
-
-#, fuzzy
-#~ msgid "Save session"
-#~ msgstr "Farklı Kaydet..."
-
-#, fuzzy
-#~ msgid "Session name:"
-#~ msgstr "Yazıtipi yüzü"
 
 #~ msgid "Tags"
 #~ msgstr "Etiketler"
@@ -1234,9 +1378,6 @@ msgstr ""
 
 #~ msgid "Label"
 #~ msgstr "Etiket"
-
-#~ msgid "Language code"
-#~ msgstr "Dil kodu"
 
 #~ msgid "Layer"
 #~ msgstr "Katman"
