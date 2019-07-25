@@ -21,15 +21,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-28 19:43+0000\n"
-"PO-Revision-Date: 2019-06-19 12:34+0200\n"
+"POT-Creation-Date: 2019-07-05 17:00+0000\n"
+"PO-Revision-Date: 2019-07-25 11:53+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: es <gnome-es-list@gnome.org>\n"
-"Language: es\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.32.0\n"
+"X-Generator: Gtranslator 3.32.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -150,11 +150,6 @@ msgid "There was a problem saving the scheme"
 msgstr "Hubo un problema al guardar el esquema"
 
 #: plugins/colorschemer/schemer/schemer.py:272
-#| msgid ""
-#| "You have choosen to create a new scheme\n"
-#| "but the Name or ID you are using is being used already.\n"
-#| "\n"
-#| "Please be sure to choose a Name and ID that are not already in use.\n"
 msgid ""
 "You have chosen to create a new scheme\n"
 "but the Name or ID you are using is being used already.\n"
@@ -167,11 +162,6 @@ msgstr ""
 "Asegúrese de elegir un Nombre e ID que no esté en uso.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
-#| msgid ""
-#| "You do not have permission to overwrite the scheme you have choosen.\n"
-#| "Instead a copy will be created.\n"
-#| "\n"
-#| "Please be sure to choose a Name and ID that are not already in use.\n"
 msgid ""
 "You do not have permission to overwrite the scheme you have chosen.\n"
 "Instead a copy will be created.\n"
@@ -503,6 +493,46 @@ msgstr "Alinear puntos de edición"
 #: plugins/multiedit/multiedit/viewactivatable.py:1315
 msgid "Align edit points with additional space"
 msgstr "Alinear los puntos de edición con espacio adicional"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+#| msgid "_Manage saved sessions..."
+msgid "_Manage Saved Sessions…"
+msgstr "_Gestionar las sesiones guardadas…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+#| msgid "Saved Sessions"
+msgid "_Save Session…"
+msgstr "_Guardar sesión…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+#| msgid "Recover '%s' session"
+msgid "Recover “{0}” Session"
+msgstr "Recuperar la sesión «%{0}»"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nombre de la sesión"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Salvasesiones"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Guarde y restablezca sus sesiones de trabajo"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Guardar la sesión"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nombre de la sesión:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sesiones guardadas"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
@@ -1005,12 +1035,6 @@ msgstr ""
 #~ msgid "Recently Used"
 #~ msgstr "Usados recientemente"
 
-#~ msgid "Session Name"
-#~ msgstr "Nombre de la sesión"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Recuperar la sesión «%s»"
-
 #~ msgid "Sa_ved sessions"
 #~ msgstr "Sesiones guar_dadas"
 
@@ -1020,26 +1044,8 @@ msgstr ""
 #~ msgid "Save the current document list as a new session"
 #~ msgstr "Guardar la lista del documento actual como una nueva sesión"
 
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Gestionar las sesiones guardadas…"
-
 #~ msgid "Open the saved session manager"
 #~ msgstr "Abrir el gestor de sesiones guardadas"
-
-#~ msgid "Session Saver"
-#~ msgstr "Salvasesiones"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Guarde y restablezca sus sesiones de trabajo"
-
-#~ msgid "Save session"
-#~ msgstr "Guardar la sesión"
-
-#~ msgid "Session name:"
-#~ msgstr "Nombre de la sesión:"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Sesiones guardadas"
 
 #~ msgid "Tags"
 #~ msgstr "Etiquetas"
