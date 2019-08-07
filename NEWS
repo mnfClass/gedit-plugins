@@ -1,3 +1,16 @@
+=====================
+gedit-plugins 3.33.90
+=====================
+Development release
+- Switch from Autotools to Meson (Martin)
+- Add CI to test buildability and enforce Flake8 (Jordi)
+- Add new session saver plugin (Jordi)
+- Remove synctex plugin (Jordi)
+- Update Commander activation shortcut to Ctrl+, (Jordi)
+- Many more fixes (Baschdel, Jordi, Piotr)
+
+Contributors: Baschdel, Martin Blanchard, Piotr Drąg, Jordi Mas
+
 ====================
 gedit-plugins 3.32.2
 ====================
