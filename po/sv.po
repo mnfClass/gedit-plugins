@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-04-28 17:26+0000\n"
-"PO-Revision-Date: 2019-08-26 12:39+0200\n"
+"POT-Creation-Date: 2019-08-26 10:40+0000\n"
+"PO-Revision-Date: 2019-08-27 21:29+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -33,15 +33,15 @@ msgstr "Bokmärken"
 msgid "Easy document navigation with bookmarks"
 msgstr "Enkel dokumentnavigering med bokmärken"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Växla bokmärken"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Gå till nästa bokmärke"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Gå till föregående bokmärke"
 
@@ -58,7 +58,7 @@ msgstr "Lägger automatiskt till avslutande parenteser."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Lägg automatiskt till en avslutande parentes när du infogar en"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Teckentabell"
@@ -84,11 +84,11 @@ msgstr "Kodkommentar"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Kommentera ut eller avkommentera ett markerat kodblock."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Ko_mmentera kod"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "A_vkommentera kod"
 
@@ -104,11 +104,11 @@ msgstr "Färgväljare"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Välj en färg från en dialog och infoga dess hexadecimala motsvarighet."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Välj _färg…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Välj färg"
 
@@ -134,6 +134,44 @@ msgstr "Färgschemaredigerare för källkod"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Skapa och redigera färgschemat för syntaxmarkering"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Det uppstod ett problem vid sparande av schemat"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har valt att skapa ett nytt schema\n"
+"men namn eller ID som du använder används redan.\n"
+"\n"
+"Se till att välja ett namn och ID som inte redan används.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har inte rättighet att skriva över schemat som du valt.\n"
+"En kopia kommer att skapas istället.\n"
+"\n"
+"Se till att välja ett namn och ID som inte redan används.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Det uppstod ett problem vid öppnandet av filen"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Du verkar ha scheman med samma ID i olika kataloger\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -169,7 +207,7 @@ msgstr "_Förgrund"
 
 #: plugins/colorschemer/schemer.ui:341
 msgid "_Clear "
-msgstr "_Töm"
+msgstr "_Töm "
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -313,12 +351,22 @@ msgstr "Sök text i alla filer för en mapp"
 msgid "Find in Files…"
 msgstr "Sök i filer…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "träff"
+msgstr[1] "träffar"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Inga resultat funna"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fil"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Stoppa sökningen"
 
@@ -355,11 +403,11 @@ msgstr "Sammanfoga/Dela rader"
 msgid "Join several lines or split long ones"
 msgstr "Sammanfoga flera rader eller dela långa rader"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Sammanfoga rader"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Dela rader"
 
@@ -434,6 +482,43 @@ msgstr "Justera redigeringspunkter"
 msgid "Align edit points with additional space"
 msgstr "Justera redigeringspunkter med ytterligare blanksteg"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Hantera sparade sessioner…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Spara session…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Återställ sessionen ”{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Sessionsnamn"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Sessionssparare"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Spara och återskapa dina arbetssessioner"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Spara session"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Sessionsnamn:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sparade sessioner"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -448,25 +533,8 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Glöm att du inte använder tabulatorer."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince."
-
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Framåtsök"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -649,7 +717,7 @@ msgstr "Inbäddad terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Bädda in en terminal i bottenpanelen."
 
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Ändra _katalog"
 
@@ -662,15 +730,15 @@ msgstr "Textstorlek"
 msgid "Easily increase and decrease the text size"
 msgstr "Öka och minska textstorleken enkelt"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Normal storlek"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Min_dre text"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Större text"
 
@@ -726,21 +794,21 @@ msgstr "API-nyckel för fjärrwebbtjänst"
 msgid "Remote web service to use"
 msgstr "Fjärrwebbtjänst att använda"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Översättningar med hjälp av {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Översättningskonsol"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Översätt vald text [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API-nyckel"
 
@@ -837,6 +905,18 @@ msgstr "Zeitgeist dataleverantör"
 msgid "Logs access and leave event for documents used with gedit"
 msgstr "Loggar åtkomst- och lämnahändelser för dokument använda med gedit"
 
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
+#~ msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince"
+
+#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#~ msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince."
+
+#~ msgid "Forward Search"
+#~ msgstr "Framåtsök"
+
 #~ msgid "Empty Document"
 #~ msgstr "Tomt dokument"
 
@@ -913,34 +993,9 @@ msgstr "Loggar åtkomst- och lämnahändelser för dokument använda med gedit"
 #~ msgid "Save the current document list as a new session"
 #~ msgstr "Flytta det aktuella dokumentet till ett nytt fönster"
 
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Hantera sparade sessioner…"
-
 #, fuzzy
 #~ msgid "Open the saved session manager"
 #~ msgstr "Öppna gedit-manualen"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Återställ sessionen \"%s\""
-
-#~ msgid "Session Name"
-#~ msgstr "Sessionsnamn"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Spara och återskapa dina arbetssessioner"
-
-#~ msgid "Session Saver"
-#~ msgstr "Sessionssparare"
-
-#, fuzzy
-#~ msgid "Save session"
-#~ msgstr "_Spara med komprimering"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Sparade sessioner"
-
-#~ msgid "Session name:"
-#~ msgstr "Sessionsnamn:"
 
 #~ msgid "Tags"
 #~ msgstr "Taggar"
