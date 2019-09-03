@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-05-28 19:43+0000\n"
-"PO-Revision-Date: 2019-06-22 19:06+0200\n"
-"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"POT-Creation-Date: 2019-08-27 19:31+0000\n"
+"PO-Revision-Date: 2019-09-03 18:54+0200\n"
+"Last-Translator: gogo <linux.hr@protonmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -346,13 +346,11 @@ msgid "Find in Files…"
 msgstr "Pretraži u datotekama…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#, fuzzy
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
-msgstr[0] "Git"
-msgstr[1] "Git"
-msgstr[2] ""
+msgstr[0] "pogodak"
+msgstr[1] "pogodaka"
+msgstr[2] "pogodaka"
 
 #: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
@@ -480,6 +478,43 @@ msgstr "Poravnaj točke uređivanja"
 #: plugins/multiedit/multiedit/viewactivatable.py:1315
 msgid "Align edit points with additional space"
 msgstr "Poravnaj točke uređivanja s dodatnim razmakom"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Upravljaj spremljenim sesijama…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Spremljene sesije…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Obnovi “{0}” sesiju"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Naziv sesije"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Sprematelj sesije"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Spremite i obnovite svoju radnu sesiju"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Spremi sesiju"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Naziv sesije:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Spremljene sesije"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
@@ -984,32 +1019,8 @@ msgstr "Pristup zapisima i događaji napuštanja za dokumente korištene u gedit
 #~ msgid "Save the current document list as a new session"
 #~ msgstr "Spremi trenutni popis dokumenata kao novu sesiju"
 
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Otvori upravitelja spremljenih sesija..."
-
 #~ msgid "Open the saved session manager"
 #~ msgstr "Otvori upravitelja spremljenih sesija"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Obnovi '%s' sesiju"
-
-#~ msgid "Session Name"
-#~ msgstr "Naziv sesije"
-
-#~ msgid "Session Saver"
-#~ msgstr "Sprematelj sesije"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Spremite i obnovite svoju radnu sesiju "
-
-#~ msgid "Save session"
-#~ msgstr "Spremi sesiju"
-
-#~ msgid "Session name:"
-#~ msgstr "Naziv sesije"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Spremljene sesije"
 
 #~ msgid "_ASCII Table"
 #~ msgstr "_ASCII tablica"
