@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-02-26 12:28+0000\n"
-"PO-Revision-Date: 2019-03-11 14:39+0100\n"
+"POT-Creation-Date: 2019-08-27 19:31+0000\n"
+"PO-Revision-Date: 2019-09-04 17:58+0200\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -34,15 +34,15 @@ msgstr "Segnalibri"
 msgid "Easy document navigation with bookmarks"
 msgstr "Semplice esplorazione dei documenti con i segnalibri"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Abilita/Disabilita segnalibro"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Segnalibro successivo"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Segnalibro precedente"
 
@@ -59,7 +59,7 @@ msgstr "Aggiunge automaticamente le parentesi di chiusura"
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Aggiunge automaticamente una parentesi di chiusura"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Tabella caratteri"
@@ -67,11 +67,6 @@ msgstr "Tabella caratteri"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Inserisce dei caratteri speciali semplicemente facendoci clic."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -90,11 +85,11 @@ msgstr "Commenta codice"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Commenta o de-commenta un blocco di codice selezionato."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Co_mmenta codice"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "D_e-commenta codice"
 
@@ -112,11 +107,11 @@ msgstr ""
 "Seleziona un colore da un dialogo e inserisce la sua rappresentazione "
 "esadecimale."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Se_leziona colore…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Seleziona colore"
 
@@ -142,6 +137,44 @@ msgstr "Editor schemi colori per codice sorgente"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Crea e modifica schemi colori per l'evidenziazione della sintassi"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Si è verificato un errore nel salvare lo schema"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"È stato scelto di creare un nuovo schema\n"
+"ma il nome o lo ID utilizzato è già in uso.\n"
+"\n"
+"Scegliere un nome e un ID non ancora utilizzati.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Permessi insufficienti per sovrascrivere lo schema scelto.\n"
+"Ne viene creata una copia.\n"
+"\n"
+"Scegliere un nome e un ID non ancora utilizzati.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Si è verificato un errore nell'aprire il file"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Sembra siano presenti schema con gli stessi ID in diverse directory\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -324,12 +357,22 @@ msgstr "Cerca il testo in tutti i file di una cartella"
 msgid "Find in Files…"
 msgstr "Cerca nei _file…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "corrispondenza"
+msgstr[1] "corrispondenze"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Nessun risultato trovato"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "File"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Interrompi ricerca"
 
@@ -368,12 +411,12 @@ msgstr "Unisce/Spezza righe"
 msgid "Join several lines or split long ones"
 msgstr "Unisce più righe o spezza quelle lunghe"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Unisci righe"
 
 # (NdT) voce di menù
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Dividi righe"
 
@@ -453,6 +496,43 @@ msgstr "Allinea punti di modifica"
 msgid "Align edit points with additional space"
 msgstr "Allinea i punti di modifica con spazi aggiuntivi"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Gestisci sessioni salvate…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Salva sessione…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Ripristina sessione «{0}»"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nome sessione"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Salvataggio sessione"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Salva e ripristina le sessioni di lavoro"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Salva sessione"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nome sessione:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sessioni salvate"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -468,25 +548,8 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Dimentica che non sono uso le tabulazioni."
 
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
-#: plugins/synctex/synctex.plugin.desktop.in.in:6
-msgid "SyncTeX"
-msgstr "SyncTeX"
-
-#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Sincronizza tra LaTeX e PDF con gedit ed Evince"
-
-#: plugins/synctex/synctex.plugin.desktop.in.in:7
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincronizza tra LaTeX e PDF con gedit ed Evince"
-
-#: plugins/synctex/synctex/synctex.py:343
-msgid "Forward Search"
-msgstr "Cerca in avanti"
-
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminale"
 
@@ -673,12 +736,7 @@ msgstr "Terminale integrato"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Incorpora un terminale nel riquadro inferiore"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Cambia _directory"
 
@@ -691,15 +749,15 @@ msgstr "Dimensione testo"
 msgid "Easily increase and decrease the text size"
 msgstr "Aumenta o riduce facilmente la dimensione del testo"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Dimensione _normale"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Testo _più piccolo"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "Testo più _grande"
 
@@ -755,21 +813,21 @@ msgstr "Chiave API del servizio web remoto"
 msgid "Remote web service to use"
 msgstr "Servizio web remoto da usare"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduzione fornite da {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Console di traduzione"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduci testo selezionato [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Chiave API"
 
