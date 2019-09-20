@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-07-05 17:00+0000\n"
+"POT-Creation-Date: 2019-09-20 17:17+0000\n"
 "PO-Revision-Date: 2019-07-04 23:48+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -542,6 +542,23 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Oblideu-vos que no utilitzeu les tabulacions."
 
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Cerca endavant"
+
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
 msgid "Terminal"
@@ -925,15 +942,3 @@ msgid "Logs access and leave event for documents used with gedit"
 msgstr ""
 "Registra els esdeveniments d'accés i tancament dels documents usats amb el "
 "gedit"
-
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
-
-#~ msgid "Forward Search"
-#~ msgstr "Cerca endavant"
