@@ -1,6 +1,7 @@
 # Basque translation for gedit-plugins
 # Copyright (C) 2001, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 #
+#
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007, 2008, 2010, 2014, 2015.
@@ -10,7 +11,7 @@
 msgid ""
 msgstr "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-04-28 17:26+0000\n"
+"POT-Creation-Date: 2019-09-20 17:17+0000\n"
 "PO-Revision-Date: 2019-09-25 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
@@ -31,15 +32,15 @@ msgstr "Laster-markak"
 msgid "Easy document navigation with bookmarks"
 msgstr "Nabigatu modu errazean dokumentuen artean laster-markekin"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Txandakatu laster-markak"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Joan hurrengo laster-markara"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Joan aurreko laster-markara"
 
@@ -56,7 +57,7 @@ msgstr "Automatikoki gehitzen ditu itxierako parentesiak."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Automatikoki gehitzen du itxierako parentesiak bat txertatzean"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Karaktere-mapa"
@@ -83,11 +84,11 @@ msgid "Comment out or uncomment a selected block of code."
 msgstr "Jarri edo kendu iruzkina hautatutako kodearen blokeari."
 
 #
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "_Jarri iruzkina kodeari"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "_Kendu iruzkina kodeari"
 
@@ -104,12 +105,12 @@ msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Hautatu kolore bat elkarrizketa-koadrotik eta txertatu bere adierazpen hamaseitarra."
 
 #
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Hautatu _kolorea…"
 
 #
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Hautatu kolorea"
 
@@ -135,6 +136,42 @@ msgstr "Iturburuaren kodearen kolore-eskemaren editorea"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Sortu eta editatu kolore-eskema sintaxia nabarmentzean erabiltzeko"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Arazoa gertatu da eskema gordetzean"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr "Eskema berria sortzea aukeratu duzu, baina\n"
+"erabiltzen ari zaren izena edo IDa dagoeneko erabilita dago.\n"
+"\n"
+"Ziurtatu lehendik erabilita ez dagoen izen bat eta ID bat aukeratzen duzula.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr "Ez duzu baimenik aukeratu duzun eskema gainidazteko.\n"
+"Horren ordez, kopia bat sortuko da.\n"
+"\n"
+"Ziurtatu lehendik erabilita ez dagoen izen bat eta ID bat aukeratzen duzula.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Arazoa gertatu da fitxategia irekitzean"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Badirudi ID bera duten eskemak dituzula direktorio desberdinetan\n"
 
 #
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
@@ -318,12 +355,22 @@ msgstr "Bilatu testua karpeta bateko fitxategi guztietan"
 msgid "Find in Files…"
 msgstr "Bilatu fitxategietan…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "bat etortze"
+msgstr[1] "bat etortze"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Ez da emaitzarik aurkitu"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fitxategia"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Gelditu bilaketa"
 
@@ -358,11 +405,11 @@ msgstr "Elkartu/Zatitu lerroak"
 msgid "Join several lines or split long ones"
 msgstr "Elkartu hainbat lerro edo zatitu luze batzuk"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Elkartu lerroak"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Zatitu lerroak"
 
@@ -436,6 +483,43 @@ msgstr "Lerrokatu edizio-puntuak"
 msgid "Align edit points with additional space"
 msgstr "Lerrokatu edizio-puntuak tarte gehigarriarekin"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Kudeatu gordetako saioak…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Gorde saioa…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Leheneratu “{0}” saioa"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Saioaren izena"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Saioaren gordetzailea"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Gorde eta leheneratu zure laneko saioak"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Gorde saioa"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Saioaren izena:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Gordetako saioak"
+
 #
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
@@ -463,12 +547,12 @@ msgstr "Sinkronizatu LaTeX eta PDF artean gedit eta evince-rekin."
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "Sinkronizatu LaTeX eta PDF artean gedit eta evince-rekin."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Bilatu aurrerantz"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminala"
 
@@ -621,7 +705,7 @@ msgid "Embed a terminal in the bottom pane."
 msgstr "Kapsulatu terminal bat azpiko panelean."
 
 #
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "_Aldatu direktorioa"
 
@@ -634,15 +718,15 @@ msgstr "Testuaren tamaina"
 msgid "Easily increase and decrease the text size"
 msgstr "Handiagotu eta txikiagotu testuaren tamaina erraz"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Tamaina _normala"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "Testu _txikiagoa"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "Testu _handiagoa"
 
@@ -696,21 +780,21 @@ msgstr "Urruneko web zerbitzurako API gakoa"
 msgid "Remote web service to use"
 msgstr "Erabiliko den urruneko web zerbitzua"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Itzulpena ahalbidetu duena: {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Itzuli kontsola"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Itzuli hautatutako testua [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API gakoa"
 
@@ -886,32 +970,8 @@ msgstr "Sarbidetzak eta saio amaierak erregistratzen ditu Gedit-ekin erabilitako
 #~ msgid "Save the current document list as a new session"
 #~ msgstr "Gorde uneko dokumentuen zerrenda saio berri gisa"
 
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Kudeatu gordetako saioak..."
-
 #~ msgid "Open the saved session manager"
 #~ msgstr "Ireki gordetako saioen kudeatzailea"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Leheneratu '%s' saioa"
-
-#~ msgid "Session Name"
-#~ msgstr "Saioaren izena"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Gorde eta leheneratu zure laneko saioak"
-
-#~ msgid "Session Saver"
-#~ msgstr "Saioaren gordetzailea"
-
-#~ msgid "Save session"
-#~ msgstr "Gorde saioa"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Gordetako saioak"
-
-#~ msgid "Session name:"
-#~ msgstr "Saioaren izena:"
 
 #
 #~ msgid "Tags"
