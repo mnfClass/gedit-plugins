@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-08-07 01:25+0000\n"
-"PO-Revision-Date: 2019-09-09 07:20+0200\n"
+"POT-Creation-Date: 2019-09-25 11:13+0000\n"
+"PO-Revision-Date: 2019-09-27 21:50+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -155,8 +155,8 @@ msgstr ""
 "Egy új séma létrehozását választotta,\n"
 "de a használt név vagy azonosító már használatban van.\n"
 "\n"
-"Győződjön meg arról, hogy olyan nevet és azonosítót válasszon, amelyek még"
-" nincsenek használatban.\n"
+"Győződjön meg arról, hogy olyan nevet és azonosítót válasszon, amelyek még "
+"nincsenek használatban.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
@@ -168,8 +168,8 @@ msgstr ""
 "Nincs jogosultsága a kiválasztott séma felülírásához.\n"
 "Ehelyett egy másolat lesz létrehozva.\n"
 "\n"
-"Győződjön meg arról, hogy olyan nevet és azonosítót válasszon, amelyek még"
-" nincsenek használatban.\n"
+"Győződjön meg arról, hogy olyan nevet és azonosítót válasszon, amelyek még "
+"nincsenek használatban.\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -179,8 +179,8 @@ msgstr "Probléma történt a fájl megnyitásakor"
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
 msgstr ""
-"Úgy tűnik, hogy ugyanolyan azonosítókkal rendelkező sémák vannak különböző"
-" könyvtárakban\n"
+"Úgy tűnik, hogy ugyanolyan azonosítókkal rendelkező sémák vannak különböző "
+"könyvtárakban\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -361,7 +361,6 @@ msgid "Find in Files…"
 msgstr "Keresés fájlokban…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
 msgstr[0] "találat"
@@ -548,6 +547,23 @@ msgstr ""
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Felejtse el, hogy nem használ tabokat."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Szinkronizálás LaTeX és PDF között gedit és evince használatával"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Szinkronizálás LaTeX és PDF között gedit és evince használatával."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Keresés tovább"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
