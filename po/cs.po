@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-01-16 17:21+0100\n"
+"POT-Creation-Date: 2019-09-25 11:13+0000\n"
+"PO-Revision-Date: 2019-10-02 15:33+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -41,15 +41,15 @@ msgstr "Záložky"
 msgid "Easy document navigation with bookmarks"
 msgstr "Jednoduché procházení dokumentem pomocí záložek"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Přepnout záložku"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Přejít na následující záložku"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Přejít na předchozí záložku"
 
@@ -66,7 +66,7 @@ msgstr "Automaticky přidává zavírací závorky."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Automaticky přidává zavírací závorku, když nějakou závorku vložíte."
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Mapa znaků"
@@ -74,11 +74,6 @@ msgstr "Mapa znaků"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Vkládání speciálních znaků pouhým kliknutím."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -97,11 +92,11 @@ msgstr "Komentování kódu"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Zakomentovat nebo odkomentovat vybraný blok kódu."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Zako_mentovat kód"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "_Odkomentovat kód"
 
@@ -118,11 +113,11 @@ msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
 "Vyběr barvy v dialogovém okně a vložení jejího šestnáctkového vyjádření."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Vybrat barvu…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Výběr barvy"
 
@@ -149,6 +144,44 @@ msgstr "Editor barevného schématu pro zdrojové kódy"
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr ""
 "Vytváření a úpravy barevného schématu používaného ke zvýrazňování syntaxe"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Vyskytl se problém při ukládání schématu"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Zvolili jste vytvoření nového schématu,\n"
+"ale Název nebo ID, které používáte, je již použit.\n"
+"\n"
+"Vyberte prosím Název nebo ID, které nejsou ještě použity.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Nemáte oprávnění přepsat schéma, které jste zvolili.\n"
+"Místo toho bude vytvořena kopie.\n"
+"\n"
+"Vyberte prosím Název nebo ID, které nejsou ještě použity.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Vyskytl se problém při otevírání souboru"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Zdá se, že máte schémata se stejnými ID v různých složkách.\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -328,12 +361,23 @@ msgstr "Hledá text ve všech souborech ve složce"
 msgid "Find in Files…"
 msgstr "Hledat v souborech…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "výskyt"
+msgstr[1] "výskyty"
+msgstr[2] "výskytů"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Nenalezen žádný výsledek"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Soubor"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Zastavit hledání"
 
@@ -370,11 +414,11 @@ msgstr "Spojit/rozdělit řádky"
 msgid "Join several lines or split long ones"
 msgstr "Spojí několik řádků nebo rozdělí dlouhé řádky"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "Spo_jit řádky"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Rozdělit řádky"
 
@@ -449,6 +493,43 @@ msgstr "Editační body zarovnání"
 msgid "Align edit points with additional space"
 msgstr "Editační body zarovnání s doplňujícím místem"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Správa uložených sezení…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Uložit sezení…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Obnovit sezení „{0}“"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Název sezení"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Ukládání sezení"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Ukládá a obnovujte vaše pracovní sezení"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Uložení sezení"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Název sezení"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Uložená sezení"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -477,12 +558,12 @@ msgstr "Synchronizuje mezi formáty LaTeX a PDF v aplikacích gedit a evince"
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "Synchronizuje mezi formáty LaTeX a PDF v aplikacích gedit a evince."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Hledat vpřed"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminál"
 
@@ -665,12 +746,7 @@ msgstr "Vestavěný terminál"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Vložení terminálu do dolního panelu."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "Z_měnit složku"
 
@@ -683,15 +759,15 @@ msgstr "Velikost textu"
 msgid "Easily increase and decrease the text size"
 msgstr "Snadné zvětšování a zmenšování velikosti textu"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Normální velikost"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "_Menší text"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Větší text"
 
@@ -747,21 +823,21 @@ msgstr "Klíč API pro vzdálenou webovou službu"
 msgid "Remote web service to use"
 msgstr "Vzdálená webová služba, která se má použít"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Překlady provádí {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Překladová konzola"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Přeložit vybraný text [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "Klíč API"
 
@@ -858,19 +934,3 @@ msgstr "Poskytovatel dat Zeitgeist"
 #: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
 msgid "Logs access and leave event for documents used with gedit"
 msgstr "Zaznamenává přístup a události pro dokumenty použité v editoru gedit"
-
-#~ msgid "Empty Document"
-#~ msgstr "Prázdný dokument"
-
-#~ msgid "Type here to search…"
-#~ msgstr "Vyhledávejte psaním…"
-
-#~ msgid "Dashboard"
-#~ msgstr "Ovládací tabule"
-
-#~ msgid "A Dashboard for new tabs"
-#~ msgstr "Panel s náhledy pro nové karty"
-
-#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
-#~ msgstr ""
-#~ "Zobrazí tabulku nedávno/často použitých souborů před otevřením nové karty"
