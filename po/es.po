@@ -21,15 +21,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-07-05 17:00+0000\n"
-"PO-Revision-Date: 2019-07-25 11:53+0200\n"
+"POT-Creation-Date: 2019-09-27 19:52+0000\n"
+"PO-Revision-Date: 2019-10-10 15:36+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.32.1\n"
+"X-Generator: Gtranslator 3.34.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -495,18 +495,15 @@ msgid "Align edit points with additional space"
 msgstr "Alinear los puntos de edición con espacio adicional"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:55
-#| msgid "_Manage saved sessions..."
 msgid "_Manage Saved Sessions…"
 msgstr "_Gestionar las sesiones guardadas…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:58
-#| msgid "Saved Sessions"
 msgid "_Save Session…"
 msgstr "_Guardar sesión…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:64
 #, python-brace-format
-#| msgid "Recover '%s' session"
 msgid "Recover “{0}” Session"
 msgstr "Recuperar la sesión «%{0}»"
 
@@ -548,6 +545,23 @@ msgstr ""
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Olvidar que no está usando tabulaciones."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Sincronizar entre LaTeX y PDF con gedit y evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sincronizar entre LaTeX y PDF con gedit y evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Búsqueda hacia adelante"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
@@ -932,18 +946,6 @@ msgstr "Proveedor de datos Zeitgeist"
 msgid "Logs access and leave event for documents used with gedit"
 msgstr ""
 "Registra los accesos y deja los eventos para los documentos usados con gedit"
-
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Sincronizar entre LaTeX y PDF con gedit y evince"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Sincronizar entre LaTeX y PDF con gedit y evince."
-
-#~ msgid "Forward Search"
-#~ msgstr "Búsqueda hacia adelante"
 
 #~| msgid "Accessibility key character"
 #~ msgid "accessories-character-map"
