@@ -549,7 +549,7 @@ msgstr "SyncTeX"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
@@ -931,7 +931,7 @@ msgid ""
 "used files"
 msgstr ""
 "Registra l'activitat d'usuari donant accés als fitxers usats de forma "
-"freqüent i recent."
+"freqüent i recent"
 
 #: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
 msgid "Zeitgeist dataprovider"
