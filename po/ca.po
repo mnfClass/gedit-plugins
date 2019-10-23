@@ -196,11 +196,11 @@ msgstr "Ratllat"
 
 #: plugins/colorschemer/schemer.ui:243
 msgid "Pick the background color"
-msgstr "Trieu un color de fons"
+msgstr "Trieu el color de fons"
 
 #: plugins/colorschemer/schemer.ui:259
 msgid "Pick the foreground color"
-msgstr "Trieu un color pel primer pla"
+msgstr "Trieu el color pel primer pla"
 
 #: plugins/colorschemer/schemer.ui:270
 msgid "_Background"
@@ -493,7 +493,7 @@ msgstr "Alinea els punts d'edició amb espais addicionals"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:55
 msgid "_Manage Saved Sessions…"
-msgstr "_Gestiona la sessions desades…"
+msgstr "_Gestiona les sessions desades…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:58
 msgid "_Save Session…"
