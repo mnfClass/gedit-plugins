@@ -129,7 +129,8 @@ class FindJob {
     public string extract_context (uint8 *buffer, Range range) {
         uint8 *slice = new uint8[range.to - range.from];
         Posix.memcpy (slice, buffer + range.from, range.to - range.from);
-        return Gedit.utils_make_valid_utf8 ((string)slice);
+        string slice_str = (string)slice;
+        return slice_str.make_valid();
     }
 
     public void halt () {
