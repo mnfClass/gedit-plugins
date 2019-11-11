@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-07-05 17:00+0000\n"
-"PO-Revision-Date: 2019-07-11 15:18+0700\n"
-"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+"POT-Creation-Date: 2019-09-25 11:06+0000\n"
+"PO-Revision-Date: 2019-11-12 03:23+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -537,6 +537,23 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Lupa bahwa Anda tidak menggunakan tabulasi."
 
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Selaraskan antara LaTeX dan PDF dengan gedit dan evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Selaraskan antara LaTeX dan PDF dengan gedit dan evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Cari Maju"
+
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
 msgid "Terminal"
@@ -914,41 +931,3 @@ msgstr "Penyedia data Zeitgeist"
 #: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
 msgid "Logs access and leave event for documents used with gedit"
 msgstr "Mencatat log kejadian akses dan pergi untuk dokumen yang memakai gedit"
-
-#~ msgid "accessories-character-map"
-#~ msgstr "accessories-character-map"
-
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Selaraskan antara LaTeX dan PDF dengan gedit dan evince"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Selaraskan antara LaTeX dan PDF dengan gedit dan evince."
-
-#~ msgid "Forward Search"
-#~ msgstr "Cari Maju"
-
-#~ msgid "utilities-terminal"
-#~ msgstr "utilities-terminal"
-
-#~ msgid "Empty Document"
-#~ msgstr "Dokumen Kosong"
-
-#~ msgid "Type here to search…"
-#~ msgstr "Ketik di sini untuk mencari..."
-
-#~ msgid "Dashboard"
-#~ msgstr "Dashboard"
-
-#~ msgid "A Dashboard for new tabs"
-#~ msgstr "Dashboard bagi tab baru"
-
-#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
-#~ msgstr ""
-#~ "Tampilkan kisi dari berkas yang baru-baru ini/paling sering dipakai saat "
-#~ "membuka suatu tab baru"
-
-#~ msgid "Welcome!"
-#~ msgstr "Selamat Datang!"
