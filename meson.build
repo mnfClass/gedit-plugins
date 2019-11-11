@@ -25,13 +25,8 @@ glibdir = join_paths(datadir, 'glib-2.0')
 localedir = join_paths(datadir, 'locale')
 
 # Dependencies
-libpeas_req = '>= 1.14.1'
-gedit_req = '>= 3.16'
-appstream_req = '>= 0.12.1'
-zeitgeist_req = '>= 0.9.12'
-
-libpeas_dep = dependency('libpeas-1.0', version: libpeas_req)
-gedit_dep = dependency('gedit', version: gedit_req)
+libpeas_dep = dependency('libpeas-1.0', version: '>= 1.14.1')
+gedit_dep = dependency('gedit', version: '>= 3.16')
 
 appstream_util = find_program('appstream-util', required: false)
 
@@ -82,8 +77,7 @@ foreach plugin_name, plugin_metadata : all_plugins
 endforeach
 
 zeitgeist_needed = 'zeitgeist' in active_plugins
-zeitgeist_dep = dependency('zeitgeist-2.0', version: zeitgeist_req, required: zeitgeist_needed)
-
+zeitgeist_dep = dependency('zeitgeist-2.0', version: '>= 0.9.12', required: zeitgeist_needed)
 
 if 'python' in extra_languages
   python3 = python.find_installation('python3')
