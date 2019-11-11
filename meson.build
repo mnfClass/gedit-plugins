@@ -11,8 +11,7 @@ python = import('python')
 
 api_version = '3.14'
 
-package_name = meson.project_name()
-package_string = '@0@-@1@'.format(package_name, api_version)
+package_string = '@0@-@1@'.format(meson.project_name(), api_version)
 
 # Paths
 rootdir = include_directories('.')
@@ -49,10 +48,10 @@ appstream_util = find_program('appstream-util', required: false)
 
 # Configurations
 config_h = configuration_data()
-config_h.set_quoted('PACKAGE_NAME', package_name)
+config_h.set_quoted('PACKAGE_NAME', meson.project_name())
 config_h.set_quoted('PACKAGE_STRING', package_string)
 config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
-config_h.set_quoted('GETTEXT_PACKAGE', package_name)
+config_h.set_quoted('GETTEXT_PACKAGE', meson.project_name())
 config_h.set_quoted('LOCALEDIR', localedir)
 config_h.set_quoted('LIBDIR', libdir)
 config_h.set_quoted('DATADIR', datadir)

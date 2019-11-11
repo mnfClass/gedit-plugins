@@ -14,7 +14,7 @@ libfindinfiles_deps = [
 ]
 
 libfindinfiles_c_args = [
-  '-DGETTEXT_PACKAGE="@0@"'.format(package_name),
+  '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()),
   '-DGP_LOCALEDIR="@0@"'.format(localedir),
 ]
 
