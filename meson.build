@@ -9,12 +9,6 @@ i18n = import('i18n')
 pkg = import('pkgconfig')
 python = import('python')
 
-# Versioning
-version_arr = meson.project_version().split('.')
-version_major = version_arr[0]
-version_minor = version_arr[1]
-version_micro = version_arr[2]
-
 api_version = '3.14'
 
 package_name = meson.project_name()
@@ -63,10 +57,6 @@ config_h.set_quoted('LOCALEDIR', localedir)
 config_h.set_quoted('LIBDIR', libdir)
 config_h.set_quoted('DATADIR', datadir)
 config_h.set_quoted('VERSION', meson.project_version())
-
-config_h.set('GEDIT_MAJOR_VERSION', version_major)
-config_h.set('GEDIT_MINOR_VERSION', version_minor)
-config_h.set('GEDIT_MICRO_VERSION', version_micro)
 
 configure_file(
   output: 'config.h',
