@@ -1,5 +1,5 @@
 project(
-  'gedit-plugins', ['c', 'vala'],
+  'gedit-plugins', 'c', # vala is added below if needed, with add_languages().
   version: '3.34.0',
   meson_version: '>= 0.49'
 )
