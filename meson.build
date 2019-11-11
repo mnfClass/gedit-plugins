@@ -10,8 +10,7 @@ pkg = import('pkgconfig')
 python = import('python')
 
 # Versioning
-version = meson.project_version()
-version_arr = version.split('.')
+version_arr = meson.project_version().split('.')
 version_major = version_arr[0]
 version_minor = version_arr[1]
 version_micro = version_arr[2]
@@ -58,12 +57,12 @@ appstream_util = find_program('appstream-util', required: false)
 config_h = configuration_data()
 config_h.set_quoted('PACKAGE_NAME', package_name)
 config_h.set_quoted('PACKAGE_STRING', package_string)
-config_h.set_quoted('PACKAGE_VERSION', version)
+config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
 config_h.set_quoted('GETTEXT_PACKAGE', package_name)
 config_h.set_quoted('LOCALEDIR', localedir)
 config_h.set_quoted('LIBDIR', libdir)
 config_h.set_quoted('DATADIR', datadir)
-config_h.set_quoted('VERSION', version)
+config_h.set_quoted('VERSION', meson.project_version())
 
 config_h.set('GEDIT_MAJOR_VERSION', version_major)
 config_h.set('GEDIT_MINOR_VERSION', version_minor)
@@ -133,7 +132,7 @@ subdir('help')
 summary = [
   '',
   '------',
-  'gedit-plugins @0@ (@1@)'.format(version, api_version),
+  'gedit-plugins @0@ (@1@)'.format(meson.project_version(), api_version),
   '',
   '  AppData: @0@'.format(install_metainfo),
   '',
