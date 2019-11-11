@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 #
 # Gedit Scheme Editor
 # https://github.com/jonocodes/GeditSchemer
