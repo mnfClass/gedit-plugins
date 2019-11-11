@@ -14,17 +14,13 @@ root_include_dir = include_directories('.')
 
 srcdir = meson.current_source_dir()
 
-bindir = join_paths(get_option('prefix'), get_option('bindir'))
-includedir = join_paths(get_option('prefix'), get_option('includedir'))
 libdir = join_paths(get_option('prefix'), get_option('libdir'))
-libexecdir = join_paths(get_option('prefix'), get_option('libexecdir'))
 datadir = join_paths(get_option('prefix'), get_option('datadir'))
 
 pkglibdir = join_paths(libdir, 'gedit')
 pkgdatadir = join_paths(datadir, 'gedit')
 
 appstreamdir = join_paths(datadir, 'metainfo')
-dbusdir = join_paths(datadir, 'dbus-1')
 glibdir = join_paths(datadir, 'glib-2.0')
 localedir = join_paths(datadir, 'locale')
 
