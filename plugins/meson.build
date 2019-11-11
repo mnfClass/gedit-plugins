@@ -12,12 +12,7 @@ plugin_in = configuration_data()
 plugin_in.set('VERSION', meson.project_version())
 
 gpdefs_py = configuration_data()
-gpdefs_py.set('PACKAGE', meson.project_name())
-gpdefs_py.set('PACKAGE_STRING', package_string)
 gpdefs_py.set('GETTEXT_PACKAGE', meson.project_name())
-gpdefs_py.set('VERSION', meson.project_version())
-
-gpdefs_py.set('prefix', prefix)
 
 configure_file(
   input: 'gpdefs.py.in',
