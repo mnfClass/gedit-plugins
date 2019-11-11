@@ -13,7 +13,6 @@ python = import('python')
 rootdir = include_directories('.')
 
 srcdir = meson.current_source_dir()
-builddir = meson.current_build_dir()
 
 prefix = get_option('prefix')
 
