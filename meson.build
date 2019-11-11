@@ -1,8 +1,7 @@
 project(
-  'gedit-plugins', 'c',
+  'gedit-plugins', ['c', 'vala'],
   version: '3.34.0',
-  meson_version: '>=0.49.0',
-  license: 'GPL2'
+  meson_version: '>= 0.49'
 )
 
 gnome = import('gnome')
