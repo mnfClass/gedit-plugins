@@ -48,13 +48,9 @@ appstream_util = find_program('appstream-util', required: false)
 
 # Configurations
 config_h = configuration_data()
-config_h.set_quoted('PACKAGE_NAME', meson.project_name())
 config_h.set_quoted('PACKAGE_STRING', package_string)
-config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
 config_h.set_quoted('GETTEXT_PACKAGE', meson.project_name())
 config_h.set_quoted('LOCALEDIR', localedir)
-config_h.set_quoted('LIBDIR', libdir)
-config_h.set_quoted('DATADIR', datadir)
 config_h.set_quoted('VERSION', meson.project_version())
 
 configure_file(
