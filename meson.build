@@ -9,8 +9,6 @@ i18n = import('i18n')
 pkg = import('pkgconfig')
 python = import('python')
 
-api_version = '3.14'
-
 # Paths
 rootdir = include_directories('.')
 
@@ -112,7 +110,7 @@ subdir('help')
 summary = [
   '',
   '------',
-  'gedit-plugins @0@ (@1@)'.format(meson.project_version(), api_version),
+  'gedit-plugins @0@'.format(meson.project_version()),
   '',
   '  AppData: @0@'.format(install_metainfo),
   '',
