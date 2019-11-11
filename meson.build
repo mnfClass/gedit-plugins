@@ -14,13 +14,11 @@ rootdir = include_directories('.')
 
 srcdir = meson.current_source_dir()
 
-prefix = get_option('prefix')
-
-bindir = join_paths(prefix, get_option('bindir'))
-includedir = join_paths(prefix, get_option('includedir'))
-libdir = join_paths(prefix, get_option('libdir'))
-libexecdir = join_paths(prefix, get_option('libexecdir'))
-datadir = join_paths(prefix, get_option('datadir'))
+bindir = join_paths(get_option('prefix'), get_option('bindir'))
+includedir = join_paths(get_option('prefix'), get_option('includedir'))
+libdir = join_paths(get_option('prefix'), get_option('libdir'))
+libexecdir = join_paths(get_option('prefix'), get_option('libexecdir'))
+datadir = join_paths(get_option('prefix'), get_option('datadir'))
 
 pkglibdir = join_paths(libdir, 'gedit')
 pkgdatadir = join_paths(datadir, 'gedit')
@@ -120,7 +118,7 @@ endforeach
 summary += [
   '',
   'Directories:',
-  '   prefix: @0@'.format(prefix),
+  '   prefix: @0@'.format(get_option('prefix')),
   '   libdir: @0@'.format(libdir),
   '  datadir: @0@'.format(datadir),
   '',
