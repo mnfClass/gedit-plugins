@@ -10,7 +10,7 @@ pkg = import('pkgconfig')
 python = import('python')
 
 # Paths
-rootdir = include_directories('.')
+root_include_dir = include_directories('.')
 
 srcdir = meson.current_source_dir()
 

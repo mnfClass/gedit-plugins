@@ -16,7 +16,7 @@ subdir('messages')
 libbookmarks_sha = shared_module(
   'bookmarks',
   sources: libbookmarks_sources,
-  include_directories: rootdir,
+  include_directories: root_include_dir,
   dependencies: libbookmarks_deps,
   c_args: libbookmarks_c_args,
   install: true,

@@ -30,7 +30,7 @@ libfindinfiles_sources += [
 libfindinfiles_sha = shared_module(
   'findinfiles',
   sources: libfindinfiles_sources,
-  include_directories: rootdir,
+  include_directories: root_include_dir,
   dependencies: libfindinfiles_deps,
   c_args: libfindinfiles_c_args,
   install: true,

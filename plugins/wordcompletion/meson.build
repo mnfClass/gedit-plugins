@@ -22,7 +22,7 @@ libwordcompletion_sources += [
 libwordcompletion_sha = shared_module(
   'wordcompletion',
   sources: libwordcompletion_sources,
-  include_directories: rootdir,
+  include_directories: root_include_dir,
   dependencies: libwordcompletion_deps,
   c_args: libwordcompletion_c_args,
   install: true,

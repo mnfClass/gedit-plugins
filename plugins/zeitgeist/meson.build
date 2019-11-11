@@ -14,7 +14,7 @@ libzeitgeist_c_args = [
 libzeitgeist_sha = shared_module(
   'zeitgeist',
   sources: libzeitgeist_sources,
-  include_directories: rootdir,
+  include_directories: root_include_dir,
   dependencies: libzeitgeist_deps,
   c_args: libzeitgeist_c_args,
   install: true,

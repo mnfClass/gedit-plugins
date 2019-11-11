@@ -24,7 +24,7 @@ libdrawspaces_sources += [
 libdrawspaces_sha = shared_module(
   'drawspaces',
   sources: libdrawspaces_sources,
-  include_directories: rootdir,
+  include_directories: root_include_dir,
   dependencies: libdrawspaces_deps,
   c_args: libdrawspaces_c_args,
   install: true,
