@@ -41,6 +41,7 @@ configure_file(
 
 # Options
 enabled_plugins = []
+disabled_plugins = []
 extra_languages = []
 all_plugins = {
   'bookmarks': {'language': 'c'},
@@ -73,6 +74,8 @@ foreach plugin_name, plugin_metadata : all_plugins
     if plugin_language != 'c'
       extra_languages += plugin_language
     endif
+  else
+    disabled_plugins += plugin_name
   endif
 endforeach
 
@@ -97,12 +100,15 @@ meson.add_install_script(
   datadir
 )
 
+# Summary message
+
 summary = [
   '',
-  '------',
-  'gedit-plugins @0@'.format(meson.project_version()),
+  'Configuration:',
   '',
-  'Plugins:'
+  'gedit-plugins version @0@'.format(meson.project_version()),
+  '',
+  'Enabled plugins:'
 ]
 
 foreach plugin_name : enabled_plugins
@@ -111,12 +117,19 @@ endforeach
 
 summary += [
   '',
+  'Disabled plugins:'
+]
+
+foreach plugin_name : disabled_plugins
+  summary += '  ' + plugin_name
+endforeach
+
+summary += [
+  '',
   'Directories:',
   '   prefix: @0@'.format(get_option('prefix')),
   '   libdir: @0@'.format(libdir),
-  '  datadir: @0@'.format(datadir),
-  '',
-  '------',
+  '  datadir: @0@'.format(datadir)
 ]
 
 message('\n'.join(summary))
