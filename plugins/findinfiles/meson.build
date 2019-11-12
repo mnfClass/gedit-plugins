@@ -6,6 +6,8 @@ libfindinfiles_sources = files(
   'result-panel.vala',
 )
 
+valac = meson.get_compiler('vala')
+
 libfindinfiles_deps = [
   valac.find_library('config', dirs: vapi_dir),
   valac.find_library('posix'),

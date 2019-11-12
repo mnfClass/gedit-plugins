@@ -85,7 +85,6 @@ endif
 
 if 'vala' in extra_languages
   add_languages('vala', required: true)
-  valac = meson.get_compiler('vala')
 endif
 
 install_metainfo = true
