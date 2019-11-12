@@ -87,8 +87,6 @@ if 'vala' in extra_languages
   add_languages('vala', required: true)
 endif
 
-install_metainfo = true
-
 subdir('po')
 subdir('plugins')
 subdir('help')
@@ -97,8 +95,6 @@ summary = [
   '',
   '------',
   'gedit-plugins @0@'.format(meson.project_version()),
-  '',
-  '  AppData: @0@'.format(install_metainfo),
   '',
   'Plugins:']
 foreach plugin_name : active_plugins
