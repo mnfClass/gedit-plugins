@@ -40,7 +40,7 @@ configure_file(
 )
 
 # Options
-active_plugins = []
+enabled_plugins = []
 extra_languages = []
 all_plugins = {
   'bookmarks': {'language': 'c'},
@@ -67,7 +67,7 @@ all_plugins = {
 
 foreach plugin_name, plugin_metadata : all_plugins
   if get_option('plugin_@0@'.format(plugin_name))
-    active_plugins += plugin_name
+    enabled_plugins += plugin_name
 
     plugin_language = plugin_metadata.get('language')
     if plugin_language != 'c'
@@ -76,7 +76,7 @@ foreach plugin_name, plugin_metadata : all_plugins
   endif
 endforeach
 
-zeitgeist_needed = 'zeitgeist' in active_plugins
+zeitgeist_needed = 'zeitgeist' in enabled_plugins
 zeitgeist_dep = dependency('zeitgeist-2.0', version: '>= 0.9.12', required: zeitgeist_needed)
 
 if 'python' in extra_languages
@@ -105,7 +105,7 @@ summary = [
   'Plugins:'
 ]
 
-foreach plugin_name : active_plugins
+foreach plugin_name : enabled_plugins
   summary += '  ' + plugin_name
 endforeach
 

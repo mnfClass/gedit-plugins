@@ -30,6 +30,6 @@ vapi_dir = join_paths(
   'plugins',
 )
 
-foreach plugin_name : active_plugins
+foreach plugin_name : enabled_plugins
   subdir(plugin_name)
 endforeach
