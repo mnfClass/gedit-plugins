@@ -91,15 +91,24 @@ subdir('po')
 subdir('plugins')
 subdir('help')
 
+meson.add_install_script(
+  'build-aux/meson/post_install.py',
+  libdir,
+  datadir
+)
+
 summary = [
   '',
   '------',
   'gedit-plugins @0@'.format(meson.project_version()),
   '',
-  'Plugins:']
+  'Plugins:'
+]
+
 foreach plugin_name : active_plugins
   summary += '  ' + plugin_name
 endforeach
+
 summary += [
   '',
   'Directories:',
@@ -109,10 +118,5 @@ summary += [
   '',
   '------',
 ]
-
-meson.add_install_script(
-  'build-aux/meson/post_install.py',
-  libdir, datadir,
-)
 
 message('\n'.join(summary))
