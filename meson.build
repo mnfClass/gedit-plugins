@@ -126,10 +126,7 @@ endforeach
 
 summary += [
   '',
-  'Directories:',
-  '   prefix: @0@'.format(get_option('prefix')),
-  '   libdir: @0@'.format(libdir),
-  '  datadir: @0@'.format(datadir)
+  'Prefix: @0@'.format(get_option('prefix'))
 ]
 
 message('\n'.join(summary))
