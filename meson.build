@@ -24,13 +24,13 @@ appstreamdir = join_paths(datadir, 'metainfo')
 glibdir = join_paths(datadir, 'glib-2.0')
 localedir = join_paths(datadir, 'locale')
 
-# Dependencies
+# Dependencies in common for all plugins
 libpeas_dep = dependency('libpeas-1.0', version: '>= 1.14.1')
 gedit_dep = dependency('gedit', version: '>= 3.16')
 
 appstream_util = find_program('appstream-util', required: false)
 
-# Configurations
+# config.h
 config_h = configuration_data()
 config_h.set_quoted('GETTEXT_PACKAGE', meson.project_name())
 
