@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2019-09-25 11:06+0000\n"
-"PO-Revision-Date: 2019-10-28 16:31+0100\n"
+"POT-Creation-Date: 2019-11-12 10:03+0000\n"
+"PO-Revision-Date: 2019-11-13 12:58+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -475,7 +475,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/commander.page:26
-#, fuzzy
 #| msgid ""
 #| "Once you have enabled the plugin, activate it by pressing "
 #| "<keyseq><key>Ctrl</key><key>.</key></keyseq>."
@@ -484,15 +483,13 @@ msgid ""
 "key><key>,</key></keyseq>."
 msgstr ""
 "Una vez que haya instalado el complemento, actívelo pulsando "
-"<keyseq><key>Ctrl</key><key>.</key></keyseq>."
+"<keyseq><key>Ctrl</key><key>,</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/commander.page:30
-#, fuzzy
 #| msgid "The last key in the above key combination is a period."
 msgid "The last key in the above key combination is a comma."
-msgstr ""
-"La última tecla de la combinación de teclas indicada es un punto («.»)."
+msgstr "La última tecla de la combinación de teclas anterior es una coma."
 
 #. (itstool) path: td/p
 #: C/commander.page:36
@@ -968,7 +965,6 @@ msgstr "Jordi Mas i Hernàndez"
 
 #. (itstool) path: info/desc
 #: C/session-saver.page:17
-#, fuzzy
 #| msgid "Save and restore your working sessions."
 msgid "Save and restore your working sessions"
 msgstr "Guardar y restaurar sus sesiones de trabajo."
@@ -984,20 +980,20 @@ msgid ""
 "The <app>Session Saver</app> plugin allows you to save your current open "
 "documents and open them again."
 msgstr ""
+"El complemento <app>Guardador de sesiones</app> le permite guardar sus "
+"documentos abiertos actualmente y abrirlos de nuevo."
 
 #. (itstool) path: section/title
 #: C/session-saver.page:25
-#, fuzzy
 #| msgid "Enable Sort Plugin"
 msgid "Enable Session Saver Plugin"
-msgstr "Activar el complemento Ordenar"
+msgstr "Activar el complemento Guardador de sesiones"
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:28
-#, fuzzy
 #| msgid "To enable Text Size plugin:"
 msgid "To enable Session Saver plugin:"
-msgstr "Para activar el complemento Tamaño del texto:"
+msgstr "Para activar el complemento Guardador de sesiones:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:30 C/terminal.page:38 C/text-size.page:37
@@ -1011,7 +1007,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-saver.page:35
-#| msgid "Select <gui style=\"menuitem\">Sort</gui> to enable the plugin."
 msgid ""
 "Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
 msgstr ""
@@ -1020,26 +1015,21 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/session-saver.page:43
-#| msgid "To save a new session:"
 msgid "Save a session"
 msgstr "Guardar una sesión"
 
 #. (itstool) path: section/p
 #: C/session-saver.page:44
 msgid "Save all your open files to be able to open them later."
-msgstr ""
+msgstr "Guardar todos sus archivos abiertos para poder abrirlos más tarde."
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:46
-#| msgid "To save a new session:"
 msgid "To save a session:"
 msgstr "Para guardar una sesión:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:48
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui> <gui style=\"tab\">Save Session…</gui></guiseq>"
@@ -1049,7 +1039,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/session-saver.page:56
-#| msgid "Open a location."
 msgid "Open a session"
 msgstr "Abrir una sesión"
 
@@ -1060,15 +1049,11 @@ msgstr "Abrir todos los archivos de una sesión ya guardada."
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:59
-#| msgid "To open an existing session:"
 msgid "To open a session:"
 msgstr "Para abrir una sesión:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:61
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Sort</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui></guiseq>"
@@ -1078,10 +1063,9 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-saver.page:65
-#, fuzzy
 #| msgid "Select the name of the session that you want to delete."
 msgid "Select one of the saved sessions from the menu."
-msgstr "Seleccione el nombre de la sesión que quiere eliminar."
+msgstr "Seleccione una de las sesiones guardadas del menú."
 
 #. (itstool) path: section/title
 #: C/session-saver.page:71
@@ -1090,7 +1074,6 @@ msgstr "Gestionar sesiones"
 
 #. (itstool) path: section/p
 #: C/session-saver.page:72
-#| msgid "Save and restore your working sessions."
 msgid "Open and delete your already saved sessions"
 msgstr "Abrir y eliminar sus sesiones guardadas."
 
@@ -1101,9 +1084,6 @@ msgstr "Gestionar sesiones"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:76
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui> <gui style=\"tab\">Manage Saved Sessions…</gui></guiseq>"
@@ -1331,6 +1311,8 @@ msgid ""
 "The <app>Translate</app> plugin allows you to translate text from "
 "<app>gedit</app> using Apertium and Yandex engines."
 msgstr ""
+"El complemento <app>Traducir</app> lep ermite traducir texto de <app>gedit</"
+"app> usando los motores Apertium y Yandex."
 
 #. (itstool) path: section/title
 #: C/translate.page:25
@@ -1339,18 +1321,15 @@ msgstr "Activar y configurar el complemento Traducir"
 
 #. (itstool) path: steps/title
 #: C/translate.page:28
-#| msgid "To enable the <app>Tag List</app> plugin:"
 msgid "To enable the <app>Translate</app> plugin:"
 msgstr "Para activar el complemento <app>Traducir</app>:"
 
 #. (itstool) path: item/p
 #: C/translate.page:35
-#, fuzzy
 #| msgid "Select <gui style=\"menuitem\">Tag List</gui> to enable the plugin."
 msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
 msgstr ""
-"Seleccione <gui style=\"menuitem\">Lista de etiquetas</gui> para activar el "
-"complemento."
+"Seleccione <gui style=\"menuitem\">Trducir</gui> para activar el complemento."
 
 #. (itstool) path: item/p
 #: C/translate.page:40
@@ -1358,6 +1337,8 @@ msgid ""
 "Select <gui style=\"button\">Preferences</gui> to configure the translation "
 "engine to use and a language pair."
 msgstr ""
+"Seleccione <gui style=\"button\">Preferencias</gui> para configurar el motor "
+"de traducción que usar y un idioma asociado."
 
 #. (itstool) path: item/p
 #: C/translate.page:43
@@ -1369,7 +1350,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/translate.page:50
-#| msgid "Using Sort Plugin"
 msgid "Using the Translate plugin"
 msgstr "Usar el complemento Traducir"
 
@@ -1380,15 +1360,11 @@ msgstr "Para traducir un texto:"
 
 #. (itstool) path: item/p
 #: C/translate.page:55
-#| msgid "Highlight the portion of text that you want to change."
 msgid "Select the part of text that you would like to translate."
 msgstr "Seleccione la parte del texto texto que quiere traducir."
 
 #. (itstool) path: item/p
 #: C/translate.page:58
-#| msgid ""
-#| "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
-#| "bookmark."
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
