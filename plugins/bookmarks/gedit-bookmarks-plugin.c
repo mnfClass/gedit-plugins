@@ -39,7 +39,7 @@
 #define BOOKMARK_PRIORITY 1
 
 #define INSERT_DATA_KEY "GeditBookmarksInsertData"
-#define METADATA_ATTR "metadata::gedit-bookmarks"
+#define METADATA_ATTR "gedit-bookmarks"
 
 #define MESSAGE_OBJECT_PATH "/plugins/bookmarks"
 #define BUS_CONNECT(bus, name, data) gedit_message_bus_connect(bus, MESSAGE_OBJECT_PATH, #name, (GeditMessageCallback)  message_##name##_cb, data, NULL)
