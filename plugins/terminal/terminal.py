@@ -276,12 +276,12 @@ class GeditTerminalPanel(Gtk.Box):
         menu.attach_to_widget(self, None)
 
         if event is not None:
-            menu.popup(None, None, None, None, event.button, event.time)
+            menu.popup_at_pointer(event)
         else:
-            menu.popup(None, None,
-                       lambda m: Gedit.utils_menu_position_under_widget(m, self),
-                       None,
-                       0, Gtk.get_current_event_time())
+            menu.popup_at_widget(self,
+                                 Gdk.Gravity.NORTH_WEST,
+                                 Gdk.Gravity.SOUTH_WEST,
+                                 None)
             menu.select_first(False)
 
     def copy_clipboard(self):
