@@ -1,6 +1,6 @@
 project(
   'gedit-plugins', 'c', # vala is added below if needed, with add_languages().
-  version: '3.34.0',
+  version: '3.35.1',
   meson_version: '>= 0.50'
 )
 
@@ -26,7 +26,7 @@ localedir = join_paths(datadir, 'locale')
 
 # Dependencies in common for all plugins
 libpeas_dep = dependency('libpeas-1.0', version: '>= 1.14.1')
-gedit_dep = dependency('gedit', version: '>= 3.35')
+gedit_dep = dependency('gedit', version: '>= 3.35.1')
 
 appstream_util = find_program('appstream-util', required: false)
 

@@ -1,3 +1,10 @@
+News in 3.35.1, 2019-11-22
+--------------------------
+* Lots of improvements to the build system (meson).
+* Adapt file metadata key name for gedit 3.35.
+* Some small maintenance tasks.
+* Translation updates.
+
 News in 3.34.1, 2019-11-21
 --------------------------
 * Re-add the synctex plugin.
