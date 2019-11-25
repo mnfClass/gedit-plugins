@@ -28,8 +28,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-07-05 17:00+0000\n"
-"PO-Revision-Date: 2019-07-18 11:08-0300\n"
+"POT-Creation-Date: 2019-11-12 10:03+0000\n"
+"PO-Revision-Date: 2019-11-24 22:19-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -371,7 +371,6 @@ msgid "Find in Files…"
 msgstr "Localizar no Arquivos…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
 msgstr[0] "acerto"
@@ -553,6 +552,28 @@ msgstr ""
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
 msgstr "Esqueça que não está usando tabulações."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Sincroniza entre LaTeX e PDF com gedit e evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sincroniza entre LaTeX e PDF com gedit e evince."
+
+# http://www.w3.org/TR/html4/struct/links.html
+# rel = link-types [CI]
+# This attribute describes the relationship from the current document to the
+# anchor specified by the href attribute. The value of this attribute is a
+# space-separated list of link types.
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Pesquisa seguinte"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
@@ -930,23 +951,6 @@ msgstr "Registra acesso e deixa evento para documentos usados com o gedit"
 
 #~ msgid "accessories-character-map"
 #~ msgstr "accessories-character-map"
-
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Sincroniza entre LaTeX e PDF com gedit e evince"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Sincroniza entre LaTeX e PDF com gedit e evince."
-
-# http://www.w3.org/TR/html4/struct/links.html
-# rel = link-types [CI]
-# This attribute describes the relationship from the current document to the
-# anchor specified by the href attribute. The value of this attribute is a
-# space-separated list of link types.
-#~ msgid "Forward Search"
-#~ msgstr "Pesquisa seguinte"
 
 #~ msgid "utilities-terminal"
 #~ msgstr "utilities-terminal"
