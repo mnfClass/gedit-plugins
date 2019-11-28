@@ -63,7 +63,6 @@ all_plugins = {
   'textsize': {'language': 'python'},
   'translate': {'language': 'python'},
   'wordcompletion': {'language': 'c'},
-  'zeitgeist': {'language': 'c'},
 }
 
 foreach plugin_name, plugin_metadata : all_plugins
@@ -78,9 +77,6 @@ foreach plugin_name, plugin_metadata : all_plugins
     disabled_plugins += plugin_name
   endif
 endforeach
-
-zeitgeist_needed = 'zeitgeist' in enabled_plugins
-zeitgeist_dep = dependency('zeitgeist-2.0', version: '>= 0.9.12', required: zeitgeist_needed)
 
 if 'python' in extra_languages
   python3 = python.find_installation('python3')

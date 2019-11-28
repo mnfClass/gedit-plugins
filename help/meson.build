@@ -16,7 +16,6 @@ gedit_help_sources = [
   'text-size.page',
   'translate.page',
   'word-completion.page',
-  'zeitgeist-dataprovider.page',
 ]
 
 gnome.yelp(
