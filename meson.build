@@ -99,30 +99,28 @@ meson.add_install_script(
 # Summary message
 
 summary = [
-  '',
   'Configuration:',
   '',
-  'gedit-plugins version @0@'.format(meson.project_version()),
+  '        gedit-plugins version @0@'.format(meson.project_version()),
   '',
-  'Enabled plugins:'
+  '        Prefix: @0@'.format(get_option('prefix')),
+  '',
+  '        Enabled plugins:'
 ]
 
 foreach plugin_name : enabled_plugins
-  summary += '  ' + plugin_name
+  summary += '                ' + plugin_name
 endforeach
 
 summary += [
   '',
-  'Disabled plugins:'
+  '        Disabled plugins:'
 ]
 
 foreach plugin_name : disabled_plugins
-  summary += '  ' + plugin_name
+  summary += '                ' + plugin_name
 endforeach
 
-summary += [
-  '',
-  'Prefix: @0@'.format(get_option('prefix'))
-]
+summary += ''
 
 message('\n'.join(summary))
