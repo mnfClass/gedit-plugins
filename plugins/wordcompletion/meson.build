@@ -6,10 +6,6 @@ libwordcompletion_deps = [
   gedit_dep,
 ]
 
-libwordcompletion_c_args = [
-  '-DHAVE_CONFIG_H',
-]
-
 libwordcompletion_res = gnome.compile_resources(
   'gedit-word-completion-resources',
   'gedit-word-completion.gresource.xml',
@@ -24,7 +20,6 @@ libwordcompletion_sha = shared_module(
   sources: libwordcompletion_sources,
   include_directories: root_include_dir,
   dependencies: libwordcompletion_deps,
-  c_args: libwordcompletion_c_args,
   install: true,
   install_dir: join_paths(
     pkglibdir,

@@ -16,10 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
-
 #include "gedit-drawspaces-app-activatable.h"
 #include "gedit-drawspaces-window-activatable.h"
 #include "gedit-drawspaces-view-activatable.h"

@@ -18,12 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  */
 
-#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
-
 #include "gedit-word-completion-plugin.h"
-
 #include <glib/gi18n-lib.h>
 #include <gedit/gedit-debug.h>
 #include <gedit/gedit-window.h>

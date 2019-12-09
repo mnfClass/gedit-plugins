@@ -8,10 +8,6 @@ libdrawspaces_deps = [
   gedit_dep,
 ]
 
-libdrawspaces_c_args = [
-  '-DHAVE_CONFIG_H',
-]
-
 libdrawspaces_res = gnome.compile_resources(
   'gedit-drawspaces-resources',
   'gedit-drawspaces.gresource.xml',
@@ -26,7 +22,6 @@ libdrawspaces_sha = shared_module(
   sources: libdrawspaces_sources,
   include_directories: root_include_dir,
   dependencies: libdrawspaces_deps,
-  c_args: libdrawspaces_c_args,
   install: true,
   install_dir: join_paths(
     pkglibdir,

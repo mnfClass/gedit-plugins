@@ -7,10 +7,6 @@ libbookmarks_deps = [
   gedit_dep,
 ]
 
-libbookmarks_c_args = [
-  '-DHAVE_CONFIG_H',
-]
-
 subdir('messages')
 
 libbookmarks_sha = shared_module(
@@ -18,7 +14,6 @@ libbookmarks_sha = shared_module(
   sources: libbookmarks_sources,
   include_directories: root_include_dir,
   dependencies: libbookmarks_deps,
-  c_args: libbookmarks_c_args,
   install: true,
   install_dir: join_paths(
     pkglibdir,
