@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2019-09-25 11:06+0000\n"
-"PO-Revision-Date: 2019-10-28 16:31+0100\n"
+"POT-Creation-Date: 2019-12-09 15:09+0000\n"
+"PO-Revision-Date: 2019-12-13 09:58+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -475,7 +475,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/commander.page:26
-#, fuzzy
 #| msgid ""
 #| "Once you have enabled the plugin, activate it by pressing "
 #| "<keyseq><key>Ctrl</key><key>.</key></keyseq>."
@@ -484,15 +483,13 @@ msgid ""
 "key><key>,</key></keyseq>."
 msgstr ""
 "Una vez que haya instalado el complemento, actívelo pulsando "
-"<keyseq><key>Ctrl</key><key>.</key></keyseq>."
+"<keyseq><key>Ctrl</key><key>,</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/commander.page:30
-#, fuzzy
 #| msgid "The last key in the above key combination is a period."
 msgid "The last key in the above key combination is a comma."
-msgstr ""
-"La última tecla de la combinación de teclas indicada es un punto («.»)."
+msgstr "La última tecla de la combinación de teclas indicada es una coma."
 
 #. (itstool) path: td/p
 #: C/commander.page:36
@@ -968,10 +965,9 @@ msgstr "Jordi Mas i Hernàndez"
 
 #. (itstool) path: info/desc
 #: C/session-saver.page:17
-#, fuzzy
 #| msgid "Save and restore your working sessions."
 msgid "Save and restore your working sessions"
-msgstr "Guardar y restaurar sus sesiones de trabajo."
+msgstr "Guardar y restaurar sus sesiones de trabajo"
 
 #. (itstool) path: page/title
 #: C/session-saver.page:20
@@ -984,24 +980,24 @@ msgid ""
 "The <app>Session Saver</app> plugin allows you to save your current open "
 "documents and open them again."
 msgstr ""
+"El complemento <app>Guardador de sesiones</app> le permite guardar sus "
+"documentos abiertos actualmente y abrirlos de nuevo."
 
 #. (itstool) path: section/title
 #: C/session-saver.page:25
-#, fuzzy
 #| msgid "Enable Sort Plugin"
 msgid "Enable Session Saver Plugin"
-msgstr "Activar el complemento Ordenar"
+msgstr "Activar el complemento Guardador de sesiones"
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:28
-#, fuzzy
 #| msgid "To enable Text Size plugin:"
 msgid "To enable Session Saver plugin:"
-msgstr "Para activar el complemento Tamaño del texto:"
+msgstr "Para activar el complemento Guardador de sesiones:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:30 C/terminal.page:38 C/text-size.page:37
-#: C/translate.page:30 C/zeitgeist-dataprovider.page:28
+#: C/translate.page:30
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
@@ -1011,7 +1007,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-saver.page:35
-#| msgid "Select <gui style=\"menuitem\">Sort</gui> to enable the plugin."
 msgid ""
 "Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
 msgstr ""
@@ -1020,26 +1015,21 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/session-saver.page:43
-#| msgid "To save a new session:"
 msgid "Save a session"
 msgstr "Guardar una sesión"
 
 #. (itstool) path: section/p
 #: C/session-saver.page:44
 msgid "Save all your open files to be able to open them later."
-msgstr ""
+msgstr "Guarda todos sus archivos abiertos para abrirlos más tarde."
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:46
-#| msgid "To save a new session:"
 msgid "To save a session:"
 msgstr "Para guardar una sesión:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:48
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui> <gui style=\"tab\">Save Session…</gui></guiseq>"
@@ -1049,7 +1039,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/session-saver.page:56
-#| msgid "Open a location."
 msgid "Open a session"
 msgstr "Abrir una sesión"
 
@@ -1060,15 +1049,11 @@ msgstr "Abrir todos los archivos de una sesión ya guardada."
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:59
-#| msgid "To open an existing session:"
 msgid "To open a session:"
 msgstr "Para abrir una sesión:"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:61
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Sort</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui></guiseq>"
@@ -1078,10 +1063,9 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-saver.page:65
-#, fuzzy
 #| msgid "Select the name of the session that you want to delete."
 msgid "Select one of the saved sessions from the menu."
-msgstr "Seleccione el nombre de la sesión que quiere eliminar."
+msgstr "Seleccione una de las sesiones guardadas en el menú."
 
 #. (itstool) path: section/title
 #: C/session-saver.page:71
@@ -1090,7 +1074,6 @@ msgstr "Gestionar sesiones"
 
 #. (itstool) path: section/p
 #: C/session-saver.page:72
-#| msgid "Save and restore your working sessions."
 msgid "Open and delete your already saved sessions"
 msgstr "Abrir y eliminar sus sesiones guardadas."
 
@@ -1101,9 +1084,6 @@ msgstr "Gestionar sesiones"
 
 #. (itstool) path: item/p
 #: C/session-saver.page:76
-#| msgid ""
-#| "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#| "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
 msgid ""
 "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
 "\">Tools</gui> <gui style=\"tab\">Manage Saved Sessions…</gui></guiseq>"
@@ -1117,6 +1097,8 @@ msgstr ""
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in evince."
 msgstr ""
+"Cambiar rápidamente entre archivos de fuentes TeX y documentos PDF "
+"renderizados en evince."
 
 #. (itstool) path: page/title
 #: C/synctex.page:24
@@ -1155,6 +1137,9 @@ msgid ""
 "\"guide\" xref=\"help:evince/synctex-search\"> <app>evince</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"Los atajos del teclado y los controles del ratón están documentados en la "
+"<link type=\"guide\" xref=\"help:evince/synctex-search\"> documentación de "
+"<app>evince</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:50
@@ -1331,6 +1316,8 @@ msgid ""
 "The <app>Translate</app> plugin allows you to translate text from "
 "<app>gedit</app> using Apertium and Yandex engines."
 msgstr ""
+"El complemento <app>Traducir</app> le permite traducir texto de <app>gedit</"
+"app> usando los motores Apertium y Yandex."
 
 #. (itstool) path: section/title
 #: C/translate.page:25
@@ -1339,17 +1326,15 @@ msgstr "Activar y configurar el complemento Traducir"
 
 #. (itstool) path: steps/title
 #: C/translate.page:28
-#| msgid "To enable the <app>Tag List</app> plugin:"
 msgid "To enable the <app>Translate</app> plugin:"
 msgstr "Para activar el complemento <app>Traducir</app>:"
 
 #. (itstool) path: item/p
 #: C/translate.page:35
-#, fuzzy
 #| msgid "Select <gui style=\"menuitem\">Tag List</gui> to enable the plugin."
 msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
 msgstr ""
-"Seleccione <gui style=\"menuitem\">Lista de etiquetas</gui> para activar el "
+"Seleccione <gui style=\"menuitem\">Traducir</gui> para activar el "
 "complemento."
 
 #. (itstool) path: item/p
@@ -1358,6 +1343,8 @@ msgid ""
 "Select <gui style=\"button\">Preferences</gui> to configure the translation "
 "engine to use and a language pair."
 msgstr ""
+"Seleccione <gui style=\"button\">Preferencias</gui> para configurar el motor "
+"de traducción que usar y el idioma."
 
 #. (itstool) path: item/p
 #: C/translate.page:43
@@ -1366,10 +1353,12 @@ msgid ""
 "obtain a free key at <link href=\"https://tech.yandex.com/translate/"
 "\">Yandex web site</link>."
 msgstr ""
+"Si usa el motor de traducción Yandex necesitará una clave de la API. Puede "
+"obtenerla gratuitamente en la <link href=\"https://tech.yandex.com/translate/"
+"\">página web de Yandex</link>."
 
 #. (itstool) path: section/title
 #: C/translate.page:50
-#| msgid "Using Sort Plugin"
 msgid "Using the Translate plugin"
 msgstr "Usar el complemento Traducir"
 
@@ -1380,15 +1369,11 @@ msgstr "Para traducir un texto:"
 
 #. (itstool) path: item/p
 #: C/translate.page:55
-#| msgid "Highlight the portion of text that you want to change."
 msgid "Select the part of text that you would like to translate."
 msgstr "Seleccione la parte del texto texto que quiere traducir."
 
 #. (itstool) path: item/p
 #: C/translate.page:58
-#| msgid ""
-#| "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
-#| "bookmark."
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
 "to translate it."
@@ -1402,6 +1387,8 @@ msgid ""
 "The translation appears in the document or in the bottom panel, depending on "
 "your configuration."
 msgstr ""
+"La traducción aparece en el documento o en el panel inferior, dependiendo de "
+"su configuración."
 
 #. (itstool) path: info/desc
 #: C/word-completion.page:25
@@ -1466,48 +1453,37 @@ msgstr ""
 "pulse <keyseq><key>Alt</key><key>Num</key></keyseq>, donde <key>Num</key> es "
 "el número mostrado junto a la palabra que quiere."
 
-#. (itstool) path: credit/name
-#: C/zeitgeist-dataprovider.page:10
-msgid "Shobha Tyagi"
-msgstr "Shobha Tyagi"
+#~ msgid "Shobha Tyagi"
+#~ msgstr "Shobha Tyagi"
 
-#. (itstool) path: info/desc
-#: C/zeitgeist-dataprovider.page:14
-msgid "Log user activity for documents which are opened in gedit"
-msgstr ""
-"Registrar la actividad del usuario para documentos que están abiertos en "
-"gedit"
+#~ msgid "Log user activity for documents which are opened in gedit"
+#~ msgstr ""
+#~ "Registrar la actividad del usuario para documentos que están abiertos en "
+#~ "gedit"
 
-#. (itstool) path: page/title
-#: C/zeitgeist-dataprovider.page:17
-msgid "Zeitgeist dataprovider"
-msgstr "Proveedor de datos Zeitgeist"
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Proveedor de datos Zeitgeist"
 
-#. (itstool) path: page/p
-#: C/zeitgeist-dataprovider.page:19
-msgid ""
-"Zeitgeist is a service that logs user activities and events. Zeitgeist lets "
-"other applications access this information in the form of statistics and "
-"timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> records "
-"user activity for documents used with gedit giving easy access to recently-"
-"used and frequently-used files."
-msgstr ""
-"Zeitgeist es un servicio que registrar la actividad del usuario y los "
-"eventos. Zeitgeist proporciona acceso a esta información a otras "
-"aplicaciones en forma de estadísticas y líneas de tiempo. El complemento del "
-"proveedor de datos Zeitgeist para <app>gedit</app> registra la actividad del "
-"usuario para documentos usados con gedit, ofreciendo un acceso sencillo a "
-"los archivos usados frecuente y recientemente."
+#~ msgid ""
+#~ "Zeitgeist is a service that logs user activities and events. Zeitgeist "
+#~ "lets other applications access this information in the form of statistics "
+#~ "and timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> "
+#~ "records user activity for documents used with gedit giving easy access to "
+#~ "recently-used and frequently-used files."
+#~ msgstr ""
+#~ "Zeitgeist es un servicio que registrar la actividad del usuario y los "
+#~ "eventos. Zeitgeist proporciona acceso a esta información a otras "
+#~ "aplicaciones en forma de estadísticas y líneas de tiempo. El complemento "
+#~ "del proveedor de datos Zeitgeist para <app>gedit</app> registra la "
+#~ "actividad del usuario para documentos usados con gedit, ofreciendo un "
+#~ "acceso sencillo a los archivos usados frecuente y recientemente."
 
-#. (itstool) path: steps/title
-#: C/zeitgeist-dataprovider.page:26
-msgid "Enable Zeitgeist dataprovider"
-msgstr "Activa el proveedor de datos Zeitgeist"
+#~ msgid "Enable Zeitgeist dataprovider"
+#~ msgstr "Activa el proveedor de datos Zeitgeist"
 
-#. (itstool) path: item/p
-#: C/zeitgeist-dataprovider.page:33
-msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
-msgstr "Seleccione <gui style=\"menuitem\">Proveedor de datos Zeitgeist</gui>."
+#~ msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
+#~ msgstr ""
+#~ "Seleccione <gui style=\"menuitem\">Proveedor de datos Zeitgeist</gui>."
 
 #~ msgid "Real-time error highlighting for supported languages."
 #~ msgstr "Resaltado de errores en tiempo real para lenguajes soportados."
