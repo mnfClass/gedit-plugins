@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2019-12-09 15:09+0000\n"
-"PO-Revision-Date: 2019-12-13 09:58+0100\n"
+"POT-Creation-Date: 2019-12-13 13:34+0000\n"
+"PO-Revision-Date: 2019-12-31 08:41+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -475,9 +475,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/commander.page:26
-#| msgid ""
-#| "Once you have enabled the plugin, activate it by pressing "
-#| "<keyseq><key>Ctrl</key><key>.</key></keyseq>."
 msgid ""
 "Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
 "key><key>,</key></keyseq>."
@@ -487,7 +484,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/commander.page:30
-#| msgid "The last key in the above key combination is a period."
 msgid "The last key in the above key combination is a comma."
 msgstr "La última tecla de la combinación de teclas indicada es una coma."
 
@@ -965,7 +961,6 @@ msgstr "Jordi Mas i Hernàndez"
 
 #. (itstool) path: info/desc
 #: C/session-saver.page:17
-#| msgid "Save and restore your working sessions."
 msgid "Save and restore your working sessions"
 msgstr "Guardar y restaurar sus sesiones de trabajo"
 
@@ -985,13 +980,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/session-saver.page:25
-#| msgid "Enable Sort Plugin"
 msgid "Enable Session Saver Plugin"
 msgstr "Activar el complemento Guardador de sesiones"
 
 #. (itstool) path: steps/title
 #: C/session-saver.page:28
-#| msgid "To enable Text Size plugin:"
 msgid "To enable Session Saver plugin:"
 msgstr "Para activar el complemento Guardador de sesiones:"
 
@@ -1063,7 +1056,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/session-saver.page:65
-#| msgid "Select the name of the session that you want to delete."
 msgid "Select one of the saved sessions from the menu."
 msgstr "Seleccione una de las sesiones guardadas en el menú."
 
@@ -1113,6 +1105,11 @@ msgid ""
 "use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>evince</app> and vice versa."
 msgstr ""
+"SyncTeX es un método que permite la sincronización entre un archivo fuente "
+"TeX y el PDF de salida generado por un compilador de TeX/LaTeX. Este "
+"complemento le permite usar SyncTeX en <app>gedit</app> para cambiar "
+"rápidamente de un archivo fuente TeX a un documento PDF abierto en "
+"<app>evince</app> y viceversa."
 
 #. (itstool) path: note/p
 #: C/synctex.page:32
@@ -1121,6 +1118,9 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>evince</app> must be installed."
 msgstr ""
+"Para que sea útil, este complemento necesita que tenga instalado SyncTex y "
+"un compilador TeX/LaTeX. Ambos los proporcionan distribuciones TeX como TeX "
+"Live. También debe instalar <app>evince</app>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:39
@@ -1129,6 +1129,9 @@ msgid ""
 "can be found in the <link type=\"guide\" xref=\"help:evince#synctex"
 "\"><app>evince</app>-SyncTeX documentation</link>."
 msgstr ""
+"Puede encontrar información básica sobre cómo configurar SyncTeX y compilar "
+"documentos LaTeX es la <link type=\"guide\" xref=\"help:evince#synctex"
+"\">documentación de <app>evince</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:45
@@ -1331,7 +1334,6 @@ msgstr "Para activar el complemento <app>Traducir</app>:"
 
 #. (itstool) path: item/p
 #: C/translate.page:35
-#| msgid "Select <gui style=\"menuitem\">Tag List</gui> to enable the plugin."
 msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
 msgstr ""
 "Seleccione <gui style=\"menuitem\">Traducir</gui> para activar el "
