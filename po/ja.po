@@ -1,5 +1,5 @@
 # gedit ja.po.
-# Copyright (C) 1999,2000,2002-2011 gedit-plugins' COPYRIGHT HOLDER
+# Copyright (C) 1999-2012, 2020 gedit-plugins' COPYRIGHT HOLDER
 # Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999
 # Yuusuke Tahara <tahara@gnome.gr.jp>
 # Yukihiro Nakai <nakai@gnome.gr.jp>
@@ -10,14 +10,16 @@
 # Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
 # Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
+# OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
+# sicklylife <translation@sicklylife.jp>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2019-11-28 08:24+0000\n"
-"PO-Revision-Date: 2012-01-12 22:52+0900\n"
-"Last-Translator: OKANO Takayoshi <kano@na.rim.or.jp>\n"
+"PO-Revision-Date: 2020-01-12 23:00+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -36,126 +38,111 @@ msgid "Easy document navigation with bookmarks"
 msgstr "ブックマークを使って簡単にドキュメントを閲覧できるようにします"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
-#, fuzzy
 msgid "Toggle Bookmark"
-msgstr "ブックマーク"
+msgstr "ブックマークを切り替え"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
-msgstr "次のブックマーク"
+msgstr "次のブックマークへ移動"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-#, fuzzy
 msgid "Goto Previous Bookmark"
-msgstr "前の場所へ戻ります"
+msgstr "前のブックマークへ移動"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
-#, fuzzy
 msgid "Bracket Completion"
-msgstr "バックアップコピーの拡張子"
+msgstr "カッコの補完"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
-#, fuzzy
 msgid "Automatically adds closing brackets."
-msgstr "自動検出されたエンコーディング"
+msgstr "終わり括弧を自動的に追加します"
 
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
-#, fuzzy
 msgid "Automatically add a closing bracket when you insert one"
-msgstr "自動検出されたエンコーディング"
+msgstr "括弧を挿入したときに自動で終わり括弧を追加します"
 
 #: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
-#, fuzzy
 msgid "Character Map"
-msgstr "エンコーディング"
+msgstr "文字マップ"
 
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
-msgstr "特殊な文字をクリックしながら挿入していきます。"
+msgstr "特殊な文字をクリックしながら挿入していきます"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
-#, fuzzy
 msgid "Charmap"
-msgstr "エンコーディング"
+msgstr "文字マップ"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:7
 msgid "Select characters from a character map"
-msgstr ""
+msgstr "文字マップから文字を選択します"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
-#, fuzzy
 msgid "Code Comment"
-msgstr "<!--  --> (コメント) あるいは comment 要素"
+msgstr "コードコメント"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "選択した範囲をコメントアウトしたり解除します。"
+msgstr "選択した範囲をコメントアウトしたり解除します"
 
 #: plugins/codecomment/codecomment.py:118
-#, fuzzy
 msgid "Co_mment Code"
-msgstr "<!--  --> (コメント) あるいは comment 要素"
+msgstr "コメントアウト(_M)"
 
 #: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
-msgstr "コメント・アウトの解除(_N)"
+msgstr "コメントアウトを解除(_N)"
 
 #: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
-#, fuzzy
-#| msgid "Comment out or uncomment a selected block of code."
 msgid "Comment or uncomment blocks of code"
-msgstr "選択した範囲をコメントアウトしたり解除します。"
+msgstr "コードブロックをコメントアウトしたり解除します"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
-#, fuzzy
 msgid "Color Picker"
-msgstr "色のスキーム"
+msgstr "色選択"
 
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr "色選択ダイアログから色を取得して 16進形式の文字列として挿入します。"
+msgstr "色選択ダイアログから色を取得して 16 進形式の文字列として挿入します"
 
 #: plugins/colorpicker/colorpicker.py:132
-#, fuzzy
 msgid "Pick _Color…"
-msgstr "link 属性 (未訪問のリンクの色)"
+msgstr "色を選択(_C)…"
 
 #: plugins/colorpicker/colorpicker.py:172
-#, fuzzy
 msgid "Pick Color"
-msgstr "link 属性 (未訪問のリンクの色)"
+msgstr "色を選択"
 
 #: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
-#, fuzzy
 msgid "Color picker"
-msgstr "色のスキーム"
+msgstr "色選択"
 
 #: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
 msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
-msgstr ""
+msgstr "ダイアログから色を選択して HTML、CSS、PHP 向けの文字列として挿入します"
 
 #: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
 #: plugins/colorschemer/schemer/__init__.py:50
 #: plugins/colorschemer/schemer.ui:20
 msgid "Color Scheme Editor"
-msgstr ""
+msgstr "カラースキームエディター"
 
 #: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
 msgid "Source code color scheme editor"
-msgstr ""
+msgstr "ソースコードのカラースキームエディター"
 
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
-msgstr ""
+msgstr "構文の強調表示に使用するカラースキームの作成と編集を行います"
 
 #: plugins/colorschemer/schemer/schemer.py:271
 #: plugins/colorschemer/schemer/schemer.py:318
 msgid "There was a problem saving the scheme"
-msgstr ""
+msgstr "スキームの保存に問題がありました"
 
 #: plugins/colorschemer/schemer/schemer.py:272
 msgid ""
@@ -184,136 +171,116 @@ msgstr ""
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
-msgstr "b 要素 (太字)"
+msgstr "太字"
 
 #: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
-#, fuzzy
-#| msgid "Italic text"
 msgid "Italic"
-msgstr "i 要素 (イタリック)"
+msgstr "斜体"
 
 #: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
-#, fuzzy
-#| msgid "Underlined text style"
 msgid "Underline"
-msgstr "u 要素 (下線を引く)"
+msgstr "下線"
 
 #: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
-#, fuzzy
-#| msgid "Strike-through text"
 msgid "Strikethrough"
-msgstr "strike 要素 (取り消し線を引く)"
+msgstr "打ち消し線"
 
 #: plugins/colorschemer/schemer.ui:243
-#, fuzzy
-#| msgid "Background color"
 msgid "Pick the background color"
-msgstr "bgcolor 属性 (背景の色)"
+msgstr "背景色を選択"
 
 #: plugins/colorschemer/schemer.ui:259
-#, fuzzy
-#| msgid "Background color"
 msgid "Pick the foreground color"
-msgstr "bgcolor 属性 (背景の色)"
+msgstr "前景色を選択"
 
 #: plugins/colorschemer/schemer.ui:270
-#, fuzzy
-#| msgid "Background color"
 msgid "_Background"
-msgstr "bgcolor 属性 (背景の色)"
+msgstr "背景(_B)"
 
 #: plugins/colorschemer/schemer.ui:288
 msgid "_Foreground"
-msgstr ""
+msgstr "前景(_F)"
 
 #: plugins/colorschemer/schemer.ui:341
 msgid "_Clear "
-msgstr ""
+msgstr "消去(_C) "
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
-msgstr "name 属性 (名前の指定)"
+msgstr "名前"
 
 #: plugins/colorschemer/schemer.ui:408
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: plugins/colorschemer/schemer.ui:433
-#, fuzzy
-#| msgid "List description"
 msgid "Description"
-msgstr "List description"
+msgstr "説明"
 
 #: plugins/colorschemer/schemer.ui:459
-#, fuzzy
-#| msgid "Author info"
 msgid "Author"
-msgstr "address 要素 (ドキュメントの著者の情報)"
+msgstr "作者"
 
 #: plugins/colorschemer/schemer.ui:503
 msgid "Sample"
-msgstr ""
+msgstr "サンプル"
 
 #: plugins/commander/commander/appactivatable.py:56
-#, fuzzy
 msgid "Commander Mode"
-msgstr "コマンドの色(_O):"
+msgstr "コマンダーモード"
 
 #: plugins/commander/commander.plugin.desktop.in.in:6
 #: plugins/commander/gedit-commander.metainfo.xml.in:6
-#, fuzzy
 msgid "Commander"
-msgstr "コマンドの色(_O):"
+msgstr "コマンダー"
 
 #: plugins/commander/commander.plugin.desktop.in.in:7
 #: plugins/commander/gedit-commander.metainfo.xml.in:7
 msgid "Command line interface for advanced editing"
-msgstr ""
+msgstr "高度な編集向けのコマンドラインインターフェースです"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
-msgstr "空白の表示"
+msgstr "空白を表示"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
-#, fuzzy
-#| msgid "Draw Spaces and Tabs"
 msgid "Draw spaces and tabs"
 msgstr "空白やタブ文字を表示します"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
-msgstr "空白を表示する(_W)"
+msgstr "空白を表示(_W)"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
-msgstr "スペースを表示"
+msgstr "スペースを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
 msgid "Draw tabs"
-msgstr "タブを表示"
+msgstr "タブを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
 msgid "Draw new lines"
-msgstr "改行を表示"
+msgstr "改行を表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
 msgid "Draw non-breaking spaces"
-msgstr "ノーブレークスペースを表示"
+msgstr "ノーブレークスペースを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
 msgid "Draw leading spaces"
-msgstr "行頭のスペースを表示"
+msgstr "行頭のスペースを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
 msgid "Draw spaces in text"
-msgstr "テキスト中のスペースを表示"
+msgstr "文字列中のスペースを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
 msgid "Draw trailing spaces"
-msgstr "行末のスペースを表示"
+msgstr "行末のスペースを表示する"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
@@ -321,87 +288,87 @@ msgstr "空白やタブ文字を表示します"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
-msgstr ""
+msgstr "TRUE にすると表示が有効になります。"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
 msgid "The type of spaces to be drawn."
-msgstr ""
+msgstr "表示する空白の種類です。"
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
 #: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
 msgid "Find in Files"
-msgstr ""
+msgstr "ファイル内を検索"
 
 #: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
 #: plugins/findinfiles/result-panel.vala:63
 msgid "_Close"
-msgstr ""
+msgstr "閉じる(_C)"
 
 #: plugins/findinfiles/dialog.ui:39
 msgctxt "label of the find button"
 msgid "_Find"
-msgstr ""
+msgstr "検索(_F)"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind "
-msgstr ""
+msgstr "検索(_I) "
 
 #: plugins/findinfiles/dialog.ui:99
 msgid "_In "
-msgstr ""
+msgstr "対象(_I) "
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
-msgstr ""
+msgstr "フォルダーを選択"
 
 #: plugins/findinfiles/dialog.ui:130
 msgid "_Match case"
-msgstr ""
+msgstr "大/小文字を区別する(_M)"
 
 #: plugins/findinfiles/dialog.ui:146
 msgid "Match _entire word only"
-msgstr ""
+msgstr "単語全体にマッチさせる(_E)"
 
 #: plugins/findinfiles/dialog.ui:162
 msgid "Re_gular expression"
-msgstr ""
+msgstr "正規表現(_G)"
 
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
 msgid "Find text in all files of a folder."
-msgstr ""
+msgstr "フォルダーにあるすべてのファイルの文字列を検索します"
 
 #: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
 msgid "Find text in all files of a folder"
-msgstr ""
+msgstr "フォルダーにあるすべてのファイルの文字列を検索します"
 
 #: plugins/findinfiles/plugin.vala:159
 msgid "Find in Files…"
-msgstr ""
+msgstr "ファイル内を検索…"
 
 #: plugins/findinfiles/result-panel.vala:127
 msgid "hit"
 msgid_plural "hits"
-msgstr[0] ""
+msgstr[0] "個発見"
 
 #: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
-msgstr ""
+msgstr "見つかりませんでした"
 
 #: plugins/findinfiles/result-panel.vala:207
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #. The stop button is showed in the bottom-left corner of the TreeView
 #: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
-msgstr ""
+msgstr "検索を停止"
 
 #: plugins/git/gedit-git.metainfo.xml.in:6
 #: plugins/git/git.plugin.desktop.in.in:6
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: plugins/git/gedit-git.metainfo.xml.in:7
 msgid ""
@@ -414,37 +381,32 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr ""
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-#, fuzzy
-#| msgid "Join/Split Lines"
 msgid "Join lines/ Split lines"
-msgstr "行の結合・分割"
+msgstr "行を結合/分割"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
-msgstr ""
+msgstr "Ctrl+J と Ctrl+Shift+J で複数の行を結合または分割します"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:6
 msgid "Join/Split Lines"
-msgstr "行の結合・分割"
+msgstr "行を結合/分割"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
 msgstr "複数の行と結合したり一行を分割したりします"
 
 #: plugins/joinlines/joinlines.py:111
-#, fuzzy
 msgid "_Join Lines"
-msgstr "行"
+msgstr "行を結合(_J)"
 
 #: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
-msgstr "行の分割(_S)"
+msgstr "行を分割(_S)"
 
 #: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
-#, fuzzy
-#| msgid "Multiple"
 msgid "Multi edit"
-msgstr "multiple 属性 (select 要素で複数選択を許容)"
+msgstr ""
 
 #: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
 #: plugins/multiedit/multiedit.plugin.desktop.in.in:7
@@ -513,22 +475,17 @@ msgid "Align edit points with additional space"
 msgstr ""
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:55
-#, fuzzy
-#| msgid "_Manage saved sessions..."
 msgid "_Manage Saved Sessions…"
-msgstr "セッションの管理(_M)..."
+msgstr "保存したセッションを管理(_M)…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:58
-#, fuzzy
-#| msgid "Saved Sessions"
 msgid "_Save Session…"
-msgstr "保存したセッションの一覧"
+msgstr "セッションを保存(_S)…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:64
-#, fuzzy, python-brace-format
-#| msgid "Recover '%s' session"
+#, python-brace-format
 msgid "Recover “{0}” Session"
-msgstr "'%s' というセッションに復帰します"
+msgstr "セッション“{0}”に復帰"
 
 #: plugins/sessionsaver/sessionsaver/dialogs.py:153
 msgid "Session Name"
@@ -536,16 +493,15 @@ msgstr "セッション名"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
 msgid "Session Saver"
-msgstr "セッションの保存"
+msgstr "セッション保存"
 
 #: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
 msgid "Save and restore your working sessions"
-msgstr "現在、作業中のセッションを保存したりリストアします"
+msgstr "現在、作業中のセッションを保存したり復元したりします"
 
 #: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
-#, fuzzy
 msgid "Save session"
-msgstr "別名で保存…"
+msgstr "セッションを保存"
 
 #: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
 msgid "Session name:"
@@ -553,7 +509,7 @@ msgstr "セッション名:"
 
 #: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
 msgid "Saved Sessions"
-msgstr "保存したセッションの一覧"
+msgstr "保存したセッション一覧"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
@@ -562,31 +518,28 @@ msgstr "スマートスペース"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr ""
+msgstr "インデントにスペースを使っているときにタブ文字のようにインデントを解除します"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
-#, fuzzy
-#| msgid "Forget you're not using tabulations."
 msgid "Forget you’re not using tabulations."
-msgstr "作表を使っていないことを忘れて下さい。"
+msgstr ""
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/gedit-synctex.metainfo.xml.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince"
-msgstr ""
+msgstr "gedit と evince で LaTeX と PDF を同期します"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr ""
+msgstr "gedit と evince で LaTeX と PDF を同期します"
 
 #: plugins/synctex/synctex/synctex.py:342
-#, fuzzy
 msgid "Forward Search"
-msgstr "rel 属性 (正方向リンクの関係性)"
+msgstr ""
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
@@ -594,10 +547,8 @@ msgid "Terminal"
 msgstr "端末"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:7
-#, fuzzy
-#| msgid "Embed a terminal in the bottom pane."
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr "ボトム・ペインに端末を配置します。"
+msgstr "ボトムパネルにシンプルな端末を表示します"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
 msgid "Whether to silence terminal bell"
@@ -728,9 +679,8 @@ msgid ""
 msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
-#, fuzzy
 msgid "Font"
-msgstr "注釈"
+msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
@@ -742,54 +692,46 @@ msgstr "組み込み端末"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr "ボトム・ペインに端末を配置します。"
+msgstr "ボトムパネルに端末を組み込みます"
 
 #: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
-msgstr "ディレクトリ変更(_H)"
+msgstr "ディレクトリを変更(_H)"
 
 #: plugins/textsize/gedit-textsize.metainfo.xml.in:6
-#, fuzzy
 msgid "Text size"
-msgstr "タブのサイズ"
+msgstr "文字サイズ"
 
 #: plugins/textsize/gedit-textsize.metainfo.xml.in:7
 #: plugins/textsize/textsize.plugin.desktop.in.in:7
 msgid "Easily increase and decrease the text size"
-msgstr ""
+msgstr "文字サイズを手軽に大きくしたり小さくしたりします"
 
 #: plugins/textsize/textsize/__init__.py:53
-#, fuzzy
-#| msgid "No resize"
 msgid "_Normal size"
-msgstr "noresize 属性 (フレームのサイズ変更不可)"
+msgstr "通常サイズ(_N)"
 
 #: plugins/textsize/textsize/__init__.py:55
-#, fuzzy
-#| msgid "Small text style"
 msgid "S_maller Text"
-msgstr "small 要素 (小さい文字)"
+msgstr "小さい文字(_M)"
 
 #: plugins/textsize/textsize/__init__.py:57
-#, fuzzy
-#| msgid "Large text style"
 msgid "_Larger Text"
-msgstr "big 要素 (大きい文字)"
+msgstr "大きい文字(_L)"
 
 #: plugins/textsize/textsize.plugin.desktop.in.in:6
-#, fuzzy
 msgid "Text Size"
-msgstr "タブのサイズ"
+msgstr "文字サイズ"
 
 #: plugins/translate/gedit-translate.metainfo.xml.in:5
 #: plugins/translate/translate.plugin.desktop.in.in:6
 msgid "Translate"
-msgstr ""
+msgstr "翻訳"
 
 #: plugins/translate/gedit-translate.metainfo.xml.in:6
 #: plugins/translate/translate.plugin.desktop.in.in:7
 msgid "Translates text into different languages"
-msgstr ""
+msgstr "文字列を別の言語に翻訳します"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
 msgid "Where translation output is shown"
@@ -810,10 +752,8 @@ msgid "'eng|spa'"
 msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
-#, fuzzy
-#| msgid "Language code"
 msgid "Language pair used"
-msgstr "hreflang または lang 属性 (言語情報)"
+msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used to translate from one language to another"
@@ -832,96 +772,94 @@ msgstr ""
 #: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
-msgstr ""
+msgstr "{0} での翻訳"
 
 #: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
-msgstr ""
+msgstr "翻訳コンソール"
 
 #: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
-msgstr ""
+msgstr "選択箇所を翻訳 [{0}]"
 
 #: plugins/translate/translate/preferences.py:84
 msgid "API Key"
-msgstr ""
+msgstr "API キー"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
 "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
+"次の場所でフリーの API キーを取得する必要があります: "
+"<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
-msgstr ""
+msgstr "翻訳言語:"
 
 #: plugins/translate/translate/ui/preferences.ui:60
 msgid "Where to output translation:"
-msgstr ""
+msgstr "翻訳の出力場所:"
 
 #: plugins/translate/translate/ui/preferences.ui:75
 msgid "Same document window"
-msgstr ""
+msgstr "同じウィンドウ内"
 
 #: plugins/translate/translate/ui/preferences.ui:90
 msgid "Translate console (bottom panel)"
-msgstr ""
+msgstr "翻訳コンソール (ボトムパネル)"
 
 #: plugins/translate/translate/ui/preferences.ui:157
 msgid "Translation service:"
-msgstr ""
+msgstr "翻訳サービス:"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:18
-#, fuzzy
 msgid "Interactive completion"
-msgstr "バックアップコピーの拡張子"
+msgstr "対話的に保管する"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:43
 msgid "Minimum word size:"
-msgstr ""
+msgstr "最小単語サイズ:"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
-#, fuzzy
 msgid "Word completion"
-msgstr "バックアップコピーの拡張子"
+msgstr "単語補完"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
 msgid ""
 "Propose automatic completion using words already present in the document"
 msgstr ""
+"ドキュメント内にすでに存在する単語の自動補完を提案します"
 
 #: plugins/wordcompletion/gedit-word-completion-plugin.c:185
-#, fuzzy
 msgid "Document Words"
-msgstr "body 要素 (ドキュメントの本文)"
+msgstr "既存の単語"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
-#, fuzzy
 msgid "Interactive Completion"
-msgstr "バックアップコピーの拡張子"
+msgstr "対話的補完"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "対話的な補完を有効にするかどうか"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "最小単語サイズ"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "補完する単語の最小サイズ"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
-#, fuzzy
 msgid "Word Completion"
-msgstr "バックアップコピーの拡張子"
+msgstr "単語補完"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "補完フレームワークを使用した単語補完です"
 
 #, fuzzy
 #~ msgid "Toggle bookmark status of the current line"
