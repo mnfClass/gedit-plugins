@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2019-11-28 08:24+0000\n"
-"PO-Revision-Date: 2020-01-12 23:00+0900\n"
+"PO-Revision-Date: 2020-01-15 00:00+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -35,7 +35,7 @@ msgstr "ブックマーク"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "ブックマークを使って簡単にドキュメントを閲覧できるようにします"
+msgstr "ブックマークを使用して簡単にドキュメントを閲覧できるようにします"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
@@ -518,7 +518,7 @@ msgstr "スマートスペース"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "インデントにスペースを使っているときにタブ文字のようにインデントを解除します"
+msgstr "インデントにスペースを使用しているときにタブ文字のようにインデントを解除します"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
@@ -670,21 +670,24 @@ msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
 msgid "Whether to use the system font"
-msgstr ""
+msgstr "システムフォントを使用するかどうか"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"true にすると、端末はデスクトップの標準フォント (monospace) を使用します "
+"(monospace に設定されていない場合は最も monospace に近いフォントを使用しま"
+"す)。"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
 msgid "Font"
-msgstr ""
+msgstr "フォント"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Pango フォント名です (“Sans 12”や“Monospace Bold 14”など)。"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -735,13 +738,13 @@ msgstr "文字列を別の言語に翻訳します"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
 msgid "Where translation output is shown"
-msgstr ""
+msgstr "翻訳の出力をどこに表示するか"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Output Translate Window."
-msgstr ""
+msgstr "true にすると、ドキュメントウィンドウ内に翻訳を表示します。"
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
@@ -753,21 +756,21 @@ msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "Language pair used"
-msgstr ""
+msgstr "使用する言語の組み合わせ"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used to translate from one language to another"
-msgstr ""
+msgstr "翻訳元と翻訳先の言語の組み合わせです"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 msgid "API key for remote web service"
-msgstr ""
+msgstr "リモートウェブサービスの API キー"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 msgid "Remote web service to use"
-msgstr ""
+msgstr "使用するリモートウェブサービス"
 
 #: plugins/translate/translate/__init__.py:72
 #, python-brace-format
