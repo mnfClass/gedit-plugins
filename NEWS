@@ -1,3 +1,10 @@
+News in 3.35.90, 2020-01-31
+---------------------------
+* Remove the Zeitgeist plugin. For the explanation see:
+  https://gitlab.gnome.org/GNOME/gedit-plugins/issues/9
+* Small code improvements.
+* Translation updates.
+
 News in 3.35.1, 2019-11-22
 --------------------------
 * Lots of improvements to the build system (meson).
