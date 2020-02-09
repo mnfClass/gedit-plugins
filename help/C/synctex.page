@@ -38,16 +38,16 @@
     <item>
       <p>Some basic information on setting up SyncTeX and compiling LaTeX
       documents can be found in the
-      <link type="guide" xref="help:evince#synctex"><app>evince</app>-SyncTeX
+      <link xref="help:evince#synctex"><app>evince</app>-SyncTeX
       documentation</link>.</p>
     </item>
     <item>
       <p>Key shortcuts and mouse controls are also documented in the
-      <link type="guide" xref="help:evince/synctex-search">
+      <link xref="help:evince/synctex-search">
       <app>evince</app>-SyncTeX documentation</link>.</p>
     </item>
     <item>
-      <p><link type="guide" xref="help:gnome-latex">
+      <p><link xref="help:gnome-latex">
       <app>Gnome-LaTeX</app></link> is an alternative text editor specifically
       designed for writing TeX code.</p>
     </item>
