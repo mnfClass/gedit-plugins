@@ -48,8 +48,7 @@
   <title>Using Character Map</title>
 
   <p>Once the plugin is enabled, you can add characters from the
-  <gui style="tab">Character Map</gui> tab of the side panel
-  (<guiseq><gui>View</gui><gui>Side Panel</gui></guiseq>).</p>
+  <gui style="tab">Character Map</gui> tab of the side panel.</p>
   
   <steps>
     <item>
