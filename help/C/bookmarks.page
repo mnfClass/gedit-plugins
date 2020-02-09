@@ -7,6 +7,7 @@
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <revision version="3.4" date="2013-02-24" status="review"/>
     <revision version="3.14" date="2014-09-10" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -28,9 +29,17 @@
   move up or down between bookmarks, making document navigation a bit
   faster.</p>
 
-  <p>To enable the bookmark plugin, select <guiseq><gui style="menu">gedit</gui>
-  <gui style="menuitem">Preferences</gui><gui>Plugins</gui>
-  <gui>Bookmarks</gui></guiseq>.</p>
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Bookmarks</gui> to enable the plugin.</p>
+    </item>
+  </steps>
 
   <steps>
     <title>Bookmarks are inserted and removed by completing the same action. To 

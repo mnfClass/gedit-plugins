@@ -7,6 +7,7 @@
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <link type="seealso" xref="gedit-change-default-font"/>
     <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -32,15 +33,14 @@
   <title>Enable Text Size Plugin</title>
 
   <steps>
-    <title>To enable Text Size plugin:</title>
+    <title>To enable the plugin:</title>
     <item>
-      <p>Select <guiseq><gui style="menu">gedit</gui>
-      <gui style="menuitem">Preferences</gui>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
       <gui style="tab">Plugins</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Select <gui style="menuitem">Text Size</gui> to enable the
-      plugin.</p>
+      <p>Select <gui style="menuitem">Text Size</gui> to enable the plugin.</p>
     </item>
   </steps>
 

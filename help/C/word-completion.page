@@ -5,6 +5,7 @@
 
   <info>
     <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
 
     <credit type="author">
@@ -28,12 +29,13 @@
   <title>Word Completion</title>
 
   <p>The <app>Word Completion</app> plugin can speed up your editing by
-  suggesting completions of words as you type. To enable the plugin:</p>
+  suggesting completions of words as you type.</p>
 
   <steps>
+    <title>To enable the plugin:</title>
     <item>
-      <p>Select <guiseq><gui style="menu">Edit</gui>
-      <gui style="menuitem">Preferences</gui>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
       <gui style="tab">Plugins</gui></guiseq>.</p>
     </item>
     <item>

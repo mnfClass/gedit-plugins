@@ -6,6 +6,7 @@
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>  
     <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -23,9 +24,19 @@
   characters.</p>
   
   <p>The <app>code comment</app> plugin makes it easier to quickly create or
-  remove code comments. To enable the code comment plugin, select
-  <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Preferences</gui>
-  <gui>Plugins</gui><gui>Code comment</gui></guiseq>.</p>
+  remove code comments.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Code comment</gui> to enable the plugin.</p>
+    </item>
+  </steps>
   
   <steps>
     <title>To create or remove a comment:</title>
@@ -34,14 +45,13 @@
       comment.</p>
     </item>
     <item>
-      <p>To add a comment, click <guiseq><gui style="menu">gedit</gui>
-      <gui>Comment Code</gui></guiseq>, or press <keyseq><key>Ctrl</key>
-      <key>M</key></keyseq>.</p>
+      <p>To add a comment, right click and select <gui style="menuitem">Comment
+      Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>.</p>
     </item>
     <item>
-      <p>To remove a comment, click <guiseq><gui style="menu">gedit</gui>
-      <gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key>
-      <key>Ctrl</key><key>M</key></keyseq>.</p>
+      <p>To remove a comment, right click and select
+      <gui style="menuitem">Uncomment Code</gui>, or press
+      <keyseq><key>Shift</key> <key>Ctrl</key><key>M</key></keyseq>.</p>
     </item>
   </steps>
   

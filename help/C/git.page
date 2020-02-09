@@ -6,6 +6,7 @@
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <revision version="3.10" date="2013-10-21" status="draft"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Aleksandra Hankus</name>
@@ -21,9 +22,17 @@
   the last commit. Lines will be highlighted only on files that are already
   tracked by git.</p>
 
-  <p>To enable the plugin, select <guiseq><gui style="menu">gedit</gui>
-  <gui style="menuitem">Preferences</gui><gui>Plugins</gui>
-  <gui>Git</gui></guiseq>.</p>
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Git</gui> to enable the plugin.</p>
+    </item>
+  </steps>
 
   <p>The changes are shown in the margin of the document in three different
   colors:</p>

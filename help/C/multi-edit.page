@@ -6,6 +6,7 @@
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -19,14 +20,26 @@
   <title>Multi Edit</title>
 
   <p>The <app>Multi Edit</app> plugin allows you to edit a document in multiple
-  places at once. This can be helpful when performing tedious editing tasks. To
-  enable the Multi Edit plugin, select <guiseq><gui style="menu">gedit</gui>
-  <gui>Preferences</gui><gui>Plugins</gui><gui>Multi Edit</gui></guiseq>.</p>
-  
+  places at once. This can be helpful when performing tedious editing tasks.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Multi Edit</gui> to enable the
+      plugin.</p>
+    </item>
+  </steps>
+
   <p>After you have enabled the plugin, turn-on Multi Edit mode by pressing
-  <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or clicking
-  <guiseq><gui style="menu">gedit</gui><gui>Multi Edit Mode</gui></guiseq>. You
-  can then select the points in your file that you would like start
+  <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the
+  menu button in the top-right corner of the window and select
+  <guiseq><gui style="menuitem">Tools</gui><gui style="menuitem">Multi Edit Mode</gui></guiseq>.
+  You can then select the points in your file that you would like start
   editing.</p>
   
   <p>To insert editing points in your file:</p>

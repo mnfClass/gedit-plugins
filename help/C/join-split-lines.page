@@ -6,6 +6,7 @@
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <revision version="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -19,10 +20,18 @@
 
   <p>The <app>Join&#47;Split Lines</app> plugin can join shorter lines into one
   longer line, or can split a long line into multiple shorter lines.</p>
-  
-  <p>To enable this plugin, select <guiseq><gui style="menu">gedit</gui>
-  <gui style="menuitem">Preferences</gui><gui>Plugins</gui>
-  <gui>Join/Split Lines</gui></guiseq>.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Join/Split Lines</gui> to enable the plugin.</p>
+    </item>
+  </steps>
 
   <steps>
     <title>To join multiple lines into one longer line:</title>

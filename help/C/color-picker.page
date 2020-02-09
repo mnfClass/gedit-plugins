@@ -6,6 +6,7 @@
   <info>
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/> 
     <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -20,11 +21,19 @@
   <p>The <app>Color Picker</app> plugin helps you to insert the character codes
   that represent a certain color. This can make it easier to choose and use the
   correct color in your programs.</p>
-  
-  <p>To enable the color picker plugin, select
-  <guiseq><gui style="menu">gedit</gui><gui style="menuitem">Preferences</gui>
-  <gui>Plugins</gui><gui>Color Picker</gui></guiseq>.</p>
-  
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Color Picker</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
   <steps>
     <title>To open and use the color picker:</title>
     <item>
@@ -32,8 +41,9 @@
       insert the color code.</p>
     </item>
     <item>
-      <p>Select <guiseq><gui>Tools</gui><gui>Pick Color…</gui></guiseq>.  The
-      color picker dialog will appear.</p>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Tools</gui>
+      <gui style="menuitem">Pick Color…</gui></guiseq>.</p>
     </item>
     <item>
       <p>Click on the desired color in the color picker window.</p>
@@ -43,18 +53,15 @@
       cursor.</p>
     </item>
     <item>
-      <p>To close the <app>color picker</app>, click <gui>Close</gui>.</p>
+      <p>To close the <app>color picker</app>, click <gui>Cancel</gui>.</p>
     </item>
   </steps>
 
   <!--TODO: Update this section for the "Custom" values -->
   <note style="tip">
-    <p>You can make fine-grained adjustments to the color by adjusting the
-    values for Hue, Saturation, Value, Red, Green, or Blue.</p>
-    <p>Additionally, you can save colors by right-clicking on any of the
-    colored boxes in the color picker, and selecting <gui>Save color
-    here</gui>. This will make it easier to insert commonly-used colors
-    later.</p>
+    <p>You can make fine-grained adjustments to the color and adjust the
+    values for Hue, Saturation, Value, Red, Green, or Blue by right clicking on
+    a color and selecting <gui style="menuitem">Customize</gui>.</p>
   </note>     
 
 </page>
