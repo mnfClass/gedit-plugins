@@ -1,5 +1,5 @@
 # gedit ja.po.
-# Copyright (C) 1999-2012, 2020 gedit-plugins' COPYRIGHT HOLDER
+# Copyright (C) 1999-2012, 2016, 2020 gedit-plugins' COPYRIGHT HOLDER
 # Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999
 # Yuusuke Tahara <tahara@gnome.gr.jp>
 # Yukihiro Nakai <nakai@gnome.gr.jp>
@@ -11,14 +11,15 @@
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
 # Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
 # OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
+# Kenichi Ito <ken.i54k@gmail.com>, 2016.
 # sicklylife <translation@sicklylife.jp>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-11-28 08:24+0000\n"
-"PO-Revision-Date: 2020-01-15 00:00+0900\n"
+"POT-Creation-Date: 2020-01-15 14:18+0000\n"
+"PO-Revision-Date: 2020-02-15 23:00+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -37,15 +38,15 @@ msgstr "ブックマーク"
 msgid "Easy document navigation with bookmarks"
 msgstr "ブックマークを使用して簡単にドキュメントを閲覧できるようにします"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "ブックマークを切り替え"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
 msgid "Goto Next Bookmark"
 msgstr "次のブックマークへ移動"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
 msgid "Goto Previous Bookmark"
 msgstr "前のブックマークへ移動"
 
@@ -248,7 +249,7 @@ msgstr "空白を表示"
 msgid "Draw spaces and tabs"
 msgstr "空白やタブ文字を表示します"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "空白を表示(_W)"
@@ -518,7 +519,9 @@ msgstr "スマートスペース"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "インデントにスペースを使用しているときにタブ文字のようにインデントを解除します"
+msgstr ""
+"インデントにスペースを使用しているときにタブ文字のようにインデントを解除しま"
+"す"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
@@ -539,7 +542,7 @@ msgstr "gedit と evince で LaTeX と PDF を同期します"
 
 #: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
-msgstr ""
+msgstr "前方検索"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
 #: plugins/terminal/terminal.py:314
@@ -795,8 +798,8 @@ msgid ""
 "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"次の場所でフリーの API キーを取得する必要があります: "
-"<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+"次の場所でフリーの API キーを取得する必要があります: <a href='https://tech."
+"yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -833,10 +836,9 @@ msgstr "単語補完"
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
 msgid ""
 "Propose automatic completion using words already present in the document"
-msgstr ""
-"ドキュメント内にすでに存在する単語の自動補完を提案します"
+msgstr "ドキュメント内にすでに存在する単語の自動補完を提案します"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "既存の単語"
 
@@ -854,7 +856,7 @@ msgstr "最小単語サイズ"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
-msgstr "補完する単語の最小サイズ"
+msgstr "補完する単語の最小長"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
