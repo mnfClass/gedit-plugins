@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2020-02-09 16:21+0000\n"
-"PO-Revision-Date: 2020-02-16 13:45+0100\n"
+"POT-Creation-Date: 2020-02-16 12:46+0000\n"
+"PO-Revision-Date: 2020-02-18 16:45+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -339,8 +339,8 @@ msgid ""
 "key><key>M</key></keyseq>."
 msgstr ""
 "Aby usunąć komentarz, kliknij prawym przyciskiem myszy i wybierz <gui style="
-"\"menuitem\">Odkomentuj kod</gui></guiseq> lub naciśnij klawisze "
-"<keyseq><key>Shift</key> <key>Ctrl</key><key>M</key></keyseq>."
+"\"menuitem\">Odkomentuj kod</gui> lub naciśnij klawisze <keyseq><key>Shift</"
+"key> <key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/code-comment.page:59
