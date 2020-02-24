@@ -5,8 +5,9 @@
 # Keld Simonsen <keld@dkuug.dk>, 2000, 01.
 # Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
 # Niels Rasmussen <nielsrasmus@gmail.com>, 2008
-# Joe Hansen (joedalton2@yahoo.dk), 2010, 2011, 2012.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2012.
 # Alan Mortensen <alanmortensen.am@gmail.com>, 2016-19.
+# scootergrisen, 2020.
 #
 # Konventioner:
 #
@@ -19,15 +20,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-01-25 19:03+0100\n"
-"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
-"Language-Team: Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"POT-Creation-Date: 2019-11-28 08:24+0000\n"
+"PO-Revision-Date: 2020-01-16 21:39+0200\n"
+"Last-Translator: scootergrisen\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -39,15 +40,15 @@ msgstr "Bogmærker"
 msgid "Easy document navigation with bookmarks"
 msgstr "Nem dokumentnavigering med bogmærker"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Skift bogmærke"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Gå til næste bogmærke"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Gå til forrige bogmærke"
 
@@ -64,7 +65,7 @@ msgstr "Tilføjer automatisk afsluttende klammer."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Tilføj automatisk afsluttende klamme, når du indsætter en"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Tegnoversigt"
@@ -72,12 +73,6 @@ msgstr "Tegnoversigt"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Indsæt speicaltegn ved at klikke på dem."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-#| msgid "Accessibility key character"
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -96,11 +91,11 @@ msgstr "Kodekommentar"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Kommentér eller udkommentér den valgte kodeblok."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Ko_mmenter kode"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "U_dkommentér kode"
 
@@ -116,11 +111,11 @@ msgstr "Farvevælger"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Vælg en farve fra dialogvinduet og indsæt dens hexadecimale værdi."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Vælg _farve …"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Vælg farve"
 
@@ -146,6 +141,44 @@ msgstr "Redigering af kildekode til farveskema"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Opret og redigér farveskemaet, der anvendes til fremhævning af syntaks"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Der opstod et problem da skemaet skulle gemmes"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har valgt at oprette et nyt skema,\n"
+"men navnet eller id'et er allerede i brug.\n"
+"\n"
+"Sørg venligst for at vælge et navn eller id der ikke allerede er i brug.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har ikke tilladelse til at overskrive det valgte skema.\n"
+"Der oprettes i stedet en kopi.\n"
+"\n"
+"Sørg venligst for at vælge et navn eller id der ikke allerede er i brug.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Der opstod et problem da filen skulle åbnes"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Det ser ud til at du har skemaer med de samme id'er i forskellige mapper\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -327,12 +360,23 @@ msgstr "Find tekst i alle filerne i en mappe"
 msgid "Find in Files…"
 msgstr "Find i filer …"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+#| msgid "Git"
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "hit"
+msgstr[1] "hits"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Fandt ingen resultater"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fil"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Stands søgningen"
 
@@ -369,11 +413,11 @@ msgstr "Sammenføj/Del linjer"
 msgid "Join several lines or split long ones"
 msgstr "Sammenføj flere linjer eller del de lange"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "_Sammenføj Linjer"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "_Del Linjer"
 
@@ -450,6 +494,46 @@ msgstr "Juster redigeringspunkter"
 msgid "Align edit points with additional space"
 msgstr "Juster redigeringspunkter med yderligere mellemrum"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+#| msgid "_Manage saved sessions..."
+msgid "_Manage Saved Sessions…"
+msgstr "_Håndter gemte sessioner …"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+#| msgid "Saved Sessions"
+msgid "_Save Session…"
+msgstr "_Gem session …"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+#| msgid "Recover '%s' session"
+msgid "Recover “{0}” Session"
+msgstr "Genopret sessionen “{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Sessionsnavn"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Gem sessioner"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Gem og gendan dine aktuelle sessioner"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Gem session"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Sessionsnavn:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Gemte sessioner"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -477,12 +561,12 @@ msgstr "Synkronisér mellem LaTeX og PDF med gedit og evince"
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "Synkronisér mellem LaTeX og PDF med gedit og evince."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Søg fremad"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -660,12 +744,7 @@ msgstr "Indlejret terminalvindue"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Indlejr en terminal i nederste felt."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "S_kift filkatalog"
 
@@ -678,15 +757,15 @@ msgstr "Tekststørrelse"
 msgid "Easily increase and decrease the text size"
 msgstr "Øg og formindsk nemt tekststørrelsen"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Normal størrelse"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "_Mindre tekst"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "St_ørre tekst"
 
@@ -744,21 +823,21 @@ msgstr "API-nøgle til ekstern webtjeneste"
 msgid "Remote web service to use"
 msgstr "Ekstern webtjeneste der skal bruges"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Oversættelser leveret af {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Oversættelseskonsol"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Oversæt den valgte tekst [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API-nøgle"
 
@@ -836,26 +915,29 @@ msgstr "Ordfuldførelse"
 msgid "Word completion using the completion framework"
 msgstr "Ordfuldførelse med brug af fuldførelsesramme"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Zeitgeist-dataleverandør"
+#~| msgid "Accessibility key character"
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Registrerer brugeraktivitet og giver nem adgang til seneste og hyppigt "
-"brugte filer"
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist-dataleverandør"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist-dataleverandør"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr ""
-"Logger adgangs- og forlade-hændelser i dokumenter, der bruges med gedit"
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Registrerer brugeraktivitet og giver nem adgang til seneste og hyppigt "
+#~ "brugte filer"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist-dataleverandør"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Logger adgangs- og forlade-hændelser i dokumenter, der bruges med gedit"
 
 #~ msgid "Empty Document"
 #~ msgstr "Tomt dokument"
@@ -919,12 +1001,6 @@ msgstr ""
 #~ msgid "Start multi edit mode"
 #~ msgstr "Start multiredigeringstilstand"
 
-#~ msgid "Session Name"
-#~ msgstr "Sessionsnavn"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Genopret sessionen »%s«"
-
 #~ msgid "Sa_ved sessions"
 #~ msgstr "_Gemte sessioner"
 
@@ -934,26 +1010,8 @@ msgstr ""
 #~ msgid "Save the current document list as a new session"
 #~ msgstr "Gem den aktuelle dokumentliste som en ny session"
 
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Håndter gemte sessioner …"
-
 #~ msgid "Open the saved session manager"
 #~ msgstr "Åbn håndtering af gemte sessioner"
-
-#~ msgid "Session Saver"
-#~ msgstr "Gem sessioner"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Gem og gendan dine aktuelle sessioner"
-
-#~ msgid "Save session"
-#~ msgstr "Gem session"
-
-#~ msgid "Session name:"
-#~ msgstr "Sessionsnavn:"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Gemte sessioner"
 
 #~ msgid "Tags"
 #~ msgstr "Mærker"
