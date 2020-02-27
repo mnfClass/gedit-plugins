@@ -16,22 +16,22 @@
 # Kenneth Venken <kenneth.venken@gmail.com>, 2010.
 # Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
 # Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
-# Nathan Follens <nthn@unseen.is>, 2017-2019.
+# Nathan Follens <nthn@unseen.is>, 2017-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-02-26 13:27+0100\n"
+"POT-Creation-Date: 2019-11-12 10:03+0000\n"
+"PO-Revision-Date: 2020-02-27 20:02+0100\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -43,15 +43,15 @@ msgstr "Bladwijzers"
 msgid "Easy document navigation with bookmarks"
 msgstr "Gemakkelijke documentnavigatie met bladwijzers"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "Bladwijzer aan/uit"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "Ga naar volgende bladwijzer"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "Ga naar vorige bladwijzer"
 
@@ -68,7 +68,7 @@ msgstr "Voegt automatisch ‘haakjes sluiten’ toe."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Als u een haakje invoegt, automatisch een haakje sluiten toevoegen"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Tekens- en symbolenlijst"
@@ -76,13 +76,6 @@ msgstr "Tekens- en symbolenlijst"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Speciale tekens en symbolen invoegen door erop te klikken."
-
-# Wazige string, juiste vertaling?
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-#| msgid "Accessibility key character"
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -101,11 +94,11 @@ msgstr "Commentaar"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Een blok code van commentaar voorzien of uit commentaar halen."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "Co_mmentaar"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Code ui_t commentaar halen"
 
@@ -123,11 +116,11 @@ msgstr ""
 "Een kleur uit een dialoogvenster kiezen en de hexadecimale representatie "
 "ervan invoegen."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "_Kleur kiezen…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Kleur kiezen"
 
@@ -154,6 +147,46 @@ msgstr "Broncode van kleurenschemabewerker"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Het kleurenschema gebruikt voor syntax-markering maken en bewerken"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Er is een probleem opgetreden bij het opslaan van het schema"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"U heeft ervoor gekozen een nieuw schema aan te maken\n"
+"maar de naam of ID die u gebruikt is al in gebruik.\n"
+"\n"
+"Kies een naam en ID die nog niet in gebruik zijn.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"U heeft geen toestemming om dit schema te overschrijven.\n"
+"In plaats daarvan zal er een kopie gemaakt worden.\n"
+"\n"
+"Kies een naam en ID die nog niet in gebruik zijn.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Er is een probleem opgetreden bij het openen van het bestand"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr ""
+"Het lijkt erop dat u schema’s met dezelfde ID’s in verschillende mappen "
+"heeft\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -333,12 +366,22 @@ msgstr "Tekst zoeken in alle bestanden in een map"
 msgid "Find in Files…"
 msgstr "In bestanden vinden…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "resultaat"
+msgstr[1] "resultaten"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Geen resultaten gevonden"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Bestand"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Zoeken stoppen"
 
@@ -375,11 +418,11 @@ msgstr "Regels aaneenvoegen/splitsen"
 msgid "Join several lines or split long ones"
 msgstr "Meerdere lange regels aaneenvoegen of lange regels splitsen"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "Regels samen_voegen"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "Regels _splitsen"
 
@@ -455,6 +498,43 @@ msgstr "Bewerklocaties uitlijnen"
 msgid "Align edit points with additional space"
 msgstr "Bewerklocaties uitlijnen met toegevoegde spatie"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "Opgeslagen sessies _beheren…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "Sessie op_slaan…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Sessie ‘{0}’ herstellen"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Sessienaam"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Sessies Opslaan"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Werksessies opslaan en weer openen"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Sessie opslaan"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Sessienaam:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Opgeslagen sessies"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -481,12 +561,12 @@ msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince"
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Voorwaarts zoeken"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -678,12 +758,7 @@ msgstr "Ingebedde terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Een terminalvenster inbedden in het paneel beneden."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "_Map wijzigen"
 
@@ -696,15 +771,15 @@ msgstr "Tekstgrootte"
 msgid "Easily increase and decrease the text size"
 msgstr "De tekst gemakkelijk groter of kleiner maken"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "_Normale grootte"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "_Kleinere tekst"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Grotere tekst"
 
@@ -762,21 +837,21 @@ msgstr "API-sleutel voor de externe webdienst"
 msgid "Remote web service to use"
 msgstr "Te gebruiken externe webdienst"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Vertalingen aangeboden door {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Vertalingsconsole"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Geselecteerde tekst vertalen [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API-sleutel"
 
@@ -876,6 +951,14 @@ msgid "Logs access and leave event for documents used with gedit"
 msgstr ""
 "Logboek-toegang en verlaat-gebeurtenissen voor documenten gebruikt met gedit"
 
+# Wazige string, juiste vertaling?
+#~| msgid "Accessibility key character"
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
 #~ msgid "Empty Document"
 #~ msgstr "Leeg document"
 
@@ -945,22 +1028,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Open the saved session manager"
 #~ msgstr "De gedit-handleiding openen"
-
-#~ msgid "Session Name"
-#~ msgstr "Sessienaam"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Werksessies opslaan en weer openen"
-
-#~ msgid "Session Saver"
-#~ msgstr "Sessies Opslaan"
-
-#, fuzzy
-#~ msgid "Save session"
-#~ msgstr "Opslaan als…"
-
-#~ msgid "Session name:"
-#~ msgstr "Sessienaam:"
 
 #~ msgid "Tags"
 #~ msgstr "Tags"
