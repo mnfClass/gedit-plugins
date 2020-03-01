@@ -4,7 +4,7 @@
 # Sung-Hyun Nam <namsh@lgic.co.kr>, 1998
 # Chideok Hwang <hwang@mizi.co.kr>, 2000, 2001
 # Young-Ho, Cha <ganadist@chollian.net>, 2000, 2002, 2007
-# Changwoo Ryu <cwryu@debian.org>, 2004, 2007-2009, 2010, 2013-2015, 2019.
+# Changwoo Ryu <cwryu@debian.org>, 2004, 2007-2009, 2010, 2013-2015, 2019-2020.
 #
 # 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
 #
@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-01-12 14:33+0000\n"
-"PO-Revision-Date: 2019-03-03 08:42+0900\n"
+"POT-Creation-Date: 2019-11-28 08:24+0000\n"
+"PO-Revision-Date: 2020-02-22 20:00+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -36,15 +36,15 @@ msgstr "책갈피"
 msgid "Easy document navigation with bookmarks"
 msgstr "책갈피를 이용해 간편하게 문서를 봅니다"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
 msgid "Toggle Bookmark"
 msgstr "책갈피 토글"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
 msgid "Goto Next Bookmark"
 msgstr "다음 책갈피로 이동"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
 msgid "Goto Previous Bookmark"
 msgstr "이전 책갈피로 이동"
 
@@ -61,7 +61,7 @@ msgstr "자동으로 닫는 각괄호를 추가합니다."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "각괄호를 입력하면 자동으로 닫는 각괄호를 추가합니다."
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "문자표"
@@ -69,11 +69,6 @@ msgstr "문자표"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "마우스로 눌러 특수 문자를 입력합니다."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -92,11 +87,11 @@ msgstr "코드 주석"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "지정한 블럭의 코드를 주석으로 만들거나 해제합니다."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "코드 주석(_M)"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "코드 주석 해제(_N)"
 
@@ -112,11 +107,11 @@ msgstr "색 고르기"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "대화 상자에서 색을 골라 그 16진수 표현을 입력합니다."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "색 고르기(_C)…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "색 고르기"
 
@@ -142,6 +137,44 @@ msgstr "소스 코드 색 편집"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "구문 강조에 사용하는 색 구성을 만들고 편집합니다"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "구성을 저장하는데 문제가 있습니다"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"새 색 구성을 만들겠다고 선택했지만\n"
+"지금 사용 중인 이름이나 ID가 이미 사용되었습니다.\n"
+"\n"
+"이미 사용된 이름이나 ID를 피해서 골라 보십시오.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"선택한 색 구성을 덮어쓸 권한이 없습니다.\n"
+"대신 복사본을 만듭니다.\n"
+"\n"
+"이미 사용된 이름이나 ID를 피해서 골라 보십시오.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "파일을 여는데 문제가 있습니다"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "다른 디렉터리에서 같은 ID의 색 구성이 들어 있습니다\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -321,12 +354,21 @@ msgstr "폴더의 모든 파일에서 문자열 찾기"
 msgid "Find in Files…"
 msgstr "파일에서 찾기…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "일치"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "결과 없음"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "파일"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "검색 중지"
 
@@ -361,11 +403,11 @@ msgstr "줄 합치기/나누기"
 msgid "Join several lines or split long ones"
 msgstr "여러 줄을 합치거나 긴 줄을 나눕니다"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "줄 합치기(_J)"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "줄 나누기(_S)"
 
@@ -439,6 +481,43 @@ msgstr "편집 위치 정렬"
 msgid "Align edit points with additional space"
 msgstr "편집 위치를 추가 공백으로 정렬"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "저장된 세션 관리(_M)…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "세션 저장(_S)…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "“{0}” 세션 복구"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "세션 이름"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "세션 저장"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "작업 세션을 저장하고 복구합니다"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "세션 저장"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "세션 이름:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "저장한 세션"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -465,12 +544,12 @@ msgstr "지에디트와 에빈스의 LaTeX과 PDF 문서를 동기화합니다"
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "지에디트와 에빈스의 LaTeX과 PDF 문서를 동기화합니다."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "앞으로 검색"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:314
 msgid "Terminal"
 msgstr "터미널"
 
@@ -549,7 +628,9 @@ msgstr "터미널의 기본 글자색"
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
-msgstr "터미널의 글자색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 “red”같은 식의 색 이름)"
+msgstr ""
+"터미널의 글자색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 “red”같은 "
+"식의 색 이름)"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
 msgid "Default color of terminal background"
@@ -559,7 +640,9 @@ msgstr "터미널의 기본 배경색"
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
-msgstr "터미널의 배경색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 “red”같은 식의 색 이름)"
+msgstr ""
+"터미널의 배경색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 “red”같은 "
+"식의 색 이름)"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
 msgid "Palette for terminal applications"
@@ -570,7 +653,10 @@ msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
-msgstr "터미널 안의 프로그램이 사용할 수 있는 16색의 팔레트가 있습니다. 여기서 그 팔레트를 지정합니다. 형식은 색 이름을 쉼표로 구분한 목록입니다. 색 이름은 16진수 형식으로(예: “#FF00FF”) 써야 합니다."
+msgstr ""
+"터미널 안의 프로그램이 사용할 수 있는 16색의 팔레트가 있습니다. 여기서 그 팔"
+"레트를 지정합니다. 형식은 색 이름을 쉼표로 구분한 목록입니다. 색 이름은 16진"
+"수 형식으로(예: “#FF00FF”) 써야 합니다."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -590,7 +676,8 @@ msgstr "커서를 깜박일지 여부"
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
-msgstr "“system”이면 전체 커서 깜박이기 설정 사용, “on”이나 “off”면 모드를 직접 지정."
+msgstr ""
+"“system”이면 전체 커서 깜박이기 설정 사용, “on”이나 “off”면 모드를 직접 지정."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
 msgid "The cursor appearance"
@@ -600,7 +687,9 @@ msgstr "커서 모양"
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
-msgstr "“block”이면 사각형 커서 사용, “ibeam”이면 세로 줄 모양 커서 사용, “underline”이면 밑줄 커서 사용."
+msgstr ""
+"“block”이면 사각형 커서 사용, “ibeam”이면 세로 줄 모양 커서 사용, "
+"“underline”이면 밑줄 커서 사용."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
 msgid "Whether to use the system font"
@@ -630,12 +719,7 @@ msgstr "내장 터미널"
 msgid "Embed a terminal in the bottom pane."
 msgstr "맨 아래 창에 터미널을 엽니다."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:335
 msgid "C_hange Directory"
 msgstr "디렉터리 바꾸기(_H)"
 
@@ -648,15 +732,15 @@ msgstr "텍스트 크기"
 msgid "Easily increase and decrease the text size"
 msgstr "텍스트 크기를 간단히 키우거나 줄입니다"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "보통 크기(_N)"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "작은 텍스트(_M)"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "큰 텍스트(_L)"
 
@@ -682,7 +766,8 @@ msgstr "번역 결과가 표시되는 위치"
 msgid ""
 "If true, output of the translation is inserted in the document window if not "
 "in the Output Translate Window."
-msgstr "참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 출력 창에 나타납니다."
+msgstr ""
+"참이면, 번역 결과가 문서 창에 입력되고 거짓이면 번역 출력 창에 나타납니다."
 
 # FIXME: apertium 현재 한국어 지원하지 않음
 #. Translators: You can adjust the default pair for users in your locale.
@@ -711,21 +796,21 @@ msgstr "원격 웹 서비스의 API 키"
 msgid "Remote web service to use"
 msgstr "사용할 원격 웹 서비스"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "번역 기능, {0} 이용"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "번역 콘솔"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "선택한 텍스트 [{0}] 번역"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API 키"
 
@@ -733,7 +818,9 @@ msgstr "API 키"
 msgid ""
 "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
-msgstr "<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a> 위치에서 무료 API 키를 먼저 얻어야 합니다."
+msgstr ""
+"<a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/"
+"translate/</a> 위치에서 무료 API 키를 먼저 얻어야 합니다."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -799,23 +886,3 @@ msgstr "단어 완성"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "자동 완성 프레임워크를 사용한 단어 완성"
-
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "자이트가이스트 데이터 제공"
-
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"사용자 동작을 기록해 최근에 자주 사용하는 파일을 더 쉽게 사용할 수 있게 합니"
-"다."
-
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "자이트가이스트 데이터 제공"
-
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "지에디트에서 사용한 문서에 대한 접근 및 떠남 기록을 남깁니다"
