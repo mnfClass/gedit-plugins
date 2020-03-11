@@ -1,3 +1,8 @@
+News in 3.36.1, 2020-03-11
+--------------------------
+* Embedded terminal plugin: fix crash caused by removed gnome-terminal
+  GSettings key.
+
 News in 3.36.0, 2020-03-06
 --------------------------
 * Updates to the user manual.
