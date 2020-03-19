@@ -124,9 +124,9 @@ class SaveSessionDialog(Dialog):
 
     def on_response(self, dialog, response_id):
         if response_id == Gtk.ResponseType.OK:
-            files = [doc.get_location()
+            files = [doc.get_file().get_location()
                         for doc in self.parent.get_documents()
-                        if doc.get_location() is not None]
+                        if doc.get_file().get_location() is not None]
             name = self.combobox.get_child().get_text()
             self.sessions.add(Session(name, files))
             self.sessions.save()
