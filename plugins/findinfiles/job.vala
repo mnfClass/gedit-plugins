@@ -32,7 +32,7 @@ struct Bookmark {
     int line_number;
     size_t line_start;
     size_t line_length;
-    public static const Bookmark EmptyBookmark = { 0, 0 };
+    public const Bookmark EmptyBookmark = { 0, 0 };
 }
 
 struct Result {
