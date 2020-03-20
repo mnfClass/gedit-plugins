@@ -1,7 +1,7 @@
 gedit-plugins
 =============
 
-This is version 3.36.1 of gedit-plugins.
+This is version 3.36.2 of gedit-plugins.
 
 gedit-plugins is a set of additional plugins for the
 [gedit](https://wiki.gnome.org/Apps/Gedit) text editor.

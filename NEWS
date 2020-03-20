@@ -1,3 +1,8 @@
+News in 3.36.2, 2020-03-20
+--------------------------
+* Fix Session Saver plugin.
+* Fix crash in Find in Files plugin.
+
 News in 3.36.1, 2020-03-11
 --------------------------
 * Embedded terminal plugin: fix crash caused by removed gnome-terminal
