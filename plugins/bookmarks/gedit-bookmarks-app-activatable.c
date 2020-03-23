@@ -142,11 +142,11 @@ gedit_bookmarks_app_activatable_activate (GeditAppActivatable *activatable)
 	gedit_menu_extension_append_menu_item (priv->menu_ext, item);
 	g_object_unref (item);
 
-	item = g_menu_item_new (_("Goto Next Bookmark"), "win.bookmark-next");
+	item = g_menu_item_new (_("Go to Next Bookmark"), "win.bookmark-next");
 	gedit_menu_extension_append_menu_item (priv->menu_ext, item);
 	g_object_unref (item);
 
-	item = g_menu_item_new (_("Goto Previous Bookmark"), "win.bookmark-prev");
+	item = g_menu_item_new (_("Go to Previous Bookmark"), "win.bookmark-prev");
 	gedit_menu_extension_append_menu_item (priv->menu_ext, item);
 	g_object_unref (item);
 }
