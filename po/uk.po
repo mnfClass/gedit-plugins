@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-20 11:36+0000\n"
-"PO-Revision-Date: 2020-03-30 22:10+0300\n"
+"POT-Creation-Date: 2020-03-30 19:12+0000\n"
+"PO-Revision-Date: 2020-03-30 22:14+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -25,7 +25,6 @@ msgstr ""
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
-#| msgid "Toggle Bookmark"
 msgid "Bookmarks"
 msgstr "Закладки"
 
@@ -39,16 +38,17 @@ msgid "Toggle Bookmark"
 msgstr "Перемкнути закладку"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-msgid "Goto Next Bookmark"
+#| msgid "Goto Next Bookmark"
+msgid "Go to Next Bookmark"
 msgstr "Перейти до наступної закладки"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-msgid "Goto Previous Bookmark"
+#| msgid "Goto Previous Bookmark"
+msgid "Go to Previous Bookmark"
 msgstr "Перейти до попередньої закладки"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 #: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
-#| msgid "Interactive Completion"
 msgid "Bracket Completion"
 msgstr "Доповнення дужок"
 
@@ -70,7 +70,6 @@ msgid "Insert special characters just by clicking on them."
 msgstr "Вставлення спеціальних символів клацанням на їхніх кнопках."
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
-#| msgid "Character Map"
 msgid "Charmap"
 msgstr "Таблиця символів"
 
@@ -106,8 +105,8 @@ msgstr "Піпетка"
 #: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
-"Виберіть колір з діалогового вікна або вкажіть його шістнадцяткове"
-" представлення."
+"Виберіть колір з діалогового вікна або вкажіть його шістнадцяткове "
+"представлення."
 
 #: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
@@ -133,7 +132,6 @@ msgid "Color Scheme Editor"
 msgstr "Редактор схем кольорів"
 
 #: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
-#| msgid "Color Scheme Editor"
 msgid "Source code color scheme editor"
 msgstr "Редактор схем кольорів підсвічування коду"
 
@@ -156,8 +154,8 @@ msgstr ""
 "Ви наказали програмі створити схему,\n"
 "але вказали вже використану назву або ідентифікатор.\n"
 "\n"
-"Будь ласка, переконайтеся, що вибрано назву та ідентифікатор, які є"
-" унікальними для цієї схеми.\n"
+"Будь ласка, переконайтеся, що вибрано назву та ідентифікатор, які є "
+"унікальними для цієї схеми.\n"
 
 #: plugins/colorschemer/schemer/schemer.py:319
 msgid ""
@@ -169,8 +167,8 @@ msgstr ""
 "У вас немає належних прав доступу для перезапису вибраної вами схеми.\n"
 "Замість перезапису, буде створено копію.\n"
 "\n"
-"Будь ласка, переконайтеся, що вами вибрано унікальну назву та ідентифікатор,"
-" які ще не використано для інших схем.\n"
+"Будь ласка, переконайтеся, що вами вибрано унікальну назву та ідентифікатор, "
+"які ще не використано для інших схем.\n"
 
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
@@ -244,7 +242,6 @@ msgstr "Командний інтерпретатор"
 
 #: plugins/commander/commander.plugin.desktop.in.in:6
 #: plugins/commander/gedit-commander.metainfo.xml.in:6
-#| msgid "Commander Mode"
 msgid "Commander"
 msgstr "Командувач"
 
@@ -259,7 +256,6 @@ msgid "Draw Spaces"
 msgstr "Візуалізація пробілів"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
-#| msgid "Draw Spaces"
 msgid "Draw spaces and tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
@@ -270,12 +266,10 @@ msgstr "Показувати пр_обіли"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
-#| msgid "Draw Spaces"
 msgid "Draw spaces"
 msgstr "Візуалізація пробілів"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-#| msgid "Draw Spaces"
 msgid "Draw tabs"
 msgstr "Візуалізація табуляцій"
 
@@ -288,22 +282,18 @@ msgid "Draw non-breaking spaces"
 msgstr "Візуалізація нерозривних пробілів"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-#| msgid "Draw Spaces"
 msgid "Draw leading spaces"
 msgstr "Візуалізація початкових пробілів"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-#| msgid "Draw Spaces"
 msgid "Draw spaces in text"
 msgstr "Візуалізація пробілів у тексті"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-#| msgid "Draw Spaces"
 msgid "Draw trailing spaces"
 msgstr "Візуалізація кінцевих пробілів"
 
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
-#| msgid "Draw Spaces"
 msgid "Draw Spaces and Tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
@@ -400,8 +390,8 @@ msgid ""
 "Use git information to display which lines and files changed since last "
 "commit"
 msgstr ""
-"Використання даних git для показу рядків і файлів, які було змінено з часу"
-" останнього внеску до сховища"
+"Використання даних git для показу рядків і файлів, які було змінено з часу "
+"останнього внеску до сховища"
 
 #: plugins/git/git.plugin.desktop.in.in:7
 msgid "Highlight lines that have been changed since the last commit"
@@ -416,7 +406,6 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Об'єднання або поділ рядків за допомогою Ctrl+J і Ctrl+Shift+J"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-#| msgid "_Split Lines"
 msgid "Join/Split Lines"
 msgstr "Об'єднати/роз’єднати рядки"
 
@@ -433,7 +422,6 @@ msgid "_Split Lines"
 msgstr "_Роз’єднати рядки"
 
 #: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
-#| msgid "Multi Edit Mode"
 msgid "Multi edit"
 msgstr "Мультиредагування"
 
@@ -448,7 +436,6 @@ msgid "Multi Edit Mode"
 msgstr "Режим мультиредагування"
 
 #: plugins/multiedit/multiedit.plugin.desktop.in.in:6
-#| msgid "Multi Edit Mode"
 msgid "Multi Edit"
 msgstr "Мультиредагування"
 
@@ -546,15 +533,14 @@ msgstr "Збережені сеанси"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
-#| msgid "Draw Spaces"
 msgid "Smart Spaces"
 msgstr "Кмітливі пробіли"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
-"Уможливлюють скасовування відступів у випадках, коли ви використовували"
-" табуляції, а потім перейшли на пробіли"
+"Уможливлюють скасовування відступів у випадках, коли ви використовували "
+"табуляції, а потім перейшли на пробіли"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
@@ -745,7 +731,6 @@ msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”.
 msgstr "Назва шрифту Pango. Наприклад, «Sans 12» або «Monospace Bold 14»."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
-#| msgid "Terminal"
 msgid "Embedded Terminal"
 msgstr "Вбудований термінал"
 
@@ -784,7 +769,6 @@ msgstr "Розмір шрифту"
 
 #: plugins/translate/gedit-translate.metainfo.xml.in:5
 #: plugins/translate/translate.plugin.desktop.in.in:6
-#| msgid "Translate Console"
 msgid "Translate"
 msgstr "Переклад"
 
@@ -859,12 +843,10 @@ msgstr ""
 "</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
-#| msgid "Translate Console"
 msgid "Translation languages:"
 msgstr "Мови перекладу:"
 
 #: plugins/translate/translate/ui/preferences.ui:60
-#| msgid "Where translation output is shown"
 msgid "Where to output translation:"
 msgstr "Де буде показано виведений переклад:"
 
@@ -873,22 +855,18 @@ msgid "Same document window"
 msgstr "У вікні програми"
 
 #: plugins/translate/translate/ui/preferences.ui:90
-#| msgid "Translate Console"
 msgid "Translate console (bottom panel)"
 msgstr "Консоль перекладу (нижня панель)"
 
 #: plugins/translate/translate/ui/preferences.ui:157
-#| msgid "Translate Console"
 msgid "Translation service:"
 msgstr "Служба перекладу:"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:18
-#| msgid "Interactive Completion"
 msgid "Interactive completion"
 msgstr "Інтерактивне доповнення"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:43
-#| msgid "Minimum Word Size"
 msgid "Minimum word size:"
 msgstr "Мінімальний розмір слова:"
 
@@ -923,7 +901,6 @@ msgid "The minimum word size to complete."
 msgstr "Мінімальний розмір слова для доповнення."
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
-#| msgid "Interactive Completion"
 msgid "Word Completion"
 msgstr "Завершення слів"
 
