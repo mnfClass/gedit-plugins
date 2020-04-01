@@ -15,21 +15,21 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
 # Gustavo Jasso Ahuja <gjasso@gmail.com>, 2012.
 # Rodrigo Lledó <rodhos92@gmail.com>, 2019.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-09-27 19:52+0000\n"
-"PO-Revision-Date: 2019-10-10 15:36+0200\n"
+"POT-Creation-Date: 2020-03-30 19:12+0000\n"
+"PO-Revision-Date: 2020-04-01 12:57+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.34.0\n"
+"X-Generator: Gtranslator 3.36.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -42,16 +42,18 @@ msgstr "Marcadores"
 msgid "Easy document navigation with bookmarks"
 msgstr "Navegue fácilmente por sus documentos con marcadores"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Conmutar marcador"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+#| msgid "Goto Next Bookmark"
+msgid "Go to Next Bookmark"
 msgstr "Ir al siguiente marcador"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+#| msgid "Goto Previous Bookmark"
+msgid "Go to Previous Bookmark"
 msgstr "Ir al marcador anterior"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -261,7 +263,7 @@ msgstr "Dibujar espacios"
 msgid "Draw spaces and tabs"
 msgstr "Dibujar espacios y tabulaciones"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Mostrar espacios en _blanco"
@@ -564,7 +566,7 @@ msgid "Forward Search"
 msgstr "Búsqueda hacia adelante"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -638,20 +640,10 @@ msgstr ""
 "desplazará hasta el final."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Indica si se permite texto en negrita"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Si es cierto, se le permite a las aplicaciones en la terminal resaltar el "
-"texto."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Color predeterminado del texto en la terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -660,11 +652,11 @@ msgstr ""
 "color (puede ser en estilo hexadecimal de HTML o el nombre de un color en "
 "inglés como «red»)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Color predeterminado del fondo de la terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -673,11 +665,11 @@ msgstr ""
 "color (puede ser en estilo hexadecimal de HTML o el nombre de un color en "
 "inglés como «red»)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Paleta para la aplicaciones de la terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -688,13 +680,13 @@ msgstr ""
 "nombres de colores separada por comas. Los nombres de los colores deben "
 "estar en formato hexadecimal, por ejemplo: «#FF00FF»"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr ""
 "Indica si se deben utilizar los colores del tema para el widget de la "
 "terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -703,11 +695,11 @@ msgstr ""
 "de texto será usado para la terminal, en lugar de los colores indicados por "
 "el usuario."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Indica si el cursor debe parpadear"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -715,11 +707,11 @@ msgstr ""
 "Los valores posibles son «system» para usar los ajustes de parpadeo "
 "globales, y «on» u «off» para establecer el modo explícito."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "La apariencia del cursor"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -728,11 +720,11 @@ msgstr ""
 "usar una línea de cursor vertical o «underline» para usar un cursor de "
 "subrayado."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Indica si se debe usar la tipografía del sistema"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -740,11 +732,11 @@ msgstr ""
 "Si es cierto, la terminal usará la tipografía global estándar del escritorio "
 "si ésta es de ancho fijo (y la tipografía más parecida a ésta)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Tipografía"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Un nombre de tipografía Pango. Por ejemplo «Sans 12» o «Monospace Bold 14»."
@@ -757,7 +749,7 @@ msgstr "Terminal empotrado"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Empotre un terminal en el panel inferior."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "_Cambiar de carpeta"
 
@@ -898,7 +890,7 @@ msgid ""
 msgstr ""
 "Proponer el completado automático usando palabras existentes en el documento"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Palabras del documento"
 
@@ -926,26 +918,31 @@ msgstr "Completado de palabras"
 msgid "Word completion using the completion framework"
 msgstr "Completado de palabras usando el entorno de trabajo de completado"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Proveedor de datos Zeitgeist"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Indica si se permite texto en negrita"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Recuerda la actividad del usuario y proporciona fácil acceso a los archivos "
-"usados reciente y frecuentemente"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Si es cierto, se le permite a las aplicaciones en la terminal resaltar el "
+#~ "texto."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Proveedor de datos Zeitgeist"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Proveedor de datos Zeitgeist"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr ""
-"Registra los accesos y deja los eventos para los documentos usados con gedit"
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Recuerda la actividad del usuario y proporciona fácil acceso a los "
+#~ "archivos usados reciente y frecuentemente"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Proveedor de datos Zeitgeist"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Registra los accesos y deja los eventos para los documentos usados con "
+#~ "gedit"
 
 #~| msgid "Accessibility key character"
 #~ msgid "accessories-character-map"
