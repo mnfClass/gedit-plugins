@@ -1,19 +1,19 @@
 # Swedish messages for gedit plugins
-# Copyright © 1998-2019 Free Software Foundation, Inc.
+# Copyright © 1998-2020 Free Software Foundation, Inc.
 # Martin Wahlen <mva@sslug.dk>, 1998.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 1999, 2000.
 # Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
 # Josef Andersson <josef.andersson@fripost.org>, 2016, 2017.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-08-26 10:40+0000\n"
-"PO-Revision-Date: 2019-08-27 21:29+0200\n"
+"POT-Creation-Date: 2020-03-30 19:12+0000\n"
+"PO-Revision-Date: 2020-04-04 11:06+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -33,16 +33,16 @@ msgstr "Bokmärken"
 msgid "Easy document navigation with bookmarks"
 msgstr "Enkel dokumentnavigering med bokmärken"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Växla bokmärken"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Gå till nästa bokmärke"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Gå till föregående bokmärke"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -252,7 +252,7 @@ msgstr "Rita ut blanksteg"
 msgid "Draw spaces and tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Visa _tomt utrymme"
@@ -533,8 +533,25 @@ msgstr ""
 msgid "Forget you’re not using tabulations."
 msgstr "Glöm att du inte använder tabulatorer."
 
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Framåtsök"
+
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -605,18 +622,10 @@ msgstr ""
 "till botten."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Huruvida fet text ska tillåtas"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr "Om true (sant), tillåt program i terminalen att göra text fet."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Standardfärg för texten i terminalen"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -624,11 +633,11 @@ msgstr ""
 "Standardfärg för texten i terminalen som en färgspecifikation (kan vara hex-"
 "siffror i HTML-stil, eller ett färgnamn som ”red”)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Standardfärg för terminalbakgrunden"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -636,11 +645,11 @@ msgstr ""
 "Standardfärg för terminalbakgrunden som en färgspecifikation (kan vara hex-"
 "siffror i HTML-stil, eller ett färgnamn som ”red”)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Palett för terminalprogram"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -650,11 +659,11 @@ msgstr ""
 "Detta är den paletten, i form av en kolonseparerad lista av färgnamn. "
 "Färgnamn ska vara i hexformat, t.ex. ”#FF00FF”"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Huruvida färgerna från temat för terminalkomponenten ska användas"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -662,11 +671,11 @@ msgstr ""
 "Om true (sant) kommer temafärgschemat använt för textinmatningsrutor att "
 "användas för terminalen istället för färgerna angivna av användaren."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Huruvida markören ska blinka"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -674,11 +683,11 @@ msgstr ""
 "Möjliga värden är ”system” för att använda globala markörblinkinställningar, "
 "eller ”on” eller ”off” för att ange läget explicit."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "Markörutseendet"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -687,11 +696,11 @@ msgstr ""
 "använda en vågrät radmarkör eller ”underline” för att använda en "
 "understruken markör."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Huruvida systemtypsnittet ska användas"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -700,11 +709,11 @@ msgstr ""
 "standardtypsnittet om det är monospace (och annars det mest likvärdiga "
 "typsnitt den kan finna)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Typsnitt"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Ett pangotypsnittsnamn. Exempel är ”Sans 12” eller ”Monospace Bold 14”."
@@ -717,7 +726,7 @@ msgstr "Inbäddad terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Bädda in en terminal i bottenpanelen."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "Ändra _katalog"
 
@@ -857,7 +866,7 @@ msgid ""
 "Propose automatic completion using words already present in the document"
 msgstr "Föreslå automatisk komplettering med ord som redan finns i dokumentet"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Dokumentord"
 
@@ -885,37 +894,27 @@ msgstr "Ordkomplettering"
 msgid "Word completion using the completion framework"
 msgstr "Ordkomplettering som använder kompletteringsramverket"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Zeitgeist dataleverantör"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Huruvida fet text ska tillåtas"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Spelar in användaraktivitet och ger en enkel åtkomst till nyligen och ofta "
-"använda filer"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr "Om true (sant), tillåt program i terminalen att göra text fet."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist dataleverantör"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist dataleverantör"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "Loggar åtkomst- och lämnahändelser för dokument använda med gedit"
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Spelar in användaraktivitet och ger en enkel åtkomst till nyligen och "
+#~ "ofta använda filer"
 
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist dataleverantör"
 
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Synkronisera mellan LaTeX och PDF med gedit och evince."
-
-#~ msgid "Forward Search"
-#~ msgstr "Framåtsök"
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr "Loggar åtkomst- och lämnahändelser för dokument använda med gedit"
 
 #~ msgid "Empty Document"
 #~ msgstr "Tomt dokument"
