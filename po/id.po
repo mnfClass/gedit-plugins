@@ -7,14 +7,14 @@
 # Imam Musthaqim, 2010.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
 # Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013, 2014.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017. 2018, 2019.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-09-25 11:06+0000\n"
-"PO-Revision-Date: 2019-11-12 03:23+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"POT-Creation-Date: 2020-04-01 11:12+0000\n"
+"PO-Revision-Date: 2020-04-05 19:37+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -34,16 +34,16 @@ msgstr "Tanda taut"
 msgid "Easy document navigation with bookmarks"
 msgstr "Navigasi dokumen yang mudah dengan tanda taut"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Jungkitkan Tanda Taut"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Ke Tanda Taut Berikutnya"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Ke Tanda Taut Sebelumnya"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -256,7 +256,7 @@ msgstr "Gambar Spasi"
 msgid "Draw spaces and tabs"
 msgstr "Gambar spasi dan tab"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Tampilkan _White Space"
@@ -555,7 +555,7 @@ msgid "Forward Search"
 msgstr "Cari Maju"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -626,20 +626,10 @@ msgstr ""
 "ke bawah."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Apakah memperbolehkan teks tebal"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Bila berisi true, aplikasi dalam terminal diperbolehkan mencetak huruf tebal "
-"dalam teksnya."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Warna teks bawaan dalam terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -647,11 +637,11 @@ msgstr ""
 "Warna teks bawaan terminal, yang ditulis dalam bentuk spesifikasi warna "
 "(boleh berupa kode heksa HTML, atau nama warna misalnya \"red\")."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Warna utama latar terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -659,11 +649,11 @@ msgstr ""
 "Warna latar bawaan terminal, yang ditulis dalam bentuk spesifikasi warna "
 "(boleh berupa kode heksa HTML, atau nama warna misalnya \"red\")."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Palet untuk aplikasi terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -674,11 +664,11 @@ msgstr ""
 "dibatasi dengan karakter titik dua. Nama warna harus dalam bentuk heksa, "
 "misalnya \"#FF00FF\""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Apakah menggunakan warna dari tema sistem untuk widget terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -686,11 +676,11 @@ msgstr ""
 "Jika berisi true, terminal akan menggunakan skema warna tema untuk kotak "
 "isian teks alih-alih warna yang ditentukan oleh pemakai."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Apakah kursor harus berkedip"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -698,11 +688,11 @@ msgstr ""
 "Nilai yang mungkin adalah \"system\" untuk memakai pengaturan kedipan kursor "
 "global, atau \"on\" atau \"off\" untuk menata mode secara eksplisit."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "Penampilan kursor"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -711,11 +701,11 @@ msgstr ""
 "untuk memakai kursor garis tegak, atau \"underline\" untuk kursor garis "
 "bawah."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Menentukan memakai fonta sistem"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -724,11 +714,11 @@ msgstr ""
 "destop secara global jika berjenis monospace (dan fonta lainnya yang "
 "sejenis)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Fonta"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Nama fonta Pango. Sebagai contoh \"Sans 12\" atau \"Monospace Bold 14\"."
@@ -741,7 +731,7 @@ msgstr "Terminal Tertanam"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Tanamkan terminal dalam panel bawah."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "Uba_h Direktori"
 
@@ -884,7 +874,7 @@ msgid ""
 msgstr ""
 "Usulkan pelengkapan otomatis memakai kata-kata yang telah ada dalam dokumen"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Kata Dokumen"
 
@@ -912,22 +902,27 @@ msgstr "Penyelesaian Kata"
 msgid "Word completion using the completion framework"
 msgstr "Penyelesaian kata memakai kerangka kerja penyelesaian"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Penyedia Data Zeitgeist"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Apakah memperbolehkan teks tebal"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Merekam aktivitas pengguna dan memberikan askes yang mudah ke berkas yang "
-"baru-baru ini dipakai dan sering dipakai"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Bila berisi true, aplikasi dalam terminal diperbolehkan mencetak huruf "
+#~ "tebal dalam teksnya."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Penyedia data Zeitgeist"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Penyedia Data Zeitgeist"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "Mencatat log kejadian akses dan pergi untuk dokumen yang memakai gedit"
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Merekam aktivitas pengguna dan memberikan askes yang mudah ke berkas yang "
+#~ "baru-baru ini dipakai dan sering dipakai"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Penyedia data Zeitgeist"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Mencatat log kejadian akses dan pergi untuk dokumen yang memakai gedit"
