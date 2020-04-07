@@ -500,7 +500,7 @@ msgstr "_Керування збереженими сеансами…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:58
 msgid "_Save Session…"
-msgstr "З_беренти сеанс…"
+msgstr "З_берегти сеанс…"
 
 #: plugins/sessionsaver/sessionsaver/appactivatable.py:64
 #, python-brace-format
