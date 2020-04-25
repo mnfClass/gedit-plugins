@@ -126,8 +126,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
 msgstr ""
-"Premeu <keyseq><key>Ctrl</key><key>B</key></keyseq> per a desplaçar-vos a la "
-"adreça d'interès següent."
+"Premeu <keyseq><key>Ctrl</key><key>B</key></keyseq> per a desplaçar-vos a "
+"l'adreça d'interès següent."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:65
@@ -135,7 +135,7 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
-"Premeu <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> per a "
+"Premeu <keyseq><key>Ctrl</key><key>Maj</key><key>B</key></keyseq> per a "
 "desplaçar-vos a l'adreça d'interès anterior."
 
 #. (itstool) path: note/p
@@ -146,8 +146,8 @@ msgid ""
 "style=\"menuitem\">Go to Previous Bookmark</gui>."
 msgstr ""
 "Si preferiu fer servir el ratolí, podeu obrir el menú a la cantonada "
-"superior dreta i seleccionar <gui style=\"menuitem\">Anar al següent "
-"marcador</gui> o <gui style=\"menuitem\">Vés a l'adreça d'interès següent</gui>."
+"superior dreta i seleccionar <gui style=\"menuitem\">Vés a l'adreça "
+"d'interès següent</gui> o <gui style=\"menuitem\">Vés a l'adreça d'interès següent</gui>."
 
 #. (itstool) path: info/desc
 #: C/bracket-comp.page:16
@@ -348,7 +348,7 @@ msgid ""
 msgstr ""
 "Per a eliminar un comentari, feu clic amb el botó dret i seleccioneu <gui "
 "style=\"menuitem\">Traieu el comentari del codi</gui>, o premeu "
-"<keyseq><key>Shift</key> <key>Ctrl</key><key>M</key></keyseq>."
+"<keyseq><key>Maj</key> <key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/code-comment.page:59
@@ -426,7 +426,7 @@ msgstr "Feu clic al color desitjat a la finestra del selector de colors."
 msgid ""
 "The appropriate color code will be inserted where you had placed your "
 "cursor."
-msgstr "S'inserirà el codi de color adequat on hagueu col·locat el cursor."
+msgstr "S'inserirà el codi de color adequat on hàgeu col·locat el cursor."
 
 #. (itstool) path: item/p
 #: C/color-picker.page:56
@@ -455,7 +455,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/commander.page:19
 msgid "Commander"
-msgstr "Ordre:"
+msgstr "Commander"
 
 #. (itstool) path: page/p
 #: C/commander.page:21
@@ -464,7 +464,7 @@ msgid ""
 "users that allows you to perform command-line actions on the current file."
 msgstr ""
 "El connector <app>>Commander</app> és un connector per a usuaris avançats de "
-"<app>gedit</app> que permet realitzar accions a a línia d'ordres sobre el"
+"<app>gedit</app> que permet realitzar accions a la línia d'ordres sobre el"
 " fitxer actual."
 
 #. (itstool) path: item/p
@@ -478,7 +478,7 @@ msgid ""
 "Once you have enabled the plugin, activate it by pressing "
 "<keyseq><key>Ctrl</key><key>,</key></keyseq>."
 msgstr ""
-"Un cop hagueu activat el connector, activeu-lo prement "
+"Un cop hàgeu activat el connector, activeu-lo prement "
 "<keyseq><key>Ctrl</key><key>,</key></keyseq>."
 
 #. (itstool) path: note/p
@@ -558,7 +558,7 @@ msgstr "Commuta el marcador de la línia actual"
 #. (itstool) path: td/p
 #: C/commander.page:80
 msgid "bookmark <em>or</em> just <key>B</key>"
-msgstr "marcador<em>o</em> tan sols<key>B</key>"
+msgstr "marcador <em>o</em> tan sols<key>B</key>"
 
 #. (itstool) path: note/p
 #: C/commander.page:86
@@ -724,7 +724,7 @@ msgstr "Taronja"
 #. (itstool) path: item/p
 #: C/git.page:46
 msgid "Shows the lines that have been modified in the document."
-msgstr "Mostra les línies que s'han modificat al documents."
+msgstr "Mostra les línies que s'han modificat al document."
 
 #. (itstool) path: item/title
 #: C/git.page:49
@@ -786,8 +786,8 @@ msgid ""
 "<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
 msgstr ""
 "Seleccioneu les línies que voleu unir. Per fer-ho, podeu fer servir el "
-"ratolí o podeu prémer <keyseq><key>Shift</key><key>Fletxa amunt</key> "
-"</keyseq> o <keyseq><key>Shift</key><key>Fletxa avall</key></keyseq>."
+"ratolí o podeu prémer <keyseq><key>Maj</key><key>Fletxa amunt</key> "
+"</keyseq> o <keyseq><key>Maj</key><key>Fletxa avall</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:44
@@ -816,7 +816,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/join-split-lines.page:56
 msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
-msgstr "Premeu <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+msgstr "Premeu <keyseq><key>Ctrl</key><key>Maj</key> <key>J</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/join-split-lines.page:58
@@ -860,7 +860,7 @@ msgstr "Editeu un document en diversos llocs alhora."
 #. (itstool) path: page/title
 #: C/multi-edit.page:20
 msgid "Multi Edit"
-msgstr "Edició múltiple."
+msgstr "Edició múltiple"
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:22
@@ -890,7 +890,7 @@ msgid ""
 "would like start editing."
 msgstr ""
 "Un cop activat el connector, enceneu el mode Edició múltiple prement "
-"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, o premeu el "
+"<keyseq><key>Ctrl</key><key>Maj</key><key>C</key></keyseq>, o premeu el "
 "botó de menú a la cantonada superior dreta de la finestra i seleccioneu "
 "<guiseq><gui style=\"menuitem\">Eines</gui><gui style=\"menuitem\">Mode "
 "edició múltiple</gui></guiseq>. A continuació, podeu seleccionar els punts "
@@ -941,7 +941,7 @@ msgid ""
 " of the editing points. Pressing the <key>Esc</key> key again will turn off "
 "Multi Edit mode, returning the editor back to its normal state."
 msgstr ""
-"Per a eliminar els punt d'edició, premeu la tecla <key>Esc</key>. Així "
+"Per a eliminar els punts d'edició, premeu la tecla <key>Esc</key>. Així "
 "s'eliminaran tots els punts d'edició. Prement de nou la tecla <key>Esc</key>"
 " s'apagarà el mode multiedició, retornant l'editor al seu estat normal."
 
@@ -1068,7 +1068,7 @@ msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in "
 "evince."
 msgstr ""
-"Canviar ràpidament entre una font TeX i un document PDF generat a evince"
+"Canviar ràpidament entre una font TeX i un document PDF generat a evince."
 
 #. (itstool) path: page/title
 #: C/synctex.page:24
@@ -1155,7 +1155,7 @@ msgid ""
 "<app>gedit</app>."
 msgstr ""
 "<app>gedit</app> fa possible incloure una versió incrustada del "
-"<app>Terminal de GNOME</app>, l'aplicació línia d'ordres del GNOME, al "
+"<app>Terminal de GNOME</app>, l'aplicació de línia d'ordres del GNOME, al "
 "tauler inferior de la finestra de <app>gedit</app>. Això us permetrà "
 "executar scripts, instal·lar el programari necessari, o provar la vostra "
 "aplicació sense sortir de <app>gedit</app>."
@@ -1163,7 +1163,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/terminal.page:34
 msgid "Enable Embedded Terminal"
-msgstr "Activa el terminal incrustat."
+msgstr "Activar el terminal incrustat"
 
 #. (itstool) path: item/p
 #: C/terminal.page:44
@@ -1176,7 +1176,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/terminal.page:52
 msgid "Using Embedded Terminal"
-msgstr "Utilitzar el Terminal incrustat."
+msgstr "Utilitzar el Terminal incrustat"
 
 #. (itstool) path: section/p
 #: C/terminal.page:54
@@ -1232,7 +1232,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/text-size.page:50
 msgid "Use the <app>Text Size</app> plugin"
-msgstr "Utilitzeu el connector <app>Mida del text</app> "
+msgstr "Utilitzeu el connector <app>Mida del text</app>"
 
 #. (itstool) path: section/p
 #: C/text-size.page:52
@@ -1240,7 +1240,7 @@ msgid ""
 "Once you have enabled the plugin, do any of the following to change the text"
 " size in <app>gedit</app>:"
 msgstr ""
-"Un cop hagueu activat el connector, feu alguna de les accions següents per "
+"Un cop hàgeu activat el connector, feu alguna de les accions següents per "
 "canviar la mida del text a <app>gedit</app>:"
 
 #. (itstool) path: item/p
@@ -1376,7 +1376,7 @@ msgstr ""
 #: C/word-completion.page:42
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
-"Selecciona la <gui style=\"menuitem\">Compleció de paraules</gui> per a "
+"Seleccioneu la <gui style=\"menuitem\">Compleció de paraules</gui> per a "
 "activar el connector."
 
 #. (itstool) path: page/p
