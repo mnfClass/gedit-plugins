@@ -1,6 +1,6 @@
 # gedit ja.po.
 # Copyright (C) 1999-2012, 2016, 2020 gedit-plugins' COPYRIGHT HOLDER
-# Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999
+# Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999.
 # Yuusuke Tahara <tahara@gnome.gr.jp>
 # Yukihiro Nakai <nakai@gnome.gr.jp>
 # Akira TAGOH <tagoh@gnome.gr.jp>, 2002.
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
 "POT-Creation-Date: 2020-04-25 19:54+0000\n"
-"PO-Revision-Date: 2020-02-15 23:00+0900\n"
+"PO-Revision-Date: 2020-05-07 20:15+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "Language: ja\n"
@@ -43,14 +43,10 @@ msgid "Toggle Bookmark"
 msgstr "ブックマークを切り替え"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#, fuzzy
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "次のブックマークへ移動"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#, fuzzy
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "前のブックマークへ移動"
 
