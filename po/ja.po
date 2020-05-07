@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-01-15 14:18+0000\n"
+"POT-Creation-Date: 2020-04-25 19:54+0000\n"
 "PO-Revision-Date: 2020-02-15 23:00+0900\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -43,11 +43,15 @@ msgid "Toggle Bookmark"
 msgstr "ブックマークを切り替え"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-msgid "Goto Next Bookmark"
+#, fuzzy
+#| msgid "Goto Next Bookmark"
+msgid "Go to Next Bookmark"
 msgstr "次のブックマークへ移動"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-msgid "Goto Previous Bookmark"
+#, fuzzy
+#| msgid "Goto Previous Bookmark"
+msgid "Go to Previous Bookmark"
 msgstr "前のブックマークへ移動"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -545,7 +549,7 @@ msgid "Forward Search"
 msgstr "前方検索"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "端末"
 
@@ -603,79 +607,71 @@ msgid ""
 msgstr ""
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr ""
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "システムフォントを使用するかどうか"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -684,11 +680,11 @@ msgstr ""
 "(monospace に設定されていない場合は最も monospace に近いフォントを使用しま"
 "す)。"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "フォント"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr "Pango フォント名です (“Sans 12”や“Monospace Bold 14”など)。"
 
@@ -700,7 +696,7 @@ msgstr "組み込み端末"
 msgid "Embed a terminal in the bottom pane."
 msgstr "ボトムパネルに端末を組み込みます"
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "ディレクトリを変更(_H)"
 
