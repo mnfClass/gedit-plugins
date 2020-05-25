@@ -18,7 +18,7 @@
 
   <title>Git</title>
 
-  <p>The <app>git</app> plugin will highlight lines that have been changed since
+  <p>The <app>Git</app> plugin will highlight lines that have been changed since
   the last commit. Lines will be highlighted only on files that are already
   tracked by git.</p>
 
