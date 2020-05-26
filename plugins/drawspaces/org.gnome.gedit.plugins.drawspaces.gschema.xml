@@ -12,7 +12,7 @@
   <schema gettext-domain="gedit-plugins" id="org.gnome.gedit.plugins.drawspaces" path="/org/gnome/gedit/plugins/drawspaces/">
     <key name="show-white-space" type="b">
       <default>true</default>
-      <summary>Show _White Space</summary>
+      <summary>Show White Space</summary>
       <description>If TRUE drawing will be enabled.</description>
     </key>
     <key name="draw-spaces" flags="org.gnome.gedit.plugins.drawspaces.GtkSourceDrawSpacesFlags">
