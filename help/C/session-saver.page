@@ -20,7 +20,8 @@
 
   <title>Session Saver</title>
 
-  <p>The <app>Session Saver</app> plugin allows you to save your current open documents and open them again.</p>
+  <p>The <app>Session Saver</app> plugin allows you to remember which documents
+  are currently open and open the same documents again at a later time.</p>
 
   <section id="enable-session-saver">
     <title>Enable Session Saver Plugin</title>
