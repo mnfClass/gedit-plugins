@@ -3,7 +3,7 @@
 <component type="addon">
   <id>gedit-joinlines</id>
   <extends>org.gnome.gedit.desktop</extends>
-  <name>Join lines/ Split lines</name>
+  <name>Join/Split Lines</name>
   <summary>Join or split multiple lines through Ctrl+J and Ctrl+Shift+J</summary>
   <url type="homepage">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</url>
   <url type="bugtracker">https://gitlab.gnome.org/GNOME/gedit-plugins/issues</url>
