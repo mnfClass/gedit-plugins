@@ -71,19 +71,21 @@
       <tr>
         <td><p>Move the cursor to a certain line number in your file</p></td>
         <td>
-	  <p>go <input>[line number]</input> <em>or</em> just <key>G</key>
-	  <input>[line number]</input></p>
+	  <p its:locNote="Translators: Do not translate 'go'! It is a command">
+	  <cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</key>
+	  <input>[line number]</input></cmd></p>
         </td>
       </tr>
       <tr>
         <td><p>Toggle the bookmark indicator for the current line</p></td>
-        <td><p>bookmark <em>or</em> just <key>B</key></p></td>
+        <td><p its:locNote="Translators: Do not translate 'bookmark'! It is a
+        command"><cmd>bookmark</cmd> <em>or</em> just <key>B</key></p></td>
       </tr>
     </tbody>
   </table>
   
   <note style="tip">
-    <p>Some commands, such as the <app>bookmark</app> command require that the
+    <p>Some commands, such as the <cmd>bookmark</cmd> command require that the
     appropriate plugin be installed and activated. If you do not have the
     appropriate plugin installed and activated, you will receive an error
     message.</p>
