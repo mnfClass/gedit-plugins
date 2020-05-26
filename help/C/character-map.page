@@ -7,6 +7,7 @@
     <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
     <revision version="0.2" date="2013-02-24" status="review"/>
     <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+    <revision pkgversion="3.36" date="2020-05-26" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -48,7 +49,7 @@
   <title>Using Character Map</title>
 
   <p>Once the plugin is enabled, you can add characters from the
-  <gui style="tab">Character Map</gui> tab of the side panel.</p>
+  <gui style="tab">Character Map</gui> view of the side panel.</p>
   
   <steps>
     <item>
@@ -61,12 +62,13 @@
       <gui>Side Panel</gui></guiseq>, or by pressing <key>F9</key>.</p>
     </item>
     <item>
-      <p>Select the <gui>Character Map</gui> tab in the side panel.</p>
+      <p>Select <gui>Character Map</gui> from the drop-down list at the top of
+      the side panel.</p>
     </item>
     <item>
       <p>If necessary, choose the character set to which your character
-      belongs from the list at the top of the <gui style="tab">Character
-      Map</gui> tab (for example, Arabic).</p>
+      belongs from the list at the top of the <gui>Character
+      Map</gui> side panel (for example, Arabic).</p>
     </item>
     <item>
       <p>Double click your desired character to insert it.</p>
