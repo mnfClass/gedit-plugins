@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-30 19:12+0000\n"
-"PO-Revision-Date: 2020-03-30 22:14+0300\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-05-26 19:46+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -38,12 +38,10 @@ msgid "Toggle Bookmark"
 msgstr "Перемкнути закладку"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Перейти до наступної закладки"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Перейти до попередньої закладки"
 
@@ -213,7 +211,8 @@ msgid "_Foreground"
 msgstr "_Текст"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
+#| msgid "_Clear "
+msgid "_Clear"
 msgstr "О_чистити"
 
 #: plugins/colorschemer/schemer.ui:383
@@ -260,7 +259,6 @@ msgid "Draw spaces and tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Показувати пр_обіли"
 
@@ -297,6 +295,11 @@ msgstr "Візуалізація кінцевих пробілів"
 msgid "Draw Spaces and Tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#| msgid "Show _White Space"
+msgid "Show White Space"
+msgstr "Показувати пробіли"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr ""
@@ -323,13 +326,15 @@ msgid "_Find"
 msgstr "З_найти"
 
 #: plugins/findinfiles/dialog.ui:72
+#| msgctxt "label on the left of the GtkEntry containing text to search"
+#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "З_найти"
+msgid "F_ind:"
+msgstr "З_найти:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_У "
+msgid "_In:"
+msgstr "_У:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -790,28 +795,29 @@ msgstr ""
 "документа, якщо немає вікна виведення перекладу."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'eng|ukr'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Використана пара мов"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Пара мов, яку буде використано для перекладу"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Ключ до програмного інтерфейсу вебслужби"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Вебслужба, якою слід скористатися"
 
@@ -907,3 +913,6 @@ msgstr "Завершення слів"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Доповнення слів на основі бібліотеки автоматичного доповнення"
+
+#~ msgid "_In "
+#~ msgstr "_У "
