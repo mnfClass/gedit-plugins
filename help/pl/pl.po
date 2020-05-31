@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2020-02-16 12:46+0000\n"
-"PO-Revision-Date: 2020-02-18 16:45+0100\n"
+"POT-Creation-Date: 2020-05-26 15:03+0000\n"
+"PO-Revision-Date: 2020-05-31 14:12+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Aviary.pl <community-poland@mozilla.org>, 2017-2020"
 
 #. (itstool) path: credit/name
-#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:12
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
 #: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
 #: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
 #: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
@@ -65,19 +65,19 @@ msgstr ""
 "przechodzić między zakładkami, nieco przyspieszając nawigację po dokumencie."
 
 #. (itstool) path: steps/title
-#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:36
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
 #: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
 #: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
-#: C/multi-edit.page:26 C/session-saver.page:29 C/terminal.page:37
+#: C/multi-edit.page:26 C/session-saver.page:30 C/terminal.page:37
 #: C/text-size.page:36 C/translate.page:29 C/word-completion.page:35
 msgid "To enable the plugin:"
 msgstr "Aby włączyć wtyczkę:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:38
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
 #: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
 #: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
-#: C/multi-edit.page:28 C/session-saver.page:31 C/terminal.page:39
+#: C/multi-edit.page:28 C/session-saver.page:32 C/terminal.page:39
 #: C/text-size.page:38 C/translate.page:31 C/word-completion.page:37
 msgid ""
 "Press the menu button in the top-right corner of the window and select "
@@ -184,22 +184,22 @@ msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr "Ta wtyczka nie wstawia zamykających znaczników HTML i XML."
 
 #. (itstool) path: credit/name
-#: C/character-map.page:16 C/word-completion.page:16
+#: C/character-map.page:17 C/word-completion.page:16
 msgid "Paul Weaver"
 msgstr "Paul Weaver"
 
 #. (itstool) path: info/desc
-#: C/character-map.page:20
+#: C/character-map.page:21
 msgid "Insert special characters just by clicking on them."
 msgstr "Wstawianie znaków specjalnych przez klikanie ich."
 
 #. (itstool) path: page/title
-#: C/character-map.page:23
+#: C/character-map.page:24
 msgid "Character Map"
 msgstr "Tablica znaków"
 
 #. (itstool) path: page/p
-#: C/character-map.page:32
+#: C/character-map.page:33
 msgid ""
 "The <app>Character Map</app> plugin enables you to insert characters into "
 "your document that you may not be able to type easily using your keyboard."
@@ -208,35 +208,35 @@ msgstr ""
 "których nie da się łatwo wpisać za pomocą klawiatury."
 
 #. (itstool) path: item/p
-#: C/character-map.page:43
+#: C/character-map.page:44
 msgid ""
 "Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
 msgstr ""
 "Zaznacz <gui style=\"menuitem\">Tablica znaków</gui>, aby włączyć wtyczkę."
 
 #. (itstool) path: section/title
-#: C/character-map.page:48
+#: C/character-map.page:49
 msgid "Using Character Map"
 msgstr "Używanie tablicy znaków"
 
 #. (itstool) path: section/p
-#: C/character-map.page:50
+#: C/character-map.page:51
 msgid ""
 "Once the plugin is enabled, you can add characters from the <gui style=\"tab"
-"\">Character Map</gui> tab of the side panel."
+"\">Character Map</gui> view of the side panel."
 msgstr ""
-"Po włączeniu wtyczki można dodawać znaki z karty <gui style=\"tab\">Tablica "
+"Po włączeniu wtyczki można dodawać znaki z widoku <gui style=\"tab\">Tablica "
 "znaków</gui> panelu bocznego."
 
 #. (itstool) path: item/p
-#: C/character-map.page:55
+#: C/character-map.page:56
 msgid ""
 "Place the cursor at the point in your document at which you would like your "
 "special character."
 msgstr "Umieść kursor w miejscu, w którym wstawić znak specjalny."
 
 #. (itstool) path: item/p
-#: C/character-map.page:59
+#: C/character-map.page:60
 msgid ""
 "Open the side panel by pressing the menu button in the top-right corner of "
 "the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
@@ -247,27 +247,31 @@ msgstr ""
 "naciskając klawisz <key>F9</key>."
 
 #. (itstool) path: item/p
-#: C/character-map.page:64
-msgid "Select the <gui>Character Map</gui> tab in the side panel."
-msgstr "Wybierz kartę <gui>Tablica znaków</gui> w panelu bocznym."
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Wybierz <gui>Tablicę znaków</gui> z rozwijanej listy na górze panelu "
+"bocznego."
 
 #. (itstool) path: item/p
-#: C/character-map.page:67
+#: C/character-map.page:69
 msgid ""
 "If necessary, choose the character set to which your character belongs from "
-"the list at the top of the <gui style=\"tab\">Character Map</gui> tab (for "
-"example, Arabic)."
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
 msgstr ""
 "Jeśli to potrzebne, wybierz zestaw znaków, do którego należy znak z listy na "
-"górze karty <gui style=\"tab\">Tablica znaków</gui> (na przykład „Arabskie”)."
+"górze panelu bocznego <gui>Tablica znaków</gui> (na przykład „Arabskie”)."
 
 #. (itstool) path: item/p
-#: C/character-map.page:72
+#: C/character-map.page:74
 msgid "Double click your desired character to insert it."
 msgstr "Podwójnie kliknij znak, aby go wstawić."
 
 #. (itstool) path: note/p
-#: C/character-map.page:77
+#: C/character-map.page:79
 msgid ""
 "You must click on the editing view of your document to continue editing "
 "normally."
@@ -528,33 +532,35 @@ msgid "Move the cursor to a certain line number in your file"
 msgstr "Przeniesienie kursora do podanego numeru wiersza w pliku"
 
 #. (itstool) path: td/p
+#. Translators: Do not translate 'go'! It is a command
 #: C/commander.page:74
 msgid ""
-"go <input>[line number]</input> <em>or</em> just <key>G</key> <input>[line "
-"number]</input>"
+"<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
+"key> <input>[line number]</input></cmd>"
 msgstr ""
-"go <input>[numer wiersza]</input> <em>lub</em> <key>G</key> <input>[numer "
-"wiersza]</input>"
+"<cmd>go <input>[numer wiersza]</input></cmd> <em>lub</em> <cmd><key>G</key> "
+"<input>[numer wiersza]</input></cmd>"
 
 #. (itstool) path: td/p
-#: C/commander.page:79
+#: C/commander.page:80
 msgid "Toggle the bookmark indicator for the current line"
 msgstr "Przełączenie wskaźnika zakładki dla bieżącego wiersza"
 
 #. (itstool) path: td/p
-#: C/commander.page:80
-msgid "bookmark <em>or</em> just <key>B</key>"
-msgstr "bookmark <em>lub</em> <key>B</key>"
+#. Translators: Do not translate 'bookmark'! It is a command
+#: C/commander.page:82
+msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
+msgstr "<cmd>bookmark</cmd> <em>lub</em> <key>B</key>"
 
 #. (itstool) path: note/p
-#: C/commander.page:86
+#: C/commander.page:88
 msgid ""
-"Some commands, such as the <app>bookmark</app> command require that the "
+"Some commands, such as the <cmd>bookmark</cmd> command require that the "
 "appropriate plugin be installed and activated. If you do not have the "
 "appropriate plugin installed and activated, you will receive an error "
 "message."
 msgstr ""
-"Część poleceń, na przykład <app>bookmark</app>, wymaga zainstalowania "
+"Część poleceń, na przykład <cmd>bookmark</cmd>, wymaga zainstalowania "
 "i włączenia odpowiedniej wtyczki. Bez wtyczki zostanie wyświetlony komunikat "
 "o błędzie."
 
@@ -669,7 +675,7 @@ msgstr "Git"
 #. (itstool) path: page/p
 #: C/git.page:21
 msgid ""
-"The <app>git</app> plugin will highlight lines that have been changed since "
+"The <app>Git</app> plugin will highlight lines that have been changed since "
 "the last commit. Lines will be highlighted only on files that are already "
 "tracked by git."
 msgstr ""
@@ -946,41 +952,41 @@ msgstr "Zapisywanie sesji"
 #. (itstool) path: page/p
 #: C/session-saver.page:23
 msgid ""
-"The <app>Session Saver</app> plugin allows you to save your current open "
-"documents and open them again."
+"The <app>Session Saver</app> plugin allows you to remember which documents "
+"are currently open and open the same documents again at a later time."
 msgstr ""
-"Wtyczka <app>Zapisywanie sesji</app> umożliwia zapisywanie obecnie otwartych "
-"dokumentów i otwieranie ich z powrotem."
+"Wtyczka <app>Zapisywanie sesji</app> umożliwia zapamiętanie obecnie "
+"otwartych dokumentów i otwarcie tych samych dokumentów z powrotem później."
 
 #. (itstool) path: section/title
-#: C/session-saver.page:26
+#: C/session-saver.page:27
 msgid "Enable Session Saver Plugin"
 msgstr "Włączanie wtyczki zapisywania sesji"
 
 #. (itstool) path: item/p
-#: C/session-saver.page:36
+#: C/session-saver.page:37
 msgid ""
 "Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
 msgstr ""
 "Zaznacz <gui style=\"menuitem\">Zapisywanie sesji</gui>, aby włączyć wtyczkę."
 
 #. (itstool) path: section/title
-#: C/session-saver.page:44
+#: C/session-saver.page:45
 msgid "Save a session"
 msgstr "Zapisywanie sesji"
 
 #. (itstool) path: section/p
-#: C/session-saver.page:45
+#: C/session-saver.page:46
 msgid "Save all your open files to be able to open them later."
 msgstr "Zapisz wszystkie otwarte pliki, aby móc je otworzyć później."
 
 #. (itstool) path: steps/title
-#: C/session-saver.page:47
+#: C/session-saver.page:48
 msgid "To save a session:"
 msgstr "Aby zapisać sesję:"
 
 #. (itstool) path: item/p
-#: C/session-saver.page:49
+#: C/session-saver.page:50
 msgid ""
 "Press the menu button in the top-right corner of the window and select "
 "<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Save "
@@ -991,22 +997,22 @@ msgstr ""
 "guiseq>."
 
 #. (itstool) path: section/title
-#: C/session-saver.page:57
+#: C/session-saver.page:58
 msgid "Open a session"
 msgstr "Otwieranie sesji"
 
 #. (itstool) path: section/p
-#: C/session-saver.page:58
+#: C/session-saver.page:59
 msgid "Open all the files from an already saved session."
 msgstr "Otwórz wszystkie pliki z poprzednio zapisanej sesji."
 
 #. (itstool) path: steps/title
-#: C/session-saver.page:60
+#: C/session-saver.page:61
 msgid "To open a session:"
 msgstr "Aby otworzyć sesję:"
 
 #. (itstool) path: item/p
-#: C/session-saver.page:62
+#: C/session-saver.page:63
 msgid ""
 "Press the menu button in the top-right corner of the window and select <gui "
 "style=\"menuitem\">Tools</gui>."
@@ -1015,27 +1021,27 @@ msgstr ""
 "\"menuitem\">Narzędzia</gui>."
 
 #. (itstool) path: item/p
-#: C/session-saver.page:66
+#: C/session-saver.page:67
 msgid "Select one of the saved sessions from the menu."
 msgstr "Wybierz jedną z zapisanych sesji z menu."
 
 #. (itstool) path: section/title
-#: C/session-saver.page:72
+#: C/session-saver.page:73
 msgid "Manage Sessions"
 msgstr "Zarządzanie sesjami"
 
 #. (itstool) path: section/p
-#: C/session-saver.page:73
+#: C/session-saver.page:74
 msgid "Open and delete your already saved sessions."
 msgstr "Otwieraj i usuwaj poprzednio zapisane sesje."
 
 #. (itstool) path: steps/title
-#: C/session-saver.page:75
+#: C/session-saver.page:76
 msgid "Manage sessions"
 msgstr "Zarządzanie sesjami"
 
 #. (itstool) path: item/p
-#: C/session-saver.page:77
+#: C/session-saver.page:78
 msgid ""
 "Press the menu button in the top-right corner of the window and select "
 "<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Manage "

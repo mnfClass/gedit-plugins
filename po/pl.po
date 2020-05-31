@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-30 19:12+0000\n"
-"PO-Revision-Date: 2020-04-05 11:14+0200\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-05-31 14:12+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -215,8 +215,8 @@ msgid "_Foreground"
 msgstr "T_ekst"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "Wy_czyść "
+msgid "_Clear"
+msgstr "Wy_czyść"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -262,7 +262,6 @@ msgid "Draw spaces and tabs"
 msgstr "Wyświetla spacje i tabulacje"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Wyświetlanie _białych spacji"
 
@@ -299,6 +298,10 @@ msgstr "Wyświetlanie spacji na końcach wierszy"
 msgid "Draw Spaces and Tabs"
 msgstr "Wyświetla spacje i tabulacje"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Wyświetlanie białych spacji"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Jeśli wynosi „true”, to rysowanie zostanie wyłączone."
@@ -325,12 +328,12 @@ msgstr "_Znajdź"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "Wy_szukiwanie "
+msgid "F_ind:"
+msgstr "Wy_szukiwanie:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_W "
+msgid "_In:"
+msgstr "_W:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -796,28 +799,29 @@ msgstr ""
 "jeśli nie w oknie wyniku tłumaczenia."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'en|pl'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Używana para języków"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Para języków używana do tłumaczenia z jednego na drugi"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Klucz API dla zdalnego serwera"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Używany zdalny serwis"
 
