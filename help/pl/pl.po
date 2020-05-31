@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2020-02-16 12:46+0000\n"
-"PO-Revision-Date: 2020-02-18 16:45+0100\n"
+"POT-Creation-Date: 2020-05-26 13:51+0000\n"
+"PO-Revision-Date: 2020-05-31 14:05+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Aviary.pl <community-poland@mozilla.org>, 2017-2020"
 
 #. (itstool) path: credit/name
-#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:12
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
 #: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
 #: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
 #: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
@@ -65,7 +65,7 @@ msgstr ""
 "przechodzić między zakładkami, nieco przyspieszając nawigację po dokumencie."
 
 #. (itstool) path: steps/title
-#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:36
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
 #: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
 #: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
 #: C/multi-edit.page:26 C/session-saver.page:29 C/terminal.page:37
@@ -74,7 +74,7 @@ msgid "To enable the plugin:"
 msgstr "Aby włączyć wtyczkę:"
 
 #. (itstool) path: item/p
-#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:38
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
 #: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
 #: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
 #: C/multi-edit.page:28 C/session-saver.page:31 C/terminal.page:39
@@ -184,22 +184,22 @@ msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr "Ta wtyczka nie wstawia zamykających znaczników HTML i XML."
 
 #. (itstool) path: credit/name
-#: C/character-map.page:16 C/word-completion.page:16
+#: C/character-map.page:17 C/word-completion.page:16
 msgid "Paul Weaver"
 msgstr "Paul Weaver"
 
 #. (itstool) path: info/desc
-#: C/character-map.page:20
+#: C/character-map.page:21
 msgid "Insert special characters just by clicking on them."
 msgstr "Wstawianie znaków specjalnych przez klikanie ich."
 
 #. (itstool) path: page/title
-#: C/character-map.page:23
+#: C/character-map.page:24
 msgid "Character Map"
 msgstr "Tablica znaków"
 
 #. (itstool) path: page/p
-#: C/character-map.page:32
+#: C/character-map.page:33
 msgid ""
 "The <app>Character Map</app> plugin enables you to insert characters into "
 "your document that you may not be able to type easily using your keyboard."
@@ -208,35 +208,35 @@ msgstr ""
 "których nie da się łatwo wpisać za pomocą klawiatury."
 
 #. (itstool) path: item/p
-#: C/character-map.page:43
+#: C/character-map.page:44
 msgid ""
 "Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
 msgstr ""
 "Zaznacz <gui style=\"menuitem\">Tablica znaków</gui>, aby włączyć wtyczkę."
 
 #. (itstool) path: section/title
-#: C/character-map.page:48
+#: C/character-map.page:49
 msgid "Using Character Map"
 msgstr "Używanie tablicy znaków"
 
 #. (itstool) path: section/p
-#: C/character-map.page:50
+#: C/character-map.page:51
 msgid ""
 "Once the plugin is enabled, you can add characters from the <gui style=\"tab"
-"\">Character Map</gui> tab of the side panel."
+"\">Character Map</gui> view of the side panel."
 msgstr ""
-"Po włączeniu wtyczki można dodawać znaki z karty <gui style=\"tab\">Tablica "
+"Po włączeniu wtyczki można dodawać znaki z widoku <gui style=\"tab\">Tablica "
 "znaków</gui> panelu bocznego."
 
 #. (itstool) path: item/p
-#: C/character-map.page:55
+#: C/character-map.page:56
 msgid ""
 "Place the cursor at the point in your document at which you would like your "
 "special character."
 msgstr "Umieść kursor w miejscu, w którym wstawić znak specjalny."
 
 #. (itstool) path: item/p
-#: C/character-map.page:59
+#: C/character-map.page:60
 msgid ""
 "Open the side panel by pressing the menu button in the top-right corner of "
 "the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
@@ -247,27 +247,31 @@ msgstr ""
 "naciskając klawisz <key>F9</key>."
 
 #. (itstool) path: item/p
-#: C/character-map.page:64
-msgid "Select the <gui>Character Map</gui> tab in the side panel."
-msgstr "Wybierz kartę <gui>Tablica znaków</gui> w panelu bocznym."
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Wybierz <gui>Tablica znaków</gui> z rozwijanej listy na górze panelu "
+"bocznego."
 
 #. (itstool) path: item/p
-#: C/character-map.page:67
+#: C/character-map.page:69
 msgid ""
 "If necessary, choose the character set to which your character belongs from "
-"the list at the top of the <gui style=\"tab\">Character Map</gui> tab (for "
-"example, Arabic)."
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
 msgstr ""
 "Jeśli to potrzebne, wybierz zestaw znaków, do którego należy znak z listy na "
-"górze karty <gui style=\"tab\">Tablica znaków</gui> (na przykład „Arabskie”)."
+"górze panelu bocznego <gui>Tablica znaków</gui> (na przykład „Arabskie”)."
 
 #. (itstool) path: item/p
-#: C/character-map.page:72
+#: C/character-map.page:74
 msgid "Double click your desired character to insert it."
 msgstr "Podwójnie kliknij znak, aby go wstawić."
 
 #. (itstool) path: note/p
-#: C/character-map.page:77
+#: C/character-map.page:79
 msgid ""
 "You must click on the editing view of your document to continue editing "
 "normally."
