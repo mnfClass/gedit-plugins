@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-30 19:12+0000\n"
-"PO-Revision-Date: 2020-05-18 16:33+0300\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-06-02 21:49+0200\n"
 "Last-Translator: Florentina Mușat <emryslokadottir [at] gmail [dot] com>\n"
 "Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -209,8 +209,8 @@ msgid "_Foreground"
 msgstr "_Prim plan"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Curăță "
+msgid "_Clear"
+msgstr "_Curăță"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -256,7 +256,6 @@ msgid "Draw spaces and tabs"
 msgstr "Desenează spații și taburi"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Arată spațiile a_lbe"
 
@@ -293,6 +292,10 @@ msgstr "Desenează spațiile de finalizare"
 msgid "Draw Spaces and Tabs"
 msgstr "Desenează spații și taburi"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Arată spațiile albe"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Dacă este activat desenarea va fi activată."
@@ -319,12 +322,12 @@ msgstr "_Caută"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "C_aută "
+msgid "F_ind:"
+msgstr "C_aută:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "Î_n "
+msgid "_In:"
+msgstr "Î_n:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -784,28 +787,29 @@ msgstr ""
 "documentului dacă nu în fereastra de traducere a rezultatului."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "„eng|spa”"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Perechea de limbaje folosite"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Perechea de limbaje utilizate pentru a traduce dintr-o limbă în alta"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Cheie API pentru serviciul web de la distanță"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Serviciu web de la distanță de utilizat"
 
@@ -900,6 +904,9 @@ msgstr "Completarea cuvintelor"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completare de cuvinte folosind platforma de completări"
+
+#~ msgid "_In "
+#~ msgstr "Î_n "
 
 #~ msgid "Toggle bookmark status of the current line"
 #~ msgstr "Comută la starea marcajului liniei curente"
