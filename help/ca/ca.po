@@ -1004,7 +1004,7 @@ msgid ""
 "Session…</gui></guiseq>."
 msgstr ""
 "Premeu el botó de menú a la part superior dreta de la finestra i seleccioneu"
-" <guiseq><gui style=\"menuitem\">Eines</gui> Desar la "
+" <guiseq><gui style=\"menuitem\">Eines</gui> <gui style=\"menuitem\">Desar la "
 "sessió…</gui></guiseq>."
 
 #. (itstool) path: section/title
