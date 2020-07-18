@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-09-20 17:17+0000\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
 "PO-Revision-Date: 2019-07-04 23:48+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -32,16 +32,16 @@ msgstr "Adreces d'interès"
 msgid "Easy document navigation with bookmarks"
 msgstr "Navegueu fàcilment pel document amb les adreces d'interès"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Commuta les adreces d'interès"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Vés a l'adreça d'interès següent"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Vés a l'adreça d'interès anterior"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -211,8 +211,8 @@ msgid "_Foreground"
 msgstr "_Primer pla"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Buida "
+msgid "_Clear"
+msgstr "_Buida"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -257,8 +257,7 @@ msgstr "Dibuixa els espais"
 msgid "Draw spaces and tabs"
 msgstr "Dibuixa espais i tabulacions"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 msgid "Show _White Space"
 msgstr "Mostra els espais en _blanc"
 
@@ -296,6 +295,10 @@ msgstr "Dibuixa els espais del final de la línia"
 msgid "Draw Spaces and Tabs"
 msgstr "Dibuixa els espais i les tabulacions"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Mostra els espais en blanc"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Si és «TRUE» (cert) s'activarà el dibuix."
@@ -322,12 +325,12 @@ msgstr "Ce_rca"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "_Cerca "
+msgid "F_ind:"
+msgstr "_Cerca:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_A "
+msgid "_In:"
+msgstr "_A:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -560,7 +563,7 @@ msgid "Forward Search"
 msgstr "Cerca endavant"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -632,20 +635,10 @@ msgstr ""
 "es desplaçarà a la part inferior."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Si es permet el text en negreta"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Si és «true» (cert), es permet que les aplicacions del terminal mostrin text "
-"amb  negreta."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Color per defecte del text al terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -654,11 +647,11 @@ msgstr ""
 "dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
 "vermell)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Color per defecte del fons del terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -667,11 +660,11 @@ msgstr ""
 "dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
 "vermell)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Paleta per a aplicacions de terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -682,11 +675,11 @@ msgstr ""
 "noms de colors separats per dos punts. Els noms de color haurien d'estar en "
 "format hexadecimal, per exemple, «#FF00FF»"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Si s'han d'utilitzar els colors del tema per al giny del terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -695,11 +688,11 @@ msgstr ""
 "tema utilitzat per als quadres de text, en lloc dels colors proporcionats "
 "per l'usuari."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Si s'ha de fer que el cursor parpellegi"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -708,11 +701,11 @@ msgstr ""
 "global de parpelleig, «on» (actiu) o «off» (inactiu) per definir el mode "
 "explícitament."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "L'aparença del cursor"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -722,11 +715,11 @@ msgstr ""
 "vertical, o «underline» (subratllat) per utilitzar un cursor en forma de "
 "barra horitzontal."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Si s'utilitza el tipus de lletra del sistema"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -735,11 +728,11 @@ msgstr ""
 "global de l'escriptori si és monoespai (i el tipus de lletra més semblant "
 "que es trobi en cas contrari)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Tipus de lletra"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold "
@@ -753,7 +746,7 @@ msgstr "Terminal incrustat"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Incrusta un terminal a la subfinestra inferior."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "_Canvia el directori"
 
@@ -805,28 +798,29 @@ msgstr ""
 "document si no a la finestra del resultat de la traducció."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'eng|cat'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Parell d'idiomes utilitzat"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Parell d'idiomes utilitzat per traduir d'un idioma a un altre"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Clau API pel servei web remot"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Servei web remot a utilitzar"
 
@@ -893,7 +887,7 @@ msgid ""
 "Propose automatic completion using words already present in the document"
 msgstr "Proposa compleció automàtica usant paraules ja presents al document"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Paraules del document"
 
@@ -921,24 +915,31 @@ msgstr "Compleció de paraules"
 msgid "Word completion using the completion framework"
 msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Proveïdor de dades del Zeitgeist"
+#~ msgid "_In "
+#~ msgstr "_A "
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Registra l'activitat d'usuari donant accés als fitxers usats de forma "
-"freqüent i recent"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Si es permet el text en negreta"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Proveïdor de dades del Zeitgeist"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Si és «true» (cert), es permet que les aplicacions del terminal mostrin "
+#~ "text amb  negreta."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr ""
-"Registra els esdeveniments d'accés i tancament dels documents usats amb el "
-"gedit"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Proveïdor de dades del Zeitgeist"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Registra l'activitat d'usuari donant accés als fitxers usats de forma "
+#~ "freqüent i recent"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Proveïdor de dades del Zeitgeist"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Registra els esdeveniments d'accés i tancament dels documents usats amb "
+#~ "el gedit"
