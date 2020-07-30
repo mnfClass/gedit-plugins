@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-30 19:12+0000\n"
-"PO-Revision-Date: 2020-04-04 11:06+0200\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-07-30 14:35+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -206,8 +206,8 @@ msgid "_Foreground"
 msgstr "_Förgrund"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Töm "
+msgid "_Clear"
+msgstr "_Töm"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -253,7 +253,6 @@ msgid "Draw spaces and tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Visa _tomt utrymme"
 
@@ -290,6 +289,10 @@ msgstr "Rita ut eftersläpande blanksteg"
 msgid "Draw Spaces and Tabs"
 msgstr "Rita ut blanksteg och tabulatorer"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Visa tomt utrymme"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Om TRUE (sant) kommer ritning att aktiveras."
@@ -316,12 +319,12 @@ msgstr "_Sök"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "S_ök "
+msgid "F_ind:"
+msgstr "S_ök:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_I "
+msgid "_In:"
+msgstr "_I:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -778,28 +781,29 @@ msgstr ""
 "infogas den i utmatningsöversättningsfönstret."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'swe|dan'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Språkpar som används"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Språkpar som används för att översätta från ett språk till ett annat"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "API-nyckel för fjärrwebbtjänst"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Fjärrwebbtjänst att använda"
 
@@ -894,6 +898,9 @@ msgstr "Ordkomplettering"
 msgid "Word completion using the completion framework"
 msgstr "Ordkomplettering som använder kompletteringsramverket"
 
+#~ msgid "_In "
+#~ msgstr "_I "
+
 #~ msgid "Whether to allow bold text"
 #~ msgstr "Huruvida fet text ska tillåtas"
 
@@ -932,26 +939,6 @@ msgstr "Ordkomplettering som använder kompletteringsramverket"
 #~ msgstr ""
 #~ "Visar ett rutnät över senaste/mest använda filer vid öppnandet av ny flik"
 
-#, fuzzy
-#~ msgid "Toggle bookmark status of the current line"
-#~ msgstr "Visa eller dölj statusraden i det aktuella fönstret"
-
-#, fuzzy
-#~ msgid "Goto the next bookmark"
-#~ msgstr "Gå till nästa besökta plats"
-
-#, fuzzy
-#~ msgid "Goto the previous bookmark"
-#~ msgstr "Visa föregående sida"
-
-#, fuzzy
-#~ msgid "Comment the selected code"
-#~ msgstr "Ta bort den markerade texten"
-
-#, fuzzy
-#~ msgid "Uncomment the selected code"
-#~ msgstr "Ta bort den markerade texten"
-
 #~ msgid "Pick _Color..."
 #~ msgstr "Välj _färg…"
 
@@ -960,41 +947,6 @@ msgstr "Ordkomplettering som använder kompletteringsramverket"
 
 #~ msgid "_Insert"
 #~ msgstr "_Infoga"
-
-#, fuzzy
-#~ msgid "Show spaces and tabs"
-#~ msgstr "Infoga _blanksteg istället för tabulatortecken"
-
-#, fuzzy
-#~ msgid "Enabled"
-#~ msgstr "Inaktiverad"
-
-#, fuzzy
-#~ msgid "Join the selected lines"
-#~ msgstr "Färg på markerade länkar"
-
-#, fuzzy
-#~ msgid "Split the selected lines"
-#~ msgstr "Ta bort den markerade texten"
-
-#~ msgid "Start multi edit mode"
-#~ msgstr "Starta multipelt redigeringsläge"
-
-#, fuzzy
-#~ msgid "Sa_ved sessions"
-#~ msgstr "_Spara med komprimering"
-
-#, fuzzy
-#~ msgid "_Save current session"
-#~ msgstr "Ersätt aktuell markering"
-
-#, fuzzy
-#~ msgid "Save the current document list as a new session"
-#~ msgstr "Flytta det aktuella dokumentet till ett nytt fönster"
-
-#, fuzzy
-#~ msgid "Open the saved session manager"
-#~ msgstr "Öppna gedit-manualen"
 
 #~ msgid "Tags"
 #~ msgstr "Taggar"
