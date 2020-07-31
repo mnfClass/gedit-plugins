@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-04-01 11:12+0000\n"
-"PO-Revision-Date: 2020-04-05 19:37+0700\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-07-31 19:34+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -210,8 +210,8 @@ msgid "_Foreground"
 msgstr "Latar _Depan"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Bersihkan "
+msgid "_Clear"
+msgstr "_Bersihkan"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -257,7 +257,6 @@ msgid "Draw spaces and tabs"
 msgstr "Gambar spasi dan tab"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "Tampilkan _White Space"
 
@@ -294,6 +293,10 @@ msgstr "Gambar spasi di ekor baris"
 msgid "Draw Spaces and Tabs"
 msgstr "Gambar Spasi dan Tab"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Tampilkan White Space"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Bila TRUE maka menggambar akan difungsikan."
@@ -320,12 +323,12 @@ msgstr "_Cari"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "Car_i "
+msgid "F_ind:"
+msgstr "Car_i"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_Dalam "
+msgid "_In:"
+msgstr "D_i:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -783,30 +786,31 @@ msgstr ""
 "tidak pada Jendela Hasil Terjemahan."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'id|ms'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Pasangan bahasa yang digunakan"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr ""
 "Pasangan bahasa digunakan untuk menerjemahkan dari satu bahasa ke bahasa "
 "lainnya"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Kunci API untuk layanan web jarak jauh"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Layanan web jarak jauh untuk digunakan"
 
@@ -901,6 +905,9 @@ msgstr "Penyelesaian Kata"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Penyelesaian kata memakai kerangka kerja penyelesaian"
+
+#~ msgid "_In "
+#~ msgstr "_Dalam "
 
 #~ msgid "Whether to allow bold text"
 #~ msgstr "Apakah memperbolehkan teks tebal"
