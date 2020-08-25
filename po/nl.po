@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-11-12 10:03+0000\n"
-"PO-Revision-Date: 2020-02-27 20:02+0100\n"
+"POT-Creation-Date: 2020-05-26 13:51+0000\n"
+"PO-Revision-Date: 2020-08-25 21:25+0200\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -43,16 +43,16 @@ msgstr "Bladwijzers"
 msgid "Easy document navigation with bookmarks"
 msgstr "Gemakkelijke documentnavigatie met bladwijzers"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Bladwijzer aan/uit"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Ga naar volgende bladwijzer"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Ga naar vorige bladwijzer"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -267,7 +267,7 @@ msgstr "Spaties weergeven"
 msgid "Draw spaces and tabs"
 msgstr "Spaties en tabs tonen"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "_Witspaties tonen"
@@ -566,7 +566,7 @@ msgid "Forward Search"
 msgstr "Voorwaarts zoeken"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -640,20 +640,10 @@ msgstr ""
 "uitvoer is."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Of vetgedrukte tekst wordt toegestaan"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Indien ingeschakeld is het toegestaan voor toepassingen in de terminal om "
-"tekst vetgedrukt te maken."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Standaardkleur van tekst in de terminal"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -661,11 +651,11 @@ msgstr ""
 "Standaardkleur van tekst in de terminal, als een kleurspecificatie (kan een "
 "hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Standaardkleur van terminalachtergrond"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -673,12 +663,12 @@ msgstr ""
 "Standaardkleur van terminalachtergrond, als een kleurspecificatie (kan een "
 "hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Palet voor terminaltoepassingen"
 
 # Wat is de vertaling van colon?
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -689,11 +679,11 @@ msgstr ""
 "gescheiden lijst van kleurnamen. Kleurnamen moeten in hexadecimaal formaat "
 "zijn, bijv. ‘#FF00FF’"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Of de kleur van het thema voor de terminal-widget wordt gebruikt"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -702,11 +692,11 @@ msgstr ""
 "tekstinvoervakken worden gebruikt voor de terminal, in plaats van kleuren "
 "die zijn ingevoerd door de gebruiker."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Of de cursor knippert"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -715,11 +705,11 @@ msgstr ""
 "cursorknipperinstellingen te gebruiken, of ‘on’ of ‘off’ of de modus "
 "expliciet in te stellen."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "De cursorvertoning"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -728,11 +718,11 @@ msgstr ""
 "een verticaleregelcursor te gebruiken, of ‘underline’ om een onderstreep-"
 "cursor te gebruiken."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Of het systeemlettertype wordt gebruikt"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -741,11 +731,11 @@ msgstr ""
 "gebruiken als het monospace is (en het meest gelijke lettertype in andere "
 "gevallen)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Lettertype"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Een Pango-lettertypenaam. Voorbeelden zijn ‘Sans 12’ of ‘Monospace Bold 14’."
@@ -758,7 +748,7 @@ msgstr "Ingebedde terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Een terminalvenster inbedden in het paneel beneden."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "_Map wijzigen"
 
@@ -902,7 +892,7 @@ msgstr ""
 "Automatische aanvulling voorstellen gebruikmakend van woorden die al in het "
 "document voorkomen"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Woorden in document"
 
@@ -930,26 +920,31 @@ msgstr "Woordaanvulling"
 msgid "Word completion using the completion framework"
 msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Zeitgeist-gegevensverstrekker"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Of vetgedrukte tekst wordt toegestaan"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Neemt gebruikersactiviteiten op en geeft gemakkelijk toegang tot vaak "
-"gebruikte en recente bestanden"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Indien ingeschakeld is het toegestaan voor toepassingen in de terminal om "
+#~ "tekst vetgedrukt te maken."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist-gegevensverstrekker"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist-gegevensverstrekker"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr ""
-"Logboek-toegang en verlaat-gebeurtenissen voor documenten gebruikt met gedit"
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Neemt gebruikersactiviteiten op en geeft gemakkelijk toegang tot vaak "
+#~ "gebruikte en recente bestanden"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist-gegevensverstrekker"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Logboek-toegang en verlaat-gebeurtenissen voor documenten gebruikt met "
+#~ "gedit"
 
 # Wazige string, juiste vertaling?
 #~| msgid "Accessibility key character"
