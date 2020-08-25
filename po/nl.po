@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 13:51+0000\n"
-"PO-Revision-Date: 2020-08-25 21:25+0200\n"
+"POT-Creation-Date: 2020-08-25 19:27+0000\n"
+"PO-Revision-Date: 2020-08-25 21:51+0200\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
@@ -221,8 +221,8 @@ msgid "_Foreground"
 msgstr "_Voorgrond"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Wissen "
+msgid "_Clear"
+msgstr "Wi_ssen"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -268,7 +268,6 @@ msgid "Draw spaces and tabs"
 msgstr "Spaties en tabs tonen"
 
 #: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
 msgid "Show _White Space"
 msgstr "_Witspaties tonen"
 
@@ -305,6 +304,10 @@ msgstr "Afsluitende spaties tonen"
 msgid "Draw Spaces and Tabs"
 msgstr "Spaties en tabs tonen"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Witspaties tonen"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Als WAAR zal weergeven worden ingeschakeld."
@@ -331,12 +334,12 @@ msgstr "_Zoeken"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "Z_oeken "
+msgid "F_ind:"
+msgstr "Z_oeken:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_In "
+msgid "_In:"
+msgstr "_In:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -801,29 +804,30 @@ msgstr ""
 
 # ? - Nathan
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'en|nl'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Gebruikt taalpaar"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr ""
 "Taalpaar dat wordt gebruikt om van de ene naar de andere taal te vertalen"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "API-sleutel voor de externe webdienst"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Te gebruiken externe webdienst"
 
@@ -919,6 +923,9 @@ msgstr "Woordaanvulling"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
+
+#~ msgid "_In "
+#~ msgstr "_In "
 
 #~ msgid "Whether to allow bold text"
 #~ msgstr "Of vetgedrukte tekst wordt toegestaan"
