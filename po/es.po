@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"POT-Creation-Date: 2020-08-25 19:27+0000\n"
 "PO-Revision-Date: 2020-06-09 17:05+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -215,7 +215,6 @@ msgid "_Foreground"
 msgstr "_Primer plano"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "L_impiar"
 
@@ -300,7 +299,6 @@ msgid "Draw Spaces and Tabs"
 msgstr "Dibujar espacios y tabulaciones"
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
 msgid "Show White Space"
 msgstr "Mostrar espacios en blanco"
 
@@ -329,8 +327,6 @@ msgid "_Find"
 msgstr "_Buscar"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "B_uscar:"
@@ -978,7 +974,7 @@ msgstr "Completado de palabras usando el entorno de trabajo de completado"
 #~ "pestaña nueva"
 
 #~ msgid "Welcome!"
-#~ msgstr "Bienvenido"
+#~ msgstr "Bienvenido/a"
 
 #~ msgid "Pick _Color..."
 #~ msgstr "Escoger un _color…"
