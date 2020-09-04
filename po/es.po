@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-03-30 19:12+0000\n"
+"POT-Creation-Date: 2020-08-25 19:26+0000\n"
 "PO-Revision-Date: 2020-04-01 12:57+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -47,12 +47,10 @@ msgid "Toggle Bookmark"
 msgstr "Conmutar marcador"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-#| msgid "Goto Next Bookmark"
 msgid "Go to Next Bookmark"
 msgstr "Ir al siguiente marcador"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-#| msgid "Goto Previous Bookmark"
 msgid "Go to Previous Bookmark"
 msgstr "Ir al marcador anterior"
 
@@ -969,7 +967,7 @@ msgstr "Completado de palabras usando el entorno de trabajo de completado"
 #~ "pestaña nueva"
 
 #~ msgid "Welcome!"
-#~ msgstr "Bienvenido"
+#~ msgstr "Bienvenido/a"
 
 #~ msgid "Pick _Color..."
 #~ msgstr "Escoger un _color…"
