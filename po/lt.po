@@ -8,14 +8,14 @@
 # Žygimantas Beručka <zygis@gnome.org>, 2003-2006.
 # Vytautas Povilaitis <punktyras@nkm.lt>, 2007.
 # Gintautas Miliauskas <gintas@akl.lt>, 2007, 2008, 2010.
-# Aurimas Černius <aurisc4@gmail.com>, 2010-2019.
+# Aurimas Černius <aurisc4@gmail.com>, 2010-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-02-26 12:28+0000\n"
-"PO-Revision-Date: 2019-03-16 15:58+0200\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-07 21:44+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.30.1\n"
+"X-Generator: Gtranslator 3.36.0\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -41,11 +41,13 @@ msgid "Toggle Bookmark"
 msgstr "Perjungti žymelę"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
-msgid "Goto Next Bookmark"
+#| msgid "Goto Next Bookmark"
+msgid "Go to Next Bookmark"
 msgstr "Pereiti prie kitos žymelės"
 
 #: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
-msgid "Goto Previous Bookmark"
+#| msgid "Goto Previous Bookmark"
+msgid "Go to Previous Bookmark"
 msgstr "Pereiti prie ankstesnės žymelės"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -61,7 +63,7 @@ msgstr "Automatiškai prideda užveriančius skliaustus."
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Automatiškai pridėti užveriančius skliaustus parašius atidarantį"
 
-#: plugins/charmap/charmap/__init__.py:57
+#: plugins/charmap/charmap/__init__.py:56
 #: plugins/charmap/charmap.plugin.desktop.in.in:6
 msgid "Character Map"
 msgstr "Simbolių žemėlapis"
@@ -69,11 +71,6 @@ msgstr "Simbolių žemėlapis"
 #: plugins/charmap/charmap.plugin.desktop.in.in:7
 msgid "Insert special characters just by clicking on them."
 msgstr "Įterpti specialiuosius simbolius tiesiog spaudžiant ant jų."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/charmap/charmap.plugin.desktop.in.in:9
-msgid "accessories-character-map"
-msgstr "accessories-character-map"
 
 #: plugins/charmap/gedit-charmap.metainfo.xml.in:6
 msgid "Charmap"
@@ -92,11 +89,11 @@ msgstr "Kodo komentaras"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Komentuoti ar atkomentuoti pažymėtą kodo bloką."
 
-#: plugins/codecomment/codecomment.py:119
+#: plugins/codecomment/codecomment.py:118
 msgid "Co_mment Code"
 msgstr "_Komentuoti kodą"
 
-#: plugins/codecomment/codecomment.py:125
+#: plugins/codecomment/codecomment.py:124
 msgid "U_ncomment Code"
 msgstr "Atkome_ntuoti kodą"
 
@@ -112,11 +109,11 @@ msgstr "Spalvų pasirinkėjas"
 msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr "Pasirinkti spalvą iš dialogo ir įterpti jos šešioliktainę išraišką."
 
-#: plugins/colorpicker/colorpicker.py:133
+#: plugins/colorpicker/colorpicker.py:132
 msgid "Pick _Color…"
 msgstr "Pasirinkti _spalvą…"
 
-#: plugins/colorpicker/colorpicker.py:173
+#: plugins/colorpicker/colorpicker.py:172
 msgid "Pick Color"
 msgstr "Pasirinkti spalvą"
 
@@ -142,6 +139,40 @@ msgstr "Pradinio kodo spalvų schemos redaktorius"
 #: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
 msgid "Create and edit the color scheme used for syntax highlighting"
 msgstr "Sukurti ir keisti spalvų schemą sintaksės paryškinimui"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Kilo problema įrašant schemą"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Pasirinkote sukurti naują schemą,\n"
+"bet jūsų pasirinktas pavadinimas ir ID jau naudojami.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Neturite perrašyti pasirinktą schemą.\n"
+"Bus sukurta kopija.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Atveriant failą kilo problema"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Atrodo turite schemą su tuo pačiu ID skirtinguose kataloguose\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -176,7 +207,8 @@ msgid "_Foreground"
 msgstr "_Priekinis planas"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
+#| msgid "_Clear "
+msgid "_Clear"
 msgstr "_Išvalyti"
 
 #: plugins/colorschemer/schemer.ui:383
@@ -222,8 +254,7 @@ msgstr "Piešti tarpus"
 msgid "Draw spaces and tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 msgid "Show _White Space"
 msgstr "Rodyti tuščią _erdvę"
 
@@ -260,6 +291,11 @@ msgstr "Piešti tarpus pabaigoje"
 msgid "Draw Spaces and Tabs"
 msgstr "Piešti tarpus ir tabuliacijas"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#| msgid "Show _White Space"
+msgid "Show White Space"
+msgstr "Rodyti nespausdinamus simbolius"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Jei teigiama, piešimas bus įjungtas."
@@ -285,13 +321,15 @@ msgid "_Find"
 msgstr "_Rasti"
 
 #: plugins/findinfiles/dialog.ui:72
+#| msgctxt "label on the left of the GtkEntry containing text to search"
+#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "Rast_i"
+msgid "F_ind:"
+msgstr "Rast_i:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_Kur"
+msgid "_In:"
+msgstr "_Kur:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -321,12 +359,24 @@ msgstr "Rasti tekstą visuose aplanko failuose."
 msgid "Find in Files…"
 msgstr "Rasti failuose…"
 
-#: plugins/findinfiles/result-panel.vala:195
+#: plugins/findinfiles/result-panel.vala:127
+#| msgid "Git"
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "atitikmuo"
+msgstr[1] "atitikmenys"
+msgstr[2] "atitikmenys"
+
+#: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
 msgstr "Nerasta rezultatų"
 
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Failas"
+
 #. The stop button is showed in the bottom-left corner of the TreeView
-#: plugins/findinfiles/result-panel.vala:217
+#: plugins/findinfiles/result-panel.vala:218
 msgid "Stop the search"
 msgstr "Stabdyti paiešką"
 
@@ -363,11 +413,11 @@ msgstr "Sujungti/padalinti eilutes"
 msgid "Join several lines or split long ones"
 msgstr "Sujungti kelias eilutes arba padalinti ilgas"
 
-#: plugins/joinlines/joinlines.py:112
+#: plugins/joinlines/joinlines.py:111
 msgid "_Join Lines"
 msgstr "Su_jungti eilutes"
 
-#: plugins/joinlines/joinlines.py:118
+#: plugins/joinlines/joinlines.py:117
 msgid "_Split Lines"
 msgstr "Pa_dalinti eilutes"
 
@@ -444,6 +494,43 @@ msgstr "Lygiuoti redagavimo taškus"
 msgid "Align edit points with additional space"
 msgstr "Lygiuoti redagavimo taškus papildomais tarpais"
 
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Tvarkyti įrašytus seansus…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "Į_rašyti seansą…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Atkurti seansą „{0}“"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Seanso pavadinimas"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Seansų įrašymas"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Įrašyti ir atkurti darbo seansus"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Įrašyti seansą"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Seanso pavadinimas:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Įrašyti seansai"
+
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
@@ -471,12 +558,12 @@ msgstr "Sinchronizuoti tarp LaTeX ir PDF su gedit ir evince."
 msgid "Synchronize between LaTeX and PDF with gedit and evince."
 msgstr "Sinchronizuokite tarp LaTeX ir PDF su gedit ir evince."
 
-#: plugins/synctex/synctex/synctex.py:343
+#: plugins/synctex/synctex/synctex.py:342
 msgid "Forward Search"
 msgstr "Paieška pirmyn"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:316
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminalas"
 
@@ -542,18 +629,10 @@ msgid ""
 msgstr "Jei teigiama, slinkti į apačią, kai tik yra nauja išvestis terminale."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Ar leisti paryškinti tekstą"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr "Jei teigiama, leisti programoms terminale paryškinti tekstą."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Numatytoji teksto spalva terminale"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -562,11 +641,11 @@ msgstr ""
 "HTML stiliaus šešioliktainiai simboliai arba spalvos pavadinimas, pvz. "
 "„red“)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Numatytoji terminalo fono spalva"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -574,11 +653,11 @@ msgstr ""
 "Numatytoji terminalo fono spalva kaip spalvos specifikacija (gali būti HTML "
 "stiliaus šešioliktainiai simboliai arba spalvos pavadinimas, pvz. „red“)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Paletė terminalo programoms"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -588,11 +667,11 @@ msgstr ""
 "yra dvitaškiais skiriamų spalvų pavadinimų paletė. Spalvų pavadinimai turi "
 "būti šešioliktainio formato, pvz. „#FF00FF“"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Ar naudoti temos spalvas terminalo elementui"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -600,11 +679,11 @@ msgstr ""
 "Jei teigiama, temos spalvų schema yra naudojama teksto įvedimo laukams "
 "terminalui, užuot naudotus naudotojo pateiktas spalvas."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Ar žymiklis mirksi"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -612,11 +691,11 @@ msgstr ""
 "Galimos vertės yra „system“ sistemos visuotiniams žymiklio mirksėjimo "
 "nustatymams, arba „on“ ar „off“ išreikštinės veiksenos nustatymui."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "Žymiklio išvaizda"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -624,11 +703,11 @@ msgstr ""
 "Galimos vertės yra „block“ bloko žymikliui naudoti, „ibeam“ vertikaliai "
 "linijai arba „underline“ pabraukimo žymekliui."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Ar naudoti sistemos šriftą"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -636,11 +715,11 @@ msgstr ""
 "Jei teigiama, terminalas naudos desktop-global standartinį šriftą, jei jis "
 "lygiaplotis (ir patį panašiausią įmanomą šriftą priešingu atveju)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Šriftas"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Pango šrifto pavadinimas. Pavyzdžiai yra „Sans 12“ ir „Monospace Bold 14“."
@@ -653,12 +732,7 @@ msgstr "Įntegruotas terminalas"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Apatiniame polangyje integruotas terminalas."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: plugins/terminal/terminal.plugin.desktop.in.in:9
-msgid "utilities-terminal"
-msgstr "utilities-terminal"
-
-#: plugins/terminal/terminal.py:337
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "Keis_ti katalogą"
 
@@ -671,15 +745,15 @@ msgstr "Teksto dydis"
 msgid "Easily increase and decrease the text size"
 msgstr "Lengvai didinkite ir mažinkite teksto dydį"
 
-#: plugins/textsize/textsize/__init__.py:54
+#: plugins/textsize/textsize/__init__.py:53
 msgid "_Normal size"
 msgstr "Įprasti_nis tekstas"
 
-#: plugins/textsize/textsize/__init__.py:56
+#: plugins/textsize/textsize/__init__.py:55
 msgid "S_maller Text"
 msgstr "_Mažesnis tekstas"
 
-#: plugins/textsize/textsize/__init__.py:58
+#: plugins/textsize/textsize/__init__.py:57
 msgid "_Larger Text"
 msgstr "_Didesnis tekstas"
 
@@ -710,46 +784,47 @@ msgstr ""
 "vertimų išvesties langą."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'eng|spa'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Naudojama kalbų pora"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Kalbų pora, naudojama vertimui iš vienos į kitą"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "API raktas nutolusiai internetinei tarnybai"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Naudotina internetinė tarnyba"
 
-#: plugins/translate/translate/__init__.py:73
+#: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Vertimus įgalino {0}"
 
-#: plugins/translate/translate/__init__.py:76
+#: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
 msgstr "Vertimų konsolė"
 
-#: plugins/translate/translate/__init__.py:152
+#: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Išversti pasirinktą tekstą [{0}]"
 
-#: plugins/translate/translate/preferences.py:85
+#: plugins/translate/translate/preferences.py:84
 msgid "API Key"
 msgstr "API raktas"
 
@@ -799,7 +874,7 @@ msgid ""
 msgstr ""
 "Pasiūlyti automatinį žodžių užbaigimą naudojant dokumente jau esamus žodžius"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Dokumento žodžiai"
 
@@ -827,25 +902,36 @@ msgstr "Žodžių užbaigimas"
 msgid "Word completion using the completion framework"
 msgstr "Žodžių užbaigimas naudojant užbaigimo karkasą"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Zeitgeist duomenų tiekėjas"
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Įrašo naudotojo veiklą ir suteikia prieigą prie neseniai bei dažnai "
-"naudojamų failų"
+#~ msgid "_In "
+#~ msgstr "_Kur"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist duomenų tiekėjas"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Ar leisti paryškinti tekstą"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "Įrašo dokumentų atvėrimą bei užvėrimą su gedit"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr "Jei teigiama, leisti programoms terminale paryškinti tekstą."
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist duomenų tiekėjas"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Įrašo naudotojo veiklą ir suteikia prieigą prie neseniai bei dažnai "
+#~ "naudojamų failų"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist duomenų tiekėjas"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr "Įrašo dokumentų atvėrimą bei užvėrimą su gedit"
 
 #~ msgid "Empty Document"
 #~ msgstr "Tuščias dokumentas"
