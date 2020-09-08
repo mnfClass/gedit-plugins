@@ -141,7 +141,7 @@ msgstr "Crea i edita l'esquema de colors utilitzat pel ressaltat de sintaxi"
 #: plugins/colorschemer/schemer/schemer.py:271
 #: plugins/colorschemer/schemer/schemer.py:318
 msgid "There was a problem saving the scheme"
-msgstr "Hi hagut un problema desant l'esquema"
+msgstr "Hi ha hagut un problema desant l'esquema"
 
 #: plugins/colorschemer/schemer/schemer.py:272
 msgid ""
@@ -170,7 +170,7 @@ msgstr ""
 #. there must have been some conflict, since it opened the wrong file
 #: plugins/colorschemer/schemer/schemer.py:378
 msgid "There was a problem opening the file"
-msgstr "Hi hagut un problema en obrir el fitxer"
+msgstr "Hi ha hagut un problema en obrir el fitxer"
 
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
