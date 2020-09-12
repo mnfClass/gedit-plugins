@@ -1004,7 +1004,7 @@ msgid ""
 "Session…</gui></guiseq>."
 msgstr ""
 "Premeu el botó de menú a la part superior dreta de la finestra i seleccioneu"
-" <guiseq><gui style=\"menuitem\">Eines</gui> <gui style=\"menuitem\">Desar la "
+" <guiseq><gui style=\"menuitem\">Eines</gui> <gui style=\"menuitem\">Desa la "
 "sessió…</gui></guiseq>."
 
 #. (itstool) path: section/title
@@ -1232,7 +1232,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/text-size.page:50
 msgid "Use the <app>Text Size</app> plugin"
-msgstr "Utilitzeu el connector <app>Mida del text</app>"
+msgstr "Utilitzar el connector <app>Mida del text</app>"
 
 #. (itstool) path: section/p
 #: C/text-size.page:52
