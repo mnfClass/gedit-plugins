@@ -147,7 +147,7 @@ msgid ""
 msgstr ""
 "Si preferiu fer servir el ratolí, podeu obrir el menú a la cantonada "
 "superior dreta i seleccionar <gui style=\"menuitem\">Vés a l'adreça "
-"d'interès següent</gui> o <gui style=\"menuitem\">Vés a l'adreça d'interès següent</gui>."
+"d'interès següent</gui> o <gui style=\"menuitem\">Vés a l'adreça d'interès anterior</gui>."
 
 #. (itstool) path: info/desc
 #: C/bracket-comp.page:16
@@ -463,7 +463,7 @@ msgid ""
 "The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
 "users that allows you to perform command-line actions on the current file."
 msgstr ""
-"El connector <app>>Commander</app> és un connector per a usuaris avançats de "
+"El connector <app>Commander</app> és un connector per a usuaris avançats de "
 "<app>gedit</app> que permet realitzar accions a la línia d'ordres sobre el"
 " fitxer actual."
 
@@ -889,11 +889,11 @@ msgid ""
 "Mode</gui></guiseq>. You can then select the points in your file that you "
 "would like start editing."
 msgstr ""
-"Un cop activat el connector, enceneu el mode Edició múltiple prement "
+"Un cop activat el connector, activeu el mode d'edició múltiple prement "
 "<keyseq><key>Ctrl</key><key>Maj</key><key>C</key></keyseq>, o premeu el "
 "botó de menú a la cantonada superior dreta de la finestra i seleccioneu "
 "<guiseq><gui style=\"menuitem\">Eines</gui><gui style=\"menuitem\">Mode "
-"edició múltiple</gui></guiseq>. A continuació, podeu seleccionar els punts "
+"d'edició múltiple</gui></guiseq>. A continuació, podeu seleccionar els punts "
 "del fitxer que voleu començar a editar."
 
 #. (itstool) path: page/p
