@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-08-27 19:31+0000\n"
-"PO-Revision-Date: 2019-09-03 18:54+0200\n"
-"Last-Translator: gogo <linux.hr@protonmail.com>\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-20 17:48+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
@@ -27,16 +27,16 @@ msgstr "Zabilješke"
 msgid "Easy document navigation with bookmarks"
 msgstr "Lakša navigacija dokumenata sa zabilješkama"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
 msgstr "Zabilježi"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Idi na sljedeću zabilješku"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Idi na prijašnju zabilješku"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -185,23 +185,23 @@ msgstr "Precrtano"
 
 #: plugins/colorschemer/schemer.ui:243
 msgid "Pick the background color"
-msgstr "Odaberi boju pozadine"
+msgstr "Odaberi stražnju boju"
 
 #: plugins/colorschemer/schemer.ui:259
 msgid "Pick the foreground color"
-msgstr "Odaberi boju prednjeg prikaza"
+msgstr "Odaberi prednju boju"
 
 #: plugins/colorschemer/schemer.ui:270
 msgid "_Background"
-msgstr "_Pozadina"
+msgstr "_Stražnja"
 
 #: plugins/colorschemer/schemer.ui:288
 msgid "_Foreground"
-msgstr "_Prednji prikaz"
+msgstr "_Prednja"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Obriši "
+msgid "_Clear"
+msgstr "_Obriši"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -244,10 +244,9 @@ msgstr "Umetni razmak"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
 msgid "Draw spaces and tabs"
-msgstr "Umetni razmak i Tab"
+msgstr "Umetni razmak i tabulatore"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 msgid "Show _White Space"
 msgstr "Prikaži _prazan redak"
 
@@ -258,7 +257,7 @@ msgstr "Umetni razmak"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
 msgid "Draw tabs"
-msgstr "Umetni tab"
+msgstr "Umetni tabulator"
 
 #: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
 msgid "Draw new lines"
@@ -284,9 +283,13 @@ msgstr "Umetni prateći razmak"
 msgid "Draw Spaces and Tabs"
 msgstr "Umetni razmak i Tab"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Umetni prazan razmak"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
-msgstr "Ako je odabrano, umetanje će biti omogućeno."
+msgstr "Ako je ISTINA, umetanje će biti omogućeno."
 
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
 msgid "The type of spaces to be drawn."
@@ -310,12 +313,12 @@ msgstr "_Pretraži"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "P_retraži "
+msgid "F_ind:"
+msgstr "P_otraži:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_U "
+msgid "_In:"
+msgstr "_U:"
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -523,14 +526,32 @@ msgstr "Pametni razmaci"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "Dopusti tabove pri korištenju razmaka"
+msgstr ""
+"Dopusti uklanjanje uvlake kao da koristite tabulatore dok koristite razmake"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you’re not using tabulations."
-msgstr "Nemojte zaboraviti da koristite tabove."
+msgstr "Zaboravite da ne koristite tabulatore."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Brza pretraga"
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -560,9 +581,10 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
 "discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
-"Broj redaka za pomicanje. Možete pomicati u terminalu oviaj broj redaka; "
-"Linije koje ne pristaju u pomicanje su izuzete. Ako je pomicanje "
-"neograničeno, ova vrijednost je zanemarena."
+"Broj redaka za pomicanje unatrag, koje treba zadržati. Možete pomicati "
+"unatrag u terminalu ovim brojem redaka. Retci koje ne pristaju u pomicanje "
+"su izuzeti. Ako je scrollback-unlimited postavljeno na istinu, ova "
+"vrijednost je zanemarena."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -574,9 +596,9 @@ msgid ""
 "stored on disk temporarily, so this may cause the system to run out of disk "
 "space if there is a lot of output to the terminal."
 msgstr ""
-"Ako je odabrano, redci pomicanja nikada neće biti ograničeni. Povijest "
-"pomicanja redaka je spremljena privremeno na disku, stoga to može "
-"prouzrokovati pomanjkanje diskovnog prostora ako je puno izlaza na terminalu."
+"Ako je istina, retci pomicanja nikada neće biti odbačeni. Povijest pomicanja "
+"redaka je spremljena privremeno na disku, stoga to može prouzrokovati "
+"pomanjkanje diskovnog prostora ako je puno izlaza na terminalu."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
 msgid "Whether to scroll to the bottom when a key is pressed"
@@ -597,30 +619,22 @@ msgstr ""
 "Ako je odabrano, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Treba li dopustiti podebljani tekst"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr "Ako je odabrano, dopusti aplikacijama u terminalu da podebljaju tekst."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Zadana boja teksta u terminalu"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"Zadana boja teksta u terminalu, specifikacija boje (može biti HTML-stil "
-"heksadecimalne znamenke, ili nazivi poput \"red\")."
+"Zadana boja teksta u terminalu, kao specifikacija boje (može biti HTML "
+"heksadecimalni brojevi, ili nazivi boja poput \"red\")."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Zadana boja pozadine u terminalu"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -628,11 +642,11 @@ msgstr ""
 "Zadana boja pozadine u terminalu, specifikacija boje (može biti HTML-stil "
 "heksadecimalne znamenke, ili nazivi poput \"red\")."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Paleta aplikacija terminala"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -642,11 +656,11 @@ msgstr ""
 "koristiti. Ta paleta je u obliku naziva boja odvojenih dvotočkom. Nazivi "
 "boja trebaju biti u heksadecimalnom formatu npr. “#FF00FF”"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr "Treba li koristiti boje iz teme za terminal"
+msgstr "Treba li za terminal koristiti boje iz teme"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -654,11 +668,11 @@ msgstr ""
 "Ako je odabrano, shema boje teme korištena za okvir unosa teksta će se "
 "koristiti u terminalu, umjesto boja omogućenih od strane korisnika."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Terebali pokazivač treperiti"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -666,11 +680,11 @@ msgstr ""
 "Moguće vrijednosti su \"system\" za korištenje općih postavki treperenja "
 "pokazivača, ili \"on\" ili \"off\" za postavljanje određenog načina rada."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "Pojavljivanje pokazivača"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -679,11 +693,11 @@ msgstr ""
 "korištenje pokazivača u okomitim redcima, ili \"underline\" za korištenje "
 "podcrtanog pokazivača."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Treba li koristiti slova sustava"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -691,11 +705,11 @@ msgstr ""
 "Ako je odabrano, terminal će koristiti standardna slova radne površine ako "
 "je monospace (ili najsličnija slova)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Slovo"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr "Naziv slova Pango. Primjeri su \"Sans 12\" ili \"Monospace Bold 14\"."
 
@@ -707,7 +721,7 @@ msgstr "Ugrađeni Terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Ugradi terminal u donje okno."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "P_romijeni direktorij"
 
@@ -759,28 +773,29 @@ msgstr ""
 "prozoru izlaza prijevoda."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
 msgid "'eng|spa'"
 msgstr "'eng|hrv'"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Korišteni jezični par"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Jezični par koji se koristi za prijevod jednog jezika na drugog"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
-msgstr "APi ključ za udaljenu web uslugu"
+msgstr "API ključ za udaljenu web uslugu"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Udaljena web usluga koja se koristi"
 
@@ -836,26 +851,26 @@ msgstr "Interaktivno završavanje"
 
 #: plugins/wordcompletion/gedit-word-completion-configure.ui:43
 msgid "Minimum word size:"
-msgstr "Najmanja veličina riječi:"
+msgstr "Najkraća riječi:"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
 msgid "Word completion"
-msgstr "Riječi završavanja"
+msgstr "Dovršavanje riječi"
 
 #: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
 msgid ""
 "Propose automatic completion using words already present in the document"
 msgstr ""
-"Zatraži automatsko završavanje koristeći riječi koje su već prisutne u "
+"Zatraži automatsko dovršavanje koristeći riječi koje su već prisutne u "
 "dokumentu"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Riječi dokumenta"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
 msgid "Interactive Completion"
-msgstr "Interaktivno završavanje"
+msgstr "Interaktivno dovršavanje"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
 msgid "Whether to enable interactive completion."
@@ -863,7 +878,7 @@ msgstr "Treba li omogućiti interaktivno završavanje."
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
 msgid "Minimum Word Size"
-msgstr "Najmanja veličina riječi"
+msgstr "Najkraća riječi"
 
 #: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
 msgid "The minimum word size to complete."
@@ -871,46 +886,41 @@ msgstr "Najmanja veličina riječi za završiti."
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr "Riječi završavanja"
+msgstr "Dovršavanje riječi"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr "Riječi završavanja koriste radno okruženje završvanja"
+msgstr "Dovršavanje riječi pomoću radnog okruženje dovršavanja"
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:6
-msgid "Zeitgeist Data provider"
-msgstr "Zeitgeist pružatelj podataka"
+#~ msgid "_In "
+#~ msgstr "_U "
 
-#: plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in:7
-msgid ""
-"Records user activity and giving easy access to recently-used and frequently-"
-"used files"
-msgstr ""
-"Bilježi aktivnost korisnika i omogućuje lagan pristup nedavno korištenim i "
-"često korištenim korisnikovim datotekama"
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Treba li dopustiti podebljani tekst"
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:5
-msgid "Zeitgeist dataprovider"
-msgstr "Zeitgeist pružatelj podataka"
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Ako je odabrano, dopusti aplikacijama u terminalu da podebljaju tekst."
 
-#: plugins/zeitgeist/zeitgeist.plugin.desktop.in:6
-msgid "Logs access and leave event for documents used with gedit"
-msgstr "Pristup zapisima i događaji napuštanja za dokumente korištene u geditu"
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist pružatelj podataka"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Bilježi aktivnost korisnika i omogućuje lagan pristup nedavno korištenim "
+#~ "i često korištenim korisnikovim datotekama"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist pružatelj podataka"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Pristup zapisima i događaji napuštanja za dokumente korištene u geditu"
 
 #~ msgid "accessories-character-map"
 #~ msgstr "accessories-character-map"
-
-#~ msgid "SyncTeX"
-#~ msgstr "SyncTeX"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince"
-#~ msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom"
-
-#~ msgid "Synchronize between LaTeX and PDF with gedit and evince."
-#~ msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom."
-
-#~ msgid "Forward Search"
-#~ msgstr "Brza pretraga"
 
 #~ msgid "utilities-terminal"
 #~ msgstr "utilities-terminal"
@@ -955,9 +965,6 @@ msgstr "Pristup zapisima i događaji napuštanja za dokumente korištene u gedit
 
 #~ msgid "_Insert"
 #~ msgstr "_Umetni"
-
-#~ msgid "Show White Spaces"
-#~ msgstr "Umetni prazan razmak"
 
 #~ msgid "Draw Tabs"
 #~ msgstr "Umetni Tab"
