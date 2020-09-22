@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2019-11-28 08:24+0000\n"
-"PO-Revision-Date: 2020-01-06 15:54+0100\n"
+"POT-Creation-Date: 2020-09-20 15:51+0000\n"
+"PO-Revision-Date: 2020-09-22 11:53+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <fur@li.org>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -28,16 +28,16 @@ msgstr "Segnelibris"
 msgid "Easy document navigation with bookmarks"
 msgstr "Navigazion"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:144
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Salve/gjave segnelibri"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:148
-msgid "Goto Next Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
 msgstr "Va al prossim segnelibri"
 
-#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:152
-msgid "Goto Previous Bookmark"
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
 msgstr "Va al segnelibri precedent"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
@@ -170,7 +170,7 @@ msgstr "Al è vignût fûr un probleme tal vierzi il file"
 
 #: plugins/colorschemer/schemer/schemer.py:379
 msgid "You appear to have schemes with the same IDs in different directories\n"
-msgstr "Al semee che tu vedis schemis cui stes ID in cartelis diferentis\n"
+msgstr "Al somee che tu vedis schemis cui stes ID in cartelis diferentis\n"
 
 #: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
 msgid "Bold"
@@ -205,8 +205,8 @@ msgid "_Foreground"
 msgstr "_Prin plan"
 
 #: plugins/colorschemer/schemer.ui:341
-msgid "_Clear "
-msgstr "_Nete "
+msgid "_Clear"
+msgstr "_Nete"
 
 #: plugins/colorschemer/schemer.ui:383
 msgid "Name"
@@ -251,8 +251,7 @@ msgstr "Disegne spazis"
 msgid "Draw spaces and tabs"
 msgstr "Disegne spazis e tabulazions"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:160
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
 msgid "Show _White Space"
 msgstr "Mostre spazi _blanc"
 
@@ -289,6 +288,10 @@ msgstr "Disegne i spazis di fin rie"
 msgid "Draw Spaces and Tabs"
 msgstr "Disegne spazis e tabulazions"
 
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Mostre spazi blanc"
+
 #: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
 msgid "If TRUE drawing will be enabled."
 msgstr "Se VÊR il disegnâ al vignarà abilitât."
@@ -301,7 +304,7 @@ msgstr "Il gjenar di spazis di disegnâ."
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
 #: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
 msgid "Find in Files"
-msgstr "Cjate tai file"
+msgstr "Cjate tai files"
 
 #: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
 #: plugins/findinfiles/result-panel.vala:63
@@ -315,12 +318,12 @@ msgstr "_Cjate"
 
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
-msgid "F_ind "
-msgstr "C_jate "
+msgid "F_ind:"
+msgstr "C_jate:"
 
 #: plugins/findinfiles/dialog.ui:99
-msgid "_In "
-msgstr "_In "
+msgid "_In:"
+msgstr ""
 
 #: plugins/findinfiles/dialog.ui:115
 msgid "Select a _folder"
@@ -340,23 +343,21 @@ msgstr "Espression _regolâr"
 
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
 msgid "Find text in all files of a folder."
-msgstr "Cjate test in ducj i file di une cartele."
+msgstr "Cjate test in ducj i files di une cartele."
 
 #: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
 msgid "Find text in all files of a folder"
-msgstr "Cjate test in ducj i file di une cartele"
+msgstr "Cjate test in ducj i files di une cartele"
 
 #: plugins/findinfiles/plugin.vala:159
 msgid "Find in Files…"
 msgstr "Cjate intai file…"
 
 #: plugins/findinfiles/result-panel.vala:127
-#, fuzzy
-#| msgid "Git"
 msgid "hit"
 msgid_plural "hits"
-msgstr[0] "Git"
-msgstr[1] "Git"
+msgstr[0] "colp"
+msgstr[1] "colps"
 
 #: plugins/findinfiles/result-panel.vala:196
 msgid "No results found"
@@ -381,12 +382,12 @@ msgid ""
 "Use git information to display which lines and files changed since last "
 "commit"
 msgstr ""
-"Dopre lis informazions di git par mostrâ cualis riis e file a son cambiâts "
-"de ultime mandade"
+"Dopre lis informazions di git par mostrâ cualis riis e files a son cambiâts "
+"de ultime consegne"
 
 #: plugins/git/git.plugin.desktop.in.in:7
 msgid "Highlight lines that have been changed since the last commit"
-msgstr "Evidenzie riis che a son stadis cambiadis de ultime mandade"
+msgstr "Evidenzie riis che a son stadis cambiadis de ultime consegne"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
 msgid "Join lines/ Split lines"
@@ -522,7 +523,7 @@ msgstr "Sessions salvadis"
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Spazis inteligjents"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
 msgid "Allow to unindent like if you were using tabs while you’re using spaces"
@@ -550,7 +551,7 @@ msgid "Forward Search"
 msgstr ""
 
 #: plugins/terminal/gedit-terminal.metainfo.xml.in:6
-#: plugins/terminal/terminal.py:314
+#: plugins/terminal/terminal.py:313
 msgid "Terminal"
 msgstr "Terminâl"
 
@@ -620,18 +621,10 @@ msgstr ""
 "viers la fin."
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
-msgid "Whether to allow bold text"
-msgstr "Indiche se permeti il test in neret"
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr "Se VÊR, al permet ai programs tal tarminâl di mostrâ il test in neret."
-
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:68
 msgid "Default color of text in the terminal"
 msgstr "Colôr predefinît dal test tal terminâl"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:69
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -639,11 +632,11 @@ msgstr ""
 "Il colôr predefinît dal test tal terminâl, come specifiche di colôr (al pues "
 "jessi un numar esadecimâl in stîl HTML opûr il non di un colôr come “red”)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:77
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
 msgid "Default color of terminal background"
 msgstr "Colôr predefinît dal fondâl dal terminâl"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:78
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -652,11 +645,11 @@ msgstr ""
 "pues jessi un numar esadecimâl in stîl HTML opûr il non di un colôr come "
 "“red”)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:101
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
 msgid "Palette for terminal applications"
 msgstr "Taule di colôrs pes aplicazions dal terminâl"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:102
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -667,11 +660,11 @@ msgstr ""
 "di colôr separâts di doi ponts ( : ). I nons di colôrs a àn di sei tal "
 "formât esadecimâl e.g. “#FF00FF”"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:111
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Indiche se doprâ i colôrs dal teme pal widget dal terminâl"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -679,11 +672,11 @@ msgstr ""
 "Se vêr, il scheme colôrs dal teme doprât pai ricuadris di imission dal test "
 "al vignarà doprât pal terminâl, al puest dai colôrs indicâts dal utent."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:121
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
 msgid "Whether to blink the cursor"
 msgstr "Indiche se il cursôr al à di lampâ"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -692,11 +685,11 @@ msgstr ""
 "lampament dal cursôr, o “on” o “off” par stabilî in maniere esplicite la "
 "modalitât."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:129
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
 msgid "The cursor appearance"
 msgstr "L'aspiet dal cursôr"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
@@ -705,11 +698,11 @@ msgstr ""
 "par doprâ un cursôr a forme di linie verticâl o “underline” par doprâ un "
 "cursôr a forme di liniute par sotlineâ."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:137
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
 msgid "Whether to use the system font"
 msgstr "Indiche se doprâ il caratar di sisteme"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:138
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -717,11 +710,11 @@ msgstr ""
 "Se vêr, il terminâl al doprarà il caratar a spazis fis definît a nivel di "
 "ambient grafic (o in altri câs il caratar plui idoni)."
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:146
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
 msgid "Font"
 msgstr "Caratar"
 
-#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:147
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 "Un non di un caratar Pango. Par esempli “Sans 12” o “Monospace Bold 14”."
@@ -734,7 +727,7 @@ msgstr "Terminâl integrât"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Integre un terminâl tal ricuadri inferiôr."
 
-#: plugins/terminal/terminal.py:335
+#: plugins/terminal/terminal.py:334
 msgid "C_hange Directory"
 msgstr "C_ambie cartele"
 
@@ -786,35 +779,36 @@ msgstr ""
 "contrari tal barcon de jessude de traduzion."
 
 #. Translators: You can adjust the default pair for users in your locale.
-#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
-#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
-#. marks and | as the delimiter.
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
-msgid "'eng|spa'"
-msgstr ""
-
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "'eng|fur'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
 msgid "Language pair used"
 msgstr "Cubie di lenghis doprade"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
 msgid "Language pair used to translate from one language to another"
 msgstr "Cubie di lenghis doprade par voltâ di une lenghe a chê altre"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
 msgid "API key for remote web service"
 msgstr "Clâf API pal servizi web rimot"
 
-#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
 msgid "Remote web service to use"
 msgstr "Servizi web rimot di doprâ"
 
 #: plugins/translate/translate/__init__.py:72
 #, python-brace-format
 msgid "Translations powered by {0}"
-msgstr ""
+msgstr "Traduzions implementadis di {0}"
 
 #: plugins/translate/translate/__init__.py:75
 msgid "Translate Console"
@@ -823,7 +817,7 @@ msgstr "Console di traduzion"
 #: plugins/translate/translate/__init__.py:157
 #, python-brace-format
 msgid "Translate selected text [{0}]"
-msgstr ""
+msgstr "Volte il test selezionât [{0}]"
 
 #: plugins/translate/translate/preferences.py:84
 msgid "API Key"
@@ -834,6 +828,8 @@ msgid ""
 "You need to obtain a free API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
+"Tu scugnis otignî un clâf API libare su <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -871,8 +867,9 @@ msgstr "Completament peraule"
 msgid ""
 "Propose automatic completion using words already present in the document"
 msgstr ""
+"Propon il completament automatic doprant peraulis za presintis intal document"
 
-#: plugins/wordcompletion/gedit-word-completion-plugin.c:185
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
 msgid "Document Words"
 msgstr "Peraulis dal document"
 
@@ -898,7 +895,17 @@ msgstr "Completament peraule"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Completament peraulis doprant il contest di completament"
+
+#~ msgid "_In "
+#~ msgstr "_In "
+
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Indiche se permeti il test in neret"
+
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Se VÊR, al permet ai programs tal tarminâl di mostrâ il test in neret."
 
 #~ msgid "Empty Document"
 #~ msgstr "Document vueit"
