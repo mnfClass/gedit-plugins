@@ -25,7 +25,6 @@
 #include <gedit/gedit-view-activatable.h>
 #include <libpeas/peas-object-module.h>
 
-
 typedef struct _GeditDrawspacesViewActivatablePrivate
 {
 	GeditView *view;
@@ -76,6 +75,7 @@ gedit_drawspaces_view_activatable_set_property (GObject      *object,
 		case PROP_VIEW:
 			priv->view = GEDIT_VIEW (g_value_dup_object (value));
 			break;
+
 		default:
 			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
 			break;
@@ -96,6 +96,7 @@ gedit_drawspaces_view_activatable_get_property (GObject    *object,
 		case PROP_VIEW:
 			g_value_set_object (value, priv->view);
 			break;
+
 		default:
 			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
 			break;

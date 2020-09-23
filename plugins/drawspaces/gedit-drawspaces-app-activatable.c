@@ -96,6 +96,7 @@ gedit_drawspaces_app_activatable_set_property (GObject      *object,
 		case PROP_APP:
 			priv->app = GEDIT_APP (g_value_dup_object (value));
 			break;
+
 		default:
 			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
 			break;
@@ -116,6 +117,7 @@ gedit_drawspaces_app_activatable_get_property (GObject    *object,
 		case PROP_APP:
 			g_value_set_object (value, priv->app);
 			break;
+
 		default:
 			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
 			break;
