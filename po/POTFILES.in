@@ -24,7 +24,6 @@ plugins/commander/commander.plugin.desktop.in.in
 plugins/commander/gedit-commander.metainfo.xml.in
 plugins/drawspaces/drawspaces.plugin.desktop.in.in
 plugins/drawspaces/gedit-drawspaces-app-activatable.c
-plugins/drawspaces/gedit-drawspaces-configurable.ui
 plugins/drawspaces/gedit-drawspaces.metainfo.xml.in
 plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml
 plugins/findinfiles/dialog.ui

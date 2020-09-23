@@ -1,8 +1,6 @@
 /*
- * gedit-drawspaces-view-activatable.h
- * This file is part of gedit
- *
  * Copyright (C) 2008-2014 Ignacio Casal Quinteiro <icq@gnome.org>
+ * Copyright (C) 2020 Sébastien Wilmet <swilmet@gnome.org>
  *
  * gedit is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,9 +16,7 @@
  * along with gedit. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "gedit-drawspaces-app-activatable.h"
 #include "gedit-drawspaces-view-activatable.h"
-
 #include <gedit/gedit-view.h>
 #include <gedit/gedit-view-activatable.h>
 #include <libpeas/peas-object-module.h>
@@ -29,9 +25,6 @@ typedef struct _GeditDrawspacesViewActivatablePrivate
 {
 	GeditView *view;
 	GSettings *settings;
-	guint flags;
-
-	guint enable : 1;
 } GeditDrawspacesViewActivatablePrivate;
 
 enum
@@ -57,6 +50,7 @@ gedit_drawspaces_view_activatable_dispose (GObject *object)
 	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
 
 	g_clear_object (&priv->view);
+	g_clear_object (&priv->settings);
 
 	G_OBJECT_CLASS (gedit_drawspaces_view_activatable_parent_class)->dispose (object);
 }
@@ -121,133 +115,47 @@ gedit_drawspaces_view_activatable_class_finalize (GeditDrawspacesViewActivatable
 }
 
 static void
-gedit_drawspaces_view_activatable_init (GeditDrawspacesViewActivatable *self)
-{
-}
-
-static void
-get_config_options (GeditDrawspacesViewActivatable *activatable)
+gedit_drawspaces_view_activatable_init (GeditDrawspacesViewActivatable *activatable)
 {
 	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
 
-	priv->enable = g_settings_get_boolean (priv->settings,
-	                                       SETTINGS_KEY_SHOW_WHITE_SPACE);
-
-	priv->flags = g_settings_get_flags (priv->settings,
-	                                    SETTINGS_KEY_DRAW_SPACES);
-}
-
-static inline void
-parse_flags (guint                        flags,
-             GtkSourceSpaceTypeFlags     *type,
-             GtkSourceSpaceLocationFlags *location)
-{
-	*type = GTK_SOURCE_SPACE_TYPE_NONE;
-	*location = GTK_SOURCE_SPACE_LOCATION_NONE;
-
-	if (flags & GEDIT_DRAW_SPACES_SPACE)
-		*type |= GTK_SOURCE_SPACE_TYPE_SPACE;
-	if (flags & GEDIT_DRAW_SPACES_TAB)
-		*type |= GTK_SOURCE_SPACE_TYPE_TAB;
-	if (flags & GEDIT_DRAW_SPACES_NEWLINE)
-		*type |= GTK_SOURCE_SPACE_TYPE_NEWLINE;
-	if (flags & GEDIT_DRAW_SPACES_NBSP)
-		*type |= GTK_SOURCE_SPACE_TYPE_NBSP;
-
-	if (flags & GEDIT_DRAW_SPACES_LEADING)
-		*location |= GTK_SOURCE_SPACE_LOCATION_LEADING;
-	if (flags & GEDIT_DRAW_SPACES_TEXT)
-		*location |= GTK_SOURCE_SPACE_LOCATION_INSIDE_TEXT;
-	if (flags & GEDIT_DRAW_SPACES_TRAILING)
-		*location |= GTK_SOURCE_SPACE_LOCATION_TRAILING;
+	priv->settings = g_settings_new ("org.gnome.gedit.plugins.drawspaces");
 }
 
 static void
-draw_spaces (GeditDrawspacesViewActivatable *activatable)
-{
-	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
-	GtkSourceSpaceDrawer *drawer;
-	GtkSourceSpaceTypeFlags type;
-	GtkSourceSpaceLocationFlags location;
-
-	parse_flags (priv->flags, &type, &location);
-
-	drawer = gtk_source_view_get_space_drawer (GTK_SOURCE_VIEW (priv->view));
-
-	/* Clear all existing spaces in the matrix before setting */
-	gtk_source_space_drawer_set_types_for_locations (drawer, GTK_SOURCE_SPACE_LOCATION_ALL, 0);
-	gtk_source_space_drawer_set_types_for_locations (drawer, location, type);
-	gtk_source_space_drawer_set_enable_matrix (drawer, priv->enable);
-}
-
-static void
-on_draw_spaces_changed (GSettings                      *settings,
-                        const gchar                    *key,
-                        GeditDrawspacesViewActivatable *activatable)
-{
-	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
-
-	priv->flags = g_settings_get_flags (priv->settings,
-	                                    SETTINGS_KEY_DRAW_SPACES);
-
-	draw_spaces (activatable);
-}
-
-static void
-on_show_white_space_changed (GSettings                      *settings,
-                             const gchar                    *key,
-                             GeditDrawspacesViewActivatable *activatable)
-{
-	GeditDrawspacesViewActivatablePrivate *priv = gedit_drawspaces_view_activatable_get_instance_private (activatable);
-
-	priv->enable = g_settings_get_boolean (settings, key);
-
-	draw_spaces (activatable);
-}
-
-static void
-gedit_drawspaces_view_activatable_window_activate (GeditViewActivatable *activatable)
+gedit_drawspaces_view_activatable_activate (GeditViewActivatable *activatable)
 {
 	GeditDrawspacesViewActivatablePrivate *priv;
-
-	priv = gedit_drawspaces_view_activatable_get_instance_private (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
-	priv->settings = g_settings_new (DRAWSPACES_SETTINGS_BASE);
-
-	get_config_options (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
-
-	if (priv->enable)
-	{
-		draw_spaces (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
-	}
-
-	g_signal_connect (priv->settings,
-	                  "changed::show-white-space",
-	                  G_CALLBACK (on_show_white_space_changed),
-	                  activatable);
-	g_signal_connect (priv->settings,
-	                  "changed::draw-spaces",
-	                  G_CALLBACK (on_draw_spaces_changed),
-	                  activatable);
-}
-
-static void
-gedit_drawspaces_view_activatable_window_deactivate (GeditViewActivatable *activatable)
-{
-	GeditDrawspacesViewActivatablePrivate *priv;
+	GtkSourceSpaceDrawer *space_drawer;
 
 	priv = gedit_drawspaces_view_activatable_get_instance_private (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
 
-	priv->enable = FALSE;
-	draw_spaces (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
+	space_drawer = gtk_source_view_get_space_drawer (GTK_SOURCE_VIEW (priv->view));
+	gtk_source_space_drawer_bind_matrix_setting (space_drawer,
+						     priv->settings, "matrix",
+						     G_SETTINGS_BIND_GET |
+						     G_SETTINGS_BIND_NO_SENSITIVITY);
+	gtk_source_space_drawer_set_enable_matrix (space_drawer, TRUE);
+}
 
-	g_clear_object (&priv->settings);
+static void
+gedit_drawspaces_view_activatable_deactivate (GeditViewActivatable *activatable)
+{
+	GeditDrawspacesViewActivatablePrivate *priv;
+	GtkSourceSpaceDrawer *space_drawer;
+
+	priv = gedit_drawspaces_view_activatable_get_instance_private (GEDIT_DRAWSPACES_VIEW_ACTIVATABLE (activatable));
+
+	space_drawer = gtk_source_view_get_space_drawer (GTK_SOURCE_VIEW (priv->view));
+	g_settings_unbind (space_drawer, "matrix");
+	gtk_source_space_drawer_set_enable_matrix (space_drawer, FALSE);
 }
 
 static void
 gedit_view_activatable_iface_init (GeditViewActivatableInterface *iface)
 {
-	iface->activate = gedit_drawspaces_view_activatable_window_activate;
-	iface->deactivate = gedit_drawspaces_view_activatable_window_deactivate;
+	iface->activate = gedit_drawspaces_view_activatable_activate;
+	iface->deactivate = gedit_drawspaces_view_activatable_deactivate;
 }
 
 void
