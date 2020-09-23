@@ -18,7 +18,6 @@
 
 #include "config.h"
 #include "gedit-drawspaces-app-activatable.h"
-#include "gedit-drawspaces-window-activatable.h"
 #include "gedit-drawspaces-view-activatable.h"
 
 #include <gedit/gedit-app.h>
@@ -31,7 +30,6 @@
 typedef struct _GeditDrawspacesAppActivatablePrivate
 {
 	GeditApp *app;
-	GeditMenuExtension *menu_ext;
 } GeditDrawspacesAppActivatablePrivate;
 
 typedef struct _DrawspacesConfigureWidget DrawspacesConfigureWidget;
@@ -149,27 +147,11 @@ gedit_drawspaces_app_activatable_init (GeditDrawspacesAppActivatable *self)
 static void
 gedit_drawspaces_app_activatable_activate (GeditAppActivatable *activatable)
 {
-	GeditDrawspacesAppActivatable *app_activatable = GEDIT_DRAWSPACES_APP_ACTIVATABLE (activatable);
-	GeditDrawspacesAppActivatablePrivate *priv = gedit_drawspaces_app_activatable_get_instance_private (app_activatable);
-	GMenuItem *item;
-
-	gedit_debug (DEBUG_PLUGINS);
-
-	priv->menu_ext = gedit_app_activatable_extend_menu (activatable, "view-section-2");
-	item = g_menu_item_new (_("Show _White Space"), "win.show-white-space");
-	gedit_menu_extension_append_menu_item (priv->menu_ext, item);
-	g_object_unref (item);
 }
 
 static void
 gedit_drawspaces_app_activatable_deactivate (GeditAppActivatable *activatable)
 {
-	GeditDrawspacesAppActivatable *app_activatable = GEDIT_DRAWSPACES_APP_ACTIVATABLE (activatable);
-	GeditDrawspacesAppActivatablePrivate *priv = gedit_drawspaces_app_activatable_get_instance_private (app_activatable);
-
-	gedit_debug (DEBUG_PLUGINS);
-
-	g_clear_object (&priv->menu_ext);
 }
 
 static void
@@ -354,7 +336,6 @@ G_MODULE_EXPORT void
 peas_register_types (PeasObjectModule *module)
 {
 	gedit_drawspaces_app_activatable_register_type (G_TYPE_MODULE (module));
-	gedit_drawspaces_window_activatable_register (G_TYPE_MODULE (module));
 	gedit_drawspaces_view_activatable_register (G_TYPE_MODULE (module));
 
 	peas_object_module_register_extension_type (module,

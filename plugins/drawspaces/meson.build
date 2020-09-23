@@ -1,7 +1,6 @@
 libdrawspaces_sources = files(
   'gedit-drawspaces-app-activatable.c',
   'gedit-drawspaces-view-activatable.c',
-  'gedit-drawspaces-window-activatable.c',
 )
 
 libdrawspaces_deps = [
