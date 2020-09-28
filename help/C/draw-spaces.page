@@ -38,25 +38,8 @@
     </item>
   </steps>
 
-  <list>
-    <title>By default, the <app>Draw Spaces</app> plugin will mark the
-    following types of whitespace in a file:</title>
-    <item><p>Spaces</p></item>
-    <item><p>Tabs</p></item>
-    <item><p>Leading spaces</p></item>
-    <item><p>Spaces in text</p></item>
-    <item><p>Trailing spaces</p></item>
-  </list>
-
-  <list>
-    <title>You can also set the plugin to mark:</title>
-    <item><p>New lines</p></item>
-    <item><p>Non-breaking spaces</p></item>
-  </list>
-
   <note style="tip">
-    <p>Though you will be able to see the dots when you work on a file, the
-    dots will not be visible when you print a file to paper.</p>
+    <p>Though you will be able to see the markers when you work on a file, the
+    markers will not be visible when you print a file to paper.</p>
   </note>
-
 </page>
