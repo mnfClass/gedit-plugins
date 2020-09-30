@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-26 15:03+0000\n"
-"PO-Revision-Date: 2020-05-26 19:50+0300\n"
+"POT-Creation-Date: 2020-09-28 17:04+0000\n"
+"PO-Revision-Date: 2020-09-30 14:33+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
 "=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.07.70\n"
+"X-Generator: Lokalize 20.11.70\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -229,9 +229,6 @@ msgstr "Користування таблицею символів"
 
 #. (itstool) path: section/p
 #: C/character-map.page:51
-#| msgid ""
-#| "Once the plugin is enabled, you can add characters from the <gui style="
-#| "\"tab\">Character Map</gui> tab of the side panel."
 msgid ""
 "Once the plugin is enabled, you can add characters from the <gui style=\"tab"
 "\">Character Map</gui> view of the side panel."
@@ -261,28 +258,23 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/character-map.page:65
-#| msgid "Select the <gui>Character Map</gui> tab in the side panel."
 msgid ""
 "Select <gui>Character Map</gui> from the drop-down list at the top of the "
 "side panel."
 msgstr ""
-"Виберіть <gui>Таблиця символів</gui> зі спадного списку у верхній частині"
-" бічної панелі."
+"Виберіть <gui>Таблиця символів</gui> зі спадного списку у верхній частині "
+"бічної панелі."
 
 #. (itstool) path: item/p
 #: C/character-map.page:69
-#| msgid ""
-#| "If necessary, choose the character set to which your character belongs "
-#| "from the list at the top of the <gui style=\"tab\">Character Map</gui> "
-#| "tab (for example, Arabic)."
 msgid ""
 "If necessary, choose the character set to which your character belongs from "
 "the list at the top of the <gui>Character Map</gui> side panel (for example, "
 "Arabic)."
 msgstr ""
 "Якщо потрібно, виберіть набір символів, до якого належить символ, зі списку "
-"верхній частині бічної панелі <gui>Таблиця символів</gui> (наприклад, набір"
-" арабської абетки)."
+"верхній частині бічної панелі <gui>Таблиця символів</gui> (наприклад, набір "
+"арабської абетки)."
 
 #. (itstool) path: item/p
 #: C/character-map.page:74
@@ -564,9 +556,6 @@ msgstr "Пересування курсора до рядка із певним 
 #. (itstool) path: td/p
 #. Translators: Do not translate 'go'! It is a command
 #: C/commander.page:74
-#| msgid ""
-#| "go <input>[line number]</input> <em>or</em> just <key>G</key> "
-#| "<input>[line number]</input>"
 msgid ""
 "<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
 "key> <input>[line number]</input></cmd>"
@@ -582,17 +571,11 @@ msgstr "Вмикання і вимикання індикатора заклад
 #. (itstool) path: td/p
 #. Translators: Do not translate 'bookmark'! It is a command
 #: C/commander.page:82
-#| msgid "bookmark <em>or</em> just <key>B</key>"
 msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
 msgstr "<cmd>bookmark</cmd> <em>або</em> просто <key>B</key>"
 
 #. (itstool) path: note/p
 #: C/commander.page:88
-#| msgid ""
-#| "Some commands, such as the <app>bookmark</app> command require that the "
-#| "appropriate plugin be installed and activated. If you do not have the "
-#| "appropriate plugin installed and activated, you will receive an error "
-#| "message."
 msgid ""
 "Some commands, such as the <cmd>bookmark</cmd> command require that the "
 "appropriate plugin be installed and activated. If you do not have the "
@@ -642,62 +625,16 @@ msgstr ""
 "Натисніть кнопку <gui style=\"button\">Параметри</gui>, щоб налаштувати його "
 "параметри."
 
-#. (itstool) path: list/title
-#: C/draw-spaces.page:42
-msgid ""
-"By default, the <app>Draw Spaces</app> plugin will mark the following types "
-"of whitespace in a file:"
-msgstr ""
-"Типово, додаток <app>Візуалізація пробілів</app> позначає такі типи пробілів "
-"у файлі:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:44
-msgid "Spaces"
-msgstr "Пробіли"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:45
-msgid "Tabs"
-msgstr "Табуляції"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:46
-msgid "Leading spaces"
-msgstr "Початкові пробіли"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:47
-msgid "Spaces in text"
-msgstr "Пробіли у тексті"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:48
-msgid "Trailing spaces"
-msgstr "Кінцеві пробіли"
-
-#. (itstool) path: list/title
-#: C/draw-spaces.page:52
-msgid "You can also set the plugin to mark:"
-msgstr "Ви можете також налаштувати додаток для позначення:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:53
-msgid "New lines"
-msgstr "Нові рядки"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:54
-msgid "Non-breaking spaces"
-msgstr "Нерозривний пропуск"
-
 #. (itstool) path: note/p
-#: C/draw-spaces.page:58
+#: C/draw-spaces.page:42
+#| msgid ""
+#| "Though you will be able to see the dots when you work on a file, the dots "
+#| "will not be visible when you print a file to paper."
 msgid ""
-"Though you will be able to see the dots when you work on a file, the dots "
-"will not be visible when you print a file to paper."
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
 msgstr ""
-"Хоча ви бачитимете крапки під час роботи з файлом, ці крапки не буде "
+"Хоча ви бачитимете позначки під час роботи з файлом, ці позначки не буде "
 "показано, якщо ви надрукуєте файл на папері."
 
 #. (itstool) path: credit/name
@@ -717,10 +654,6 @@ msgstr "Git"
 
 #. (itstool) path: page/p
 #: C/git.page:21
-#| msgid ""
-#| "The <app>git</app> plugin will highlight lines that have been changed "
-#| "since the last commit. Lines will be highlighted only on files that are "
-#| "already tracked by git."
 msgid ""
 "The <app>Git</app> plugin will highlight lines that have been changed since "
 "the last commit. Lines will be highlighted only on files that are already "
@@ -1007,9 +940,6 @@ msgstr "Зберігач сеансів"
 
 #. (itstool) path: page/p
 #: C/session-saver.page:23
-#| msgid ""
-#| "The <app>Session Saver</app> plugin allows you to save your current open "
-#| "documents and open them again."
 msgid ""
 "The <app>Session Saver</app> plugin allows you to remember which documents "
 "are currently open and open the same documents again at a later time."
@@ -1456,3 +1386,34 @@ msgstr ""
 "списку або натисніть комбінацію клавіш <keyseq><key>Alt</key><key>Цифра</"
 "key></keyseq>, де <key>Цифра</key> — номер, який показано поряд із "
 "відповідним словом у списку."
+
+#~ msgid ""
+#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
+#~ "types of whitespace in a file:"
+#~ msgstr ""
+#~ "Типово, додаток <app>Візуалізація пробілів</app> позначає такі типи "
+#~ "пробілів у файлі:"
+
+#~ msgid "Spaces"
+#~ msgstr "Пробіли"
+
+#~ msgid "Tabs"
+#~ msgstr "Табуляції"
+
+#~ msgid "Leading spaces"
+#~ msgstr "Початкові пробіли"
+
+#~ msgid "Spaces in text"
+#~ msgstr "Пробіли у тексті"
+
+#~ msgid "Trailing spaces"
+#~ msgstr "Кінцеві пробіли"
+
+#~ msgid "You can also set the plugin to mark:"
+#~ msgstr "Ви можете також налаштувати додаток для позначення:"
+
+#~ msgid "New lines"
+#~ msgstr "Нові рядки"
+
+#~ msgid "Non-breaking spaces"
+#~ msgstr "Нерозривний пропуск"
