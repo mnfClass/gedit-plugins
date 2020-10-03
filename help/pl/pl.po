@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2020-05-26 15:03+0000\n"
-"PO-Revision-Date: 2020-05-31 14:12+0200\n"
+"POT-Creation-Date: 2020-09-28 17:04+0000\n"
+"PO-Revision-Date: 2020-10-03 12:35+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -600,62 +600,13 @@ msgstr ""
 "Kliknij przycisk <gui style=\"button\">Preferencje</gui>, aby ustawić jej "
 "opcje."
 
-#. (itstool) path: list/title
+#. (itstool) path: note/p
 #: C/draw-spaces.page:42
 msgid ""
-"By default, the <app>Draw Spaces</app> plugin will mark the following types "
-"of whitespace in a file:"
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
 msgstr ""
-"Domyślnie wtyczka <app>Wyświetlanie spacji</app> oznacza te rodzaje białych "
-"znaków:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:44
-msgid "Spaces"
-msgstr "Spacje"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:45
-msgid "Tabs"
-msgstr "Tabulacje"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:46
-msgid "Leading spaces"
-msgstr "Spacje na początku wiersza"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:47
-msgid "Spaces in text"
-msgstr "Spacje w tekście"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:48
-msgid "Trailing spaces"
-msgstr "Spacje na końcu wiersza"
-
-#. (itstool) path: list/title
-#: C/draw-spaces.page:52
-msgid "You can also set the plugin to mark:"
-msgstr "Można także włączyć oznaczanie:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:53
-msgid "New lines"
-msgstr "Nowe wiersze"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:54
-msgid "Non-breaking spaces"
-msgstr "Niełamliwe spacje"
-
-#. (itstool) path: note/p
-#: C/draw-spaces.page:58
-msgid ""
-"Though you will be able to see the dots when you work on a file, the dots "
-"will not be visible when you print a file to paper."
-msgstr ""
-"Kropki będą widoczne podczas redagowania pliku, ale nie będą drukowane."
+"Znaczniki będą widoczne podczas redagowania pliku, ale nie będą drukowane."
 
 #. (itstool) path: credit/name
 #: C/git.page:12
