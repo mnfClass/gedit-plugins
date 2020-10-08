@@ -1,15 +1,3 @@
-smartspaces_sources = files(
-  'smartspaces.py',
-)
-
-install_data(
-  smartspaces_sources,
-  install_dir: join_paths(
-    pkglibdir,
-    'plugins',
-  )
-)
-
 smartspaces_plugin_in = configure_file(
   input: 'smartspaces.plugin.desktop.in.in',
   output: 'smartspaces.plugin.desktop.in',
