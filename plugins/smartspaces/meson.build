@@ -1,3 +1,19 @@
+shared_module(
+  'smartspaces',
+  sources: files(
+    'gedit-smart-spaces-view-activatable.c',
+  ),
+  dependencies: [
+    gedit_dep,
+  ],
+  include_directories: root_include_dir,
+  install: true,
+  install_dir: join_paths(
+    pkglibdir,
+    'plugins',
+  )
+)
+
 smartspaces_plugin_in = configure_file(
   input: 'smartspaces.plugin.desktop.in.in',
   output: 'smartspaces.plugin.desktop.in',
