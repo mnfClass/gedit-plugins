@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2020-09-24 15:07+0000\n"
-"PO-Revision-Date: 2020-10-16 01:37+0200\n"
+"POT-Creation-Date: 2020-10-15 23:39+0000\n"
+"PO-Revision-Date: 2020-10-16 01:41+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -613,63 +613,14 @@ msgstr ""
 "Tryck på <gui style=\"button\">Inställningar</gui> för att konfigurera dess "
 "alternativ."
 
-#. (itstool) path: list/title
+#. (itstool) path: note/p
 #: C/draw-spaces.page:42
 msgid ""
-"By default, the <app>Draw Spaces</app> plugin will mark the following types "
-"of whitespace in a file:"
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
 msgstr ""
-"Som standard kommer insticksmodulen <app>Rita ut blanksteg</app> att markera "
-"följande typer av blanktecken i en fil:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:44
-msgid "Spaces"
-msgstr "Blanksteg"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:45
-msgid "Tabs"
-msgstr "Tabulatorer"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:46
-msgid "Leading spaces"
-msgstr "Inledande blanksteg"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:47
-msgid "Spaces in text"
-msgstr "Blanksteg i text"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:48
-msgid "Trailing spaces"
-msgstr "Eftersläpande blanksteg"
-
-#. (itstool) path: list/title
-#: C/draw-spaces.page:52
-msgid "You can also set the plugin to mark:"
-msgstr "Du kan också ställa in insticket till att markera:"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:53
-msgid "New lines"
-msgstr "Nyrader"
-
-#. (itstool) path: item/p
-#: C/draw-spaces.page:54
-msgid "Non-breaking spaces"
-msgstr "Icke-brytande blanksteg"
-
-#. (itstool) path: note/p
-#: C/draw-spaces.page:58
-msgid ""
-"Though you will be able to see the dots when you work on a file, the dots "
-"will not be visible when you print a file to paper."
-msgstr ""
-"Även om du kommer att se prickarna när du arbetar med en fil kommer inte "
-"prickarna att synas när du skriver ut en fil på papper."
+"Även om du kommer att se markörerna när du arbetar med en fil kommer inte "
+"markörerna att synas när du skriver ut en fil på papper."
 
 #. (itstool) path: credit/name
 #: C/git.page:12
@@ -1411,6 +1362,37 @@ msgstr ""
 "För att infoga ett föreslaget ord, dubbelklicka på det i poppupplistan eller "
 "tryck ned <keyseq><key>Alt</key><key>Sif</key></keyseq>, där <key>Sif</key> "
 "är siffran som visas intill ditt önskade ord."
+
+#~ msgid ""
+#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
+#~ "types of whitespace in a file:"
+#~ msgstr ""
+#~ "Som standard kommer insticksmodulen <app>Rita ut blanksteg</app> att "
+#~ "markera följande typer av blanktecken i en fil:"
+
+#~ msgid "Spaces"
+#~ msgstr "Blanksteg"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabulatorer"
+
+#~ msgid "Leading spaces"
+#~ msgstr "Inledande blanksteg"
+
+#~ msgid "Spaces in text"
+#~ msgstr "Blanksteg i text"
+
+#~ msgid "Trailing spaces"
+#~ msgstr "Eftersläpande blanksteg"
+
+#~ msgid "You can also set the plugin to mark:"
+#~ msgstr "Du kan också ställa in insticket till att markera:"
+
+#~ msgid "New lines"
+#~ msgstr "Nyrader"
+
+#~ msgid "Non-breaking spaces"
+#~ msgstr "Icke-brytande blanksteg"
 
 #~ msgid ""
 #~ "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">gedit</"
