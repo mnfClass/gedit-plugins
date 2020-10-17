@@ -206,6 +206,7 @@ class Apertium(Service):
     def translate_text(self, text, language_pair):
         url = "{0}/translate?langpair={1}&markUnknown=no".format(self.server, language_pair)
         url += "&q=" + urllib.parse.quote_plus(text.encode('utf-8'))
+        print(url)
 
         response = urllib.request.urlopen(url)
         data = json.loads(response.read().decode("utf-8"))

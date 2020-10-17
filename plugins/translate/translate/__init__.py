@@ -37,6 +37,24 @@ try:
 except:
     _ = lambda s: s
 
+def _get_translation_service_shared(service_id):
+    settings = Settings()
+    service = Services.get(service_id)
+    if service.has_api_key() is True:
+        key = settings.get_apikey()
+        service.set_api_key(key)
+
+    if service_id == Services.APERTIUM_ID:
+        #server = settings.get_apertium_server()
+        server = 'https://www.apertium.com/apy'
+        print("Init:" + server)
+        service.set_server(server)
+
+    service.init()
+    return service
+
+
+
 class TranslateAppActivatable(GObject.Object, Gedit.AppActivatable):
 
     app = GObject.Property(type=Gedit.App)
@@ -93,18 +111,7 @@ class TranslateWindowActivatable(GObject.Object, Gedit.WindowActivatable, PeasGt
         return Services.get_name(service_id)
      
     def _get_translation_service(self, service_id):
-        settings = Settings()
-        service = Services.get(service_id)
-        if service.has_api_key() is True:
-            key = settings.get_apikey()
-            service.set_api_key(key)
-
-        if service_id == Services.APERTIUM_ID:
-            server = settings.get_apertium_server()
-            service.set_server(server)
-
-        service.init()
-        return service
+        return _get_translation_service_shared(service_id)
  
     def get_languages_names_codes(self, service_id):
         service = self._get_translation_service(service_id)
@@ -184,13 +191,7 @@ class TranslateViewActivatable(GObject.Object, Gedit.ViewActivatable):
 
     def _get_translation_service(self):
         service_id = self._settings.get_service()
-        service = Services.get(service_id)
-        if service.has_api_key() is True:
-            key = self._settings.get_apikey()
-            service.set_api_key(key)
-
-        service.init()
-        return service
+        return _get_translation_service_shared(service_id)
 
     def translate_text(self, document, start, end):
         doc = self.view.get_buffer()
