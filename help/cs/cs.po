@@ -417,7 +417,7 @@ msgid ""
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
 "style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Barevná pipeta…"
-"</gui>"
+"</gui></guiseq>"
 
 #. (itstool) path: item/p
 #: C/color-picker.page:49
