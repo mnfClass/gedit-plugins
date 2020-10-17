@@ -99,6 +99,10 @@ class TranslateWindowActivatable(GObject.Object, Gedit.WindowActivatable, PeasGt
             key = settings.get_apikey()
             service.set_api_key(key)
 
+        if service_id == Services.APERTIUM_ID:
+            server = settings.get_apertium_server()
+            service.set_server(server)
+
         service.init()
         return service
  

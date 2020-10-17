@@ -39,7 +39,7 @@ class Apertium(Service):
             "eng|cat",
     ]
 
-    SERVER = "https://www.apertium.org/apy"
+    DEFAULT_SERVER = "https://www.apertium.org/apy"
 
     @staticmethod
     def _clean_for_ut():
@@ -52,23 +52,29 @@ class Apertium(Service):
 
     def has_api_key(self):
         return False
-    
+
     def set_api_key(self, key):
         pass
+
+    def set_server(self, server):
+        self.server = server
 
     def get_api_hint(self):
         pass
 
     def init(self):
-        self._fetch_remote_language_names_and_pairs()
-
+        self.server = self.DEFAULT_SERVER
+        self.tried_fetched_names = False
+   
     def get_language_names(self):
+        self._fetch_remote_language_names_and_pairs_once()
         if len(Apertium.g_language_codes) > 0 and len(Apertium.g_language_names) > 0:
             return Apertium.g_language_names
 
         return self.DEFAULT_LANGUAGE_NAMES
 
     def get_language_codes(self):
+        self._fetch_remote_language_names_and_pairs_once()
         if len(Apertium.g_language_codes) > 0 and len(Apertium.g_language_names) > 0:
             return Apertium.g_language_codes
 
@@ -101,6 +107,8 @@ class Apertium(Service):
         return language_name
 
     def get_language_pair_name(self, source, target, locales_names=None):
+        self._fetch_remote_language_names_and_pairs_once()
+
         if locales_names is None:
             locales_names = Apertium.g_locales_names
 
@@ -124,9 +132,12 @@ class Apertium(Service):
         return locales_names
 
 
-    def _fetch_remote_language_names_and_pairs(self):
-        if len(Apertium.g_language_names) > 0:
+    def _fetch_remote_language_names_and_pairs_once(self):
+
+        if self.tried_fetched_names:
             return
+
+        self.tried_fetched_names = True
 
         try:
             language_names = []
@@ -158,7 +169,7 @@ class Apertium(Service):
 
 
     def _get_remote_language_pairs(self):
-        url = "{0}/listPairs".format(self.SERVER)
+        url = "{0}/listPairs".format(self.server)
 
         response = urllib.request.urlopen(url)
         data = json.loads(response.read().decode("utf-8"))
@@ -186,14 +197,14 @@ class Apertium(Service):
         for locale_code in locales:
             locales_string += locale_code + '+'
 
-        url = "{0}/listLanguageNames?locale={1}&languages={2}".format(self.SERVER,
+        url = "{0}/listLanguageNames?locale={1}&languages={2}".format(self.server,
                 user_locale, locales_string)
 
         response = urllib.request.urlopen(url)
         return json.loads(response.read().decode("utf-8"))
 
     def translate_text(self, text, language_pair):
-        url = "{0}/translate?langpair={1}&markUnknown=no".format(self.SERVER, language_pair)
+        url = "{0}/translate?langpair={1}&markUnknown=no".format(self.server, language_pair)
         url += "&q=" + urllib.parse.quote_plus(text.encode('utf-8'))
 
         response = urllib.request.urlopen(url)
