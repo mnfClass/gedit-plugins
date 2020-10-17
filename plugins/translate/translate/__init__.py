@@ -45,8 +45,7 @@ def _get_translation_service_shared(service_id):
         service.set_api_key(key)
 
     if service_id == Services.APERTIUM_ID:
-        #server = settings.get_apertium_server()
-        server = 'https://www.apertium.com/apy'
+        server = settings.get_apertium_server()
         print("Init:" + server)
         service.set_server(server)
 

@@ -39,7 +39,6 @@ class Apertium(Service):
             "eng|cat",
     ]
 
-    DEFAULT_SERVER = "https://www.apertium.org/apy"
 
     @staticmethod
     def _clean_for_ut():
@@ -63,18 +62,15 @@ class Apertium(Service):
         pass
 
     def init(self):
-        self.server = self.DEFAULT_SERVER
-        self.tried_fetched_names = False
+        self._fetch_remote_language_names_and_pairs()
    
     def get_language_names(self):
-        self._fetch_remote_language_names_and_pairs_once()
         if len(Apertium.g_language_codes) > 0 and len(Apertium.g_language_names) > 0:
             return Apertium.g_language_names
 
         return self.DEFAULT_LANGUAGE_NAMES
 
     def get_language_codes(self):
-        self._fetch_remote_language_names_and_pairs_once()
         if len(Apertium.g_language_codes) > 0 and len(Apertium.g_language_names) > 0:
             return Apertium.g_language_codes
 
@@ -107,8 +103,6 @@ class Apertium(Service):
         return language_name
 
     def get_language_pair_name(self, source, target, locales_names=None):
-        self._fetch_remote_language_names_and_pairs_once()
-
         if locales_names is None:
             locales_names = Apertium.g_locales_names
 
@@ -134,10 +128,8 @@ class Apertium(Service):
 
     def _fetch_remote_language_names_and_pairs_once(self):
 
-        if self.tried_fetched_names:
+        if len(Apertium.g_language_names) > 0:
             return
-
-        self.tried_fetched_names = True
 
         try:
             language_names = []
