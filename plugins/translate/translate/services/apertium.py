@@ -126,7 +126,7 @@ class Apertium(Service):
         return locales_names
 
 
-    def _fetch_remote_language_names_and_pairs_once(self):
+    def _fetch_remote_language_names_and_pairs(self):
 
         if len(Apertium.g_language_names) > 0:
             return
