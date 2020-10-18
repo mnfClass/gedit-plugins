@@ -27,6 +27,7 @@ class Settings():
     LANGUAGE_PAIR = 'language-pair'
     SERVICE = 'service'
     API_KEY = 'api-key'
+    APERTIUM_SERVER_KEY = 'apertium-server'
 
     def __init__(self):
         self._settings = Gio.Settings.new(self.TRANSLATE_KEY_BASE)
@@ -55,3 +56,5 @@ class Settings():
     def set_output_document(self, document):
         self._settings.set_boolean(self.OUTPUT_TO_DOCUMENT, document)
 
+    def get_apertium_server(self):
+        return self._settings.get_string(self.APERTIUM_SERVER_KEY)

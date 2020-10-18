@@ -19,6 +19,13 @@
         Language pair used to translate from one language to another
       </description>
     </key>
+    <key name="apertium-server" type="s">
+      <default>'https://www.apertium.org/apy'</default>
+      <summary>Apertium server end point</summary>
+      <description>
+        Apertium server end point
+      </description>
+    </key>
    <key type="s" name="api-key">
       <default>''</default>
       <summary>API key for remote web service</summary>
