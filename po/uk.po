@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-05-26 19:46+0300\n"
+"POT-Creation-Date: 2020-10-18 18:28+0000\n"
+"PO-Revision-Date: 2020-10-19 20:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.07.70\n"
+"X-Generator: Lokalize 20.11.70\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -211,7 +211,6 @@ msgid "_Foreground"
 msgstr "_Текст"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "О_чистити"
 
@@ -250,7 +249,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Інтерпретатор командного рядка для розширення можливостей редагування"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Візуалізація пробілів"
 
@@ -258,56 +256,13 @@ msgstr "Візуалізація пробілів"
 msgid "Draw spaces and tabs"
 msgstr "Візуалізація пробілів і табуляцій"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Показувати пр_обіли"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Візуалізація пробілів"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Візуалізація табуляцій"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Візуалізація розривів рядків"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Візуалізація нерозривних пробілів"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Візуалізація початкових пробілів"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Візуалізація пробілів у тексті"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Візуалізація кінцевих пробілів"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Візуалізація пробілів і табуляцій"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
-msgid "Show White Space"
-msgstr "Показувати пробіли"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr ""
-"Якщо має значення «true», програма показуватиме пробіли певними символами."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Тип пробілів, які має бути візуалізовано."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -326,8 +281,6 @@ msgid "_Find"
 msgstr "З_найти"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "З_найти:"
@@ -537,7 +490,7 @@ msgid "Saved Sessions"
 msgstr "Збережені сеанси"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Кмітливі пробіли"
 
@@ -547,7 +500,7 @@ msgstr ""
 "Уможливлюють скасовування відступів у випадках, коли ви використовували "
 "табуляції, а потім перейшли на пробіли"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Забудьте, що ви не використовуєте табуляції."
 
@@ -813,24 +766,29 @@ msgstr "Пара мов, яку буде використано для пере�
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Ключ до програмного інтерфейсу вебслужби"
+msgid "Apertium server end point"
+msgstr "Кінцева точка сервера Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Ключ до програмного інтерфейсу вебслужби"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Вебслужба, якою слід скористатися"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Переклад надано {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Консоль перекладу"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Перекласти позначений текст [{0}]"
@@ -913,6 +871,38 @@ msgstr "Завершення слів"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Доповнення слів на основі бібліотеки автоматичного доповнення"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Показувати пр_обіли"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Візуалізація табуляцій"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Візуалізація розривів рядків"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Візуалізація нерозривних пробілів"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Візуалізація початкових пробілів"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Візуалізація пробілів у тексті"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Візуалізація кінцевих пробілів"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Показувати пробіли"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr ""
+#~ "Якщо має значення «true», програма показуватиме пробіли певними символами."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Тип пробілів, які має бути візуалізовано."
 
 #~ msgid "_In "
 #~ msgstr "_У "
