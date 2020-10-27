@@ -29,6 +29,11 @@ class TestApertium(unittest.TestCase):
     def setUp(self):
         Apertium._clean_for_ut()
 
+    def _get_apertium(self):
+        apertium = Apertium()
+        apertium.set_server("https://www.apertium.org/apy")
+        return apertium
+
     @patch('urllib.request.urlopen')
     def test_translate_text(self, mock_urlopen):
         cm = MagicMock()
@@ -37,13 +42,13 @@ class TestApertium(unittest.TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        apertium = Apertium()
+        apertium = self._get_apertium()
         translated = apertium.translate_text('You should have received a copy', 'eng|cat')
         self.assertEqual('Hauries d\'haver-hi rebut una còpia', translated)
         mock_urlopen.assert_called_with("https://www.apertium.org/apy/translate?langpair=eng|cat&markUnknown=no&q=You+should+have+received+a+copy")
 
     def test_fetch_remote_language_names_and_pairs_localized(self):
-        mockObject = Apertium()
+        mockObject = self._get_apertium()
         mockObject._get_user_locale = Mock(return_value='ca')
         mockObject._get_remote_language_pairs = Mock(return_value=[['es'], ['en'], ['es', 'en'], ['es|en']])
         mockObject._get_remote_language_names = Mock(return_value={'es': 'Espanyol', 'en': 'Anglès'})
@@ -54,7 +59,7 @@ class TestApertium(unittest.TestCase):
         self.assertEqual(['es|en'], Apertium.g_language_codes)
 
     def test_fetch_remote_language_names_and_pairs_non_localized(self):
-        mockObject = Apertium()
+        mockObject = self._get_apertium()
         mockObject._get_user_locale = Mock(return_value='ca_ES')
         mockObject._get_remote_language_pairs = Mock(return_value=[['ca'], ['en'], ['ca', 'en'], ['ca|en']])
         mockObject._get_remote_language_names = Mock(return_value={'es': 'Espanyol', 'en': 'Anglès'})
@@ -73,7 +78,7 @@ class TestApertium(unittest.TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        apertium = Apertium()
+        apertium = self._get_apertium()
         language_pair_source, language_pair_target, locales, language_codes = apertium._get_remote_language_pairs()
         self.assertEqual(['oci_aran'], language_pair_source)
         self.assertEqual(['cat'], language_pair_target)

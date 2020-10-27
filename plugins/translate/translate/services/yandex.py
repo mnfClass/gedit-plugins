@@ -70,6 +70,9 @@ class Yandex(Service):
     def set_api_key(self, key):
         self._key = key
 
+    def set_server(self, server):
+        pass
+
     def init(self):
         self._fetch_remote_language_names()
 
