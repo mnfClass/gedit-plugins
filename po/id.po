@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-07-31 19:34+0700\n"
-"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+"POT-Creation-Date: 2020-10-27 07:23+0000\n"
+"PO-Revision-Date: 2020-11-02 08:35+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
@@ -248,7 +248,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Antar muka baris perintah bagi penyuntingan tingkat lanjut"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Gambar Spasi"
 
@@ -256,54 +255,13 @@ msgstr "Gambar Spasi"
 msgid "Draw spaces and tabs"
 msgstr "Gambar spasi dan tab"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Tampilkan _White Space"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Gambar spasi"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Menggambar tab"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Menggambar garis baru"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Gambar spasi tak-pecah"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Gambar spasi awal"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Menggambar spasi dalam teks"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Gambar spasi di ekor baris"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Gambar Spasi dan Tab"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Tampilkan White Space"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Bila TRUE maka menggambar akan difungsikan."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "Tipe spasi yang akan digambar."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -324,7 +282,7 @@ msgstr "_Cari"
 #: plugins/findinfiles/dialog.ui:72
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
-msgstr "Car_i"
+msgstr "Car_i:"
 
 #: plugins/findinfiles/dialog.ui:99
 msgid "_In:"
@@ -395,16 +353,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Sorot baris yang telah berubah semenjak komit terakhir"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Gabungkan/putuskan baris"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Gabungkan/Putuskan Garis"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Gabung atau pisahkan beberapa baris melalui Ctrl+J dan Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Gabungkan/Putuskan Garis"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -527,7 +482,7 @@ msgid "Saved Sessions"
 msgstr "Sesi Tersimpan"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Spasi Cerdas"
 
@@ -536,7 +491,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Izinkan unindentasi seperti seolah Anda memakai tab ketika Anda memakai spasi"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Lupa bahwa Anda tidak menggunakan tabulasi."
 
@@ -806,24 +761,29 @@ msgstr ""
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Kunci API untuk layanan web jarak jauh"
+msgid "Apertium server end point"
+msgstr "End point server Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Kunci API untuk layanan web jarak jauh"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Layanan web jarak jauh untuk digunakan"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Terjemahkan ditenagai oleh {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Konsol Terjemahan"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Terjemahkan teks terpilih [{0}]"
@@ -905,31 +865,3 @@ msgstr "Penyelesaian Kata"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Penyelesaian kata memakai kerangka kerja penyelesaian"
-
-#~ msgid "_In "
-#~ msgstr "_Dalam "
-
-#~ msgid "Whether to allow bold text"
-#~ msgstr "Apakah memperbolehkan teks tebal"
-
-#~ msgid "If true, allow applications in the terminal to make text boldface."
-#~ msgstr ""
-#~ "Bila berisi true, aplikasi dalam terminal diperbolehkan mencetak huruf "
-#~ "tebal dalam teksnya."
-
-#~ msgid "Zeitgeist Data provider"
-#~ msgstr "Penyedia Data Zeitgeist"
-
-#~ msgid ""
-#~ "Records user activity and giving easy access to recently-used and "
-#~ "frequently-used files"
-#~ msgstr ""
-#~ "Merekam aktivitas pengguna dan memberikan askes yang mudah ke berkas yang "
-#~ "baru-baru ini dipakai dan sering dipakai"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Penyedia data Zeitgeist"
-
-#~ msgid "Logs access and leave event for documents used with gedit"
-#~ msgstr ""
-#~ "Mencatat log kejadian akses dan pergi untuk dokumen yang memakai gedit"
