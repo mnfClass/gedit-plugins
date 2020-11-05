@@ -39,7 +39,7 @@
       <p>Press <gui style="button">Preferences</gui> to configure the translation engine to use and a language pair.</p>
     </item>
     <item>
-      <p>In case you use the Yandex translation engine, you need an API key. You can obtain a free key at <link href="https://tech.yandex.com/translate/">Yandex web site</link>.</p>
+      <p>In case you use the Yandex translation engine, you need an API key. You can obtain a key at <link href="https://tech.yandex.com/translate/">Yandex web site</link>.</p>
     </item>
   </steps>
 
