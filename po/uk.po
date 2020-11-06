@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-10-18 18:28+0000\n"
-"PO-Revision-Date: 2020-10-19 20:41+0300\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-06 09:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -356,16 +356,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Підсвічування рядків, які було змінено з часу останнього внеску"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
-msgstr "Об'єднати рядки/Розділити рядки"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Об'єднати/роз’єднати рядки"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Об'єднання або поділ рядків за допомогою Ctrl+J і Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Об'єднати/роз’єднати рядки"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -798,11 +795,14 @@ msgid "API Key"
 msgstr "Ключ до програмного інтерфейсу"
 
 #: plugins/translate/translate/services/yandex.py:65
+#| msgid ""
+#| "You need to obtain a free API key at <a href='https://tech.yandex.com/"
+#| "translate/'>https://tech.yandex.com/translate/</a>"
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Вам слід отримати безкоштовний ключ до програмного інтерфейсу на <a "
+"Вам слід отримати ключ до програмного інтерфейсу на <a "
 "href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/"
 "</a>"
 
@@ -871,6 +871,9 @@ msgstr "Завершення слів"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Доповнення слів на основі бібліотеки автоматичного доповнення"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Об'єднати рядки/Розділити рядки"
 
 #~ msgid "Show _White Space"
 #~ msgstr "Показувати пр_обіли"
