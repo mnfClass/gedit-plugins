@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-10-18 18:28+0000\n"
-"PO-Revision-Date: 2020-10-25 09:35+0100\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-08 11:47+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -359,7 +359,8 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Wyróżnia wiersze, które zostały zmienione od ostatniego zatwierdzenia"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Łączenie/dzielenie wierszy"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
@@ -367,10 +368,6 @@ msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr ""
 "Umożliwia łączenie lub dzielenie wielu wierszy za pomocą klawiszy Ctrl+J "
 "i Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Łączenie/dzielenie wierszy"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -808,11 +805,11 @@ msgstr "Klucz API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Należy uzyskać bezpłatny klucz API na stronie <a href='https://tech.yandex."
-"com/translate/'>https://tech.yandex.com/translate/</a>"
+"Należy uzyskać klucz API na stronie <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"

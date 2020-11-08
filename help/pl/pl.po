@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins-help\n"
-"POT-Creation-Date: 2020-09-28 17:04+0000\n"
-"PO-Revision-Date: 2020-10-03 12:35+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-08 11:45+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1245,12 +1245,12 @@ msgstr ""
 #: C/translate.page:42
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a free key at <link href=\"https://tech.yandex.com/translate/"
-"\">Yandex web site</link>."
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
 msgstr ""
-"Do użycia serwisu tłumaczenia Yandex wymagany jest klucz API. Można uzyskać "
-"bezpłatny na stronie <link href=\"https://tech.yandex.com/translate/"
-"\">Yandex</link>."
+"Do użycia serwisu tłumaczenia Yandex wymagany jest klucz API. Można go "
+"uzyskać na stronie <link href=\"https://tech.yandex.com/translate/\">Yandex</"
+"link>."
 
 #. (itstool) path: section/title
 #: C/translate.page:49
