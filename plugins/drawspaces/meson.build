@@ -4,7 +4,6 @@ libdrawspaces_sources = files(
 )
 
 libdrawspaces_deps = [
-  tepl_dep,
   gedit_dep,
 ]
 
