@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-09-24 13:39+0000\n"
-"PO-Revision-Date: 2020-10-04 13:26+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-13 17:40+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -360,16 +360,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Zvýrazňovat řádky, které byly změněny od posledního zařazení"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Spojit/rozdělit řádky"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Spojí nebo rozdělí několi řádků přes Ctrl+J a Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Spojit/rozdělit řádky"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -492,7 +489,7 @@ msgid "Saved Sessions"
 msgstr "Uložená sezení"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Inteligentní mezery"
 
@@ -502,7 +499,7 @@ msgstr ""
 "Umožňuje rušit odsazení při používání mezer stejně snadno, jako při "
 "používání tabulátorů"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Zapomeňte, že nepoužíváte tabulátory."
 
@@ -768,24 +765,29 @@ msgstr "Pár jazyků použitých k překladu z jednoho jazyka do druhého"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Klíč API pro vzdálenou webovou službu"
+msgid "Apertium server end point"
+msgstr "Koncový bod v podobě serveru Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Klíč API pro vzdálenou webovou službu"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Vzdálená webová služba, která se má použít"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Překlady provádí {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Překladová konzola"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Přeložit vybraný text [{0}]"
@@ -796,11 +798,11 @@ msgstr "Klíč API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
 "Potřebujete na <a href='https://tech.yandex.com/translate/'>https://tech."
-"yandex.com/translate/</a> získat zdarma klíč k API"
+"yandex.com/translate/</a> získat klíč k API."
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"

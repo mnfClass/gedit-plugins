@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
-"POT-Creation-Date: 2020-09-28 17:04+0000\n"
-"PO-Revision-Date: 2020-10-04 13:32+0200\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-13 17:38+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -87,15 +87,15 @@ msgid ""
 "\">Plugins</gui></guiseq>."
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
-"style=\"menuitem\">Předvolby</gui> <gui style=\"tab\">Zásuvné moduly</gui>"
-"</guiseq>."
+"style=\"menuitem\">Předvolby</gui> <gui style=\"tab\">Zásuvné moduly</gui></"
+"guiseq>."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:40
 msgid "Select <gui style=\"menuitem\">Bookmarks</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Záložky"
-"</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Záložky</gui>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:45
@@ -217,8 +217,8 @@ msgstr ""
 msgid ""
 "Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
-"\">Mapa znaků</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Mapa "
+"znaků</gui>."
 
 #. (itstool) path: section/title
 #: C/character-map.page:49
@@ -250,8 +250,8 @@ msgid ""
 "guiseq>, or by pressing <key>F9</key>."
 msgstr ""
 "Otevřete postranní panel zmáčknutím tlačítka nabídky v pravém horním rohu "
-"okna a následným vybráním <guiseq><gui>Zobrazit</gui><gui>Postranní panel"
-"</gui></guiseq>, nebo zmáčknutím <key>F9</key>."
+"okna a následným vybráním <guiseq><gui>Zobrazit</gui><gui>Postranní panel</"
+"gui></guiseq>, nebo zmáčknutím <key>F9</key>."
 
 #. (itstool) path: item/p
 #: C/character-map.page:65
@@ -269,8 +269,8 @@ msgid ""
 "the list at the top of the <gui>Character Map</gui> side panel (for example, "
 "Arabic)."
 msgstr ""
-"Je-li potřeba, zvolte v seznamu v horní části <gui>Mapy znaků</gui> písmo, do "
-"kterého váš znak patří (např. Arabské)."
+"Je-li potřeba, zvolte v seznamu v horní části <gui>Mapy znaků</gui> písmo, "
+"do kterého váš znak patří (např. Arabské)."
 
 #. (itstool) path: item/p
 #: C/character-map.page:74
@@ -341,8 +341,8 @@ msgid ""
 "Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
 "Pro přidání komentáře klikněte pravým tlačítkem a vyberte <gui style="
-"\"menuitem\">Zakomentovat kód</gui> nebo zmáčkněte <keyseq><key>Ctrl</key>"
-"<key>M</key></keyseq>."
+"\"menuitem\">Zakomentovat kód</gui> nebo zmáčkněte <keyseq><key>Ctrl</"
+"key><key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/code-comment.page:52
@@ -352,8 +352,8 @@ msgid ""
 "key><key>M</key></keyseq>."
 msgstr ""
 "Pro zrušení komentáře klikněte pravým tlačítkem a vyberte <gui style="
-"\"menuitem\">Odkomentovat kód</gui> nebo zmáčkněte <keyseq><key>Shift</key>"
-"<key>Ctrl</key><key>M</key></keyseq>."
+"\"menuitem\">Odkomentovat kód</gui> nebo zmáčkněte <keyseq><key>Shift</"
+"key><key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/code-comment.page:59
@@ -416,8 +416,8 @@ msgid ""
 "Color…</gui></guiseq>."
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
-"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Barevná pipeta…"
-"</gui></guiseq>"
+"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Barevná pipeta…</"
+"gui></guiseq>"
 
 #. (itstool) path: item/p
 #: C/color-picker.page:49
@@ -470,8 +470,8 @@ msgstr ""
 #: C/commander.page:32
 msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">"
-"Příkazový režim</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Příkazový režim</gui>."
 
 #. (itstool) path: page/p
 #: C/commander.page:36
@@ -549,8 +549,8 @@ msgid ""
 "<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
 "key> <input>[line number]</input></cmd>"
 msgstr ""
-"<cmd>go <input>[číslo řádku]</input></cmd> <em>nebo</em> prostě jen <cmd><key>"
-"G</key> <input>[číslo řádku]</input></cmd>"
+"<cmd>go <input>[číslo řádku]</input></cmd> <em>nebo</em> prostě jen "
+"<cmd><key>G</key> <input>[číslo řádku]</input></cmd>"
 
 #. (itstool) path: td/p
 #: C/commander.page:80
@@ -602,15 +602,15 @@ msgstr ""
 #: C/draw-spaces.page:34
 msgid "Select <gui style=\"menuitem\">Draw Spaces</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">"
-"Vykreslovat mezery</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Vykreslovat mezery</gui>."
 
 #. (itstool) path: item/p
 #: C/draw-spaces.page:37
 msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
 msgstr ""
-"Abyste mohli nastavit tuto volbu, zmáčkněte <gui style=\"button\">Předvolby"
-"</gui>."
+"Abyste mohli nastavit tuto volbu, zmáčkněte <gui style=\"button\">Předvolby</"
+"gui>."
 
 #. (itstool) path: note/p
 #: C/draw-spaces.page:42
@@ -651,8 +651,8 @@ msgstr ""
 #: C/git.page:33
 msgid "Select <gui style=\"menuitem\">Git</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Git"
-"</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Git</"
+"gui>."
 
 #. (itstool) path: page/p
 #: C/git.page:37
@@ -829,8 +829,8 @@ msgstr ""
 #: C/multi-edit.page:33
 msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
 msgstr ""
-"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">"
-"Vícenásobná úprava</gui>."
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Vícenásobná úprava</gui>."
 
 #. (itstool) path: page/p
 #: C/multi-edit.page:38
@@ -959,8 +959,8 @@ msgid ""
 "Session…</gui></guiseq>."
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
-"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Uložit sezení…</gui>"
-"</guiseq>"
+"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Uložit sezení…</"
+"gui></guiseq>"
 
 #. (itstool) path: section/title
 #: C/session-saver.page:58
@@ -1038,10 +1038,10 @@ msgid ""
 "use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>evince</app> and vice versa."
 msgstr ""
-"SyncTeX je metoda, která umožňuje synchronizaci mezi zdrojovým souborem TeX a "
-"výstupem v PDF generovaným kompilátorem TeX/LaTeX. Tento zásuvný modul "
-"přináší SynTeX do editoru <app>gedit</app>, abyste se mohli rychle přepínat z "
-"otevřeného zdrojového souboru TeX do dokumentu PDF otevřeného v prohlížeči "
+"SyncTeX je metoda, která umožňuje synchronizaci mezi zdrojovým souborem TeX "
+"a výstupem v PDF generovaným kompilátorem TeX/LaTeX. Tento zásuvný modul "
+"přináší SynTeX do editoru <app>gedit</app>, abyste se mohli rychle přepínat "
+"z otevřeného zdrojového souboru TeX do dokumentu PDF otevřeného v prohlížeči "
 "<app>evince</app> a naopak."
 
 #. (itstool) path: note/p
@@ -1051,9 +1051,9 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>evince</app> must be installed."
 msgstr ""
-"Aby se dal tento zásuvný modul používat, musí být nainstalovaný kopilátor TeX/"
-"LaTeX a SyncTeX. Obojí poskytují distribuce TeX, jako je TeX Live. Rovněž "
-"musí být nainstalována aplikace <app>evince</app>."
+"Aby se dal tento zásuvný modul používat, musí být nainstalovaný kopilátor "
+"TeX/LaTeX a SyncTeX. Obojí poskytují distribuce TeX, jako je TeX Live. "
+"Rovněž musí být nainstalována aplikace <app>evince</app>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:39
@@ -1063,8 +1063,8 @@ msgid ""
 "SyncTeX documentation</link>."
 msgstr ""
 "Některé základní informace, jak nastavit SyncTeX a jak kompilovat dokumenty "
-"LaTeX najdtete v <link xref=\"help:evince#synctex\">dokumentaci <app>evince"
-"</app>-SyncTeX</link>."
+"LaTeX najdtete v <link xref=\"help:evince#synctex\">dokumentaci <app>evince</"
+"app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:45
@@ -1145,8 +1145,8 @@ msgid ""
 "gui></guiseq>."
 msgstr ""
 "Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
-"style=\"menuitem\">Zobrazit</gui><gui style=\"menuitem\">Spodní panel</gui>"
-"</guiseq>."
+"style=\"menuitem\">Zobrazit</gui><gui style=\"menuitem\">Spodní panel</gui></"
+"guiseq>."
 
 #. (itstool) path: info/desc
 #: C/text-size.page:23
@@ -1259,19 +1259,19 @@ msgid ""
 "Press <gui style=\"button\">Preferences</gui> to configure the translation "
 "engine to use and a language pair."
 msgstr ""
-"Pro nastavení, který překladový server a pár jazyků se mají používat, vyberte "
-"<gui style=\"button\">Předvolby</gui>."
+"Pro nastavení, který překladový server a pár jazyků se mají používat, "
+"vyberte <gui style=\"button\">Předvolby</gui>."
 
 #. (itstool) path: item/p
 #: C/translate.page:42
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a free key at <link href=\"https://tech.yandex.com/translate/"
-"\">Yandex web site</link>."
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
 msgstr ""
 "V případě, že používáte překladový server Yandex, potřebujete klíč API. Ten "
-"můžete zdarma získat na <link href=\"https://tech.yandex.com/translate/\">"
-"webových stránkách Yandex</link>."
+"můžete získat na <link href=\"https://tech.yandex.com/translate/\">webových "
+"stránkách Yandex</link>."
 
 #. (itstool) path: section/title
 #: C/translate.page:49
@@ -1358,337 +1358,3 @@ msgstr ""
 "Aby se doporučované slovo vložilo, klikněte na něj v rozbalovacím seznamu "
 "nebo zmáčkněte <keyseq><key>Alt</key><key>číslo</key></keyseq>, kde "
 "<key>číslo</key> je číslo zobrazené vedle požadovaného slova."
-
-#~ msgid ""
-#~ "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">gedit</"
-#~ "gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
-#~ "<gui>Bookmarks</gui></guiseq>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul záložek povolit, vyberte <guiseq><gui style="
-#~ "\"menu\">gedit</gui><gui style=\"menuitem\">Předvolby</gui><gui>Zásuvné "
-#~ "moduly</gui><gui>Záložky</gui></guiseq>."
-
-#~ msgid ""
-#~ "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
-#~ "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Bracket "
-#~ "Completion</gui></guiseq>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul povolit, vyberte <guiseq><gui style=\"menu"
-#~ "\">gedit</gui><gui style=\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</"
-#~ "gui><gui>Dokončování závorek</gui></guiseq>."
-
-#~ msgid ""
-#~ "The <app>code comment</app> plugin makes it easier to quickly create or "
-#~ "remove code comments. To enable the code comment plugin, select "
-#~ "<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
-#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Code comment</gui></guiseq>."
-#~ msgstr ""
-#~ "Zásuvný modul <app>Komentování kódu</app> dělá vytváření komentářů a "
-#~ "jejich rušení snadnou a rychlou činností. Pokud chcete zásuvný modul "
-#~ "povolit, vyberte <guiseq><gui style=\"menu\">gedit</gui><gui style="
-#~ "\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</gui><gui>Komentování "
-#~ "kódu</gui></guiseq>."
-
-#~ msgid ""
-#~ "To enable the color picker plugin, select <guiseq><gui style=\"menu"
-#~ "\">gedit</gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
-#~ "gui><gui>Color Picker</gui></guiseq>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul barevné pipety povolit, vyberte <guiseq><gui "
-#~ "style=\"menu\">gedit</gui><gui style=\"menuitem\">Předvolby</"
-#~ "gui><gui>Zásuvné moduly</gui><gui>Barevná pipeta</gui></guiseq>."
-
-#~ msgid ""
-#~ "Select <guiseq><gui>Tools</gui><gui>Pick Color…</gui></guiseq>. The color "
-#~ "picker dialog will appear."
-#~ msgstr ""
-#~ "Zvolte <guiseq><gui>Nástroje</gui><gui>Vybrat barvu…</gui></guiseq>. "
-#~ "Objeví se dialogové okno pro výběr barvy."
-
-#~ msgid ""
-#~ "Additionally, you can save colors by right-clicking on any of the colored "
-#~ "boxes in the color picker, and selecting <gui>Save color here</gui>. This "
-#~ "will make it easier to insert commonly-used colors later."
-#~ msgstr ""
-#~ "Navíc si barvy můžete ukládat tak, že kliknete pravým tlačítkem na "
-#~ "kterýkoliv barevný obdélníček ve výběru barev a zvolíte <gui>Uložit barvu "
-#~ "zde</gui>. Tím si do budoucna zjednodušíte vkládání častých barev."
-
-#~ msgid "Display recently-used and most-used files on startup."
-#~ msgstr ""
-#~ "Zobrazit při spuštění nedávno použité a nejčastěji používané soubory."
-
-#~ msgid "Dashboard"
-#~ msgstr "Ovládací tabule"
-
-#~ msgid ""
-#~ "The <app>Dashboard</app> plugin provides quick access to your most "
-#~ "recently-used files and most-frequently used files. To activate the "
-#~ "<app>Dashboard</app> plugin, select <guiseq><gui style=\"menu\">gedit</"
-#~ "gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</"
-#~ "gui><gui>Dashboard</gui></guiseq>. You will need to restart <app>gedit</"
-#~ "app> to activate the <app>Dashboard</app> plugin."
-#~ msgstr ""
-#~ "Zásuvný modul <app>Ovládací tabule</app> poskytuje rychlý přístup k "
-#~ "nedávno použitým souborům a nejčastěji používaným souborům. Pokud chcete "
-#~ "zásuvný modul <app>Ovládací tabule</app> povolit, vyberte <guiseq><gui "
-#~ "style=\"menu\">gedit</gui><gui style=\"menuitem\">Předvolby</"
-#~ "gui><gui>Zásuvné moduly</gui><gui>Ovládací tabule</gui></guiseq>. Aby se "
-#~ "aktivoval, musíte aplikace <app>gedit</app> restartovat."
-
-#~ msgid ""
-#~ "The <app>dashboard</app> also includes a <gui>Search</gui> window, "
-#~ "allowing you to search for files that may not appear in the list of files."
-#~ msgstr ""
-#~ "Zásuvný modul <app>Ovládací tabule</app> navíc obsahuje okno "
-#~ "<gui>Hledání</gui>, ve kterém můžete vyhledávat soubory, které se "
-#~ "neobjeví v seznamech."
-
-#~ msgid "Recently used files"
-#~ msgstr "Nedávno použité soubory"
-
-#~ msgid ""
-#~ "The dashboard will initially display a shortcut for an <gui>empty "
-#~ "document</gui> and seven of your most recently-used files. Click on the "
-#~ "<gui>empty document</gui> to create a new file. Click on any of the other "
-#~ "files to open that file."
-#~ msgstr ""
-#~ "Ze začátku bude ovládací tabule zobrazovat odkaz <gui>prázdný dokument</"
-#~ "gui> a sedm naposledy použitých souborů. Kliknutím na <gui>prázdný "
-#~ "dokument</gui> vytvoříte nový soubor. Kliknutím na kterýkoliv z ostatních "
-#~ "souborů daný soubor otevřete."
-
-#~ msgid "Most frequently-used files"
-#~ msgstr "Nejčastěji používané soubory"
-
-#~ msgid ""
-#~ "Similarly, the dashboard displays a shortcut for an <gui>empty document</"
-#~ "gui> and seven of your most frequently-used files. Click on the <gui> "
-#~ "empty document</gui> to create a new file. Click on any of the other "
-#~ "files to open that file."
-#~ msgstr ""
-#~ "Podobně ovládací tabule zobrazuje odkazy pro <gui>prázdný dokument</gui> "
-#~ "a sedm nejčastěji používaných souborů. Kliknutím na <gui>prázdný "
-#~ "dokument</gui> vytvoříte nový soubor. Kliknutím na kterýkoliv z ostatních "
-#~ "souborů daný soubor otevřete."
-
-#~ msgid ""
-#~ "Once activated, the <app>dashboard</app> will be displayed by default "
-#~ "when you open <app>gedit</app>. You can also open the <app>dashboard</"
-#~ "app> by clicking <guiseq><gui>File</gui><gui>New</gui></guiseq>, or by "
-#~ "pressing <keyseq><key>Ctrl</key><key>N</key></keyseq>."
-#~ msgstr ""
-#~ "Jakmile je aktivována, bude <app>ovládací tabule</app> po spuštění "
-#~ "editoru <app>gedit</app> zobrazena jako výchozí možnost. Můžete ji také "
-#~ "otevřít kliknutím na <guiseq><gui>Soubor</gui><gui>Nový</gui></guiseq> "
-#~ "nebo zmáčknutím <keyseq><key>Ctrl</key><key>N</key></keyseq>."
-
-#~ msgid ""
-#~ "To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> "
-#~ "<gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Draw "
-#~ "Spaces</gui></guiseq>. After you have enabled the plugin, you can set its "
-#~ "options by highlighting the plugin and selecting <gui style=\"menuitem"
-#~ "\">Preferences</gui>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul povolit, vyberte <guiseq><gui style=\"menu"
-#~ "\">gedit</gui><gui style=\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</"
-#~ "gui><gui>Vykreslovat mezery</gui></guiseq>. Když jej máte povolen, můžete "
-#~ "upravit jeho volby tak, že jej zvýrazníte a zvolíte <gui style=\"menuitem"
-#~ "\">Předvolby</gui>."
-
-#~ msgid ""
-#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
-#~ "types of whitespace in a file:"
-#~ msgstr ""
-#~ "Ve výchozím stavu bude zásuvný modul <app>Vykreslovat mezery</app> "
-#~ "označovat následující typy bílých znaků v souboru:"
-
-#~ msgid "Spaces"
-#~ msgstr "Mezery"
-
-#~ msgid "Tabs"
-#~ msgstr "Tabulátory"
-
-#~ msgid "Leading spaces"
-#~ msgstr "Úvodní mezery"
-
-#~ msgid "Spaces in text"
-#~ msgstr "Mezery v textu"
-
-#~ msgid "Trailing spaces"
-#~ msgstr "Koncové mezery"
-
-#~ msgid "You can also set the plugin to mark:"
-#~ msgstr "Můžete zásuvný modul nastavit i tak, aby označoval:"
-
-#~ msgid "New lines"
-#~ msgstr "Nové řádky"
-
-#~ msgid "Non-breaking spaces"
-#~ msgstr "Nezalomitelné mezery"
-
-#~ msgid ""
-#~ "To enable the plugin, select <guiseq><gui style=\"menu\">gedit</gui> <gui "
-#~ "style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Git</gui></"
-#~ "guiseq>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul povolit, vyberte <guiseq><gui style=\"menu"
-#~ "\">gedit</gui> <gui style=\"menuitem\">Předvolby</gui> <gui>Zásuvné "
-#~ "moduly</gui> <gui>Git</gui></guiseq>."
-
-#~ msgid ""
-#~ "To enable this plugin, select <guiseq><gui style=\"menu\">gedit</gui> "
-#~ "<gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Join/"
-#~ "Split Lines</gui></guiseq>."
-#~ msgstr ""
-#~ "Pokud chcete zásuvný modul povolit, vyberte <guiseq><gui style=\"menu"
-#~ "\">gedit</gui><gui style=\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</"
-#~ "gui><gui>Spojit/rozdělit řádky</gui></guiseq>."
-
-#~ msgid "To enable the <app>Embedded Terminal</app> plugin:"
-#~ msgstr "Pokud chcete zásuvný modul <app>Vestavěný terminál</app> povolit:"
-
-#~ msgid ""
-#~ "Select <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#~ "\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
-#~ msgstr ""
-#~ "Zvolte <guiseq><gui style=\"menu\">gedit</gui> <gui style=\"menuitem"
-#~ "\">Předvolby</gui> <gui style=\"tab\">Zásuvné moduly</gui></guiseq>."
-
-#~ msgid ""
-#~ "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem"
-#~ "\">Bottom Pane</gui></guiseq>. Alternatively, you can press "
-#~ "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
-#~ msgstr ""
-#~ "Vyberte <guiseq><gui style=\"menu\">Zobrazit</gui><gui style=\"menuitem"
-#~ "\">Spodní panel</gui></guiseq>. Případně můžete zmáčknout "
-#~ "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
-
-#~ msgid "To enable the <app>Translate</app> plugin:"
-#~ msgstr "Pokud chcete zásuvný modul <app>Překlady</app> povolit:"
-
-#~ msgid "Shobha Tyagi"
-#~ msgstr "Shobha Tyagi"
-
-#~ msgid "Log user activity for documents which are opened in gedit"
-#~ msgstr ""
-#~ "Zaznamenává uživatelovy činnosti u dokumentů otevřených v aplikaci gedit"
-
-#~ msgid "Zeitgeist dataprovider"
-#~ msgstr "Poskytovatel dat Zeitgeist"
-
-#~ msgid ""
-#~ "Zeitgeist is a service that logs user activities and events. Zeitgeist "
-#~ "lets other applications access this information in the form of statistics "
-#~ "and timelines.The Zeitgeist dataprovider plugin for <app>gedit</app> "
-#~ "records user activity for documents used with gedit giving easy access to "
-#~ "recently-used and frequently-used files."
-#~ msgstr ""
-#~ "Zeitgeist je služba, která zaznamenává uživatelovy činnosti a události. "
-#~ "Ostatním aplikacím tyto informace zpřístupňuje ve formě statistik a "
-#~ "časové osy. Zásuvný modul Poskytovatel dat Zeitgeist pro aplikaci "
-#~ "<app>gedit</app> zaznamenává uživatelovy činnosti u dokumentů použitých v "
-#~ "aplikaci gedit, aby jednoduše zpřístupnil nedávno použité a často "
-#~ "používané soubory."
-
-#~ msgid "Enable Zeitgeist dataprovider"
-#~ msgstr "Povolení poskytovatele dat Zeitgeist"
-
-#~ msgid "Select <gui style=\"menuitem\">Zeitgeist Dataprovider</gui>."
-#~ msgstr "Vyberte <gui style=\"menuitem\">Poskytovatel dat Zeitgeist</gui>."
-
-#~ msgid "Real-time error highlighting for supported languages."
-#~ msgstr "Průběžně zvýrazňovat chyby pro podporované jazyky."
-
-#~ msgid "Code Assistance"
-#~ msgstr "Pomocník s kódem"
-
-#~ msgid ""
-#~ "The <app>gedit-code-assistance</app> plugin provides real-time error "
-#~ "highlighting for C, C++ and Objective-C. To enable this plugin, select "
-#~ "<guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
-#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Code Assistance</gui></"
-#~ "guiseq>."
-#~ msgstr ""
-#~ "Zásuvný modul <app>Pomocník s kódem</app> poskytuje v reálném čase "
-#~ "zvýrazňování chyb pro C, C++ a Objective-C. Pokud chcete zásuvný modul "
-#~ "povolit, vyberte <guiseq><gui style=\"menu\">gedit</gui><gui style="
-#~ "\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</gui><gui>Pomocník s "
-#~ "kódem</gui></guiseq>."
-
-#~ msgid "How the code assistance plugin works"
-#~ msgstr "Jak zásuvný modul Pomocník s kódem funguje"
-
-#~ msgid ""
-#~ "The plugin currently relies on information in the makefile to deduce the "
-#~ "Clang error-highlighting rules. It examines the <_:code-1/> rules and "
-#~ "determines which targets depend on the the file that is being parsed. The "
-#~ "plugin then extracts the compiler flags by simulating an execution of "
-#~ "those targets."
-#~ msgstr ""
-#~ "Zásuvný modul v současnosti spoléhá na informace v souboru makefile, aby "
-#~ "zjistil pravidla pro zvýrazňování chyb překladače Clang. Zkoumá pravidla "
-#~ "<_:code-1/> a určuje, které cíle závisí na souboru, který je analyzován. "
-#~ "Nakonec zásuvný modul získá přepínače kompilátoru pomocí simulace "
-#~ "spuštění těchto cílů."
-
-#~ msgid ""
-#~ "This is not completely fool proof, of course. In the future, the plugin "
-#~ "will allow you to manually specify the compile flags."
-#~ msgstr ""
-#~ "To není tak bláznivé, jak se může zdát. V budoucnu bude zásuvný modul "
-#~ "umožňovat ručně určit přepínače kompilátoru."
-
-#~ msgid ""
-#~ "The <app>Session Saver</app> plugin saves groups of files together so "
-#~ "that you can open them together at a later time. To enable the plugin, "
-#~ "select <guiseq><gui style=\"menu\">gedit</gui><gui style=\"menuitem"
-#~ "\">Preferences</gui> <gui>Plugins</gui><gui>Session Saver</gui></guiseq>."
-#~ msgstr ""
-#~ "Zásuvný modul <app>Ukládání sezení</app> ukládá skupiny souborů dohromady "
-#~ "tak, abyste je mohli později zase dohromady otevřít. Pokud chcete zásuvný "
-#~ "modul povolit, vyberte <guiseq><gui style=\"menu\">gedit</gui><gui style="
-#~ "\"menuitem\">Předvolby</gui><gui>Zásuvné moduly</gui><gui>Ukládání "
-#~ "sezení</gui></guiseq>."
-
-#~ msgid ""
-#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Save current "
-#~ "session</gui></guiseq>."
-#~ msgstr ""
-#~ "Zvolte <guiseq><gui>Soubor</gui><gui>Uložená sezení</gui><gui>Uložit "
-#~ "současné sezení</gui></guiseq>."
-
-#~ msgid "Type a session name in the <gui>Save session</gui> dialog box."
-#~ msgstr "V dialogovém okně <gui>Uložit sezení</gui> napište název sezení."
-
-#~ msgid "Click <gui>Save</gui>."
-#~ msgstr "Klikněte na <gui>Uložit</gui>."
-
-#~ msgid "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui></guiseq>."
-#~ msgstr "Zvolte <guiseq><gui>Soubor</gui><gui>Uložená sezení</gui></guiseq>."
-
-#~ msgid "Click the name of your desired session."
-#~ msgstr "Klikněte na název požadovaného sezení."
-
-#~ msgid "To delete an existing session:"
-#~ msgstr "Když chcete vymazat existující sezení:"
-
-#~ msgid ""
-#~ "Select <guiseq><gui>File</gui><gui>Saved Sessions</gui><gui>Manage saved "
-#~ "sessions</gui></guiseq>."
-#~ msgstr ""
-#~ "Zvolte <guiseq><gui>Soubor</gui><gui>Uložená sezení</gui><gui>Spravovat "
-#~ "uložená sezení</gui></guiseq>."
-
-#~ msgid "Click <gui>Delete</gui>."
-#~ msgstr "Klikněte na <gui>Smazat</gui>."
-
-#~ msgid "Click <gui>Close</gui>."
-#~ msgstr "Klikněte na <gui>Otevřít</gui>."
-
-#~ msgid ""
-#~ "The session name will still be listed in your list of sessions until you "
-#~ "close <app>gedit</app>."
-#~ msgstr ""
-#~ "Název sezení bude stále uveden v seznamu sezení, dokud <app>gedit</app> "
-#~ "neukončíte."
