@@ -201,7 +201,7 @@ class SynctexViewHelper:
 
         if self.active and self.window_proxy is None:
             self._doc_active_handlers = [
-                        self._doc.connect('cursor-moved', self.on_cursor_moved),
+                        self._doc.connect('tepl-cursor-moved', self.on_cursor_moved),
                         self._doc.connect('notify::style-scheme', self.on_notify_style_scheme)]
             self._view_active_handlers = [
                         self._view.connect('key-press-event', self.on_key_press),
