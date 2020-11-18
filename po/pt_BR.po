@@ -21,23 +21,23 @@
 # Carlos José Pereira <carlao2005@gmail.com>, 2009
 # Henrique P. Machado <hpmachado@gnome.org>, 2010.
 # Krix Apolinário <krixapolinario@gmail.com>, 2010, 2011.
-# Enrico Nicoletto <liverig@gmail.com>, 2013.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020.
+# Enrico Nicoletto <liverig@gmail.com>, 2013, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
-"PO-Revision-Date: 2020-05-28 18:42-0300\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-18 17:16-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Project-Style: gnome\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
@@ -225,7 +225,6 @@ msgid "_Foreground"
 msgstr "P_rimeiro plano"
 
 #: plugins/colorschemer/schemer.ui:341
-#| msgid "_Clear "
 msgid "_Clear"
 msgstr "_Limpar"
 
@@ -264,7 +263,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Interface de linha de comando para edição avançada"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Desenhar espaços"
 
@@ -272,55 +270,13 @@ msgstr "Desenhar espaços"
 msgid "Draw spaces and tabs"
 msgstr "Desenha espaços e tabulações"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Mostrar _espaço em branco"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Desenhar espaços"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Desenhar tabulações"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Desenhar novas linhas"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Desenhar espaços não-quebráveis"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Desenhar espaços à esquerda"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Desenhar espaços no texto"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Desenhar espaços perdidos"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Desenha espaços e tabulações"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-#| msgid "Show _White Space"
-msgid "Show White Space"
-msgstr "Mostrar espaço em branco"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Se VERDADEIRO o drawing será habilitado."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "O tipo de espaços a serem desenhados."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -339,8 +295,6 @@ msgid "_Find"
 msgstr "_Localizar"
 
 #: plugins/findinfiles/dialog.ui:72
-#| msgctxt "label on the left of the GtkEntry containing text to search"
-#| msgid "F_ind "
 msgctxt "label on the left of the GtkEntry containing text to search"
 msgid "F_ind:"
 msgstr "Local_izar:"
@@ -414,16 +368,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Destaca linhas que foram alteradas desde o último commit"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Juntar/Dividir linhas"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Junta ou divide linhas múltiplas por meio de Ctrl+J e Ctrl+Shift+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Juntar/Dividir linhas"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -547,7 +498,7 @@ msgid "Saved Sessions"
 msgstr "Sessões salvas"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Espaços inteligentes"
 
@@ -556,7 +507,7 @@ msgid "Allow to unindent like if you were using tabs while you’re using spaces
 msgstr ""
 "Permite retirar recuo como se você estivesse usando tabs enquanto usa espaços"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Esqueça que não está usando tabulações."
 
@@ -828,24 +779,29 @@ msgstr "Par de idiomas usados para traduzir de um idioma para o outro"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Chave de API para o serviço web remoto"
+msgid "Apertium server end point"
+msgstr "Ponto de extremidade do servidor Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Chave de API para o serviço web remoto"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Serviço web remoto a ser usado"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduções fornecidas por {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Console de tradução"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Traduzir o texto selecionado [{0}]"
@@ -856,11 +812,11 @@ msgstr "Chave de API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
 "translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Você precisa obter uma chave de API gratuita em <a href='https://tech.yandex."
-"com/translate/'>https://tech.yandex.com/translate/</a>"
+"Você precisa obter uma chave de API em <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -927,6 +883,40 @@ msgstr "Completar palavras"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Completa palavras usando o framework de completar"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Mostrar _espaço em branco"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Desenhar tabulações"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Desenhar novas linhas"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Desenhar espaços não-quebráveis"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Desenhar espaços à esquerda"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Desenhar espaços no texto"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Desenhar espaços perdidos"
+
+#~| msgid "Show _White Space"
+#~ msgid "Show White Space"
+#~ msgstr "Mostrar espaço em branco"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Se VERDADEIRO o drawing será habilitado."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "O tipo de espaços a serem desenhados."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Juntar/Dividir linhas"
 
 #~ msgid "_In "
 #~ msgstr "_Em "
