@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catalan translation of gedit plugins\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
-"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
 "PO-Revision-Date: 2019-07-04 23:48+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -249,7 +249,6 @@ msgid "Command line interface for advanced editing"
 msgstr "Interfície de línia d'ordres per a l'edició avançada"
 
 #: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
 msgid "Draw Spaces"
 msgstr "Dibuixa els espais"
 
@@ -257,55 +256,13 @@ msgstr "Dibuixa els espais"
 msgid "Draw spaces and tabs"
 msgstr "Dibuixa espais i tabulacions"
 
-#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
-msgid "Show _White Space"
-msgstr "Mostra els espais en _blanc"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
 msgid "Draw spaces"
 msgstr "Dibuixa els espais"
 
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
-msgid "Draw tabs"
-msgstr "Dibuixa les tabulacions"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
-msgid "Draw new lines"
-msgstr "Dibuixa les línies noves"
-
-# FIXME
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
-msgid "Draw non-breaking spaces"
-msgstr "Dibuixa els espais durs"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
-msgid "Draw leading spaces"
-msgstr "Dibuixa els espais del principi de la línia"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
-msgid "Draw spaces in text"
-msgstr "Dibuixa els espais al text"
-
-#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
-msgid "Draw trailing spaces"
-msgstr "Dibuixa els espais del final de la línia"
-
 #: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
 msgid "Draw Spaces and Tabs"
 msgstr "Dibuixa els espais i les tabulacions"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
-msgid "Show White Space"
-msgstr "Mostra els espais en blanc"
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
-msgid "If TRUE drawing will be enabled."
-msgstr "Si és «TRUE» (cert) s'activarà el dibuix."
-
-#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
-msgid "The type of spaces to be drawn."
-msgstr "El tipus d'espai que es dibuixarà."
 
 #: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
 #: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
@@ -397,16 +354,13 @@ msgid "Highlight lines that have been changed since the last commit"
 msgstr "Ressalta les línies que han canviat des de la darrera entrega"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
-msgid "Join lines/ Split lines"
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
 msgstr "Uneix/separa les línies"
 
 #: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Uneix o separa múltiples línies mitjançant Ctrl+J i Ctrl+Maj+J"
-
-#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
-msgid "Join/Split Lines"
-msgstr "Uneix/separa les línies"
 
 #: plugins/joinlines/joinlines.plugin.desktop.in.in:7
 msgid "Join several lines or split long ones"
@@ -532,16 +486,17 @@ msgid "Saved Sessions"
 msgstr "Sessions desades"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
 msgid "Smart Spaces"
 msgstr "Espais intel·ligents"
 
 #: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
-msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgid ""
+"Allow to unindent like if you were using tabs while you’re using spaces"
 msgstr ""
 "Permet desfer el sagnat com si estiguéssiu usant tabuladors quan useu espais"
 
-#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Forget you’re not using tabulations."
 msgstr "Oblideu-vos que no utilitzeu les tabulacions."
 
@@ -590,8 +545,8 @@ msgstr "Nombre de línies a mantenir en l'historial"
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don’t fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
 "El nombre de línies de l'historial que cal mantenir. Podeu desplaçar-vos "
 "enrere al terminal aquest nombre de línies. Es descarten les línies que no "
@@ -604,12 +559,12 @@ msgstr "Si s'ha de mantenir un nombre il·limitat de línies a l'historial"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
 msgstr ""
-"Si és «true» (cert), mai es descartarà cap línia de l'historial. L'historial "
-"s'emmagatzema al disc temporalment, la qual cosa pot fer que el sistema es "
+"Si és «true» (cert), mai es descartarà cap línia de l'historial. L'historial"
+" s'emmagatzema al disc temporalment, la qual cosa pot fer que el sistema es "
 "quedi sense espai de disc si el terminal ha produït una gran quantitat de "
 "sortida."
 
@@ -640,8 +595,8 @@ msgstr "Color per defecte del text al terminal"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as “red”)."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
 "El color per defecte del text al terminal, en format de color (poden ser "
 "dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
@@ -670,8 +625,8 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. “#FF00FF”"
 msgstr ""
-"Els terminals tenen una paleta de 16 colors que les aplicacions del terminal "
-"poden utilitzar. Aquí podeu definir aquesta paleta, en forma de llista de "
+"Els terminals tenen una paleta de 16 colors que les aplicacions del terminal"
+" poden utilitzar. Aquí podeu definir aquesta paleta, en forma de llista de "
 "noms de colors separats per dos punts. Els noms de color haurien d'estar en "
 "format hexadecimal, per exemple, «#FF00FF»"
 
@@ -694,8 +649,8 @@ msgstr "Si s'ha de fer que el cursor parpellegi"
 
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
 msgid ""
-"The possible values are “system” to use the global cursor blinking settings, "
-"or “on” or “off” to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
 "Els valors possibles són: «system» (sistema) per utilitzar la configuració "
 "global de parpelleig, «on» (actiu) o «off» (inactiu) per definir el mode "
@@ -735,8 +690,8 @@ msgstr "Tipus de lletra"
 #: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold "
-"14»."
+"Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold"
+" 14»."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -791,15 +746,16 @@ msgstr "On mostrar el resultat de la traducció"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
 msgid ""
-"If true, output of the translation is inserted in the document window if not "
-"in the Output Translate Window."
+"If true, output of the translation is inserted in the document window if not"
+" in the Output Translate Window."
 msgstr ""
 "Si és cert, el resultat de la traducció s'insereix a la finestra del "
 "document si no a la finestra del resultat de la traducció."
 
 #. Translators: You can adjust the default pair for users in your locale.
 #. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
-#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes
+#. and
 #. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
 #. You must keep this format 'xxx|yyy', or things will break!
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
@@ -816,24 +772,29 @@ msgstr "Parell d'idiomes utilitzat per traduir d'un idioma a un altre"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
-msgid "API key for remote web service"
-msgstr "Clau API pel servei web remot"
+msgid "Apertium server end point"
+msgstr "Adreça del servidor d'Apertium"
 
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
 #: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Clau API pel servei web remot"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
 msgid "Remote web service to use"
 msgstr "Servei web remot a utilitzar"
 
-#: plugins/translate/translate/__init__.py:72
+#: plugins/translate/translate/__init__.py:88
 #, python-brace-format
 msgid "Translations powered by {0}"
 msgstr "Traduccions proporcionades per {0}"
 
-#: plugins/translate/translate/__init__.py:75
+#: plugins/translate/translate/__init__.py:91
 msgid "Translate Console"
 msgstr "Consola de traducció"
 
-#: plugins/translate/translate/__init__.py:157
+#: plugins/translate/translate/__init__.py:166
 #, python-brace-format
 msgid "Translate selected text [{0}]"
 msgstr "Tradueix el text seleccionat [{0}]"
@@ -844,11 +805,11 @@ msgstr "Clau API"
 
 #: plugins/translate/translate/services/yandex.py:65
 msgid ""
-"You need to obtain a free API key at <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"You need to obtain an API key at <a "
+"href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 msgstr ""
-"Heu d'obtenir una clau d'API gratuïta a <a href='https://tech.yandex.com/"
-"translate/'>https://tech.yandex.com/translate/</a>"
+"Heu d'obtenir una clau d'API a <a "
+"href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
 
 #: plugins/translate/translate/ui/preferences.ui:23
 msgid "Translation languages:"
@@ -915,6 +876,40 @@ msgstr "Compleció de paraules"
 msgid "Word completion using the completion framework"
 msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
 
+#~ msgid "Show _White Space"
+#~ msgstr "Mostra els espais en _blanc"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Dibuixa les tabulacions"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Dibuixa les línies noves"
+
+# FIXME
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Dibuixa els espais durs"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Dibuixa els espais del principi de la línia"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Dibuixa els espais al text"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Dibuixa els espais del final de la línia"
+
+#~ msgid "Show White Space"
+#~ msgstr "Mostra els espais en blanc"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Si és «TRUE» (cert) s'activarà el dibuix."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "El tipus d'espai que es dibuixarà."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Uneix/separa les línies"
+
 #~ msgid "_In "
 #~ msgstr "_A "
 
@@ -923,8 +918,8 @@ msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
 
 #~ msgid "If true, allow applications in the terminal to make text boldface."
 #~ msgstr ""
-#~ "Si és «true» (cert), es permet que les aplicacions del terminal mostrin "
-#~ "text amb  negreta."
+#~ "Si és «true» (cert), es permet que les aplicacions del terminal mostrin text"
+#~ " amb  negreta."
 
 #~ msgid "Zeitgeist Data provider"
 #~ msgstr "Proveïdor de dades del Zeitgeist"
@@ -941,5 +936,5 @@ msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
 
 #~ msgid "Logs access and leave event for documents used with gedit"
 #~ msgstr ""
-#~ "Registra els esdeveniments d'accés i tancament dels documents usats amb "
-#~ "el gedit"
+#~ "Registra els esdeveniments d'accés i tancament dels documents usats amb el "
+#~ "gedit"
