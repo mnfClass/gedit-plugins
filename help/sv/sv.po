@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2020-10-15 23:39+0000\n"
-"PO-Revision-Date: 2020-10-16 01:41+0200\n"
+"POT-Creation-Date: 2020-11-22 05:45+0000\n"
+"PO-Revision-Date: 2020-12-17 22:46+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -1270,12 +1270,12 @@ msgstr ""
 #: C/translate.page:42
 msgid ""
 "In case you use the Yandex translation engine, you need an API key. You can "
-"obtain a free key at <link href=\"https://tech.yandex.com/translate/"
-"\">Yandex web site</link>."
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
 msgstr ""
 "Om du använder översättningsmotorn Yandex så behöver du en API-nyckel. Du "
-"kan erhålla en gratis nyckel på <link href=\"https://tech.yandex.com/"
-"translate/\">Yandex webbplats</link>."
+"kan erhålla en nyckel på <link href=\"https://tech.yandex.com/translate/"
+"\">Yandex webbplats</link>."
 
 #. (itstool) path: section/title
 #: C/translate.page:49
